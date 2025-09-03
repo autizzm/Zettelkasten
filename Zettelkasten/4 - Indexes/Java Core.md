@@ -27,6 +27,10 @@
 9. [[Map Interface]]
 10. [[SortedMap Interface]]
 
+### Java Classes:
+1. [[Class]]
+2. [[Access Modifiers]]
+
 ### Small important moments
 1. [[Неизменяемость наследников Number]]
 2. [[Передача по значению в Java]]

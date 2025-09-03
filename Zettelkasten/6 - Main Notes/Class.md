@@ -13,6 +13,8 @@ Tags: [[Java Classes]] [[Java Core]]
 >[!note]
 >В Java класс может наследовать ==только один класс==
 
+### Вызов конструктора Parent класса
+
 >[!warning]
 >При вызове конструктора Дочернего класса перед выполнением кода конструктора вызывается конструктор Родительского класса
 
@@ -40,6 +42,42 @@ class Child extends Parent{
 - immutable objects
 
 
+### Вызов другого конструктора этого же класса
+
+> [!warning]
+> В Java вызов другого конструктора **через `this(...)`** (или конструктора родителя через `super(...)`) должен быть **самой первой строкой** конструктора.  
+
+Поэтому такой код:
+
+```java
+Circle() 
+{
+     System.out.println("Child is created");
+     this(0,0); // вызовет ошибку
+     }
+```
+
+
+### Неявный вызов `super()`
+
+>[!note]
+ super() вызывается только если первой строкой явно не указан super(...) или this(...). 
+
+```java
+class Circle{
+	...
+
+	Circle(int x, int y){
+		// super() неявно вызывается только здесь
+		this.x = x;
+		this.y = y;
+	}
+	
+	Circle(){
+		this(0, 0); // а здесь - нет
+	}
+}
+```
 
 ----
 #### [[Class Flashcards|Link to flashcards]]
@@ -49,3 +87,5 @@ class Child extends Parent{
 ---
 ### References:
 
+- [[Access Modifiers]]
+- 

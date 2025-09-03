@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Class.md",
+                "file": "6 - Main Notes/Access Modifiers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Class"
+              "title": "Access Modifiers"
             }
           },
           {
@@ -55,8 +55,7 @@
               "title": "Передача по значению в Java"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "09ce6ebbfab56c80",
@@ -64,6 +63,30 @@
         "children": [
           {
             "id": "47d140ee34afd80f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Class.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Class"
+            }
+          },
+          {
+            "id": "2a1adece9f710055",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -185,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Передача по значению в Java.md",
+                "file": "6 - Main Notes/Access Modifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +219,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Передача по значению в Java"
+              "title": "Backlinks for Access Modifiers"
             }
           },
           {
@@ -204,11 +228,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "6 - Main Notes/Access Modifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Access Modifiers"
             }
           },
           {
@@ -244,7 +269,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,17 +284,18 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "e60d19cb755dfbcb",
+  "active": "541da22f6fa79f28",
   "lastOpenFiles": [
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Передача по значению в Java.md",
+    "3 - Tags/Java Classes.md",
+    "6 - Main Notes/Class.md",
+    "6 - Main Notes/Access Modifiers.md",
+    "6 - Main Notes/Class Flashcards.md",
+    "6 - Main Notes/Неизменяемость наследников Number.md",
     "desktop.ini",
     "3 - Tags/Small Important Moments Java.md",
-    "6 - Main Notes/Передача по значению в Java.md",
-    "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Неизменяемость наследников Number.md",
     "6 - Main Notes/Number classes Java.md",
-    "6 - Main Notes/Class.md",
-    "6 - Main Notes/Class Flashcards.md",
-    "3 - Tags/Java Classes.md",
     "6 - Main Notes/Comparator Interface Flashcards.md",
     "6 - Main Notes/Comparator Interface.md",
     "6 - Main Notes/Comparable Interface.md",
@@ -294,7 +321,6 @@
     "1 - Rough notes",
     "3 - Tags",
     "2 - Source Materials/Website scans",
-    "2 - Source Materials/eBooks",
-    "2 - Source Materials"
+    "2 - Source Materials/eBooks"
   ]
 }

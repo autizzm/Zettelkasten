@@ -89,10 +89,10 @@
     "6 - Main Notes/StringBuilder Java Flashcards.md": "a60fd8c53f96c393c625d77ac5c7257c",
     "6 - Main Notes/String Java Flashcards.md": "d8d7d625f4de4ed31795d918e24337d0",
     "6 - Main Notes/StringBuilder Java.md": "99c966c27f90051ee7b7090bb9778b36",
-    "4 - Indexes/Java Core.md": "055f935f60b34c0985767f6ad98dfe54",
+    "4 - Indexes/Java Core.md": "d24b95203422d3466cc781928ba7e9db",
     "3 - Tags/Java data types.md": "d41d8cd98f00b204e9800998ecf8427e",
     "6 - Main Notes/Number classes Java Flashcards.md": "9af5d22b6c230d565efd6d7a335abe04",
-    "6 - Main Notes/Number classes Java.md": "21441e67896b2be1407b2c91fa6a1733",
+    "6 - Main Notes/Number classes Java.md": "afaf17ef18b7740c8e1ee7d5e37f86dc",
     "6 - Main Notes/Switch Flashcards.md": "02f4f6253a177404769890d6c83a0d84",
     "6 - Main Notes/Switch.md": "e23601d26dc969e37ac7e6ef092de869",
     "6 - Main Notes/Math Java Flashcards.md": "d3fef5c3bbf741bb905a3742e56cf97b",
@@ -131,7 +131,13 @@
     "6 - Main Notes/Comparable Interface Flashcards.md": "acfb8b3bbe5488dee9f726931797e170",
     "6 - Main Notes/Comparable Interface.md": "ff563e43861c2109c95671d79f2b3754",
     "6 - Main Notes/Comparator Interface Flashcards.md": "13a508f37e86b71a3c2e303abaaa23d2",
-    "6 - Main Notes/Comparator Interface.md": "ecce04c5e6cef6d84da59072d4639606"
+    "6 - Main Notes/Comparator Interface.md": "ecce04c5e6cef6d84da59072d4639606",
+    "6 - Main Notes/Передача по значению в Java.md": "e18e800df4276511db1b55134e1aeaf9",
+    "6 - Main Notes/Неизменяемость наследников Number.md": "672ffe8ea65acec30e8fdd674c67f112",
+    "6 - Main Notes/Class Flashcards.md": "b69ff794efb3899f8096b14df8ff18b9",
+    "6 - Main Notes/Class.md": "a186b3a9a9abf92e74e62ee1b5d7da31",
+    "3 - Tags/Small Important Moments Java.md": "de8551d40d746f567a164662342221fc",
+    "3 - Tags/Java Classes.md": "ec1bcc7263176bc9700a0d985153c2a0"
   },
   "fields_dict": {
     "Basic": [
