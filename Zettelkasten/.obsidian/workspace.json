@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "d5a6f512eec077b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e73734335152b29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "541da22f6fa79f28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Class.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Class"
+            }
+          },
+          {
+            "id": "e60d19cb755dfbcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Передача по значению в Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Передача по значению в Java"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "09ce6ebbfab56c80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47d140ee34afd80f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Class Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Class Flashcards"
+            }
+          },
+          {
+            "id": "c6d780014368f133",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Неизменяемость наследников Number.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Неизменяемость наследников Number"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "18049fc6c6748e5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed7d5dec69456569",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa452009c29eb7fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "31cb3c44898fa83b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "cc9ec44d0f6db600",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0b6f3d0fd53cfb18",
+    "type": "split",
+    "children": [
+      {
+        "id": "53d89b230e9bab27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2ced0c3f468ed1e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "6 - Main Notes/Передача по значению в Java.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Передача по значению в Java"
+            }
+          },
+          {
+            "id": "d2db34f2d686eb61",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "5d39ccb194d2e7e1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "717ea7b761ccf9e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+    }
+  },
+  "active": "e60d19cb755dfbcb",
+  "lastOpenFiles": [
+    "desktop.ini",
+    "3 - Tags/Small Important Moments Java.md",
+    "6 - Main Notes/Передача по значению в Java.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Неизменяемость наследников Number.md",
+    "6 - Main Notes/Number classes Java.md",
+    "6 - Main Notes/Class.md",
+    "6 - Main Notes/Class Flashcards.md",
+    "3 - Tags/Java Classes.md",
+    "6 - Main Notes/Comparator Interface Flashcards.md",
+    "6 - Main Notes/Comparator Interface.md",
+    "6 - Main Notes/Comparable Interface.md",
+    "6 - Main Notes/String Java.md",
+    "6 - Main Notes/SortedMap Interface.md",
+    "6 - Main Notes/SortedSet Interface.md",
+    "6 - Main Notes/Number classes Java Flashcards.md",
+    "6 - Main Notes/Comparable Interface Flashcards.md",
+    "6 - Main Notes/Arrays class.md",
+    "6 - Main Notes/List Interface.md",
+    "6 - Main Notes/List Range-View Operations.md",
+    "6 - Main Notes/Map Interface.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Map Interface Flashcards.md",
+    "6 - Main Notes/SortedMap Interface Flashcards.md",
+    "6 - Main Notes/SortedSet Interface Flashcards.md",
+    "6 - Main Notes/Deque Interface.md",
+    "Untitled",
+    "7 -CSS Snippets",
+    "6 - Main Notes",
+    "5 - Templates",
+    "4 - Indexes",
+    "1 - Rough notes",
+    "3 - Tags",
+    "2 - Source Materials/Website scans",
+    "2 - Source Materials/eBooks",
+    "2 - Source Materials"
+  ]
+}

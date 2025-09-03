@@ -1,0 +1,166 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "Basic": "^Q: ((?:.+\\n)*)\\n*A: (.+(?:\\n(?:^.{1,3}$|^.{4}(?<!<!--).*))*)",
+      "Basic (and reversed card)": "",
+      "Basic (optional reversed card)": "",
+      "Basic (type in the answer)": "",
+      "Cloze": "",
+      "Image Occlusion": ""
+    },
+    "FILE_LINK_FIELDS": {
+      "Basic": "Back",
+      "Basic (and reversed card)": "Front",
+      "Basic (optional reversed card)": "Front",
+      "Basic (type in the answer)": "Front",
+      "Cloze": "Text",
+      "Image Occlusion": "Occlusion"
+    },
+    "CONTEXT_FIELDS": {},
+    "FOLDER_DECKS": {
+      "2 - Source Materials": "",
+      "4 - Indexes": "",
+      "1 - Rough notes": "",
+      "5 - Templates": "",
+      "3 - Tags": "",
+      "6 - Main Notes": "",
+      "2 - Source Materials/eBooks": "",
+      "2 - Source Materials/Website scans": ""
+    },
+    "FOLDER_TAGS": {
+      "2 - Source Materials": "",
+      "4 - Indexes": "",
+      "1 - Rough notes": "",
+      "5 - Templates": "",
+      "3 - Tags": "",
+      "6 - Main Notes": "",
+      "2 - Source Materials/eBooks": "",
+      "2 - Source Materials/Website scans": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Scan Directory": "",
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "Default",
+      "Scheduling Interval": 0,
+      "Add File Link": true,
+      "Add Context": false,
+      "CurlyCloze": false,
+      "CurlyCloze - Highlights to Clozes": false,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    },
+    "IGNORED_FILE_GLOBS": [
+      "**/*.excalidraw.md"
+    ]
+  },
+  "Added Media": [],
+  "File Hashes": {
+    "6 - Main Notes/References Suggestions.md": "3a96958ec76322f56f3c88890074fd67",
+    "6 - Main Notes/Status Tags.md": "eb0ded3864be378032fd744d98d92fb7",
+    "6 - Main Notes/Obsidian Markdown example.md": "2f97b08fe5e1b3523a34f7dd8973adf2",
+    "6 - Main Notes/Main Notes Suggestion.md": "b638b4cccc811f8057114f2e8cf1eb2b",
+    "6 - Main Notes/Effective Tagging.md": "d2736e96bc24a2b8a8868fcbfaf72a77",
+    "6 - Main Notes/Hotkeys.md": "bca46dda0f839ab83614c778ee17c526",
+    "3 - Tags/Test tag.md": "130b04795a5868a5e0b840ae324b8816",
+    "5 - Templates/Full Note.md": "35c82973b58ef02a9aefa2e78062cdb9",
+    "1 - Rough notes/Test Anki Flashcards.md": "ca36646fa7ff4472aff1d06e592038bb",
+    "1 - Rough notes/Why use Notes as Tags.md": "68d110418e5ae211e9da2ce31d484ce0",
+    "1 - Rough notes/What is Source Materials Folder for.md": "0e9e5e0fa87da6a7eff45deebce402c0",
+    "1 - Rough notes/Why use the Main Notes folder.md": "7ca0a46bb1f6621dfa3d975cfbf52596",
+    "4 - Indexes/Obsidian Features.md": "3d8f60bcca689830fa354f8db8ac5b71",
+    "3 - Tags/СТСР.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "1 - Rough notes/СТСР-1.md": "2dbf0b32187d6113ffa4a1f6dae76984",
+    "6 - Main Notes/Data Types Flashcards.md": "8ba6a64b1a5d05ea3fa9484b0b24d101",
+    "6 - Main Notes/Data Types.md": "721196a5c82ebc63506b4bc52cf655df",
+    "3 - Tags/Java Core.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "6 - Main Notes/String Java.md": "f1a286e77f56e709909a93d2ec1acf8d",
+    "6 - Main Notes/String Flashcards.md": "f5d8acdb3d198f3b1b0e71a22b18a47a",
+    "5 - Templates/Flashcards Note.md": "9a0cd16d54b571f92f6e3c90b9088ac0",
+    "6 - Main Notes/StringBuilder Java Flashcards.md": "a60fd8c53f96c393c625d77ac5c7257c",
+    "6 - Main Notes/String Java Flashcards.md": "d8d7d625f4de4ed31795d918e24337d0",
+    "6 - Main Notes/StringBuilder Java.md": "99c966c27f90051ee7b7090bb9778b36",
+    "4 - Indexes/Java Core.md": "055f935f60b34c0985767f6ad98dfe54",
+    "3 - Tags/Java data types.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "6 - Main Notes/Number classes Java Flashcards.md": "9af5d22b6c230d565efd6d7a335abe04",
+    "6 - Main Notes/Number classes Java.md": "21441e67896b2be1407b2c91fa6a1733",
+    "6 - Main Notes/Switch Flashcards.md": "02f4f6253a177404769890d6c83a0d84",
+    "6 - Main Notes/Switch.md": "e23601d26dc969e37ac7e6ef092de869",
+    "6 - Main Notes/Math Java Flashcards.md": "d3fef5c3bbf741bb905a3742e56cf97b",
+    "6 - Main Notes/Math Java.md": "30cb755b2e9d4833e0f7f3278f2101d8",
+    "6 - Main Notes/Cycles Flashcards.md": "c645a121aa1b41bb84d2eec7e97c08a3",
+    "6 - Main Notes/Cycles.md": "c717e897d2c94df23cc69d56fe076e5f",
+    "6 - Main Notes/Arrays class Flashcards.md": "1f89ee1dd0c6bf6af9dcb0f62f1c216f",
+    "6 - Main Notes/Arrays class.md": "7d4e1fb055bd39ea5b7ce50888aae71d",
+    "6 - Main Notes/Array.md": "0157e94df4e94bd415c8c9ddadb580c0",
+    "6 - Main Notes/Array Flashcards.md": "a8ff8ba352ff23bd1f25b34069300d4d",
+    "6 - Main Notes/Collection Interface Flashcards.md": "12118e7158714dab047036cfe14029b3",
+    "6 - Main Notes/Collection Interface.md": "2cd27a1db8c4d92083ec7b8de0b167a9",
+    "3 - Tags/Java Collections.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "6 - Main Notes/Set Interface Flashcards.md": "da5ae43d4a8b4e371929d3d563768419",
+    "6 - Main Notes/Set Interface.md": "9031701b8fe6b5f610276a43bc41b0b0",
+    "6 - Main Notes/ListIterator Flashcards.md": "3ec5b8e2410e17578d852eea294c94d7",
+    "6 - Main Notes/Iterator Flashcards.md": "8b1b3e2800eb4b59ac68ecaa26b593ff",
+    "6 - Main Notes/Iterator.md": "a043647e3dbe3ec9a75f6dd8135fdb66",
+    "6 - Main Notes/ListIterator.md": "4b3a682e627aa12b0ac5d8e028f9e8e0",
+    "6 - Main Notes/List Interface Flashcards.md": "3ac8deef6fcb3fc05a1484ffa38c5e53",
+    "6 - Main Notes/List Interface.md": "5f000f85d36c0c995fb3d497a66cfcec",
+    "6 - Main Notes/Collections class Flashcards.md": "173f0b033abb66b1831f8c4f294ecae5",
+    "6 - Main Notes/Collections class.md": "7c2d1d583672474994219e02ffc5b380",
+    "6 - Main Notes/List Range-View Operations Flashcards.md": "4fb7711432a1a1a7d10425e79ee34e69",
+    "6 - Main Notes/List Range-View Operations.md": "15e9d2bfea03bc3192855aea237fa236",
+    "6 - Main Notes/Queue Interface Flashcards.md": "7997716900a65c0c0c624cd00a85b8c1",
+    "6 - Main Notes/Queue Interface.md": "e23d51ad4b5f63c3bbc60287fa301e14",
+    "6 - Main Notes/Deque Interface Flashcards.md": "79d9d5c307f3dbbf1267b4b4f3bb5f35",
+    "6 - Main Notes/Deque Interface.md": "2537f1c915a651ea0ff90f3696ba9d6e",
+    "6 - Main Notes/Map Interface Flashcards.md": "189a27e608876afd3410f8987235d75d",
+    "6 - Main Notes/Map Interface.md": "4052bf365eaa30c7bea3059bb1f3142b",
+    "6 - Main Notes/SortedSet Interface Flashcards.md": "2d1108ac570a891effd5dac0899196ca",
+    "6 - Main Notes/SortedSet Interface.md": "6a88567df4c2523e37e18176a218565a",
+    "6 - Main Notes/SortedMap Interface Flashcards.md": "6ca7b913bb0ad17d03ba97f0a4e0276c",
+    "6 - Main Notes/SortedMap Interface.md": "036352e57dd88fe5b6fe5bb2bf352566",
+    "6 - Main Notes/Comparable Interface Flashcards.md": "acfb8b3bbe5488dee9f726931797e170",
+    "6 - Main Notes/Comparable Interface.md": "ff563e43861c2109c95671d79f2b3754",
+    "6 - Main Notes/Comparator Interface Flashcards.md": "13a508f37e86b71a3c2e303abaaa23d2",
+    "6 - Main Notes/Comparator Interface.md": "ecce04c5e6cef6d84da59072d4639606"
+  },
+  "fields_dict": {
+    "Basic": [
+      "Front",
+      "Back"
+    ],
+    "Basic (and reversed card)": [
+      "Front",
+      "Back"
+    ],
+    "Basic (optional reversed card)": [
+      "Front",
+      "Back",
+      "Add Reverse"
+    ],
+    "Basic (type in the answer)": [
+      "Front",
+      "Back"
+    ],
+    "Cloze": [
+      "Text",
+      "Back Extra"
+    ],
+    "Image Occlusion": [
+      "Occlusion",
+      "Image",
+      "Header",
+      "Back Extra",
+      "Comments"
+    ]
+  }
+}
