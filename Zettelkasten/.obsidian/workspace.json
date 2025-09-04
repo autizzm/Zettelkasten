@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Access Modifiers.md",
+                "file": "6 - Main Notes/Ресурсы (факторы) производства.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Access Modifiers"
+              "title": "Ресурсы (факторы) производства"
             }
           },
           {
-            "id": "e60d19cb755dfbcb",
+            "id": "c764faad7ef30903",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Передача по значению в Java.md",
+                "file": "6 - Main Notes/Ресурсы (факторы) производства Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,89 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Передача по значению в Java"
+              "title": "Ресурсы (факторы) производства Flashcards"
             }
           }
         ]
-      },
-      {
-        "id": "09ce6ebbfab56c80",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "47d140ee34afd80f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Class.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Class"
-            }
-          },
-          {
-            "id": "2a1adece9f710055",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Class Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Class Flashcards"
-            }
-          },
-          {
-            "id": "c6d780014368f133",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Неизменяемость наследников Number.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Неизменяемость наследников Number"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -286,11 +206,23 @@
   },
   "active": "541da22f6fa79f28",
   "lastOpenFiles": [
-    "4 - Indexes/Java Core.md",
+    "4 - Indexes/Экономическая теория.md",
+    "6 - Main Notes/Оборотный капитал.md",
+    "6 - Main Notes/Ресурсы (факторы) производства.md",
+    "6 - Main Notes/Основной капитал.md",
+    "2 - Source Materials/Pasted image 20250904153125.png",
+    "3 - Tags/Капитал.md",
+    "6 - Main Notes/Ресурсы (факторы) производства Flashcards.md",
+    "4 - Indexes/Экономика.md",
+    "6 - Main Notes/Пирамида Маслоу.md",
+    "6 - Main Notes/Потребности как предпосылка производства.md",
     "6 - Main Notes/Передача по значению в Java.md",
+    "2 - Source Materials/Pasted image 20250904144918.png",
+    "Pasted image 20250904144913.png",
+    "6 - Main Notes/Access Modifiers.md",
+    "4 - Indexes/Java Core.md",
     "3 - Tags/Java Classes.md",
     "6 - Main Notes/Class.md",
-    "6 - Main Notes/Access Modifiers.md",
     "6 - Main Notes/Class Flashcards.md",
     "6 - Main Notes/Неизменяемость наследников Number.md",
     "desktop.ini",
@@ -304,15 +236,6 @@
     "6 - Main Notes/SortedSet Interface.md",
     "6 - Main Notes/Number classes Java Flashcards.md",
     "6 - Main Notes/Comparable Interface Flashcards.md",
-    "6 - Main Notes/Arrays class.md",
-    "6 - Main Notes/List Interface.md",
-    "6 - Main Notes/List Range-View Operations.md",
-    "6 - Main Notes/Map Interface.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Map Interface Flashcards.md",
-    "6 - Main Notes/SortedMap Interface Flashcards.md",
-    "6 - Main Notes/SortedSet Interface Flashcards.md",
-    "6 - Main Notes/Deque Interface.md",
     "Untitled",
     "7 -CSS Snippets",
     "6 - Main Notes",
