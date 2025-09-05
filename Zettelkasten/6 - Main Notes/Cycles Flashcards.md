@@ -32,3 +32,18 @@ for (Iterator<Object> it = someCollection.iterator(); it.hasNext();) {
 }
 ```
 <!--ID: 1756829227864-->
+
+Q: Можно ли итерировать по массиву с помощью for-each?
+A: Да, можно:
+```java
+public boolean hasDuplicate(int[] nums) {
+	Set<Integer> encountered = new HashSet<>();
+	for(int element: nums){
+		if(!encountered.add(element))
+			return true;
+	}
+	return false;
+}
+```
+<!--ID: 1757006518754-->
+

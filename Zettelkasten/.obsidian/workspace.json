@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "541da22f6fa79f28",
+            "id": "47bdc43d54f991a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Ресурсы (факторы) производства.md",
+                "file": "6 - Main Notes/Теоремы сложения и умножения вероятностей.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,28 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ресурсы (факторы) производства"
+              "title": "Теоремы сложения и умножения вероятностей"
             }
           },
           {
-            "id": "c764faad7ef30903",
+            "id": "dc6874120c47b3cc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2 - Source Materials/formuly_kombinatoriki.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "formuly_kombinatoriki"
+            }
+          },
+          {
+            "id": "b9c0e96d49eddb55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Ресурсы (факторы) производства Flashcards.md",
+                "file": "6 - Main Notes/Obsidian Markdown example.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ресурсы (факторы) производства Flashcards"
+              "title": "Obsidian Markdown example"
             }
           }
         ]
@@ -204,46 +216,46 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "541da22f6fa79f28",
+  "active": "47bdc43d54f991a7",
   "lastOpenFiles": [
+    "Notes",
+    "6 - Main Notes/События.md",
+    "6 - Main Notes/Теоремы сложения и умножения вероятностей.md",
+    "3 - Tags/Основы комбинаторики.md",
+    "2 - Source Materials/formuly_kombinatoriki.pdf",
+    "6 - Main Notes/Классическое определение вероятности.md",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Пирамида Маслоу.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "4 - Indexes/Экономика.md",
+    "2 - Source Materials/Unconfirmed 402933.crdownload",
+    "6 - Main Notes/Алгебра событий.md",
+    "4 - Indexes/Obsidian Features.md",
+    "Pasted image 20250905134155.png",
+    "6 - Main Notes/Notes.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/String Java.md",
+    "6 - Main Notes/Data Types.md",
+    "6 - Main Notes/Cycles Flashcards.md",
+    "6 - Main Notes/Cycles.md",
+    "6 - Main Notes/Array.md",
+    "6 - Main Notes/Effective Tagging.md",
+    "6 - Main Notes/Ресурсы (факторы) производства Flashcards.md",
+    "Notes/Untitled.md",
+    "6 - Main Notes/2025-09-04.md",
+    "6 - Main Notes/Ресурсы (факторы) производства.md",
     "4 - Indexes/Экономическая теория.md",
     "6 - Main Notes/Оборотный капитал.md",
-    "6 - Main Notes/Ресурсы (факторы) производства.md",
     "6 - Main Notes/Основной капитал.md",
     "2 - Source Materials/Pasted image 20250904153125.png",
-    "3 - Tags/Капитал.md",
-    "6 - Main Notes/Ресурсы (факторы) производства Flashcards.md",
-    "4 - Indexes/Экономика.md",
-    "6 - Main Notes/Пирамида Маслоу.md",
-    "6 - Main Notes/Потребности как предпосылка производства.md",
-    "6 - Main Notes/Передача по значению в Java.md",
     "2 - Source Materials/Pasted image 20250904144918.png",
     "Pasted image 20250904144913.png",
-    "6 - Main Notes/Access Modifiers.md",
-    "4 - Indexes/Java Core.md",
-    "3 - Tags/Java Classes.md",
-    "6 - Main Notes/Class.md",
-    "6 - Main Notes/Class Flashcards.md",
-    "6 - Main Notes/Неизменяемость наследников Number.md",
     "desktop.ini",
-    "3 - Tags/Small Important Moments Java.md",
-    "6 - Main Notes/Number classes Java.md",
-    "6 - Main Notes/Comparator Interface Flashcards.md",
-    "6 - Main Notes/Comparator Interface.md",
-    "6 - Main Notes/Comparable Interface.md",
-    "6 - Main Notes/String Java.md",
-    "6 - Main Notes/SortedMap Interface.md",
-    "6 - Main Notes/SortedSet Interface.md",
-    "6 - Main Notes/Number classes Java Flashcards.md",
-    "6 - Main Notes/Comparable Interface Flashcards.md",
-    "Untitled",
     "7 -CSS Snippets",
     "6 - Main Notes",
     "5 - Templates",
     "4 - Indexes",
     "1 - Rough notes",
-    "3 - Tags",
-    "2 - Source Materials/Website scans",
-    "2 - Source Materials/eBooks"
+    "3 - Tags"
   ]
 }

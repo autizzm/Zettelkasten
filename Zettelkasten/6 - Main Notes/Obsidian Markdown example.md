@@ -94,3 +94,9 @@ Tags: [[Test tag]], [[Obsidian Features]]
 ```python
 def hello():
     print("Hello, Obsidian!")
+```
+
+Событие НЕ $B_1$ обозначается как $\overline{B_1}$, или $B_1'$, или $B_1^c$.
+
+
+$P(A|B) = \frac{P(A \cap B)}{P(B)}$

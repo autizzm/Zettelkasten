@@ -41,6 +41,22 @@ search: //outer loop name
 	}
 ```
 
+
+>[!note]
+>по массиву тоже можно итерировать с помощью for-each
+
+```java
+public boolean hasDuplicate(int[] nums) {
+	Set<Integer> encountered = new HashSet<>();
+	for(int element: nums){
+		if(!encountered.add(element))
+			return true;
+	}
+	return false;
+}
+```
+
+
 ----
 #### [[Cycles Flashcards|Link to flashcards]]
 
