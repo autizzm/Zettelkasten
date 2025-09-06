@@ -100,3 +100,10 @@ def hello():
 
 
 $P(A|B) = \frac{P(A \cap B)}{P(B)}$
+
+$\sum_{i=1}^n x_i$
+
+$\sum_{k \in A} P(k)$
+
+$\mathbb{E}[X]$
+
