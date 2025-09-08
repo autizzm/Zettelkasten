@@ -8,48 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47bdc43d54f991a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Описательные статистики.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Описательные статистики"
-            }
-          },
-          {
-            "id": "dc6874120c47b3cc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2 - Source Materials/formuly_kombinatoriki.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "formuly_kombinatoriki"
-            }
-          },
-          {
             "id": "b9c0e96d49eddb55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Obsidian Markdown example.md",
+                "file": "6 - Main Notes/Access Modifier Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +28,61 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obsidian Markdown example"
+              "title": "Access Modifier Flashcards"
+            }
+          },
+          {
+            "id": "a4b6d0bcab8eb245",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough notes/СТСР-1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "СТСР-1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "196691a3e0a9643d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6617aa64332ff77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Access Modifiers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Access Modifiers"
             }
           }
         ]
@@ -216,11 +234,25 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "47bdc43d54f991a7",
+  "active": "b9c0e96d49eddb55",
   "lastOpenFiles": [
+    "6 - Main Notes/Access Modifiers.md",
+    "6 - Main Notes/Access Modifier Flashcards.md",
+    "1 - Rough notes/СТСР-1.md",
+    "1 - Rough notes/МППиУ.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Class.md",
+    "6 - Main Notes/Class Flashcards.md",
     "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Описательные статистики.md",
+    "6 - Main Notes/Алгебра событий Flashcards.md",
+    "6 - Main Notes/Основные формулы комбинаторики.md",
+    "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
+    "2 - Source Materials/Unconfirmed 145553.crdownload",
     "2 - Source Materials/formuly_kombinatoriki.pdf",
+    "3 - Tags/Основы комбинаторики.md",
+    "6 - Main Notes/Алгебра событий.md",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Описательные статистики.md",
     "6 - Main Notes/as.md",
     "2 - Source Materials/assimmetr_excess.jpg",
     "2 - Source Materials/IMG_20250906_131308 (1).jpg",
@@ -233,35 +265,22 @@
     "2 - Source Materials/IMG_20250906_124745.jpg",
     "6 - Main Notes/Эконометрика.md",
     "4 - Indexes/Экономика.md",
-    "4 - Indexes/ТВиМС.md",
     "6 - Main Notes/Константы - PHP.md",
     "4 - Indexes/PHP.md",
     "6 - Main Notes/Область видимости переменных - PHP.md",
     "6 - Main Notes/Синтаксис - PHP.md",
     "6 - Main Notes/Map Interface.md",
-    "4 - Indexes/Java Core.md",
     "6 - Main Notes/Теоремы сложения и умножения вероятностей.md",
     "Notes",
     "6 - Main Notes/События.md",
-    "3 - Tags/Основы комбинаторики.md",
     "6 - Main Notes/Классическое определение вероятности.md",
     "6 - Main Notes/Пирамида Маслоу.md",
     "2 - Source Materials/Unconfirmed 402933.crdownload",
-    "6 - Main Notes/Алгебра событий.md",
-    "4 - Indexes/Obsidian Features.md",
     "Pasted image 20250905134155.png",
-    "6 - Main Notes/Notes.md",
-    "6 - Main Notes/String Java.md",
-    "6 - Main Notes/Data Types.md",
-    "6 - Main Notes/Cycles Flashcards.md",
-    "6 - Main Notes/Cycles.md",
-    "6 - Main Notes/Array.md",
     "desktop.ini",
     "7 -CSS Snippets",
     "6 - Main Notes",
     "5 - Templates",
-    "4 - Indexes",
-    "1 - Rough notes",
-    "3 - Tags"
+    "4 - Indexes"
   ]
 }
