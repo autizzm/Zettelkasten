@@ -54,15 +54,184 @@
               "icon": "lucide-file",
               "title": "СТСР-1"
             }
+          },
+          {
+            "id": "c6617aa64332ff77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Anonymous classes Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anonymous classes Java"
+            }
+          },
+          {
+            "id": "a6dfbdcaac8f35be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Local classes Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Local classes Java"
+            }
+          },
+          {
+            "id": "81581bf682e08ba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Редкие модификаторы Java - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Редкие модификаторы Java - Flashcards"
+            }
+          },
+          {
+            "id": "56ed3deff784dbba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Access Modifier Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Access Modifier Flashcards"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "196691a3e0a9643d",
         "type": "tabs",
         "children": [
           {
-            "id": "c6617aa64332ff77",
+            "id": "082949f8f71e216f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Member Classes Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Member Classes Java"
+            }
+          },
+          {
+            "id": "4b3ed3e754b962e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Inner Classes Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Inner Classes Java"
+            }
+          },
+          {
+            "id": "d39493f779a5c780",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Inner Classes Java - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Inner Classes Java - Flashcards"
+            }
+          },
+          {
+            "id": "db014163606a9f4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,7 +254,8 @@
               "title": "Access Modifiers"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -143,7 +313,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -234,14 +405,24 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "b9c0e96d49eddb55",
+  "active": "d39493f779a5c780",
   "lastOpenFiles": [
+    "6 - Main Notes/Inner Classes Java.md",
+    "6 - Main Notes/Inner Classes Java - Flashcards.md",
     "6 - Main Notes/Access Modifiers.md",
+    "6 - Main Notes/Member Classes Java.md",
     "6 - Main Notes/Access Modifier Flashcards.md",
+    "6 - Main Notes/Nested Classes Java.md",
+    "6 - Main Notes/Member Classes Java Flashcards.md",
+    "6 - Main Notes/Редкие модификаторы Java - Flashcards.md",
+    "6 - Main Notes/Редкие модификаторы Java.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Local classes Java.md",
+    "3 - Tags/Java Classes.md",
+    "6 - Main Notes/Class.md",
+    "6 - Main Notes/Anonymous classes Java.md",
     "1 - Rough notes/СТСР-1.md",
     "1 - Rough notes/МППиУ.md",
-    "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Class.md",
     "6 - Main Notes/Class Flashcards.md",
     "6 - Main Notes/Obsidian Markdown example.md",
     "6 - Main Notes/Алгебра событий Flashcards.md",
@@ -264,17 +445,7 @@
     "2 - Source Materials/IMG_20250906_125022.jpg",
     "2 - Source Materials/IMG_20250906_124745.jpg",
     "6 - Main Notes/Эконометрика.md",
-    "4 - Indexes/Экономика.md",
-    "6 - Main Notes/Константы - PHP.md",
-    "4 - Indexes/PHP.md",
-    "6 - Main Notes/Область видимости переменных - PHP.md",
-    "6 - Main Notes/Синтаксис - PHP.md",
-    "6 - Main Notes/Map Interface.md",
-    "6 - Main Notes/Теоремы сложения и умножения вероятностей.md",
     "Notes",
-    "6 - Main Notes/События.md",
-    "6 - Main Notes/Классическое определение вероятности.md",
-    "6 - Main Notes/Пирамида Маслоу.md",
     "2 - Source Materials/Unconfirmed 402933.crdownload",
     "Pasted image 20250905134155.png",
     "desktop.ini",

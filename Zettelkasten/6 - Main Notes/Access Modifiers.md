@@ -8,7 +8,52 @@ Tags: [[Java Core]] [[Java Classes]]
 ---
 # Access Modifiers
 
+>[!warning]
+>Acess modifiers контролируют доступ к полю. Они не убирают поле при наследовании, просто запрещают к нему доступ.
+>```java
+>package points;
+>class Point{
+>	int x;
+>	int y;
+>	public void move(int dx, int dy){
+>		this.x += dx;
+>		this.y += dy;
+>	}
+>}
+>
+>package points;
+>class Point3d extends Point{
+>	int z;
+>	public void move(int dx, int dy, int dz){
+>		super.move(dx, dy);
+>		this.z += dz;
+>	}
+>}
+>
+>package different_package;
+>class Point4d extends Point3d{ 
+>	int w;
+>	public void move(int dx, int dy, int dz, int dw){
+>		super.move(dx, dy, dz);
+>		this.w += dw;
+>	}
+>}
+>```
+>Доступ к полям `x, y, z` из Point4d запрещен, но они в нем есть:
+>```
+>Point4d [x] - restricted 
+>[y] - restricted 
+>[z] - restricted 
+>[w] - available 
+>[move(...)] - available
+>```
 
+
+
+
+
+> [!note]
+> Acessibility - static property => determined at *~={green}compile-time=~*
 ## For methods
 #### Top-level classes' methods:
 
@@ -144,45 +189,44 @@ class Other {
 
 #### Nested/inner classes:
 
+Модификаторы доступа работают точно также, как и у методов.
+>[!warning]
+>Но, default конструктор member классов наследует модификатор доступа самого member класса, и вот уже модификатор доступа member класса определяет доступ относительно member класса, а не Enclosing.
+>
+>Например:
+>```java
+>package package_one;
+>
+>class Outer{
+>	...
+>	protected class Inner{
+>		//компилятор сам создает protected Inner();
+>		//и создание Inner класса (вызов этого конструктора) будет доступно только
+>		//в пакете package_one и наследнике Inner класса другого пакета
+>	}
+>}
+>
+>//эти классы могут выщвать конструктор Outer.Inner
+>package package_two;
+>class SomeClass extends Outer.Inner{
+>	class Child extends Outer.Inner{}
+>}
+>
+>package package_two;
+>class AnotherClass{
+>	public void createInner(){
+>		SomeClass inner1 = new SomeClass();
+>		Outer.Inner inner2 = new SomeClass();
+>		Outer.Inner inner3 = new Child();
+>	}
+>}
+>```
 
-| modifier    | ~={orange}Enclosing Class=~ | В том же пакете НЕ ПОДКЛАССЫ ~={orange}Package=~ | У подклассов внешнего класса (same package) ~={orange}Subclasses of Enclosing class=~ | У подклассов внешнего класса (different package) ~={orange}Subclasses of Enclosing class=~ | ~={orange}World=~ |
-| ----------- | --------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----------------- |
-| public      | ✅                           | ✅                                                | ✅                                                                                     | ✅                                                                                          | ✅                 |
-| protected   | ✅                           | ✅                                                | ✅                                                                                     | ✅                                                                                          | ❌                 |
-| no modifier | ✅                           | ✅                                                | ✅                                                                                     | ❌                                                                                          | ❌                 |
-| private     | ✅                           | ❌                                                | ❌                                                                                     | ❌                                                                                          | ❌                 |
 
-#### ~={yellow}По сути - то же самое=~
 
-> [!warning]
-> ~={cyan}Inner=~ классы ~={green}должны создаваться через=~ ~={cyan}объект=~ ~={cyan}Parent или Child=~ класса. Однако такая запись в Child классах тоже возможна:
-> ```java
-> class InPackageChild extends A{
-> 	void test() {
-> 		InPackageChild.Inner inner = new A.Inner(); // ✅ компилируется
-> 	}
-> }
-> ```
->  Однако "под капотом" это преобразовывается в:
->  ```java
->  InPackageChild.Inner inner = this.new Inner();
->  ```
 
-> [!note]
-> Через имя класса обычно создаются только nested классы:
-> ```java
-> class Outer{
-> 	//...
-> 	protected Inner{
-> 		int y;
-> 	}
-> }
-> class SomeClass{
-> 	public m1(){
-> 		Outer.Inner inner = new Outer.Inner();
-> 	}
-> }
-> ```
+
+#### ~={yellow}По сути - то же самое=~ но относительно Member классов, а не Enclosing
 
 ----
 #### [[Access Modifier Flashcards|Link to flashcards]]

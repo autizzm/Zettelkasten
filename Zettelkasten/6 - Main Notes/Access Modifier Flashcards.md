@@ -118,35 +118,140 @@ public class Runner{
 ```
 A:  Да, можно, т.к. он объявлен с модификатором protected => виден везде внутри пакета и в наследниках вне пакета.
 
-Q: Создастся ли корректно inner класс при таком вызове в наследнике A того же пакета:
+
+Q: Можно ли так использовать Point в классе PointList? Не вызовет ли это ошибки?
 ```java
-class InPackageChild extends A{
-	void test() {
-		InPackageChild.Inner inner = new A.Inner();
-	}
+package points;
+class Point {
+    public int x, y;
+    public void move(int dx, int dy) { x += dx; y += dy; }
+}
+class PointList {
+    Point next, prev;
 }
 ```
-A: Да, такая запись не используется при работе с inner классами, но это будет работать: "под капотом" это преобразуется в `InPackageChildInner inner = this.new Inner();` Inner классы обычно создаются через объект Child или Parent класса:
-```java
-class SomeClass{
-	void test() {
-		A a = new A();
-		SomeClass.Inner inner = a.new.Inner();
-	}
-}
-```
+A: Да, т.к. Point объявлен с no modifier (package private), а они в одном и том же пакете
 
 
-Q:  Создастся ли корректно объект inner класса в методе НЕ дочернего класса в том же пакете, если Inner класс объявлен с модификатором protected?
+Q: Можно ли так использовать Point в классе PointList? Не вызовет ли это ошибки?
 ```java
-class NonChildSamePackage{
-	void test() {
-		A a = new A();
-		A.Inner inner = a.new.Inner();
+package points;
+class Point {
+    public int x, y;
+    public void move(int dx, int dy) { x += dx; y += dy; }
+}
+
+```java
+package collections;
+class PointList {
+    Point next, prev;
+}
+```
+A: Нет, нельзя, т.к. Point объявлен с no modifier (package private), а они НЕ в одном и том же пакете
+
+Q: Есть ли в классе Point4d поле x?
+```java
+package points;
+class Point{
+	int x;
+	int y;
+	public void move(int dx, int dy){
+		this.x += dx;
+		this.y += dy;
+	}
+}
+
+package points;
+class Point3d extends Point{
+	int z;
+	public void move(int dx, int dy, int dz){
+		super.move(dx, dy);
+		this.z += dz;
+	}
+}
+
+package different_package;
+class Point4d extends Point3d{ 
+	int w;
+}
+```
+A: Да, есть, но доступ к нему запрещен, т.к. оно объявлено  с модификатором no modifier (package-private).
+>Доступ к полям `x, y, z` из Point4d запрещен, но они в нем есть:
+>```
+>Point4d [x] - restricted 
+>[y] - restricted 
+>[z] - restricted 
+>[w] - available 
+>[move(...)] - available
+>```
+
+Q: Как получить доступ к полю x в классе Point4d?
+```java
+package points;
+class Point{
+	int x;
+	int y;
+	public void move(int dx, int dy){
+		this.x += dx;
+		this.y += dy;
+	}
+}
+
+package points;
+class Point3d extends Point{
+	int z;
+	public void move(int dx, int dy, int dz){
+		super.move(dx, dy);
+		this.z += dz;
+	}
+}
+
+package different_package;
+class Point4d extends Point3d{ 
+	int w;
+}
+```
+A: Используя метод родительского класса (вызвать его через указатель на суперкласс - super):
+```java
+package points;
+class Point{
+	int x;
+	int y;
+	public void move(int dx, int dy){
+		this.x += dx;
+		this.y += dy;
+	}
+}
+
+package points;
+class Point3d extends Point{
+	int z;
+	public void move(int dx, int dy, int dz){
+		super.move(dx, dy);
+		this.z += dz;
+	}
+}
+
+package different_package;
+class Point4d extends Point3d{ 
+	int w;```java
+	public void move(int dx, int dy, int dz, int dw){
+		super.move(dx, dy, dz);
+		this.w += dw;
 	}
 }
 ```
-A: Да, т.к protected позволяет "видеть" метод, поле, inner/nested класс везде SAME PACKAGE + наследниках Outer класса даже в Different Package.
+>Доступ к полям `x, y, z` из Point4d запрещен, но они в нем есть:
+>```
+>Point4d [x] - restricted 
+>[y] - restricted 
+>[z] - restricted 
+>[w] - available 
+>[move(...)] - available
+>```
+
+###not finished:###
+
 
 Q:  Создастся ли корректно объект inner класса в методе дочернего класса в том же пакете, если Inner класс объявлен с модификатором no modifier?
 ```java
