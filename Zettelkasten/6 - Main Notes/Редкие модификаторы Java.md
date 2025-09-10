@@ -1,7 +1,7 @@
 
 09-09-2025 12:52
 
-Status: #baby
+Status: #baby (нет sealed, non-sealed, final)
 
 Tags: [[Java Core]]
 

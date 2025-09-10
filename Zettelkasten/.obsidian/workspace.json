@@ -32,54 +32,6 @@
             }
           },
           {
-            "id": "a4b6d0bcab8eb245",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Rough notes/СТСР-1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "СТСР-1"
-            }
-          },
-          {
-            "id": "c6617aa64332ff77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Anonymous classes Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Anonymous classes Java"
-            }
-          },
-          {
             "id": "a6dfbdcaac8f35be",
             "type": "leaf",
             "state": {
@@ -104,12 +56,12 @@
             }
           },
           {
-            "id": "81581bf682e08ba2",
+            "id": "367aa696e6c5dbd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Редкие модификаторы Java - Flashcards.md",
+                "file": "6 - Main Notes/Effectively final - Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,83 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Редкие модификаторы Java - Flashcards"
-            }
-          },
-          {
-            "id": "56ed3deff784dbba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Access Modifier Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Access Modifier Flashcards"
-            }
-          },
-          {
-            "id": "082949f8f71e216f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Inner Classes Java - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Inner Classes Java - Flashcards"
-            }
-          },
-          {
-            "id": "3ec9a779aade0915",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Static Nested Classes Java - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Static Nested Classes Java - Flashcards"
+              "title": "Effectively final - Java"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       },
       {
         "id": "196691a3e0a9643d",
@@ -212,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Static Nested Classes Java.md",
+                "file": "6 - Main Notes/Class.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -227,11 +107,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Static Nested Classes Java"
+              "title": "Class"
+            }
+          },
+          {
+            "id": "a576b34d42f24f0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Effectively final - Java - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Effectively final - Java - Flashcards"
             }
           },
           {
             "id": "d39493f779a5c780",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Local classes Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Local classes Java"
+            }
+          },
+          {
+            "id": "db014163606a9f4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -255,12 +183,12 @@
             }
           },
           {
-            "id": "db014163606a9f4d",
+            "id": "ccf7994060c3fa69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Access Modifiers.md",
+                "file": "6 - Main Notes/Неизменяемость наследников Number.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -275,10 +203,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Access Modifiers"
+              "title": "Неизменяемость наследников Number"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -336,8 +265,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -428,37 +356,37 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "3ec9a779aade0915",
+  "active": "d39493f779a5c780",
   "lastOpenFiles": [
-    "6 - Main Notes/Static Nested Classes Java.md",
-    "6 - Main Notes/Static Nested Classes Java - Flashcards.md",
-    "6 - Main Notes/Inner Classes Java.md",
-    "6 - Main Notes/Member Classes Java.md",
-    "6 - Main Notes/Inner Classes Java - Flashcards.md",
-    "3 - Tags/Java Classes.md",
-    "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Collection Interface.md",
-    "6 - Main Notes/Collections class.md",
-    "6 - Main Notes/List Interface.md",
-    "6 - Main Notes/Редкие модификаторы Java - Flashcards.md",
-    "6 - Main Notes/Access Modifier Flashcards.md",
-    "6 - Main Notes/Access Modifiers.md",
-    "6 - Main Notes/Member Classes Java Flashcards.md",
-    "6 - Main Notes/Редкие модификаторы Java.md",
+    "6 - Main Notes/Effectively final - Java.md",
     "6 - Main Notes/Local classes Java.md",
-    "6 - Main Notes/Class.md",
-    "6 - Main Notes/Anonymous classes Java.md",
-    "1 - Rough notes/СТСР-1.md",
-    "1 - Rough notes/МППиУ.md",
-    "6 - Main Notes/Class Flashcards.md",
+    "6 - Main Notes/Effectively final - Java - Flashcards.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Member Classes Java.md",
+    "6 - Main Notes/Member Classes Java Flashcards.md",
+    "6 - Main Notes/Inner Classes Java.md",
+    "6 - Main Notes/Static Nested Classes Java.md",
+    "6 - Main Notes/Fully qualified vs Simple name - Java.md",
+    "4 - Indexes/Obsidian Features.md",
     "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Алгебра событий Flashcards.md",
-    "6 - Main Notes/Основные формулы комбинаторики.md",
+    "6 - Main Notes/Неизменяемость наследников Number.md",
+    "6 - Main Notes/Access Modifiers.md",
+    "3 - Tags/Java Classes.md",
+    "6 - Main Notes/Static Nested Classes Java - Flashcards.md",
+    "6 - Main Notes/Inner Classes Java - Flashcards.md",
+    "6 - Main Notes/Class.md",
+    "6 - Main Notes/Class Flashcards.md",
+    "6 - Main Notes/Access Modifier Flashcards.md",
+    "6 - Main Notes/Теоремы сложения и умножения вероятностей.md",
+    "6 - Main Notes/События.md",
+    "6 - Main Notes/Ресурсы (факторы) производства Flashcards.md",
+    "6 - Main Notes/Ресурсы (факторы) производства.md",
+    "6 - Main Notes/Редкие модификаторы Java.md",
+    "6 - Main Notes/Редкие модификаторы Java - Flashcards.md",
+    "6 - Main Notes/Пирамида Маслоу.md",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
     "2 - Source Materials/formuly_kombinatoriki.pdf",
-    "3 - Tags/Основы комбинаторики.md",
-    "6 - Main Notes/Алгебра событий.md",
     "2 - Source Materials/assimmetr_excess.jpg",
     "2 - Source Materials/IMG_20250906_131308 (1).jpg",
     "2 - Source Materials/asimmetr_excess.jpg",

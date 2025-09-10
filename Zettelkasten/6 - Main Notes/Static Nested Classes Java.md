@@ -25,7 +25,7 @@ Static Nested Class - по поведению - ~={orange}то же самое=~
 
 ### Создание static nested класса
 
-Static nested классы создаются без экземпляра Enclosing класса (`new Enclosing.StaticNested()`), но при создании класса за пределами Enclosing класса к нему надо обращаться по полному имени `Enclosing.StaticNested`:
+Static nested классы создаются без экземпляра Enclosing класса (`new Enclosing.StaticNested()`), но при создании класса за пределами Enclosing класса к нему надо обращаться по полному имени `Enclosing.StaticNested` (it's called [[Fully qualified vs Simple name - Java|fully qualified name]]):
 
 ```java
 public class OuterClass {

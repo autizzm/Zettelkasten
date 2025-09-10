@@ -236,3 +236,5 @@ class Other {
 ---
 ### References:
 
+- [[Inner Classes Java]]
+- [[Static Nested Classes Java]]
