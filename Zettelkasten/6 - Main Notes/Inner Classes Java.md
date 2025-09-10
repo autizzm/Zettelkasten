@@ -8,10 +8,10 @@ Tags: [[Java Classes]] [[Java Core]]
 ---
 # Inner Classes Java
 
-1. Имеют доступ к полям Enclosing класса:
+1. Имеют доступ к полям Enclosing класса (~={orange}even if they are private=~):
 ```java
 class WithDeepNesting {  
-    boolean toBe;  
+    private boolean toBe;  
     WithDeepNesting(boolean b) { toBe = b; }  
   
     class Inner {  
@@ -129,6 +129,40 @@ public class SubInner extends Outer.Inner {
 }
    ```
 
+
+## Использование static в Inner классах
+
+Начиная с Java 16 SE в Inner классах можно использовать static переменные и static initializer block:
+```java
+class HasStatic {
+    static int j = 100;
+}
+
+class Outer {
+    class Inner extends HasStatic {
+        static {
+            System.out.println("Hello from Outer.Inner");
+        }
+
+        static       int x = 3;
+        static final int y = 4;
+
+        static void hello() {
+            System.out.println("Hello from Outer.Inner.hello");
+        }
+
+        static class VeryNestedButNotInner
+            extends NestedButNotInner {}
+    }
+    
+    static class NestedButNotInner {
+        int z = Inner.x;
+    }
+    
+    interface NeverInner {}  // Implicitly static, so never inner
+}
+```
+
 ----
 #### [[Inner Classes Java - Flashcards|Link to flashcards]]
 
@@ -138,4 +172,4 @@ public class SubInner extends Outer.Inner {
 ### References:
 
 - [[Member Classes Java]]
-- [[Nested Classes Java]]
+- [[Static Nested Classes Java]]

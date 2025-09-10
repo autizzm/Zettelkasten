@@ -150,14 +150,7 @@
               "icon": "lucide-file",
               "title": "Access Modifier Flashcards"
             }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "196691a3e0a9643d",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "082949f8f71e216f",
             "type": "leaf",
@@ -183,12 +176,12 @@
             }
           },
           {
-            "id": "4b3ed3e754b962e6",
+            "id": "3ec9a779aade0915",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Inner Classes Java.md",
+                "file": "6 - Main Notes/Static Nested Classes Java - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -203,7 +196,38 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inner Classes Java"
+              "title": "Static Nested Classes Java - Flashcards"
+            }
+          }
+        ],
+        "currentTab": 7
+      },
+      {
+        "id": "196691a3e0a9643d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b3ed3e754b962e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Static Nested Classes Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Static Nested Classes Java"
             }
           },
           {
@@ -404,20 +428,24 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "56ed3deff784dbba",
+  "active": "3ec9a779aade0915",
   "lastOpenFiles": [
-    "6 - Main Notes/Inner Classes Java - Flashcards.md",
+    "6 - Main Notes/Static Nested Classes Java.md",
+    "6 - Main Notes/Static Nested Classes Java - Flashcards.md",
     "6 - Main Notes/Inner Classes Java.md",
-    "6 - Main Notes/Access Modifier Flashcards.md",
     "6 - Main Notes/Member Classes Java.md",
-    "6 - Main Notes/Access Modifiers.md",
-    "6 - Main Notes/Nested Classes Java.md",
-    "6 - Main Notes/Member Classes Java Flashcards.md",
-    "6 - Main Notes/Редкие модификаторы Java - Flashcards.md",
-    "6 - Main Notes/Редкие модификаторы Java.md",
-    "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Local classes Java.md",
+    "6 - Main Notes/Inner Classes Java - Flashcards.md",
     "3 - Tags/Java Classes.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Collection Interface.md",
+    "6 - Main Notes/Collections class.md",
+    "6 - Main Notes/List Interface.md",
+    "6 - Main Notes/Редкие модификаторы Java - Flashcards.md",
+    "6 - Main Notes/Access Modifier Flashcards.md",
+    "6 - Main Notes/Access Modifiers.md",
+    "6 - Main Notes/Member Classes Java Flashcards.md",
+    "6 - Main Notes/Редкие модификаторы Java.md",
+    "6 - Main Notes/Local classes Java.md",
     "6 - Main Notes/Class.md",
     "6 - Main Notes/Anonymous classes Java.md",
     "1 - Rough notes/СТСР-1.md",
@@ -431,9 +459,6 @@
     "2 - Source Materials/formuly_kombinatoriki.pdf",
     "3 - Tags/Основы комбинаторики.md",
     "6 - Main Notes/Алгебра событий.md",
-    "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Описательные статистики.md",
-    "6 - Main Notes/as.md",
     "2 - Source Materials/assimmetr_excess.jpg",
     "2 - Source Materials/IMG_20250906_131308 (1).jpg",
     "2 - Source Materials/asimmetr_excess.jpg",
@@ -443,7 +468,6 @@
     "2 - Source Materials/func_rasp_func_plotn_rasp.jpg",
     "2 - Source Materials/IMG_20250906_125022.jpg",
     "2 - Source Materials/IMG_20250906_124745.jpg",
-    "6 - Main Notes/Эконометрика.md",
     "Notes",
     "2 - Source Materials/Unconfirmed 402933.crdownload",
     "Pasted image 20250905134155.png",

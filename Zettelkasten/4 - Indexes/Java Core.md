@@ -21,13 +21,16 @@
 3. [[Set Interface]]
 4. [[SortedSet Interface]]
 5. [[List Interface]]
-6. [[ListIterator]]
-7. [[Queue Interface]]
-8. [[Deque Interface]]
-9. [[Map Interface]]
-10. [[SortedMap Interface]]
+6. [[Collections class]]
+7. [[ListIterator]]
+8. [[Queue Interface]]
+9. [[Deque Interface]]
+10. [[Map Interface]]
+11. [[SortedMap Interface]]
 
 ### Java Classes:
+[[Java Classes|Link to the tag]]
+
 1. [[Class]]
 2. [[Access Modifiers]]
 

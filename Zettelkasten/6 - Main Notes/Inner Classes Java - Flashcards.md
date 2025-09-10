@@ -15,7 +15,10 @@ A: Да, может.
 Q: Может ли Inner класс реализовывать абстрактный класс?
 A: Да, может.
 
-Q: Можно ли создать объект класса A.Inner в ChildDiffrPackage? Почему?
+Q: Имеет ли Inner класс доступ к private переменным Enclosing класса?
+A: Да, имеет.
+
+Q: Можно ли создать объект класса A.Inner в DiffrPackageChild? Почему?
 ```java
 package package_one;  
   
@@ -75,7 +78,10 @@ public class DiffrPackageChild extends A {
 ```
 
 Q: Какой модификатор доступа имеет default конструктор Inner класса?
-A: 
+A: Тако же как и сам Inner класс, только он считается относительно Inner класса:
+Если Inner класс объявлен как protected, то его конструктор тоже будет protected => создать Inner класс (вызвать его default конструктор) мы сможем только в том же пакете или В НАСЛЕДНИКАХ именно Inner класса.
+
+Q: Создастся ли корректно inner класс при таком вызове в классе SamePackageNonChild того же пакета:
 ```java
 package package_one;  
   
@@ -98,12 +104,14 @@ public class A {
     }  
 } 
   
-public class SamePackageChild {  
+public class SamePackageNonChild {  
 	public void someMethod(){
 		A.Inner inner = new A().new Inner();
 	}
 }
 ```
+A: Да, `A.Inner` виден, т.к. у класса Inner модификатор no modifier (package-private), конструктор Inner тоже будет виден, т.к. он наследует package-private modifier класса. 
+(Но он считается относительно Inner класса, здесь их область видимости совпала, т.к. оба в одном пакете (а как иначе?:)) и обоих (и у member класса, и у конструктора member класса) package-private modifier)  
 
 
 Q: Создастся ли корректно inner класс при таком вызове в наследнике A того же пакета:
@@ -146,7 +154,7 @@ class NonChildSamePackage{
 ```
 A: Да, т.к protected позволяет "видеть" метод, поле, inner/nested класс везде SAME PACKAGE + наследниках Outer класса даже в Different Package.
 
-Q: Возникнут ли ошибки при создании экземпляров наследнико inner класса?
+Q: Возникнут ли ошибки при создании экземпляров наследников inner класса?
 ```java
 package package_one;
 
@@ -170,9 +178,9 @@ class AnotherClass{
 	}
 }
 ```
-A: Да, возникнут, т.к. мы не сможем унаследовать Outer.Inner в классе SomeClass, т.к. он в другом пакете.
+A: Да, возникнут, т.к. мы не сможем унаследовать Outer.Inner в классе SomeClass, т.к. он в другом пакете. (Область видимости member класса Inner - только в пакете `package_one` и наследниках `Outer` => мы не видим класс Outer.Inner => не можем его унаследовать)
 
-Q: Возникнут ли ошибки при создании экземпляров наследнико inner класса?
+Q: Возникнут ли ошибки при создании экземпляров наследников inner класса?
 ```java
 package package_one;
 
@@ -190,13 +198,25 @@ class SomeClass extends Outer{
 package package_two;
 class AnotherClass{
 	public void createInner(){
-		SomeClass inner1 = new SomeClass().new Inner();
+		SomeClass.Inner inner1 = new SomeClass().new Inner();
 		SomeClass.Inner inner2 = new Child();
 		Outer.Inner inner3 = new Child();
 	}
 }
 ```
-A: Возникнет ошибка в строке `SomeClass inner1 = new SomeClass().new Inner();` т.к. в классе SomeClass не доступен конструктор Inner() (т.к. он protected относительно класса Inner, а SomeClass - не подкласс Inner). Однако сам класс Inner он видит и в строчке `SomeClass.Inner inner2 = new SomeClass();` ошибки не возникнет.
+A: Возникнет ошибка в строке `SomeClass.Inner inner1 = new SomeClass().new Inner();` т.к. в классе SomeClass не доступен конструктор Inner() (т.к. он protected относительно класса Inner, а SomeClass - не подкласс Inner). Однако сам класс Inner он видит и в строчке `SomeClass.Inner inner2 = new SomeClass();` ошибки не возникнет.
+>Доступ к полям `x, y, z` из Point4d запрещен, но они в нем есть:
+>```
+>SomeClass
+>[Inner] - available 
+>[Child] - available
+>
+> SomeClass.Inner
+> [Inner()] - restricted, т.к. он не наследует Inner, а конструктор вне пакета виден только наследникам
+>
+>SomeClass.Child
+>[Child()] - available (has package-private modifier) 
+>```
 
 Q: Какие классы могут унаследовать Inner класс?
 A: 1. Можно наследовать внутри других классов наследников Enclosing class, где позволяет видимость
@@ -248,3 +268,9 @@ public class SubInner extends Outer.Inner {
     }
 }
    ```
+
+Q: Можно ли объявлять константы в inner классе?
+A: Да, в inner классе можно объявлять константы (в любой версии Java)
+
+Q: Может ли Inner класс иметь static переменные и static initializer block?
+A: Да, может, но только начиная с версии Java 16 SE.

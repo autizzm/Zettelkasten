@@ -41,6 +41,7 @@ List<String> list = new ArrayList<>(c);
 - ~={green}clear()=~ - очищает коллекцию
 
 ##### Bulk operations:
+==(бульк оперэйшнс)==
 
 - *boolean*  ~={green}addAll(`Collection<E> coll`)=~ - добавит все элементы из коллекции `coll`; ~={orange}returns true -  if this collection changed as a result of the call=~
 - *boolean*  ~={green}containsAll(`Collection<E> coll`) =~- вернет true, если в коллекции есть все элементы коллекции coll
