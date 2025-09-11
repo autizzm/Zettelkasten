@@ -33,9 +33,20 @@
 
 1. [[Class]]
 2. [[Access Modifiers]]
+3. [[Member Classes Java]]
+4. [[Inner Classes Java]]
+5. [[Static Nested Classes Java]]
+6. [[Local classes Java]]
+7. [[Anonymous classes Java]]
+
+## Interfaces:
+[[Interfaces Java|Link to the tag]]
+
+1. [[Interface Java]]
 
 ### Small important moments
 1. [[Неизменяемость наследников Number]]
 2. [[Передача по значению в Java]]
 3. [[Редкие модификаторы Java]]
 4. [[Effectively final - Java]]
+5. [[Fully qualified vs Simple name - Java]]

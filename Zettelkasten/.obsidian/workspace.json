@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9e73734335152b29",
+        "id": "b1eab14fe3143efa",
         "type": "tabs",
         "children": [
           {
-            "id": "b9c0e96d49eddb55",
+            "id": "8078eced4da510c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Access Modifier Flashcards.md",
+                "file": "3 - Tags/Java Classes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Access Modifier Flashcards"
+              "title": "Java Classes"
             }
           },
           {
-            "id": "a6dfbdcaac8f35be",
+            "id": "2062f57e7fdebdd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Local classes Java.md",
+                "file": "4 - Indexes/Java Core.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Local classes Java"
+              "title": "Java Core"
             }
           },
           {
-            "id": "367aa696e6c5dbd7",
+            "id": "c01b1e7b27433636",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Effectively final - Java.md",
+                "file": "6 - Main Notes/Fully qualified vs Simple name - Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,23 +76,71 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Effectively final - Java"
+              "title": "Fully qualified vs Simple name - Java"
+            }
+          },
+          {
+            "id": "11ad2cf219803f42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Local classes Java - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Local classes Java - Flashcards"
+            }
+          },
+          {
+            "id": "6de4c9cdd0b9d57c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Anonymous classes Java Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Anonymous classes Java Flashcards"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
-        "id": "196691a3e0a9643d",
+        "id": "bfe68768ece62b00",
         "type": "tabs",
         "children": [
           {
-            "id": "4b3ed3e754b962e6",
+            "id": "a9d0c443c4bf861d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Class.md",
+                "file": "6 - Main Notes/Interface Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -107,16 +155,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Class"
+              "title": "Interface Java"
             }
           },
           {
-            "id": "a576b34d42f24f0d",
+            "id": "12d64754bfb86098",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Effectively final - Java - Flashcards.md",
+                "file": "6 - Main Notes/Member Classes Java Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -131,11 +179,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Effectively final - Java - Flashcards"
+              "title": "Member Classes Java Flashcards"
             }
           },
           {
-            "id": "d39493f779a5c780",
+            "id": "15acfaad17d7c5c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,12 +207,12 @@
             }
           },
           {
-            "id": "db014163606a9f4d",
+            "id": "fb37b30b025cc927",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Inner Classes Java.md",
+                "file": "6 - Main Notes/Anonymous classes Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -179,16 +227,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Inner Classes Java"
+              "title": "Anonymous classes Java"
             }
           },
           {
-            "id": "ccf7994060c3fa69",
+            "id": "9c3457c3c22dfc69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Неизменяемость наследников Number.md",
+                "file": "6 - Main Notes/Obsidian Markdown example.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -203,11 +251,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Неизменяемость наследников Number"
+              "title": "Obsidian Markdown example"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -356,34 +403,38 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "d39493f779a5c780",
+  "active": "a9d0c443c4bf861d",
   "lastOpenFiles": [
-    "6 - Main Notes/Effectively final - Java.md",
-    "6 - Main Notes/Local classes Java.md",
-    "6 - Main Notes/Effectively final - Java - Flashcards.md",
     "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Member Classes Java.md",
-    "6 - Main Notes/Member Classes Java Flashcards.md",
-    "6 - Main Notes/Inner Classes Java.md",
-    "6 - Main Notes/Static Nested Classes Java.md",
-    "6 - Main Notes/Fully qualified vs Simple name - Java.md",
-    "4 - Indexes/Obsidian Features.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Неизменяемость наследников Number.md",
-    "6 - Main Notes/Access Modifiers.md",
+    "6 - Main Notes/Interface Java.md",
+    "3 - Tags/Interfaces Java.md",
     "3 - Tags/Java Classes.md",
+    "6 - Main Notes/Member Classes Java Flashcards.md",
+    "6 - Main Notes/Local classes Java - Flashcards.md",
+    "6 - Main Notes/Member Classes Java.md",
+    "6 - Main Notes/Anonymous classes Java Flashcards.md",
+    "6 - Main Notes/Local classes Java.md",
+    "6 - Main Notes/Anonymous classes Java.md",
+    "6 - Main Notes/Fully qualified vs Simple name - Java.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "4 - Indexes/Obsidian Features.md",
+    "1 - Rough notes/СиТИОД - 2.md",
+    "2 - Source Materials/Pasted image 20250910193818.png",
+    "2 - Source Materials/Pasted image 20250905134155.png",
+    "2 - Source Materials/Pasted image 20250904144918.png",
+    "Pasted image 20250910193738.png",
+    "6 - Main Notes/Effectively final - Java.md",
+    "6 - Main Notes/Неизменяемость наследников Number.md",
+    "6 - Main Notes/Inner Classes Java.md",
+    "6 - Main Notes/Effectively final - Java - Flashcards.md",
+    "6 - Main Notes/Class.md",
+    "6 - Main Notes/Static Nested Classes Java.md",
+    "6 - Main Notes/Access Modifiers.md",
     "6 - Main Notes/Static Nested Classes Java - Flashcards.md",
     "6 - Main Notes/Inner Classes Java - Flashcards.md",
-    "6 - Main Notes/Class.md",
     "6 - Main Notes/Class Flashcards.md",
     "6 - Main Notes/Access Modifier Flashcards.md",
     "6 - Main Notes/Теоремы сложения и умножения вероятностей.md",
-    "6 - Main Notes/События.md",
-    "6 - Main Notes/Ресурсы (факторы) производства Flashcards.md",
-    "6 - Main Notes/Ресурсы (факторы) производства.md",
-    "6 - Main Notes/Редкие модификаторы Java.md",
-    "6 - Main Notes/Редкие модификаторы Java - Flashcards.md",
-    "6 - Main Notes/Пирамида Маслоу.md",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
     "2 - Source Materials/formuly_kombinatoriki.pdf",
@@ -393,12 +444,8 @@
     "2 - Source Materials/IMG_20250906_124745 (1).jpg",
     "2 - Source Materials/func_rasp_and_func_plotn_rasp.jpg",
     "2 - Source Materials/assim_ekscess.png",
-    "2 - Source Materials/func_rasp_func_plotn_rasp.jpg",
-    "2 - Source Materials/IMG_20250906_125022.jpg",
-    "2 - Source Materials/IMG_20250906_124745.jpg",
     "Notes",
     "2 - Source Materials/Unconfirmed 402933.crdownload",
-    "Pasted image 20250905134155.png",
     "desktop.ini",
     "7 -CSS Snippets",
     "6 - Main Notes",

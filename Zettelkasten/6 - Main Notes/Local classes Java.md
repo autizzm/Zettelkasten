@@ -8,20 +8,26 @@ Tags: [[Java Core]] [[Java Classes]]
 ---
 # Local classes Java
 
-Local class - класс, поределенный в блоке (метод, конструктор,if-else, for, while,...) внешнего класса.
+Local class - класс, определенный в блоке (метод, конструктор,if-else, for, while,...) внешнего класса.
 
 >[!warning]
->Имеет доступ к полям внешнего класса
+>- Имеет доступ к полям внешнего класса. 
+>
+>- Имеет доступ только к [[Effectively final - Java|effectively final]] переменным из scope определния (блока кода, где Local класс определен)
+
+
 
 > [!note]
 > 1. Не могут быть static
 > 2. Не могут иметь acess modifier
 
 
+
+
 >[!note]
->Локальными могут быть и ~={yellow}Enum=~ классы и ~={yellow}record=~ классы и ~={yellow}Интерфейсы=~: они неявно ~={orange}static=~ -> не имеют доступа к полям Enclosing класса.
+>Локальными могут быть и ~={green}Enum=~ классы и ~={green}record=~ классы и ~={green}Интерфейсы=~: они неявно ~={orange}static=~ -> не имеют доступа к полям Enclosing класса.
 >
->Но ~={yellow}обычные local классы=~ - ~={orange}НЕ static=~ -> поэтому имеют доступ к полям Enclosing класса
+>Но ~={green}обычные local классы=~ - ~={orange}НЕ static=~ -> поэтому имеют доступ к полям Enclosing класса
 
 Local class или local interface - не является частью пакета, Enclosing класса или интерфейса.
 
@@ -49,7 +55,8 @@ class Global {
             class Local {} // compile-time error
             class AnotherLocal {
                 void bar() {
-                    class Local {} // ok
+                    class Local {} // ok deeper nested classes 
+                    // are not considered a part of the outer scope
                 }
             }
         }
@@ -58,17 +65,20 @@ class Global {
 }
 ```
 
-Q: Что будет, если к effectively final переменной при инициализации добавить модификатор final?
-A: Ничего, она станет явно final.
 
-Q: Что произойдет, если у final переменной убрать модификатор final? Можно ли будет использовать такую переменную там, где можно получать доступ только к final переменным (например, в local классе или лямбда выражениях)?
-A: Эта переменная станет effectively final и всё так же её можно будет использовать там, где можно использовать только final.
+## Ещё моменты:
+
+>[!note] **static members**
+> В локальных классах **~={red}могут быть=~** static поля, методы, static initializer block (короче static members) - ~={red}**начиная с версии Java 16 SE**=~
 
 ----
-#### [[ |Link to flashcards]]
+#### [[Local classes Java - Flashcards|Link to flashcards]]
 
 
 
 ---
 ### References:
 
+- [[Member Classes Java]]
+- [[Inner Classes Java]]
+- [[Anonymous classes Java]]
