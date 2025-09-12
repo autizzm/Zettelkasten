@@ -79,6 +79,23 @@ class Circle{
 }
 ```
 
+
+## Инициализация класса:
+
+[[Detailed Initialization Procedure - Java|Порядок инициализации]]
+
+> [!warning] **Инициализация зависимостей**
+> Первым делом рекурсивно инициализируется суперкласс и все суперинтерфейсы с default-методами
+
+
+> [!note] **Константы инициализируются первыми**
+> Константы инициализируются перед простыми static final полями интерфейса.
+> ([[Initializer; constants & just static finals - Java|Разница между static final и константами]])
+
+
+> [!warning] **Клас инициализируется ==lazily==**
+> [[Initializer; constants & just static finals - Java|Инициализаторы]] выполняются только при первом вызове static переменной класса.
+
 ----
 #### [[Class Flashcards|Link to flashcards]]
 
@@ -88,4 +105,4 @@ class Circle{
 ### References:
 
 - [[Access Modifiers]]
-- 
+- [[Жизненный цикл класса Java]]

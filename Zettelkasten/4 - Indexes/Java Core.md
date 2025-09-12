@@ -6,6 +6,7 @@
 2. [[String Java]]
 3. [[StringBuilder Java]]
 4. [[Number classes Java]]
+5. [[Boolean wrapper class Java]]
 
 #### Other topics:
 1. [[Math Java]]
@@ -44,9 +45,20 @@
 
 1. [[Interface Java]]
 
+
+### Under the hood
+[[Under the hood - Java|Link to the tag]]
+
+1. [[Жизненный цикл класса Java]]
+2. [[Detailed Initialization Procedure - Java]]
+    - [[clinit method - Java]]
+
 ### Small important moments
 1. [[Неизменяемость наследников Number]]
 2. [[Передача по значению в Java]]
 3. [[Редкие модификаторы Java]]
 4. [[Effectively final - Java]]
 5. [[Fully qualified vs Simple name - Java]]
+6. [[Initializer; constants & just static finals - Java]]
+7. [[assert Java]]
+8. 
