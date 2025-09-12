@@ -24,7 +24,7 @@ Tags: [[Java Core]] [[Interfaces Java]]
 
 ## Поля
 
-Все поля в интерфейсе по умолчанию `public static final` - ~={red}константы=~
+Все поля в интерфейсе по умолчанию `public static final`
 
 
 ## Nested members
@@ -65,4 +65,5 @@ Tags: [[Java Core]] [[Interfaces Java]]
 
 ---
 ### References:
+- [[Наследование интерфейсов Java]]
 

@@ -89,7 +89,7 @@
     "6 - Main Notes/StringBuilder Java Flashcards.md": "a60fd8c53f96c393c625d77ac5c7257c",
     "6 - Main Notes/String Java Flashcards.md": "d8d7d625f4de4ed31795d918e24337d0",
     "6 - Main Notes/StringBuilder Java.md": "99c966c27f90051ee7b7090bb9778b36",
-    "4 - Indexes/Java Core.md": "4cc72abbee0713021eae82fd3d1e6592",
+    "4 - Indexes/Java Core.md": "2c300c1337ff3a09d6bff436a255590f",
     "3 - Tags/Java data types.md": "d41d8cd98f00b204e9800998ecf8427e",
     "6 - Main Notes/Number classes Java Flashcards.md": "9af5d22b6c230d565efd6d7a335abe04",
     "6 - Main Notes/Number classes Java.md": "afaf17ef18b7740c8e1ee7d5e37f86dc",
@@ -187,14 +187,17 @@
     "6 - Main Notes/clinit method - Java.md": "b5c75686b2a87b18ec1563f1e44ecf9a",
     "6 - Main Notes/Initializer; constants & just static finals- Java.md": "09995bbee31b4e270ed635b9fc9bd5fb",
     "6 - Main Notes/Жизненный цикл класса Java.md": "f977507fdb05a90b3591a69194416179",
-    "6 - Main Notes/Interface Java.md": "d5c9ce76f29fd2d74cc59bd77d3f2208",
-    "3 - Tags/Under the hood - Java.md": "36d141e9441773c10cfe304c1cf942d8",
+    "6 - Main Notes/Interface Java.md": "79ad10f9e94605a9da4155db3701052f",
+    "3 - Tags/Under the hood - Java.md": "b596a791b368ac8edc61c661c5fec4df",
     "3 - Tags/Interfaces Java.md": "7e73d89b8dfdc47a2f85637e94d7cf01",
     "6 - Main Notes/clinit method - Java - Flashcards.md": "2311dd1506894353d2f5463827b7ea31",
     "6 - Main Notes/Жизненный цикл класса Java - Flashcards.md": "6132d091f96e38ab4e90952eb07ed000",
     "6 - Main Notes/Initializer; constants & just static finals - Java - Flashcards.md": "1bfbaf0bf79705d6150be998fa58c1f5",
     "6 - Main Notes/Initializer; constants & just static finals - Java.md": "3c450bba1859424484e552d12e506643",
-    "6 - Main Notes/assert Java - Flashcards.md": "d80f6eec74cd7870130b906b04e51cfa"
+    "6 - Main Notes/assert Java - Flashcards.md": "d80f6eec74cd7870130b906b04e51cfa",
+    "6 - Main Notes/Interface Java - Flashcards.md": "a87e5cbb3fa379eae9204d10a4266b67",
+    "6 - Main Notes/Наследование интерфейсов Java - Flashcards.md": "9eaa93da697d632b596146177c660619",
+    "6 - Main Notes/Наследование интерфейсов Java.md": "a71763e6576b695c4693b669892c5f91"
   },
   "fields_dict": {
     "Basic": [

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Interface Java.md",
+                "file": "6 - Main Notes/Наследование интерфейсов Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Interface Java"
+              "title": "Наследование интерфейсов Java"
             }
           },
           {
@@ -157,6 +157,30 @@
         "id": "bfe68768ece62b00",
         "type": "tabs",
         "children": [
+          {
+            "id": "32dd144cfdbdd4bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Наследование интерфейсов Java - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Наследование интерфейсов Java - Flashcards"
+            }
+          },
           {
             "id": "ca1a1abf5b9228c5",
             "type": "leaf",
@@ -325,8 +349,7 @@
               "title": "Obsidian Markdown example"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -475,13 +498,15 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "b375f43dee42b5a9",
+  "active": "32dd144cfdbdd4bd",
   "lastOpenFiles": [
+    "6 - Main Notes/Наследование интерфейсов Java.md",
+    "6 - Main Notes/Наследование интерфейсов Java - Flashcards.md",
     "6 - Main Notes/Interface Java.md",
+    "6 - Main Notes/Interface Java - Flashcards.md",
     "4 - Indexes/Java Core.md",
     "6 - Main Notes/clinit method - Java.md",
     "6 - Main Notes/Initializer; constants & just static finals - Java.md",
-    "6 - Main Notes/Interface Java - Flashcards.md",
     "3 - Tags/Under the hood - Java.md",
     "6 - Main Notes/assert Java.md",
     "6 - Main Notes/assert Java - Flashcards.md",
@@ -501,8 +526,6 @@
     "6 - Main Notes/Member Classes Java.md",
     "6 - Main Notes/Member Classes Java Flashcards.md",
     "6 - Main Notes/Local classes Java.md",
-    "3 - Tags/Interfaces Java.md",
-    "6 - Main Notes/Local classes Java - Flashcards.md",
     "2 - Source Materials/Pasted image 20250910193818.png",
     "2 - Source Materials/Pasted image 20250905134155.png",
     "2 - Source Materials/Pasted image 20250904144918.png",
