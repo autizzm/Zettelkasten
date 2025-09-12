@@ -49,11 +49,12 @@
 ### Under the hood
 [[Under the hood - Java|Link to the tag]]
 
-1. [[Жизненный цикл класса Java]]
-2. [[Detailed Initialization Procedure - Java]]
+1. [[Detailed Initialization Procedure - Java]]
     - [[clinit method - Java]]
 
 ### Small important moments
+[[Small Important Moments Java|Link to the tag]]
+
 1. [[Неизменяемость наследников Number]]
 2. [[Передача по значению в Java]]
 3. [[Редкие модификаторы Java]]

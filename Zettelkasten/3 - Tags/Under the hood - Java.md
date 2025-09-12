@@ -1,5 +1,5 @@
+index: [[Java Core]]
 
-1. [[Жизненный цикл класса Java]]
-2. [[Detailed Initialization Procedure - Java]]
+1. [[Detailed Initialization Procedure - Java]]
     - [[clinit method - Java]]
     - 

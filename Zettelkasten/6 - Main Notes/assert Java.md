@@ -93,6 +93,8 @@ assert x >= 0 : "x must be non-negative";
 
 # Как включать/отключать assertions
 
+~={red}!!!!=~ ~={yellow}JVM хранит флаг **«assertions enabled/disabled for this class»** в **метаданных класса** (в его `Class` объекте).=~ ~={red}!!!!=~
+
 Есть **несколько способов**:
 
 **a) Параметры запуска JVM (наиболее часто).**
@@ -131,7 +133,7 @@ API `ClassLoader` предоставляет методы:
     Замечание: эти установки **не влияют** на уже инициализированные классы (т. е. если класс уже инициализирован, поменять статус для него нельзя). [cr.openjdk.org](https://cr.openjdk.org/~jlaskey/templates/docs/api/java.base/java/lang/ClassLoader.html?utm_source=chatgpt.com)
 
 ----
-#### [[ |Link to flashcards]]
+#### [[assert Java - Flashcards|Link to flashcards]]
 
 
 

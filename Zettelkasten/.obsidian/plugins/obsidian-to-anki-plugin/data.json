@@ -89,7 +89,7 @@
     "6 - Main Notes/StringBuilder Java Flashcards.md": "a60fd8c53f96c393c625d77ac5c7257c",
     "6 - Main Notes/String Java Flashcards.md": "d8d7d625f4de4ed31795d918e24337d0",
     "6 - Main Notes/StringBuilder Java.md": "99c966c27f90051ee7b7090bb9778b36",
-    "4 - Indexes/Java Core.md": "8eff3d67d1e55907508b6f59d1d7e0dd",
+    "4 - Indexes/Java Core.md": "4cc72abbee0713021eae82fd3d1e6592",
     "3 - Tags/Java data types.md": "d41d8cd98f00b204e9800998ecf8427e",
     "6 - Main Notes/Number classes Java Flashcards.md": "9af5d22b6c230d565efd6d7a335abe04",
     "6 - Main Notes/Number classes Java.md": "afaf17ef18b7740c8e1ee7d5e37f86dc",
@@ -136,7 +136,7 @@
     "6 - Main Notes/Неизменяемость наследников Number.md": "672ffe8ea65acec30e8fdd674c67f112",
     "6 - Main Notes/Class Flashcards.md": "b69ff794efb3899f8096b14df8ff18b9",
     "6 - Main Notes/Class.md": "88ce1ccfddeb10f8b88aea6b7d2ff0e5",
-    "3 - Tags/Small Important Moments Java.md": "de8551d40d746f567a164662342221fc",
+    "3 - Tags/Small Important Moments Java.md": "77a9de48cbbe0827d5cc6a6d0ec5eff0",
     "3 - Tags/Java Classes.md": "1827d17c12eb40d02c4f1685c102de9b",
     "6 - Main Notes/Notes.md": "709bcc4c027e650a9722f30980615f1a",
     "6 - Main Notes/Ресурсы (факторы) производства.md": "8b2e45cc3b25ff5849d2cf3083546537",
@@ -181,7 +181,7 @@
     "6 - Main Notes/Local classes Java - Flashcards.md": "b0598575b13cd1b01e6c04380c99a363",
     "6 - Main Notes/Anonymous classes Java Flashcards.md": "e88266d499f80a7c2349f980727a2f7c",
     "6 - Main Notes/Detailed Initialization Procedure - Java - Flashcards.md": "382a08581f1d53b8d9194c2a5d25a174",
-    "6 - Main Notes/assert Java.md": "c802d53b092b7c2b1dd686ba2667b4b3",
+    "6 - Main Notes/assert Java.md": "c0a6645b9e62cec34b34879c4742ba05",
     "6 - Main Notes/Boolean wrapper class Java.md": "944fbbd217703ab126cc4a7b3013ffb7",
     "6 - Main Notes/Detailed Initialization Procedure - Java.md": "449a858a1eedeeb44a39a82fc0162470",
     "6 - Main Notes/clinit method - Java.md": "b5c75686b2a87b18ec1563f1e44ecf9a",
@@ -193,7 +193,8 @@
     "6 - Main Notes/clinit method - Java - Flashcards.md": "2311dd1506894353d2f5463827b7ea31",
     "6 - Main Notes/Жизненный цикл класса Java - Flashcards.md": "6132d091f96e38ab4e90952eb07ed000",
     "6 - Main Notes/Initializer; constants & just static finals - Java - Flashcards.md": "1bfbaf0bf79705d6150be998fa58c1f5",
-    "6 - Main Notes/Initializer; constants & just static finals - Java.md": "2fa921e40fc3cc2fcb4f8f0273497086"
+    "6 - Main Notes/Initializer; constants & just static finals - Java.md": "3c450bba1859424484e552d12e506643",
+    "6 - Main Notes/assert Java - Flashcards.md": "d80f6eec74cd7870130b906b04e51cfa"
   },
   "fields_dict": {
     "Basic": [

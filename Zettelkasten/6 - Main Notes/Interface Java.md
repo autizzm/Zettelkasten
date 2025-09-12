@@ -59,7 +59,7 @@ Tags: [[Java Core]] [[Interfaces Java]]
 
 
 ----
-#### [[ |Link to flashcards]]
+#### [[Interface Java - Flashcards|Link to flashcards]]
 
 
 
