@@ -72,7 +72,7 @@
     "6 - Main Notes/Effective Tagging.md": "d2736e96bc24a2b8a8868fcbfaf72a77",
     "6 - Main Notes/Hotkeys.md": "bca46dda0f839ab83614c778ee17c526",
     "3 - Tags/Test tag.md": "130b04795a5868a5e0b840ae324b8816",
-    "5 - Templates/Full Note.md": "35c82973b58ef02a9aefa2e78062cdb9",
+    "5 - Templates/Full Note.md": "bfaeabc1ac3aae82340d33cc99d460c3",
     "1 - Rough notes/Test Anki Flashcards.md": "ca36646fa7ff4472aff1d06e592038bb",
     "1 - Rough notes/Why use Notes as Tags.md": "68d110418e5ae211e9da2ce31d484ce0",
     "1 - Rough notes/What is Source Materials Folder for.md": "0e9e5e0fa87da6a7eff45deebce402c0",
@@ -201,11 +201,17 @@
     "6 - Main Notes/Literals - SQL - Flashcards.md": "69d4829f1dd72f77a8720b37a77e46d8",
     "6 - Main Notes/Literals - SQL.md": "ba77eef34ea074fe5cf9f6e402ff17ed",
     "6 - Main Notes/SELECT - SQL.md": "9d121f7ff8647add99944b13ec78b68c",
-    "4 - Indexes/SQL.md": "3b3b8de0fb88b0fb1b4911d6236bb058",
+    "4 - Indexes/SQL.md": "855a3983a80e5bcb517375f6bf5e0fb1",
     "6 - Main Notes/Built-in functions - SQL - Flashcards.md": "6535902b7a33b5f06d2882dc867f4072",
     "6 - Main Notes/Built-in functions - SQL.md": "ba2ae3de87e43cf433fafc0b72041538",
     "6 - Main Notes/DISTINCT - SQL - Flashcards.md": "212acc07747db1014d714b1fcb63ad90",
-    "6 - Main Notes/DISTINCT - SQL.md": "d0689483a2b830cd26aee1a1b96348ee"
+    "6 - Main Notes/DISTINCT - SQL.md": "d0689483a2b830cd26aee1a1b96348ee",
+    "6 - Main Notes/WHERE - SQL - Flashcards.md": "a2f9b71f0732e7bfd2efa5aac3d31634",
+    "6 - Main Notes/WHERE - SQL.md": "5990a1d6ed889ef7752488bde40cf4bc",
+    "6 - Main Notes/Other Logical Operators - SQL - Flashcards.md": "c8fde0ad98fc4a74fe116eb50e2c8e1f",
+    "6 - Main Notes/Other Logical Operators - SQL.md": "1dea87d6b2c0b5203ceda143ffb4ba16",
+    "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md": "b0dd9190588671db6da49bd50a34bc76",
+    "6 - Main Notes/Basic Logical Operators - SQL.md": "290888c7aaf673d69a915ecbb25ca7c4"
   },
   "fields_dict": {
     "Basic": [

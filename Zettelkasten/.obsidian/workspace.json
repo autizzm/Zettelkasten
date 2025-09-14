@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/DISTINCT - SQL.md",
+                "file": "6 - Main Notes/Other Logical Operators - SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,22 +28,46 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DISTINCT - SQL"
+              "title": "Other Logical Operators - SQL"
+            }
+          },
+          {
+            "id": "e1ffdf19ab6643b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/WHERE - SQL - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "WHERE - SQL - Flashcards"
             }
           }
         ]
       },
       {
-        "id": "8d4f0cceea461644",
+        "id": "eb74631df3751f69",
         "type": "tabs",
         "children": [
           {
-            "id": "79ffc899a3941941",
+            "id": "66e71b1478dcaf2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/DISTINCT - SQL - Flashcards.md",
+                "file": "6 - Main Notes/Other Logical Operators - SQL - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -58,7 +82,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DISTINCT - SQL - Flashcards"
+              "title": "Other Logical Operators - SQL - Flashcards"
             }
           }
         ]
@@ -211,17 +235,26 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "73a10e7bdd7b95fa",
+  "active": "66e71b1478dcaf2a",
   "lastOpenFiles": [
-    "6 - Main Notes/DISTINCT - SQL - Flashcards.md",
-    "6 - Main Notes/DISTINCT - SQL.md",
+    "6 - Main Notes/Other Logical Operators - SQL.md",
+    "6 - Main Notes/Other Logical Operators - SQL - Flashcards.md",
+    "5 - Templates/Full Note.md",
+    "5 - Templates/Flashcards Note.md",
+    "6 - Main Notes/WHERE - SQL - Flashcards.md",
     "4 - Indexes/SQL.md",
+    "6 - Main Notes/WHERE - SQL.md",
+    "6 - Main Notes/Basic Logical Operators - SQL.md",
+    "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "4 - Indexes/Obsidian Features.md",
+    "6 - Main Notes/DISTINCT - SQL.md",
+    "6 - Main Notes/DISTINCT - SQL - Flashcards.md",
     "6 - Main Notes/Built-in functions - SQL.md",
     "6 - Main Notes/Built-in functions - SQL - Flashcards.md",
     "6 - Main Notes/Literals - SQL.md",
     "6 - Main Notes/Literals - SQL - Flashcards.md",
     "6 - Main Notes/SELECT - SQL.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
     "6 - Main Notes/Class.md",
     "6 - Main Notes/Interface Java.md",
     "6 - Main Notes/assert Java.md",
@@ -230,15 +263,6 @@
     "6 - Main Notes/Наследование интерфейсов Java - Flashcards.md",
     "6 - Main Notes/Наследование интерфейсов Java.md",
     "4 - Indexes/Java Core.md",
-    "6 - Main Notes/clinit method - Java.md",
-    "6 - Main Notes/Initializer; constants & just static finals - Java.md",
-    "3 - Tags/Under the hood - Java.md",
-    "3 - Tags/Small Important Moments Java.md",
-    "6 - Main Notes/Fully qualified vs Simple name - Java.md",
-    "6 - Main Notes/Effectively final - Java.md",
-    "6 - Main Notes/Initializer; constants & just static finals - Java - Flashcards.md",
-    "6 - Main Notes/Detailed Initialization Procedure - Java - Flashcards.md",
-    "6 - Main Notes/Detailed Initialization Procedure - Java.md",
     "2 - Source Materials/Pasted image 20250910193818.png",
     "2 - Source Materials/Pasted image 20250905134155.png",
     "2 - Source Materials/Pasted image 20250904144918.png",

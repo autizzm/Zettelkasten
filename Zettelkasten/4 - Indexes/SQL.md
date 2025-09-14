@@ -3,3 +3,6 @@
 2. [[Literals - SQL]]
 3. [[Built-in functions - SQL]]
 4. [[DISTINCT - SQL]]
+5. [[WHERE - SQL]]
+	- [[Basic Logical Operators - SQL]] 
+	- [[Other Logical Operators - SQL]]

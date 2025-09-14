@@ -10,7 +10,7 @@ Tags:
 
 
 ----
-#### [[ |Link to flashcards]]
+#### [[{{Title}} - Flashcards|Link to flashcards]]
 
 
 
