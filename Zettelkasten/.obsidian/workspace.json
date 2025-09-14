@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b1eab14fe3143efa",
+        "id": "a6b501270c20270e",
         "type": "tabs",
         "children": [
           {
-            "id": "8078eced4da510c9",
+            "id": "73a10e7bdd7b95fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Наследование интерфейсов Java.md",
+                "file": "6 - Main Notes/DISTINCT - SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,142 +28,22 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Наследование интерфейсов Java"
-            }
-          },
-          {
-            "id": "16dadefc596d79a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Detailed Initialization Procedure - Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Detailed Initialization Procedure - Java"
-            }
-          },
-          {
-            "id": "3ec77c93b4cfe982",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Tags/Under the hood - Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Under the hood - Java"
-            }
-          },
-          {
-            "id": "c01b1e7b27433636",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Fully qualified vs Simple name - Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fully qualified vs Simple name - Java"
-            }
-          },
-          {
-            "id": "11ad2cf219803f42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Local classes Java - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Local classes Java - Flashcards"
-            }
-          },
-          {
-            "id": "6de4c9cdd0b9d57c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Anonymous classes Java Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Anonymous classes Java Flashcards"
+              "title": "DISTINCT - SQL"
             }
           }
         ]
       },
       {
-        "id": "bfe68768ece62b00",
+        "id": "8d4f0cceea461644",
         "type": "tabs",
         "children": [
           {
-            "id": "32dd144cfdbdd4bd",
+            "id": "79ffc899a3941941",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Наследование интерфейсов Java - Flashcards.md",
+                "file": "6 - Main Notes/DISTINCT - SQL - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -178,175 +58,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Наследование интерфейсов Java - Flashcards"
-            }
-          },
-          {
-            "id": "ca1a1abf5b9228c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Detailed Initialization Procedure - Java - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Detailed Initialization Procedure - Java - Flashcards"
-            }
-          },
-          {
-            "id": "e803ed6f686815e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/assert Java - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "assert Java - Flashcards"
-            }
-          },
-          {
-            "id": "b375f43dee42b5a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Interface Java - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Interface Java - Flashcards"
-            }
-          },
-          {
-            "id": "12d64754bfb86098",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/assert Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "assert Java"
-            }
-          },
-          {
-            "id": "15acfaad17d7c5c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Interface Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Interface Java"
-            }
-          },
-          {
-            "id": "fb37b30b025cc927",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Class.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Class"
-            }
-          },
-          {
-            "id": "9c3457c3c22dfc69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Obsidian Markdown example.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Markdown example"
+              "title": "DISTINCT - SQL - Flashcards"
             }
           }
         ]
@@ -407,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -498,34 +211,34 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "32dd144cfdbdd4bd",
+  "active": "73a10e7bdd7b95fa",
   "lastOpenFiles": [
-    "6 - Main Notes/Наследование интерфейсов Java.md",
-    "6 - Main Notes/Наследование интерфейсов Java - Flashcards.md",
+    "6 - Main Notes/DISTINCT - SQL - Flashcards.md",
+    "6 - Main Notes/DISTINCT - SQL.md",
+    "4 - Indexes/SQL.md",
+    "6 - Main Notes/Built-in functions - SQL.md",
+    "6 - Main Notes/Built-in functions - SQL - Flashcards.md",
+    "6 - Main Notes/Literals - SQL.md",
+    "6 - Main Notes/Literals - SQL - Flashcards.md",
+    "6 - Main Notes/SELECT - SQL.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Class.md",
     "6 - Main Notes/Interface Java.md",
+    "6 - Main Notes/assert Java.md",
     "6 - Main Notes/Interface Java - Flashcards.md",
+    "6 - Main Notes/assert Java - Flashcards.md",
+    "6 - Main Notes/Наследование интерфейсов Java - Flashcards.md",
+    "6 - Main Notes/Наследование интерфейсов Java.md",
     "4 - Indexes/Java Core.md",
     "6 - Main Notes/clinit method - Java.md",
     "6 - Main Notes/Initializer; constants & just static finals - Java.md",
     "3 - Tags/Under the hood - Java.md",
-    "6 - Main Notes/assert Java.md",
-    "6 - Main Notes/assert Java - Flashcards.md",
     "3 - Tags/Small Important Moments Java.md",
     "6 - Main Notes/Fully qualified vs Simple name - Java.md",
     "6 - Main Notes/Effectively final - Java.md",
     "6 - Main Notes/Initializer; constants & just static finals - Java - Flashcards.md",
     "6 - Main Notes/Detailed Initialization Procedure - Java - Flashcards.md",
     "6 - Main Notes/Detailed Initialization Procedure - Java.md",
-    "6 - Main Notes/Жизненный цикл класса Java.md",
-    "6 - Main Notes/Жизненный цикл класса Java - Flashcards.md",
-    "6 - Main Notes/Class.md",
-    "6 - Main Notes/clinit method - Java - Flashcards.md",
-    "3 - Tags/Java Classes.md",
-    "6 - Main Notes/Anonymous classes Java.md",
-    "6 - Main Notes/Boolean wrapper class Java.md",
-    "6 - Main Notes/Member Classes Java.md",
-    "6 - Main Notes/Member Classes Java Flashcards.md",
-    "6 - Main Notes/Local classes Java.md",
     "2 - Source Materials/Pasted image 20250910193818.png",
     "2 - Source Materials/Pasted image 20250905134155.png",
     "2 - Source Materials/Pasted image 20250904144918.png",
