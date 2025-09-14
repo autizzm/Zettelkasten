@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Other Logical Operators - SQL.md",
+                "file": "6 - Main Notes/Sorting, ORDER BY operator - SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Other Logical Operators - SQL"
+              "title": "Sorting, ORDER BY operator - SQL"
+            }
+          },
+          {
+            "id": "fda273e27ca3837f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Basic Logical Operators - SQL - Flashcards"
+            }
+          },
+          {
+            "id": "b36bb536eb439ece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Regular expressions - SQL - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Regular expressions - SQL - Flashcards"
             }
           },
           {
@@ -55,19 +103,20 @@
               "title": "WHERE - SQL - Flashcards"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
-        "id": "eb74631df3751f69",
+        "id": "9f4fa41dc8916b8a",
         "type": "tabs",
         "children": [
           {
-            "id": "66e71b1478dcaf2a",
+            "id": "6c116368bc979125",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Other Logical Operators - SQL - Flashcards.md",
+                "file": "6 - Main Notes/Sorting, ORDER BY operator - SQL - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -82,7 +131,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Other Logical Operators - SQL - Flashcards"
+              "title": "Sorting, ORDER BY operator - SQL - Flashcards"
             }
           }
         ]
@@ -235,17 +284,21 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "66e71b1478dcaf2a",
+  "active": "6c116368bc979125",
   "lastOpenFiles": [
+    "6 - Main Notes/Regular expressions - SQL - Flashcards.md",
+    "6 - Main Notes/Sorting, ORDER BY operator - SQL - Flashcards.md",
+    "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md",
+    "6 - Main Notes/Basic Logical Operators - SQL.md",
+    "4 - Indexes/SQL.md",
     "6 - Main Notes/Other Logical Operators - SQL.md",
     "6 - Main Notes/Other Logical Operators - SQL - Flashcards.md",
+    "6 - Main Notes/Regular expressions - SQL.md",
+    "6 - Main Notes/Sorting, ORDER BY operator - SQL.md",
+    "6 - Main Notes/WHERE - SQL - Flashcards.md",
     "5 - Templates/Full Note.md",
     "5 - Templates/Flashcards Note.md",
-    "6 - Main Notes/WHERE - SQL - Flashcards.md",
-    "4 - Indexes/SQL.md",
     "6 - Main Notes/WHERE - SQL.md",
-    "6 - Main Notes/Basic Logical Operators - SQL.md",
-    "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md",
     "6 - Main Notes/Obsidian Markdown example.md",
     "4 - Indexes/Obsidian Features.md",
     "6 - Main Notes/DISTINCT - SQL.md",
@@ -259,10 +312,6 @@
     "6 - Main Notes/Interface Java.md",
     "6 - Main Notes/assert Java.md",
     "6 - Main Notes/Interface Java - Flashcards.md",
-    "6 - Main Notes/assert Java - Flashcards.md",
-    "6 - Main Notes/Наследование интерфейсов Java - Flashcards.md",
-    "6 - Main Notes/Наследование интерфейсов Java.md",
-    "4 - Indexes/Java Core.md",
     "2 - Source Materials/Pasted image 20250910193818.png",
     "2 - Source Materials/Pasted image 20250905134155.png",
     "2 - Source Materials/Pasted image 20250904144918.png",

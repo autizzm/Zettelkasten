@@ -25,7 +25,8 @@
       "3 - Tags": "",
       "6 - Main Notes": "",
       "2 - Source Materials/eBooks": "",
-      "2 - Source Materials/Website scans": ""
+      "2 - Source Materials/Website scans": "",
+      "Notes": ""
     },
     "FOLDER_TAGS": {
       "2 - Source Materials": "",
@@ -35,7 +36,8 @@
       "3 - Tags": "",
       "6 - Main Notes": "",
       "2 - Source Materials/eBooks": "",
-      "2 - Source Materials/Website scans": ""
+      "2 - Source Materials/Website scans": "",
+      "Notes": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -201,7 +203,7 @@
     "6 - Main Notes/Literals - SQL - Flashcards.md": "69d4829f1dd72f77a8720b37a77e46d8",
     "6 - Main Notes/Literals - SQL.md": "ba77eef34ea074fe5cf9f6e402ff17ed",
     "6 - Main Notes/SELECT - SQL.md": "9d121f7ff8647add99944b13ec78b68c",
-    "4 - Indexes/SQL.md": "855a3983a80e5bcb517375f6bf5e0fb1",
+    "4 - Indexes/SQL.md": "7c666d2ba284a27157603242c62574c3",
     "6 - Main Notes/Built-in functions - SQL - Flashcards.md": "6535902b7a33b5f06d2882dc867f4072",
     "6 - Main Notes/Built-in functions - SQL.md": "ba2ae3de87e43cf433fafc0b72041538",
     "6 - Main Notes/DISTINCT - SQL - Flashcards.md": "212acc07747db1014d714b1fcb63ad90",
@@ -209,9 +211,13 @@
     "6 - Main Notes/WHERE - SQL - Flashcards.md": "a2f9b71f0732e7bfd2efa5aac3d31634",
     "6 - Main Notes/WHERE - SQL.md": "5990a1d6ed889ef7752488bde40cf4bc",
     "6 - Main Notes/Other Logical Operators - SQL - Flashcards.md": "c8fde0ad98fc4a74fe116eb50e2c8e1f",
-    "6 - Main Notes/Other Logical Operators - SQL.md": "1dea87d6b2c0b5203ceda143ffb4ba16",
+    "6 - Main Notes/Other Logical Operators - SQL.md": "8a484bfca4acc44cd900882667051ed7",
     "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md": "b0dd9190588671db6da49bd50a34bc76",
-    "6 - Main Notes/Basic Logical Operators - SQL.md": "290888c7aaf673d69a915ecbb25ca7c4"
+    "6 - Main Notes/Basic Logical Operators - SQL.md": "290888c7aaf673d69a915ecbb25ca7c4",
+    "6 - Main Notes/Regular expressions - SQL - Flashcards.md": "94f65717f54a745c4a2c780a201eca84",
+    "6 - Main Notes/Regular expressions - SQL.md": "b1e884f86e1813fe7b54799a38e5a7a1",
+    "6 - Main Notes/Sorting, ORDER BY operator - SQL - Flashcards.md": "94af5f14ffab85fa2d1ca021646a2ec8",
+    "6 - Main Notes/Sorting, ORDER BY operator - SQL.md": "e290a7482a5f381b20243d2842c669de"
   },
   "fields_dict": {
     "Basic": [

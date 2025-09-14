@@ -6,3 +6,5 @@
 5. [[WHERE - SQL]]
 	- [[Basic Logical Operators - SQL]] 
 	- [[Other Logical Operators - SQL]]
+	- [[Regular expressions - SQL]]
+6. [[Sorting, ORDER BY operator - SQL]]
