@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a6b501270c20270e",
+        "id": "2a6d8d6f0130497f",
         "type": "tabs",
         "children": [
           {
-            "id": "e1ffdf19ab6643b7",
+            "id": "a4087fed6b9bd516",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "6 - Main Notes/Operator HAVING - SQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Operator HAVING - SQL"
-            }
-          },
-          {
-            "id": "0eac8fda9d18ea4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Порядок выполнения SQL запроса.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +28,37 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Порядок выполнения SQL запроса"
+              "title": "Operator HAVING - SQL"
+            }
+          }
+        ]
+      },
+      {
+        "id": "82b876a01bc02bf6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "537095bd6172258d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Порядок выполнения SQL запроса - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Порядок выполнения SQL запроса - Flashcards"
             }
           }
         ]
@@ -205,15 +211,20 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "e1ffdf19ab6643b7",
+  "active": "537095bd6172258d",
   "lastOpenFiles": [
     "6 - Main Notes/Порядок выполнения SQL запроса.md",
-    "Pasted image 20250915160708.png",
-    "4 - Indexes/SQL.md",
-    "6 - Main Notes/SELECT - SQL.md",
+    "6 - Main Notes/Порядок выполнения SQL запроса - Flashcards.md",
     "6 - Main Notes/Operator HAVING - SQL.md",
+    "6 - Main Notes/Operator HAVING - SQL - Flashcards.md",
+    "4 - Indexes/SQL.md",
     "6 - Main Notes/Aggregate Functions - SQL.md",
-    "6 - Main Notes/Grouping, GROUP BY operator.md",
+    "6 - Main Notes/Aggregate Functions - SQL - Flashcards.md",
+    "6 - Main Notes/Grouping, GROUP BY operator - SQL.md",
+    "6 - Main Notes/Grouping, GROUP BY operator - SQL - Flashcards.md",
+    "6 - Main Notes/Sorting, ORDER BY operator - SQL.md",
+    "Pasted image 20250915160708.png",
+    "6 - Main Notes/SELECT - SQL.md",
     "Pasted image 20250915151347.png",
     "Pasted image 20250915151200.png",
     "6 - Main Notes/Regular expressions - SQL.md",
@@ -231,11 +242,7 @@
     "6 - Main Notes/Типы данных - PHP.md",
     "6 - Main Notes/Область видимости переменных - PHP.md",
     "6 - Main Notes/Sorting, ORDER BY operator - SQL - Flashcards.md",
-    "6 - Main Notes/Sorting, ORDER BY operator - SQL.md",
-    "6 - Main Notes/Regular expressions - SQL - Flashcards.md",
     "6 - Main Notes/Untitled.base",
-    "6 - Main Notes/Basic Logical Operators - SQL.md",
-    "6 - Main Notes/Other Logical Operators - SQL.md",
     "2 - Source Materials/Pasted image 20250910193818.png",
     "2 - Source Materials/Pasted image 20250905134155.png",
     "2 - Source Materials/Pasted image 20250904144918.png",

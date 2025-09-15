@@ -16,6 +16,12 @@ Tags: [[SQL]]
 
 #### При использовании GROUP BY мы можем вывести только:
 
+```sql
+SELECT [literals, aggregate_functions, grouping_fields]
+FROM table_name
+GROUP BY grouping_fields;
+```
+
 - литералы:
 ```sql
 SELECT home_type, 'literal' FROM Rooms
@@ -63,7 +69,7 @@ GROUP BY  home_type, has_tv;
 ```
 
 ----
-#### [[Grouping, GROUP BY operator - Flashcards|Link to flashcards]]
+#### [[Grouping, GROUP BY operator - SQL - Flashcards|Link to flashcards]]
 
 
 

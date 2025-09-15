@@ -8,7 +8,7 @@
 	- [[Other Logical Operators - SQL]]
 	- [[Regular expressions - SQL]]
 6. [[Sorting, ORDER BY operator - SQL]]
-7. [[Grouping, GROUP BY operator]]
+7. [[Grouping, GROUP BY operator - SQL]]
 	-  [[Aggregate Functions - SQL]]
 	-  [[Operator HAVING - SQL]]
 8. [[Порядок выполнения SQL запроса]]
