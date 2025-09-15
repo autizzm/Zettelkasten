@@ -52,15 +52,15 @@ $name = "Viktor";
 ```html
 <!DOCTYPE html>
 <html>
-<body>
-
-<?php
-ECHO "Hello, world!<br>";
-Echo "Hello, world!<br>";
-EcHo "Hello, world!<br>";
-?>
-
-</body>
+	<body>
+	
+		<?php
+		ECHO "Hello, world!<br>";
+		Echo "Hello, world!<br>";
+		EcHo "Hello, world!<br>";
+		?>
+	
+	</body>
 </html>
 ```
 
@@ -75,18 +75,6 @@ EcHo "Hello, world!<br>";
 > ```
 
 
-### Константы
-
-Создание и использование  константы:
-
-```php
-<?php
-define("pi", 3.14); //ИМЯ КОНСТАНТЫ В КАВЫЧКАХ !!!
-
-echo "Математическая константа Пи равняется ", pi; 
-?>
-```
-
 
 
 ----
@@ -96,3 +84,4 @@ echo "Математическая константа Пи равняется ",
 
 ---
 ### References:
+- [[Константы - PHP]]

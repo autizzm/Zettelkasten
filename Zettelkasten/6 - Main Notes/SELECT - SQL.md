@@ -62,7 +62,7 @@ SELECT member_id, member_name AS Name FROM FamilyMembers
 | 6         | Ernest Forrest    |
 | 7         | Constance Forrest |
 
-
+Это новое название называется ~={cyan}alias=~
 
 ----
 #### [[ |Link to flashcards]]

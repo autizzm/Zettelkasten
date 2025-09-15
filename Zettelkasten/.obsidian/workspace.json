@@ -8,89 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73a10e7bdd7b95fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Sorting, ORDER BY operator - SQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sorting, ORDER BY operator - SQL"
-            }
-          },
-          {
-            "id": "fda273e27ca3837f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Basic Logical Operators - SQL - Flashcards"
-            }
-          },
-          {
-            "id": "b36bb536eb439ece",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Regular expressions - SQL - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Regular expressions - SQL - Flashcards"
-            }
-          },
-          {
             "id": "e1ffdf19ab6643b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/WHERE - SQL - Flashcards.md",
+                "file": "6 - Main Notes/Operator HAVING - SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": false,
+                  "collapseAll": true,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -100,23 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WHERE - SQL - Flashcards"
+              "title": "Operator HAVING - SQL"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "9f4fa41dc8916b8a",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "6c116368bc979125",
+            "id": "0eac8fda9d18ea4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Sorting, ORDER BY operator - SQL - Flashcards.md",
+                "file": "6 - Main Notes/Порядок выполнения SQL запроса.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -131,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sorting, ORDER BY operator - SQL - Flashcards"
+              "title": "Порядок выполнения SQL запроса"
             }
           }
         ]
@@ -284,34 +205,37 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "6c116368bc979125",
+  "active": "e1ffdf19ab6643b7",
   "lastOpenFiles": [
-    "6 - Main Notes/Regular expressions - SQL - Flashcards.md",
-    "6 - Main Notes/Sorting, ORDER BY operator - SQL - Flashcards.md",
-    "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md",
-    "6 - Main Notes/Basic Logical Operators - SQL.md",
+    "6 - Main Notes/Порядок выполнения SQL запроса.md",
+    "Pasted image 20250915160708.png",
     "4 - Indexes/SQL.md",
-    "6 - Main Notes/Other Logical Operators - SQL.md",
-    "6 - Main Notes/Other Logical Operators - SQL - Flashcards.md",
-    "6 - Main Notes/Regular expressions - SQL.md",
-    "6 - Main Notes/Sorting, ORDER BY operator - SQL.md",
-    "6 - Main Notes/WHERE - SQL - Flashcards.md",
-    "5 - Templates/Full Note.md",
-    "5 - Templates/Flashcards Note.md",
-    "6 - Main Notes/WHERE - SQL.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "4 - Indexes/Obsidian Features.md",
-    "6 - Main Notes/DISTINCT - SQL.md",
-    "6 - Main Notes/DISTINCT - SQL - Flashcards.md",
-    "6 - Main Notes/Built-in functions - SQL.md",
-    "6 - Main Notes/Built-in functions - SQL - Flashcards.md",
-    "6 - Main Notes/Literals - SQL.md",
-    "6 - Main Notes/Literals - SQL - Flashcards.md",
     "6 - Main Notes/SELECT - SQL.md",
-    "6 - Main Notes/Class.md",
-    "6 - Main Notes/Interface Java.md",
-    "6 - Main Notes/assert Java.md",
-    "6 - Main Notes/Interface Java - Flashcards.md",
+    "6 - Main Notes/Operator HAVING - SQL.md",
+    "6 - Main Notes/Aggregate Functions - SQL.md",
+    "6 - Main Notes/Grouping, GROUP BY operator.md",
+    "Pasted image 20250915151347.png",
+    "Pasted image 20250915151200.png",
+    "6 - Main Notes/Regular expressions - SQL.md",
+    "6 - Main Notes/WHERE - SQL.md",
+    "6 - Main Notes/WHERE - SQL - Flashcards.md",
+    "6 - Main Notes/Операторы - PHP.md",
+    "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md",
+    "6 - Main Notes/Константы - PHP.md",
+    "6 - Main Notes/Оператор присваивания - PHP.md",
+    "4 - Indexes/PHP.md",
+    "6 - Main Notes/Синтаксис - PHP.md",
+    "6 - Main Notes/NULL - PHP.md",
+    "6 - Main Notes/Классы и объекты - PHP.md",
+    "6 - Main Notes/Массив - PHP.md",
+    "6 - Main Notes/Типы данных - PHP.md",
+    "6 - Main Notes/Область видимости переменных - PHP.md",
+    "6 - Main Notes/Sorting, ORDER BY operator - SQL - Flashcards.md",
+    "6 - Main Notes/Sorting, ORDER BY operator - SQL.md",
+    "6 - Main Notes/Regular expressions - SQL - Flashcards.md",
+    "6 - Main Notes/Untitled.base",
+    "6 - Main Notes/Basic Logical Operators - SQL.md",
+    "6 - Main Notes/Other Logical Operators - SQL.md",
     "2 - Source Materials/Pasted image 20250910193818.png",
     "2 - Source Materials/Pasted image 20250905134155.png",
     "2 - Source Materials/Pasted image 20250904144918.png",
@@ -322,15 +246,11 @@
     "2 - Source Materials/assimmetr_excess.jpg",
     "2 - Source Materials/IMG_20250906_131308 (1).jpg",
     "2 - Source Materials/asimmetr_excess.jpg",
-    "2 - Source Materials/IMG_20250906_124745 (1).jpg",
-    "2 - Source Materials/func_rasp_and_func_plotn_rasp.jpg",
-    "2 - Source Materials/assim_ekscess.png",
     "Notes",
     "2 - Source Materials/Unconfirmed 402933.crdownload",
     "desktop.ini",
     "7 -CSS Snippets",
     "6 - Main Notes",
-    "5 - Templates",
-    "4 - Indexes"
+    "5 - Templates"
   ]
 }
