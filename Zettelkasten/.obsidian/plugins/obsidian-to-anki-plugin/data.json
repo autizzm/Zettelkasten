@@ -206,7 +206,7 @@
     "6 - Main Notes/Literals - SQL - Flashcards.md": "69d4829f1dd72f77a8720b37a77e46d8",
     "6 - Main Notes/Literals - SQL.md": "ba77eef34ea074fe5cf9f6e402ff17ed",
     "6 - Main Notes/SELECT - SQL.md": "e7a1b602953c465fd08b77a68936980c",
-    "4 - Indexes/SQL.md": "2329ed6cf69a638685e5d3efa8fc07e3",
+    "4 - Indexes/SQL.md": "416f763bcf7b8e1091a3248831b03154",
     "6 - Main Notes/Built-in functions - SQL - Flashcards.md": "6535902b7a33b5f06d2882dc867f4072",
     "6 - Main Notes/Built-in functions - SQL.md": "ba2ae3de87e43cf433fafc0b72041538",
     "6 - Main Notes/DISTINCT - SQL - Flashcards.md": "212acc07747db1014d714b1fcb63ad90",
@@ -234,7 +234,10 @@
     "6 - Main Notes/Типы данных - PHP.md": "674dc83f86d52ddd30e71682b9907d5e",
     "6 - Main Notes/Aggregate Functions - SQL - Flashcards.md": "c482c4a28984aaabc2e225af2f9d70e3",
     "6 - Main Notes/Operator HAVING - SQL - Flashcards.md": "f54aafd3639dde199b10bccf13fafc99",
-    "6 - Main Notes/Порядок выполнения SQL запроса - Flashcards.md": "355bba07f5f2b96c2721b3e2bf9168fd"
+    "6 - Main Notes/Порядок выполнения SQL запроса - Flashcards.md": "355bba07f5f2b96c2721b3e2bf9168fd",
+    "6 - Main Notes/Creating and deleting databases - SQL - Flashcards.md": "9c095aafd54cdd0cd444ad6ca1bc14e3",
+    "6 - Main Notes/viewing DBs - PostgreSQL.md": "5da57fa58f0406d994ab872d1fb4954e",
+    "6 - Main Notes/Creating and deleting databases - SQL.md": "3d2b3b5ffbdfefe17fad5e685b72def9"
   },
   "fields_dict": {
     "Basic": [

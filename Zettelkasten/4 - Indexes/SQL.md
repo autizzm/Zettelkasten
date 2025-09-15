@@ -12,3 +12,17 @@
 	-  [[Aggregate Functions - SQL]]
 	-  [[Operator HAVING - SQL]]
 8. [[Порядок выполнения SQL запроса]]
+
+
+#### Databases and tables
+
+1. [[Creating and deleting databases - SQL]]
+2. [[Creating and deleting tables - SQL]]
+
+
+### Relationships
+1. [[DB Relationships]]
+
+### Postgres specifics
+
+1.  [[viewing DBs - PostgreSQL]]
