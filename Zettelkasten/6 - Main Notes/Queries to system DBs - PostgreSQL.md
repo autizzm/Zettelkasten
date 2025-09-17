@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[SQL]]
+Tags: [[SQL]] [[PostgreSQL specifics]]
 
 ---
 # viewing DBs - PostgreSQL
@@ -46,6 +46,30 @@ FROM information_schema.columns
 WHERE table_name = 'users';
 ```
 
+> [!note] **Про Views**
+> Для просмотра иформации о View ("виртуальная таблица") используется тот же синтаксис, что и для обычных:
+> ```sql
+>CREATE VIEW ViewUsers AS --представление ViewUsers
+>    SELECT id,
+ >          name,
+>           CONCAT(SUBSTR(email, 1, 2), '****', RIGHT(email, 4)) AS email
+>FROM Users;
+>
+>
+>SELECT column_name, data_type, is_nullable
+>FROM information_schema.columns
+>WHERE table_name = 'viewusers';
+>```
+
+
+
+## How to view existing indexes
+
+```sql
+SELECT indexname, indexdef
+FROM pg_indexes
+WHERE tablename = 'users';
+```
 
 ----
 #### [[viewing DBs - PostgreSQL - Flashcards|Link to flashcards]]

@@ -16,7 +16,7 @@ CREATE DATABASE database_name;
 ```
 
 
-Как проконтролировать, создалась ли БД? [[viewing DBs - PostgreSQL]]
+Как проконтролировать, создалась ли БД? [[Queries to system DBs - PostgreSQL]]
 
 
 ## DB deletion

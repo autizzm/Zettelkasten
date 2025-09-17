@@ -1,7 +1,7 @@
 
 15-09-2025 20:32
 
-Status: #baby 
+Status: #baby - no flashcards yet
 
 Tags: [[SQL]]
 

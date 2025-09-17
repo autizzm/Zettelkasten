@@ -206,7 +206,7 @@
     "6 - Main Notes/Literals - SQL - Flashcards.md": "69d4829f1dd72f77a8720b37a77e46d8",
     "6 - Main Notes/Literals - SQL.md": "ba77eef34ea074fe5cf9f6e402ff17ed",
     "6 - Main Notes/SELECT - SQL.md": "e7a1b602953c465fd08b77a68936980c",
-    "4 - Indexes/SQL.md": "416f763bcf7b8e1091a3248831b03154",
+    "4 - Indexes/SQL.md": "0fc3ab5abf29bf8fceb7423ba2fc3faf",
     "6 - Main Notes/Built-in functions - SQL - Flashcards.md": "6535902b7a33b5f06d2882dc867f4072",
     "6 - Main Notes/Built-in functions - SQL.md": "ba2ae3de87e43cf433fafc0b72041538",
     "6 - Main Notes/DISTINCT - SQL - Flashcards.md": "212acc07747db1014d714b1fcb63ad90",
@@ -236,8 +236,18 @@
     "6 - Main Notes/Operator HAVING - SQL - Flashcards.md": "f54aafd3639dde199b10bccf13fafc99",
     "6 - Main Notes/Порядок выполнения SQL запроса - Flashcards.md": "355bba07f5f2b96c2721b3e2bf9168fd",
     "6 - Main Notes/Creating and deleting databases - SQL - Flashcards.md": "9c095aafd54cdd0cd444ad6ca1bc14e3",
-    "6 - Main Notes/viewing DBs - PostgreSQL.md": "5da57fa58f0406d994ab872d1fb4954e",
-    "6 - Main Notes/Creating and deleting databases - SQL.md": "3d2b3b5ffbdfefe17fad5e685b72def9"
+    "6 - Main Notes/viewing DBs - PostgreSQL.md": "1e339bc75bc272ed1c3570cc9d95bb19",
+    "6 - Main Notes/Creating and deleting databases - SQL.md": "66383502a6c77b23fbc8d56f9aa15b70",
+    "6 - Main Notes/PostgreSQL - String data types - Flashcards.md": "169dc235e380d766cbec6dd24c40968c",
+    "6 - Main Notes/PostgreSQL - String data types.md": "85a138180dbcf984fa973572a9b851f7",
+    "6 - Main Notes/DB Relationships - Flashcards.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "6 - Main Notes/Creating and deleting tables - SQL.md": "1a3a39ad2aa8752e8e31c56447928620",
+    "6 - Main Notes/DB Relationships.md": "4519b73cd84eedbd24ddae35bc7eca18",
+    "3 - Tags/PostgreSQL specifics.md": "51a01b017af1fe6ebb9c3da64728b7be",
+    "6 - Main Notes/PostgreSQL - Numeric data types - Flashcards.md": "6b320be56174e078b357147d4d340dd2",
+    "6 - Main Notes/PostgreSQL - Numeric data types.md": "bac0f17cc15de90c0a751e7c07b7219c",
+    "6 - Main Notes/Views - SQL - Flashcards.md": "939f1df7341f2d81486d3a78e471d146",
+    "6 - Main Notes/Views - SQL.md": "721350099d28a60197b79cdc4a28b081"
   },
   "fields_dict": {
     "Basic": [

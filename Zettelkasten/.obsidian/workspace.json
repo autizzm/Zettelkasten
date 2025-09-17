@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/DB Relationships.md",
+                "file": "6 - Main Notes/Constraints -SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DB Relationships"
+              "title": "Constraints -SQL"
             }
           },
           {
@@ -53,6 +53,54 @@
               },
               "icon": "lucide-file",
               "title": "Creating and deleting tables - SQL"
+            }
+          },
+          {
+            "id": "5d3fe59a32e6b5ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/PRIMARY KEY - SQL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PRIMARY KEY - SQL"
+            }
+          },
+          {
+            "id": "e5382d5558ad6a8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Data Types.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Data Types"
             }
           }
         ]
@@ -207,43 +255,43 @@
   },
   "active": "2b6130571f09c261",
   "lastOpenFiles": [
-    "Pasted image 20250915213759.png",
-    "6 - Main Notes/Creating and deleting tables - SQL.md",
-    "6 - Main Notes/DB Relationships.md",
-    "6 - Main Notes/Creating and deleting tables - Flashcards.md",
+    "6 - Main Notes/PRIMARY KEY - SQL.md",
     "4 - Indexes/SQL.md",
-    "6 - Main Notes/viewing DBs - PostgreSQL.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Constraints -SQL.md",
+    "6 - Main Notes/Creating and deleting tables - SQL.md",
+    "6 - Main Notes/Queries to system DBs - PostgreSQL.md",
+    "6 - Main Notes/Indexes - SQL.md",
+    "6 - Main Notes/Views - SQL.md",
+    "6 - Main Notes/Views - SQL - Flashcards.md",
+    "6 - Main Notes/PostgreSQL - Numeric data types.md",
+    "6 - Main Notes/PostgreSQL - Numeric data types - Flashcards.md",
+    "6 - Main Notes/Data Types.md",
+    "6 - Main Notes/PostgreSQL - String data types.md",
+    "6 - Main Notes/PostgreSQL - String data types - Flashcards.md",
+    "3 - Tags/PostgreSQL specifics.md",
+    "6 - Main Notes/Creating and deleting databases - SQL.md",
+    "6 - Main Notes/Creating and deleting databases - SQL - Flashcards.md",
+    "6 - Main Notes/DB Relationships.md",
+    "6 - Main Notes/DB Relationships - Flashcards.md",
+    "Pasted image 20250915213759.png",
+    "6 - Main Notes/Creating and deleting tables - Flashcards.md",
     "Pasted image 20250915204208.png",
     "Pasted image 20250915204122.png",
     "Pasted image 20250915203923.png",
     "Pasted image 20250915203533.png",
     "Pasted image 20250915203323.png",
-    "6 - Main Notes/Creating and deleting databases - SQL.md",
-    "6 - Main Notes/Creating and deleting databases - SQL - Flashcards.md",
     "6 - Main Notes/Operator HAVING - SQL.md",
     "6 - Main Notes/Порядок выполнения SQL запроса - Flashcards.md",
     "6 - Main Notes/Порядок выполнения SQL запроса.md",
     "6 - Main Notes/Operator HAVING - SQL - Flashcards.md",
     "6 - Main Notes/Aggregate Functions - SQL.md",
     "6 - Main Notes/Aggregate Functions - SQL - Flashcards.md",
-    "6 - Main Notes/Grouping, GROUP BY operator - SQL.md",
-    "6 - Main Notes/Grouping, GROUP BY operator - SQL - Flashcards.md",
-    "6 - Main Notes/Sorting, ORDER BY operator - SQL.md",
     "Pasted image 20250915160708.png",
-    "6 - Main Notes/SELECT - SQL.md",
     "Pasted image 20250915151347.png",
     "Pasted image 20250915151200.png",
-    "6 - Main Notes/Regular expressions - SQL.md",
-    "6 - Main Notes/WHERE - SQL.md",
-    "6 - Main Notes/WHERE - SQL - Flashcards.md",
-    "6 - Main Notes/Операторы - PHP.md",
-    "6 - Main Notes/Basic Logical Operators - SQL - Flashcards.md",
-    "6 - Main Notes/Константы - PHP.md",
-    "6 - Main Notes/Оператор присваивания - PHP.md",
-    "4 - Indexes/PHP.md",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/Pasted image 20250910193818.png",
-    "2 - Source Materials/Pasted image 20250905134155.png",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
     "2 - Source Materials/formuly_kombinatoriki.pdf",

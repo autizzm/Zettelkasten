@@ -12,17 +12,24 @@
 	-  [[Aggregate Functions - SQL]]
 	-  [[Operator HAVING - SQL]]
 8. [[Порядок выполнения SQL запроса]]
+9. [[Views - SQL]]
 
 
 #### Databases and tables
 
 1. [[Creating and deleting databases - SQL]]
 2. [[Creating and deleting tables - SQL]]
+3.  [[Indexes - SQL]]
+4. [[Constraints -SQL]]
+	- [[PRIMARY KEY - SQL]]
 
 
 ### Relationships
 1. [[DB Relationships]]
 
 ### Postgres specifics
+[[PostgreSQL specifics]]
 
-1.  [[viewing DBs - PostgreSQL]]
+1. [[Queries to system DBs - PostgreSQL]]
+2. [[PostgreSQL - String data types]]
+3. [[PostgreSQL - Numeric data types]]
