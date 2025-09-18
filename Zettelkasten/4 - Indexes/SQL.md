@@ -20,8 +20,9 @@
 1. [[Creating and deleting databases - SQL]]
 2. [[Creating and deleting tables - SQL]]
 3.  [[Indexes - SQL]]
-4. [[Constraints -SQL]]
+4. [[Column definition options (Constraints) - SQL]]
 	- [[PRIMARY KEY - SQL]]
+	- [[FOREIGN KEY - SQL]]
 
 
 ### Relationships

@@ -1,0 +1,79 @@
+
+17-09-2025 16:59
+
+Status: #child
+
+Tags: [[SQL]]
+
+---
+# FOREIGN KEY - SQL
+
+
+Синтаксис:
+```sql
+FOREIGN KEY (<column_1>, <column_n>)
+REFERENCES <external_table> (<external_table_column_1>, <external_table_column_n>)
+[ON DELETE reference_option]
+[ON UPDATE reference_option]
+```
+
+
+Пример использования:
+```sql
+CREATE TABLE Users (
+    id INTEGER,
+    name VARCHAR(255) NOT NULL,
+    age INTEGER NOT NULL DEFAULT 18,
+    company INTEGER,
+    PRIMARY KEY (id),
+    FOREIGN KEY (company) REFERENCES Companies (id)
+    ON DELETE RESTRICT ON UPDATE CASCADE
+);
+```
+
+Вариант синтаксиса:
+```sql
+CREATE TABLE fct_transactions (
+    transaction_id SERIAL,
+    product_id INT REFERENCES dim_products(product_id),
+    employee_id INT REFERENCES dim_employees(employee_id),
+    store_id INT REFERENCES dim_stores(store_id),
+    customer_id INT REFERENCES dim_customers(customer_id),
+    total_purchase_price REAL
+
+);
+```
+
+
+Possible options for ~={cyan}ON DELETE=~ and ~={cyan}ON UPDATE=~:
+
+- ~={cyan}CASCADE=~ — automatically deletes or updates related records
+- ~={cyan}SET NULL=~ — sets NULL for the foreign key
+- ~={cyan}SET DEFAULT=~ — sets the default value
+- ~={cyan}RESTRICT=~ — prevents deletion or update (used by default)
+- ~={cyan}NO ACTION=~ — similar to RESTRICT in most DBMSs
+
+
+~={cyan}ON DELETE RESTRICT=~ - значит, что, если попробовать удалить запись о компании из таблицы Companies (удалить id компании) И ПРИ ЭТОМ в таблице Users будут записи, ссылающиеся на эту компанию (хранящие в поле company id этой компании) -> ~={orange}БД выдаст ошибку:=~
+```sql
+Cannot delete or update a parent row: a foreign key constraint fails
+```
+
+~={cyan}ON DELETE CASCADE=~ - значит, если попробовать удалить запись о компании из таблицы Companies (удалить id компании) И ПРИ ЭТОМ в таблице Users будут записи, ссылающиеся на эту компанию (хранящие в поле company id этой компании) -> ~={orange}БД удалит эти записи из таблицы Users=~
+
+~={cyan}ON DELETE SET NULL=~ - значит, если попробовать удалить запись о компании из таблицы Companies (удалить id компании) И ПРИ ЭТОМ в таблице Users будут записи, ссылающиеся на эту компанию (хранящие в поле company id этой компании) -> БД установит в поле company значение NULL  для этих записей в таблице Users 
+
+~={cyan}ON UPDATE CASCADE=~ - значит, ~={orange}если обновляется запись о компании в таблице Companies=~, то все ~={orange}записи =~о пользователях~={orange} из=~ таблицы ~={orange}User=~, содержащих id этой компании, ~={orange}будут обновлены=~ (если поменялся id - он изменится и в поле company соотвтетсвующих записей таблицы Users)
+
+> [!note] **Обобщение**
+> Все эти правил триггерятся при изменении/удалении записи другой таблицы (чей id мы храним)
+
+
+----
+#### [[FOREIGN KEY - SQL - Flashcards|Link to flashcards]]
+
+
+
+---
+### References:
+

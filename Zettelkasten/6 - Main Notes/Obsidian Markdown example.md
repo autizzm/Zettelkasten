@@ -107,3 +107,10 @@ $\sum_{k \in A} P(k)$
 
 $\mathbb{E}[X]$
 
+$\approx$
+
+$D(X) = \frac{\sum_{i=1}^n (x_i - M(X))^2}{n-1}$ 
+
+$x \ge 0$
+$y \le 10$
+$\infty$
