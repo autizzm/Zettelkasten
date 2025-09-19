@@ -114,3 +114,5 @@ $D(X) = \frac{\sum_{i=1}^n (x_i - M(X))^2}{n-1}$
 $x \ge 0$
 $y \le 10$
 $\infty$
+
+$\mu = \mathbb{E}[X] = \begin{cases} \sum_{i} x_i p_i, & \text{для дискретных} \\[6pt] \int_{-\infty}^{+\infty} x f(x)\, dx, & \text{для непрерывных} \end{cases}$

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Функция распределения.md",
+                "file": "6 - Main Notes/Мат Стат.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Функция распределения"
+              "title": "Мат Стат"
             }
           },
           {
-            "id": "dcdad3f4d0e326b2",
+            "id": "d1cd3cd0d083d403",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Дисперсия ДСВ.md",
+                "file": "6 - Main Notes/Мода выборки (Mode).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Дисперсия ДСВ"
+              "title": "Мода выборки (Mode)"
             }
           },
           {
-            "id": "c2877f73c83a9e2b",
+            "id": "081eb3a30b15721a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Среднее квадратичное - Flashcards.md",
+                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Среднее квадратичное - Flashcards"
+              "title": "Выборочное среднее (Mean)"
             }
           },
           {
-            "id": "dd12f74599593c09",
+            "id": "6226004b7e728f48",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,12 +104,12 @@
             }
           },
           {
-            "id": "68824722a1427970",
+            "id": "d8c00bf197b82328",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/НСВ.md",
+                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,59 +124,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "НСВ"
+              "title": "Выборочное среднее (Mean)"
             }
           },
           {
-            "id": "620a476eb75d46de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/ДСВ - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ДСВ - Flashcards"
-            }
-          },
-          {
-            "id": "1e7a644e9f2399e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/ДСВ.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ДСВ"
-            }
-          },
-          {
-            "id": "b759acd4fa63e6f9",
+            "id": "09034a60a3a82c35",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -200,12 +152,12 @@
             }
           },
           {
-            "id": "921ec8e7897d488e",
+            "id": "4f613e4e0cd048f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Теоремы сложения и умножения вероятностей - Flashcards.md",
+                "file": "6 - Main Notes/Дисперсия выборки.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,34 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Теоремы сложения и умножения вероятностей - Flashcards"
-            }
-          },
-          {
-            "id": "ed1e1f097f936858",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Теоремы сложения и умножения вероятностей.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Теоремы сложения и умножения вероятностей"
+              "title": "Дисперсия выборки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -397,44 +326,44 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "6ba476f2acc338a7",
+  "active": "d1cd3cd0d083d403",
   "lastOpenFiles": [
-    "Pasted image 20250918150549.png",
-    "Pasted image 20250918150517.png",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Функция распределения.md",
-    "Pasted image 20250918145203.png",
+    "6 - Main Notes/Мат Стат.md",
+    "6 - Main Notes/Мода выборки (Mode).md",
     "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Дисперсия ДСВ.md",
-    "6 - Main Notes/Дисперсия ДСВ - Flashcards.md",
     "6 - Main Notes/Среднее квадратичное отклонение.md",
-    "6 - Main Notes/Среднее квадратичное - Flashcards.md",
-    "6 - Main Notes/Дисперсия выборки ДСВ.md",
-    "Pasted image 20250918140451.png",
-    "6 - Main Notes/НСВ.md",
     "6 - Main Notes/Мат Ожидание ДСВ.md",
+    "6 - Main Notes/Выборочное среднее (Mean).md",
+    "6 - Main Notes/Дисперсия выборки.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "4 - Indexes/Obsidian Features.md",
+    "6 - Main Notes/Дисперсия ДСВ.md",
+    "4 - Indexes/Экономика.md",
+    "4 - Indexes/Экономическая теория.md",
+    "6 - Main Notes/Функция распределения.md",
+    "2 - Source Materials/Pasted image 20250918150549.png",
+    "2 - Source Materials/Pasted image 20250918150517.png",
+    "2 - Source Materials/Pasted image 20250918145203.png",
+    "6 - Main Notes/Дисперсия ДСВ - Flashcards.md",
+    "6 - Main Notes/Среднее квадратичное - Flashcards.md",
+    "2 - Source Materials/Pasted image 20250918140451.png",
+    "6 - Main Notes/НСВ.md",
     "6 - Main Notes/Доказательство линейности Мат ожидания для ДСВ.md",
     "6 - Main Notes/Мат Ожидание ДСВ - Flashcards.md",
     "6 - Main Notes/ДСВ - Flashcards.md",
     "6 - Main Notes/ДСВ.md",
-    "Pasted image 20250918111232.png",
-    "Pasted image 20250918110711.png",
-    "Pasted image 20250918105508.png",
+    "2 - Source Materials/Pasted image 20250918111232.png",
+    "2 - Source Materials/Pasted image 20250918110711.png",
+    "2 - Source Materials/Pasted image 20250918105508.png",
     "6 - Main Notes/Теоремы сложения и умножения вероятностей - Flashcards.md",
-    "Pasted image 20250918104406.png",
+    "2 - Source Materials/Pasted image 20250918104406.png",
     "6 - Main Notes/Теоремы сложения и умножения вероятностей.md",
     "6 - Main Notes/События.md",
-    "Pasted image 20250918103151.png",
-    "Pasted image 20250918103046.png",
-    "4 - Indexes/Obsidian Features.md",
-    "Pasted image 20250918102136.png",
+    "2 - Source Materials/Pasted image 20250918103151.png",
+    "2 - Source Materials/Pasted image 20250918103046.png",
     "3 - Tags/Основы комбинаторики.md",
     "6 - Main Notes/Алгебра событий.md",
     "6 - Main Notes/FOREIGN KEY - SQL.md",
-    "4 - Indexes/SQL.md",
-    "6 - Main Notes/PostgreSQL - Numeric data types.md",
-    "6 - Main Notes/Literals - SQL.md",
-    "6 - Main Notes/Data Types.md",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
