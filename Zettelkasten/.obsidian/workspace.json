@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/ТВиМС.md",
+                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,6 +24,78 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Выборочное среднее (Mean)"
+            }
+          },
+          {
+            "id": "b28bdcd6e7245f54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Эксцесс выборки.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Эксцесс выборки"
+            }
+          },
+          {
+            "id": "b81cea274bef95d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Нормальное распределение выборки.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Нормальное распределение выборки"
+            }
+          },
+          {
+            "id": "828d2d99552a54c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 - Indexes/ТВиМС.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
@@ -61,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Эмпирическая функция распределения ДВР.md",
+                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,35 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Эмпирическая функция распределения ДВР"
+              "title": "Выборочное среднее (Mean)"
             }
           },
           {
-            "id": "1376119fcfc4d60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Функция распределения.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Функция распределения"
-            }
-          },
-          {
-            "id": "d1cd3cd0d083d403",
+            "id": "e513343e36d0deea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -126,128 +174,9 @@
               "icon": "lucide-file",
               "title": "Медиана выборки (Median)"
             }
-          },
-          {
-            "id": "e5cd3efcd8f267f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Мат Стат.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Мат Стат"
-            }
-          },
-          {
-            "id": "081eb3a30b15721a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Выборочное среднее (Mean)"
-            }
-          },
-          {
-            "id": "6226004b7e728f48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Мат Ожидание ДСВ.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Мат Ожидание ДСВ"
-            }
-          },
-          {
-            "id": "d8c00bf197b82328",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Выборочное среднее (Mean)"
-            }
-          },
-          {
-            "id": "4f613e4e0cd048f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Дисперсия выборки.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Дисперсия выборки"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -397,43 +326,43 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "6ba476f2acc338a7",
+  "active": "b81cea274bef95d3",
   "lastOpenFiles": [
+    "6 - Main Notes/Эксцесс выборки.md",
+    "6 - Main Notes/Выборочное среднее (Mean).md",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Асимметрия выборки.md",
+    "Pasted image 20250920210609.png",
+    "6 - Main Notes/Мода выборки (Mode).md",
+    "Pasted image 20250920205825.png",
+    "6 - Main Notes/Медиана выборки (Median).md",
+    "6 - Main Notes/Нормальное распределение выборки.md",
+    "Pasted image 20250920204825.png",
     "6 - Main Notes/Эмпирическая функция распределения ИВР.md",
+    "6 - Main Notes/Среднее линейное отклонение.md",
+    "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md",
+    "6 - Main Notes/Среднее линейное отклонение - Flashcards.md",
     "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Размах вариации.md",
+    "6 - Main Notes/Размах вариации - Flashcards.md",
+    "6 - Main Notes/Мат Стат.md",
+    "Pasted image 20250920181745.png",
+    "Pasted image 20250920181042.png",
+    "6 - Main Notes/Эмпирическая функция распределения ДВР.md",
+    "Pasted image 20250920180220.png",
+    "4 - Indexes/SQL.md",
     "4 - Indexes/Obsidian Features.md",
     "Pasted image 20250920124654.png",
     "Pasted image 20250920124553.png",
     "Pasted image 20250920124410.png",
-    "6 - Main Notes/Эмпирическая функция распределения ДВР.md",
-    "4 - Indexes/ТВиМС.md",
     "6 - Main Notes/Интервальный вариационный ряд (ИВР).md",
     "Pasted image 20250920123344.png",
     "6 - Main Notes/Формула Стерджеса.md",
-    "Pasted image 20250920120612.png",
-    "Pasted image 20250920120407.png",
-    "6 - Main Notes/Мат Стат.md",
-    "Pasted image 20250920114522.png",
-    "Pasted image 20250920114454.png",
     "6 - Main Notes/Функция распределения.md",
-    "Pasted image 20250920113325.png",
-    "6 - Main Notes/Дисперсия выборки.md",
-    "6 - Main Notes/Асимметрия выборки.md",
-    "6 - Main Notes/Медиана выборки (Median).md",
-    "6 - Main Notes/Мода выборки (Mode).md",
     "6 - Main Notes/Среднее квадратичное отклонение.md",
     "6 - Main Notes/Мат Ожидание ДСВ.md",
-    "6 - Main Notes/Выборочное среднее (Mean).md",
     "6 - Main Notes/Дисперсия ДСВ.md",
     "4 - Indexes/Экономика.md",
-    "4 - Indexes/Экономическая теория.md",
-    "2 - Source Materials/Pasted image 20250918150549.png",
-    "6 - Main Notes/Дисперсия ДСВ - Flashcards.md",
-    "6 - Main Notes/Среднее квадратичное - Flashcards.md",
-    "6 - Main Notes/НСВ.md",
-    "6 - Main Notes/Доказательство линейности Мат ожидания для ДСВ.md",
-    "6 - Main Notes/Мат Ожидание ДСВ - Flashcards.md",
-    "6 - Main Notes/ДСВ - Flashcards.md",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
