@@ -297,3 +297,24 @@ A: Да, в inner классе можно объявлять константы 
 Q: Может ли Inner класс иметь static переменные и static initializer block?
 A: Да, может, но только начиная с версии Java 16 SE.
 <!--ID: 1757496290020-->
+
+Q: Имеет ли Enclosing класс доступ к private полям Inner класса?
+A: Да, имеет.
+<!--ID: 1758562473572-->
+
+
+Q: Выполнится ли код корректно?
+```java
+class Outer {
+    class Inner {
+        private int secret = 42;
+    }
+	
+    void accessInner() {
+        Inner i = new Inner();
+        System.out.println(i.secret); 
+    }
+}
+```
+A: Да, т.к. Enclosing класс имеет доступ к private полям Inner класса.
+<!--ID: 1758562479335-->

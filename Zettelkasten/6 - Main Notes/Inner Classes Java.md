@@ -29,9 +29,23 @@ class WithDeepNesting {
 >Дважды вложенный класс имеет доступ к переменным Обоих Enclosing классов!
 
 
+2. Eclosing class имеет доступ ко всем полям Inner класса, даже private:
+```java
+class Outer {
+    class Inner {
+        private int secret = 42;
+    }
+
+    void accessInner() {
+        Inner i = new Inner();
+        System.out.println(i.secret); // ✅ private доступен
+    }
+}
+
+```
 
 
-2. ~={orange}Принадлежат объекту=~ (==instance==) Enclosing класса.
+3. ~={orange}Принадлежат объекту=~ (==instance==) Enclosing класса.
 
 > [!warning]
 > Inner классы должны создаваться через объект Parent или Child класса. Однако такая запись в Child классах тоже возможна:
@@ -49,7 +63,7 @@ class WithDeepNesting {
 
 
 
-3. Inner класс требует экземпляр внешнего класса для создания:
+4. Inner класс требует экземпляр внешнего класса для создания:
 ```java
 public class Enclosing {  
     private int x = 9;  
