@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Lambda Expressions - Java - Flashcards.md",
+                "file": "6 - Main Notes/Git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lambda Expressions - Java - Flashcards"
+              "title": "Git"
             }
           },
           {
@@ -303,9 +303,15 @@
   },
   "active": "3359da746988cd9a",
   "lastOpenFiles": [
-    "6 - Main Notes/Lambda Expressions - Java.md",
-    "6 - Main Notes/Lambda Expressions - Java - Flashcards.md",
+    "Pasted image 20250923210606.png",
+    "4 - Indexes/Java+.md",
+    "6 - Main Notes/Git.md",
+    "1 - Rough notes/СТСР-1.md",
+    "6 - Main Notes/UML диаграмма классов.md",
+    "4 - Indexes/Системный анализ.md",
     "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Lambda Expressions - Java - Flashcards.md",
+    "6 - Main Notes/Lambda Expressions - Java.md",
     "6 - Main Notes/Functional Interfaces - Java.md",
     "6 - Main Notes/Functional Interfaces - Java - Flashcards.md",
     "3 - Tags/Interfaces Java.md",
@@ -319,16 +325,10 @@
     "6 - Main Notes/Асимметрия выборки.md",
     "6 - Main Notes/Функция плотности распределения.md",
     "6 - Main Notes/Operator HAVING - SQL - Flashcards.md",
-    "4 - Indexes/Java+.md",
     "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
     "6 - Main Notes/HTTP.md",
     "6 - Main Notes/HTTP - Flashcards.md",
     "6 - Main Notes/HttpClient.Builder - Java - Flashcards.md",
-    "6 - Main Notes/HttpClient class - Java.md",
-    "6 - Main Notes/Http - Java.md",
-    "6 - Main Notes/HttpClient class - Java - Flashcards.md",
-    "6 - Main Notes/Java Important Classes.md",
-    "6 - Main Notes/AutoClosable Interface - Java.md",
     "2 - Source Materials/Pasted image 20250922180436.png",
     "2 - Source Materials/Pasted image 20250922153845.png",
     "2 - Source Materials/Pasted image 20250920210609.png",
