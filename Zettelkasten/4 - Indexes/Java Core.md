@@ -44,6 +44,9 @@
 [[Interfaces Java|Link to the tag]]
 
 1. [[Interface Java]]
+	- [[Наследование интерфейсов Java]]
+2. [[Lambda Expressions - Java]]
+3. [[Functional Interfaces - Java]]
 
 
 ### Under the hood
@@ -63,3 +66,10 @@
 6. [[Initializer; constants & just static finals - Java]]
 7. [[assert Java]]
 8. 
+
+
+
+### Java Important Classes
+[[Java Important Classes|Link to the tag]]
+
+1. [[AutoClosable Interface - Java]]

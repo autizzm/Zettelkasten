@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20efcc6d1466a684",
+            "id": "3359da746988cd9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/UML диаграмма классов.md",
+                "file": "6 - Main Notes/Lambda Expressions - Java - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UML диаграмма классов"
+              "title": "Lambda Expressions - Java - Flashcards"
             }
           },
           {
-            "id": "7a2751bfff635fdf",
+            "id": "89f0ce893866ce68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/PostgreSQL - Numeric data types.md",
+                "file": "6 - Main Notes/Lambda Expressions - Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PostgreSQL - Numeric data types"
+              "title": "Lambda Expressions - Java"
             }
           },
           {
-            "id": "32d6d78d01a8345c",
+            "id": "800b1bf884cb018c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Функция плотности распределения.md",
+                "file": "4 - Indexes/Java Core.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Функция плотности распределения"
+              "title": "Java Core"
             }
           },
           {
-            "id": "b28bdcd6e7245f54",
+            "id": "831c3e16c612b3b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Асимметрия выборки.md",
+                "file": "6 - Main Notes/Functional Interfaces - Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Асимметрия выборки"
+              "title": "Functional Interfaces - Java"
             }
           },
           {
-            "id": "b81cea274bef95d3",
+            "id": "411ce92ddfdb59ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Эксцесс выборки.md",
+                "file": "6 - Main Notes/Functional Interfaces - Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Эксцесс выборки"
+              "title": "Functional Interfaces - Java"
             }
           },
           {
-            "id": "828d2d99552a54c3",
+            "id": "fd18eef5a118f866",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/ТВиМС.md",
+                "file": "6 - Main Notes/HttpClient.Builder - Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,79 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ТВиМС"
-            }
-          },
-          {
-            "id": "1a1b2afa2af1f8a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Obsidian Markdown example.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Markdown example"
-            }
-          },
-          {
-            "id": "2d7778852295b67f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Выборочное среднее (Mean)"
-            }
-          },
-          {
-            "id": "e513343e36d0deea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Медиана выборки (Median).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Медиана выборки (Median)"
+              "title": "HttpClient.Builder - Java"
             }
           }
         ]
@@ -373,36 +301,36 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "20efcc6d1466a684",
+  "active": "3359da746988cd9a",
   "lastOpenFiles": [
-    "4 - Indexes/Системный анализ.md",
+    "6 - Main Notes/Lambda Expressions - Java.md",
+    "6 - Main Notes/Lambda Expressions - Java - Flashcards.md",
     "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Data Types.md",
-    "6 - Main Notes/Data Types Flashcards.md",
-    "6 - Main Notes/PostgreSQL - Numeric data types.md",
-    "6 - Main Notes/Функция плотности распределения.md",
-    "6 - Main Notes/Inner Classes Java.md",
-    "6 - Main Notes/Inner Classes Java - Flashcards.md",
-    "6 - Main Notes/Member Classes Java.md",
-    "3 - Tags/Java Classes.md",
-    "6 - Main Notes/Collections class.md",
-    "6 - Main Notes/Collection Interface.md",
-    "6 - Main Notes/Set Interface.md",
-    "6 - Main Notes/UML диаграмма классов.md",
-    "4 - Indexes/SQL.md",
-    "6 - Main Notes/Literals - SQL.md",
-    "6 - Main Notes/Built-in functions - SQL.md",
-    "2 - Source Materials/Pasted image 20250922180436.png",
-    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Functional Interfaces - Java.md",
+    "6 - Main Notes/Functional Interfaces - Java - Flashcards.md",
+    "3 - Tags/Interfaces Java.md",
     "6 - Main Notes/Interface Java.md",
-    "6 - Main Notes/Системный анализ в целом.md",
-    "6 - Main Notes/Функция плотности распределения - Flashcards.md",
+    "6 - Main Notes/HttpClient.Builder - Java.md",
+    "6 - Main Notes/Медиана выборки (Median).md",
+    "6 - Main Notes/Выборочное среднее (Mean).md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "4 - Indexes/ТВиМС.md",
     "6 - Main Notes/Эксцесс выборки.md",
     "6 - Main Notes/Асимметрия выборки.md",
+    "6 - Main Notes/Функция плотности распределения.md",
+    "6 - Main Notes/Operator HAVING - SQL - Flashcards.md",
+    "4 - Indexes/Java+.md",
+    "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
+    "6 - Main Notes/HTTP.md",
+    "6 - Main Notes/HTTP - Flashcards.md",
+    "6 - Main Notes/HttpClient.Builder - Java - Flashcards.md",
+    "6 - Main Notes/HttpClient class - Java.md",
+    "6 - Main Notes/Http - Java.md",
+    "6 - Main Notes/HttpClient class - Java - Flashcards.md",
+    "6 - Main Notes/Java Important Classes.md",
+    "6 - Main Notes/AutoClosable Interface - Java.md",
+    "2 - Source Materials/Pasted image 20250922180436.png",
     "2 - Source Materials/Pasted image 20250922153845.png",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Функция распределения.md",
-    "6 - Main Notes/Выборочное среднее (Mean).md",
     "2 - Source Materials/Pasted image 20250920210609.png",
     "2 - Source Materials/Pasted image 20250920205825.png",
     "2 - Source Materials/Pasted image 20250920204825.png",
