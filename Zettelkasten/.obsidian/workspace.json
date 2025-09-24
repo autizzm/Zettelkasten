@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Git.md",
+                "file": "6 - Main Notes/Метод наименьших квадратов (МНК).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Метод наименьших квадратов (МНК)"
             }
           },
           {
-            "id": "89f0ce893866ce68",
+            "id": "ede5a859f9a851e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Lambda Expressions - Java.md",
+                "file": "6 - Main Notes/Линейная регрессия.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lambda Expressions - Java"
+              "title": "Линейная регрессия"
             }
           },
           {
-            "id": "800b1bf884cb018c",
+            "id": "17a8d02c17655db3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/Java Core.md",
+                "file": "6 - Main Notes/Obsidian Markdown example.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Java Core"
+              "title": "Obsidian Markdown example"
             }
           },
           {
-            "id": "831c3e16c612b3b3",
+            "id": "278c63658a16ba4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Functional Interfaces - Java.md",
+                "file": "6 - Main Notes/Регрессия.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,55 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Functional Interfaces - Java"
-            }
-          },
-          {
-            "id": "411ce92ddfdb59ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Functional Interfaces - Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Functional Interfaces - Java"
-            }
-          },
-          {
-            "id": "fd18eef5a118f866",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/HttpClient.Builder - Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HttpClient.Builder - Java"
+              "title": "Регрессия"
             }
           }
         ]
@@ -209,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -303,42 +254,42 @@
   },
   "active": "3359da746988cd9a",
   "lastOpenFiles": [
+    "Pasted image 20250924131743.png",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Метод наименьших квадратов (МНК).md",
+    "6 - Main Notes/Линейная регрессия.md",
+    "Pasted image 20250924125805.png",
+    "6 - Main Notes/Способы минимизации отклонений функции регрессии.md",
+    "4 - Indexes/ТВиМС.md",
+    "Pasted image 20250924122151.png",
+    "6 - Main Notes/Регрессия.md",
+    "6 - Main Notes/Functional Interfaces - Java.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Lambda Expressions - Java.md",
+    "6 - Main Notes/Мат Стат.md",
+    "6 - Main Notes/Проверка статистических гипотез о параметрах регрессионной модели.md",
+    "6 - Main Notes/МатСтат.md",
+    "6 - Main Notes/Выбор формулы уравнения регрессии - Flashcards.md",
+    "6 - Main Notes/Выбор формулы уравнения парной регрессии.md",
+    "6 - Main Notes/Зависимость величин.md",
+    "Pasted image 20250924110021.png",
+    "4 - Indexes/Obsidian Features.md",
+    "6 - Main Notes/Git.md",
     "Pasted image 20250923210606.png",
     "4 - Indexes/Java+.md",
-    "6 - Main Notes/Git.md",
     "1 - Rough notes/СТСР-1.md",
     "6 - Main Notes/UML диаграмма классов.md",
     "4 - Indexes/Системный анализ.md",
-    "4 - Indexes/Java Core.md",
     "6 - Main Notes/Lambda Expressions - Java - Flashcards.md",
-    "6 - Main Notes/Lambda Expressions - Java.md",
-    "6 - Main Notes/Functional Interfaces - Java.md",
     "6 - Main Notes/Functional Interfaces - Java - Flashcards.md",
     "3 - Tags/Interfaces Java.md",
     "6 - Main Notes/Interface Java.md",
-    "6 - Main Notes/HttpClient.Builder - Java.md",
-    "6 - Main Notes/Медиана выборки (Median).md",
-    "6 - Main Notes/Выборочное среднее (Mean).md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Эксцесс выборки.md",
-    "6 - Main Notes/Асимметрия выборки.md",
-    "6 - Main Notes/Функция плотности распределения.md",
-    "6 - Main Notes/Operator HAVING - SQL - Flashcards.md",
-    "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
-    "6 - Main Notes/HTTP.md",
-    "6 - Main Notes/HTTP - Flashcards.md",
-    "6 - Main Notes/HttpClient.Builder - Java - Flashcards.md",
     "2 - Source Materials/Pasted image 20250922180436.png",
     "2 - Source Materials/Pasted image 20250922153845.png",
     "2 - Source Materials/Pasted image 20250920210609.png",
     "2 - Source Materials/Pasted image 20250920205825.png",
     "2 - Source Materials/Pasted image 20250920204825.png",
     "2 - Source Materials/Pasted image 20250920181745.png",
-    "2 - Source Materials/Pasted image 20250920181042.png",
-    "2 - Source Materials/Pasted image 20250920180220.png",
-    "2 - Source Materials/Pasted image 20250920124654.png",
-    "2 - Source Materials/Pasted image 20250920124553.png",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",

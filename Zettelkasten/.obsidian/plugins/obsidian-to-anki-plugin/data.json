@@ -75,12 +75,13 @@
     "Pasted image 20250918111232.png",
     "Pasted image 20250918140451.png",
     "Pasted image 20250922153845.png",
-    "Pasted image 20250920124410.png"
+    "Pasted image 20250920124410.png",
+    "Pasted image 20250924110021.png"
   ],
   "File Hashes": {
     "6 - Main Notes/References Suggestions.md": "3a96958ec76322f56f3c88890074fd67",
     "6 - Main Notes/Status Tags.md": "eb0ded3864be378032fd744d98d92fb7",
-    "6 - Main Notes/Obsidian Markdown example.md": "d2f018ec87f0c4bed872555e6b36b1f5",
+    "6 - Main Notes/Obsidian Markdown example.md": "56bb700068de0aa6587e0fafd3ff5314",
     "6 - Main Notes/Main Notes Suggestion.md": "b638b4cccc811f8057114f2e8cf1eb2b",
     "6 - Main Notes/Effective Tagging.md": "d2736e96bc24a2b8a8868fcbfaf72a77",
     "6 - Main Notes/Hotkeys.md": "bca46dda0f839ab83614c778ee17c526",
@@ -92,7 +93,7 @@
     "1 - Rough notes/Why use the Main Notes folder.md": "7ca0a46bb1f6621dfa3d975cfbf52596",
     "4 - Indexes/Obsidian Features.md": "3d8f60bcca689830fa354f8db8ac5b71",
     "3 - Tags/СТСР.md": "d41d8cd98f00b204e9800998ecf8427e",
-    "1 - Rough notes/СТСР-1.md": "e7babb0e53c686470effd22d94f11f9a",
+    "1 - Rough notes/СТСР-1.md": "5bdafe335ed58bba43d1b2123ec9fd09",
     "6 - Main Notes/Data Types Flashcards.md": "846808a7d1ed6676488d1d9828524114",
     "6 - Main Notes/Data Types.md": "f3f663839af21ea420be9367e7785afa",
     "3 - Tags/Java Core.md": "d41d8cd98f00b204e9800998ecf8427e",
@@ -184,7 +185,7 @@
     "6 - Main Notes/Inner Classes Java - Flashcards.md": "1393a3b2470a45a017f617f15fa97481",
     "6 - Main Notes/Access Modifier Flashcards.md": "014790b2ffc32187097df893ba67a262",
     "6 - Main Notes/Anonymous classes Java.md": "99871e26d47b0509c4fcc35806390017",
-    "4 - Indexes/ТВиМС.md": "ff871bac7776f6f1672049db77e2c796",
+    "4 - Indexes/ТВиМС.md": "d667b9add84fe4e606ccbdbb4470af9a",
     "4 - Indexes/PHP.md": "41f4d03e7d249df3be70c3310ecda1ea",
     "3 - Tags/Основы комбинаторики.md": "91d5e3c1c74f92fe60a559b64700bf34",
     "6 - Main Notes/Effectively final - Java - Flashcards.md": "7d68683a10e9995ef17633c8ef711376",
@@ -292,7 +293,7 @@
     "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md": "977ef2023542377348a3622d50e96ccf",
     "6 - Main Notes/Асимметрия выборки.md": "4c45749a6bc6d6c0049dd5e2684a1a1e",
     "6 - Main Notes/Выборочное среднее (Mean).md": "117868b6003e831d600dfc247ff8c1a3",
-    "6 - Main Notes/UML диаграмма классов.md": "5483a099b2da63e6240b232951f3e3d6",
+    "6 - Main Notes/UML диаграмма классов.md": "37febc1ec9ee0261f1da8776714a62c4",
     "6 - Main Notes/Системный анализ в целом.md": "4c11b745e3b6f97eb9dc50064baaa586",
     "4 - Indexes/Системный анализ.md": "e325c61e80b40c91d826cef383d954ba",
     "6 - Main Notes/Java Important Classes.md": "6985e18280900d47aac9426bcb0d03be",
@@ -300,7 +301,7 @@
     "6 - Main Notes/AutoClosable Interface - Java.md": "0a07580a6fb06e26a1685269dcaa2bbe",
     "6 - Main Notes/HttpClient class - Java.md": "1d596d9a82b3f491f86111463c2cc2bf",
     "6 - Main Notes/Http - Java.md": "a26426ce94c2eb71de59cbc49cbfc2fa",
-    "4 - Indexes/Java+.md": "c31c91636981e8f27fe85a1a272b32d7",
+    "4 - Indexes/Java+.md": "8a3f16c936ff43ab0a5b0e6f3a32bc92",
     "6 - Main Notes/HttpClient.Builder - Java - Flashcards.md": "292fc52b83ed725cfb93da8d04aeafdb",
     "6 - Main Notes/HttpClient.Builder - Java.md": "5ea454c2bdcde160631b59eb855bd5cc",
     "6 - Main Notes/HttpClient class - Java - Flashcards.md": "30b5785b04c8cd5623f84f1b9a99aed5",
@@ -310,7 +311,13 @@
     "6 - Main Notes/Functional Interfaces - Java.md": "7422528928cb18369280ca361aa9e89e",
     "6 - Main Notes/Lambda Expressions - Java.md": "a6fe94281bd4758dc518e0ddf0c6f3e3",
     "6 - Main Notes/HttpResponse.BodyHandler - Java.md": "b1319a5c1f3ec14762aac5e7e7d06021",
-    "6 - Main Notes/Lambda Expressions - Java - Flashcards.md": "652818ac5a0690d8e13a8d2ddd69732e"
+    "6 - Main Notes/Lambda Expressions - Java - Flashcards.md": "652818ac5a0690d8e13a8d2ddd69732e",
+    "6 - Main Notes/Выбор формулы уравнения регрессии - Flashcards.md": "6a103a093bdc8b7a6431536176c905ba",
+    "6 - Main Notes/Линейная регрессия.md": "553e9d1a844e2ddae34759051da165e1",
+    "6 - Main Notes/Регрессия.md": "d2ebdba4cc4707a30c327e90c002444a",
+    "6 - Main Notes/Выбор формулы уравнения парной регрессии.md": "545f89c44468e95aa2277ff12daa2a28",
+    "6 - Main Notes/Зависимость величин.md": "81f3184546fa3335a8ce80ab0b2731d8",
+    "6 - Main Notes/Git.md": "443da4afc042fb329f14d44f3cd1ad9d"
   },
   "fields_dict": {
     "Basic": [

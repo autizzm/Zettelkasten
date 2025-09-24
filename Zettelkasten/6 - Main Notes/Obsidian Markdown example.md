@@ -118,3 +118,8 @@ $\infty$
 $\bar{X}$
 
 $\mu = \mathbb{E}[X] = \begin{cases} \sum_{i} x_i p_i, & \text{для дискретных} \\[6pt] \int_{-\infty}^{+\infty} x f(x)\, dx, & \text{для непрерывных} \end{cases}$
+
+$a \neq b$
+
+$\varepsilon$
+
