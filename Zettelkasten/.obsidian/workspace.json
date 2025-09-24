@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Метод наименьших квадратов (МНК).md",
+                "file": "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Метод наименьших квадратов (МНК)"
+              "title": "HttpResponse.BodyHandler - Java"
+            }
+          },
+          {
+            "id": "4acc89ebfb125567",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HttpResponse.BodyHandler - Java"
             }
           },
           {
@@ -103,7 +127,8 @@
               "title": "Регрессия"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -252,18 +278,27 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "3359da746988cd9a",
+  "active": "4acc89ebfb125567",
   "lastOpenFiles": [
+    "6 - Main Notes/HttpResponse.BodySubscriber - Java.md",
+    "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
+    "6 - Main Notes/Functional Interfaces - Java.md",
+    "6 - Main Notes/HttpResponse.BodyHandler - Java - Flashcards.md",
+    "6 - Main Notes/HttpResponse.BodyHandlers - Java.md",
+    "6 - Main Notes/HttpResponse.BodyHandlers - Java - Flashcards.md",
+    "6 - Main Notes/HttpResponse.ResponseInfo - Java.md",
+    "6 - Main Notes/HttpResponse.ResponseInfo - Java - Flashcards.md",
+    "6 - Main Notes/HBodySubscriber.md",
+    "4 - Indexes/Java+.md",
+    "6 - Main Notes/Метод наименьших квадратов (МНК).md",
     "Pasted image 20250924131743.png",
     "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Метод наименьших квадратов (МНК).md",
     "6 - Main Notes/Линейная регрессия.md",
     "Pasted image 20250924125805.png",
     "6 - Main Notes/Способы минимизации отклонений функции регрессии.md",
     "4 - Indexes/ТВиМС.md",
     "Pasted image 20250924122151.png",
     "6 - Main Notes/Регрессия.md",
-    "6 - Main Notes/Functional Interfaces - Java.md",
     "4 - Indexes/Java Core.md",
     "6 - Main Notes/Lambda Expressions - Java.md",
     "6 - Main Notes/Мат Стат.md",
@@ -276,20 +311,11 @@
     "4 - Indexes/Obsidian Features.md",
     "6 - Main Notes/Git.md",
     "Pasted image 20250923210606.png",
-    "4 - Indexes/Java+.md",
-    "1 - Rough notes/СТСР-1.md",
-    "6 - Main Notes/UML диаграмма классов.md",
-    "4 - Indexes/Системный анализ.md",
-    "6 - Main Notes/Lambda Expressions - Java - Flashcards.md",
-    "6 - Main Notes/Functional Interfaces - Java - Flashcards.md",
-    "3 - Tags/Interfaces Java.md",
-    "6 - Main Notes/Interface Java.md",
     "2 - Source Materials/Pasted image 20250922180436.png",
     "2 - Source Materials/Pasted image 20250922153845.png",
     "2 - Source Materials/Pasted image 20250920210609.png",
     "2 - Source Materials/Pasted image 20250920205825.png",
     "2 - Source Materials/Pasted image 20250920204825.png",
-    "2 - Source Materials/Pasted image 20250920181745.png",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
