@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3359da746988cd9a",
+            "id": "4b4b7f801d7a3e4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
+                "file": "6 - Main Notes/Deserialization Annotations - Jackson Annotations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HttpResponse.BodyHandler - Java"
+              "title": "Deserialization Annotations - Jackson Annotations"
             }
           },
           {
-            "id": "4acc89ebfb125567",
+            "id": "4d737457caa991ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
+                "file": "6 - Main Notes/Serialization Annotations - Jackson Annotations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HttpResponse.BodyHandler - Java"
+              "title": "Serialization Annotations - Jackson Annotations"
             }
           },
           {
-            "id": "ede5a859f9a851e8",
+            "id": "0371473c5c5d37f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Линейная регрессия.md",
+                "file": "6 - Main Notes/Порядок сериализации - Jackson Annotations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,59 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Линейная регрессия"
-            }
-          },
-          {
-            "id": "17a8d02c17655db3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Obsidian Markdown example.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Markdown example"
-            }
-          },
-          {
-            "id": "278c63658a16ba4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Регрессия.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Регрессия"
+              "title": "Порядок сериализации - Jackson Annotations"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#adult",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -278,38 +229,38 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "4acc89ebfb125567",
+  "active": "0371473c5c5d37f9",
   "lastOpenFiles": [
-    "6 - Main Notes/HttpResponse.BodySubscriber - Java.md",
-    "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
-    "6 - Main Notes/Functional Interfaces - Java.md",
-    "6 - Main Notes/HttpResponse.BodyHandler - Java - Flashcards.md",
-    "6 - Main Notes/HttpResponse.BodyHandlers - Java.md",
-    "6 - Main Notes/HttpResponse.BodyHandlers - Java - Flashcards.md",
-    "6 - Main Notes/HttpResponse.ResponseInfo - Java.md",
-    "6 - Main Notes/HttpResponse.ResponseInfo - Java - Flashcards.md",
-    "6 - Main Notes/HBodySubscriber.md",
     "4 - Indexes/Java+.md",
-    "6 - Main Notes/Метод наименьших квадратов (МНК).md",
-    "Pasted image 20250924131743.png",
+    "6 - Main Notes/Порядок сериализации - Jackson Annotations.md",
+    "6 - Main Notes/Class-level annotations - Jackson Annotations.md",
+    "6 - Main Notes/Serialization Annotations - Jackson Annotations.md",
+    "6 - Main Notes/Deserialization Annotations - Jackson Annotations.md",
+    "6 - Main Notes/ObjectMapper - Jackson Databind.md",
+    "6 - Main Notes/Jackson Databind.md",
+    "6 - Main Notes/Порядок сериализации класса- Jackson Annotations.md",
+    "6 - Main Notes/HttpRequest - Java - Flashcards.md",
+    "6 - Main Notes/Jackson Annotations.md",
     "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Линейная регрессия.md",
+    "6 - Main Notes/HttpRequest.BodyPublishers - Java.md",
+    "6 - Main Notes/curl tool.md",
+    "6 - Main Notes/HttpResponse.ResponseInfo - Java.md",
+    "6 - Main Notes/HttpRequest.BodyPublisher - Java.md",
+    "6 - Main Notes/HttpRequest.BodyPublisher - Java - Flashcards.md",
+    "6 - Main Notes/HttpRequest - Java.md",
+    "6 - Main Notes/HttpClient.Builder - Java.md",
+    "6 - Main Notes/HttpRequest.Builder - Java.md",
+    "6 - Main Notes/HttpRequest.Builder - Java - Flashcards.md",
+    "6 - Main Notes/HttpResponse.ResponseInfo - Java - Flashcards.md",
+    "6 - Main Notes/HttpResponse.BodySubscriber - Java.md",
+    "6 - Main Notes/HttpResponse.BodySubscriber - Java - Flashcards.md",
+    "6 - Main Notes/HttpClient class - Java.md",
+    "6 - Main Notes/Работа с HTTP в Java - java.net.http.md",
+    "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
+    "Pasted image 20250924131743.png",
     "Pasted image 20250924125805.png",
-    "6 - Main Notes/Способы минимизации отклонений функции регрессии.md",
-    "4 - Indexes/ТВиМС.md",
     "Pasted image 20250924122151.png",
-    "6 - Main Notes/Регрессия.md",
-    "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Lambda Expressions - Java.md",
-    "6 - Main Notes/Мат Стат.md",
-    "6 - Main Notes/Проверка статистических гипотез о параметрах регрессионной модели.md",
-    "6 - Main Notes/МатСтат.md",
-    "6 - Main Notes/Выбор формулы уравнения регрессии - Flashcards.md",
-    "6 - Main Notes/Выбор формулы уравнения парной регрессии.md",
-    "6 - Main Notes/Зависимость величин.md",
     "Pasted image 20250924110021.png",
-    "4 - Indexes/Obsidian Features.md",
-    "6 - Main Notes/Git.md",
     "Pasted image 20250923210606.png",
     "2 - Source Materials/Pasted image 20250922180436.png",
     "2 - Source Materials/Pasted image 20250922153845.png",

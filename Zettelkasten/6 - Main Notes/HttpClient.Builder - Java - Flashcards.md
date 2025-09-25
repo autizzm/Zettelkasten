@@ -3,10 +3,20 @@ Theory for the cards: [[HttpClient.Builder - Java]]
 
 FILE TAGS: java+
 
+
+Q: как создать `HttpClient.Builder`?
+A: Он создаётся методом `newBuilder()` класса `HttpClient`:
+```java
+HttpClient client = HttpClient.newBuilder()
+	.build();
+```
+<!--ID: 1758790299004-->
+
+
 Q: Как сделать так, чтобы Http запросы, отдаваемые HttpClient для отправки, отправлялись через определённый прокси?
 A: При создании HttpClient установить ProxySelector:
 ```java
-HttpClient client = HttpClient.new Builder()
+HttpClient client = HttpClient.newBuilder()
 	.proxy(ProxySelector.of(new InetSocketAddr("proxy.example.com", 80)))
 	.build();
 ```
@@ -16,7 +26,7 @@ HttpClient client = HttpClient.new Builder()
 Q: Какие версии HTTP поддерживает HttpClient?
 A: Обе: и HTTP 1.1 и HTTP 2. Версяи Http устанавливается при создании HttpClient в HttpClient.Builder:
 ```java
-HttpClient client = HttpClient.new Builder()
+HttpClient client = HttpClient.newBuilder()
 	.version(HttpClient.Version./*HTTP_1 или HTTP_2 */)
 	.build();
 ```
@@ -26,7 +36,7 @@ HttpClient client = HttpClient.new Builder()
 Q: Как установить период времени для попыток новых запросов в HttpClient? (Чтобы, если адрес помер, мы долго не стучались в него)
 A: При создании HttpClient указываем connectionTimeout в HttpClient.Builder:
 ```java
-HttpClient client = HttpClient.new Builder()
+HttpClient client = HttpClient.newBuilder()
 	.connectionTimeout(Duration.ofSeconds(20))
 	.build();
 ```
@@ -36,7 +46,7 @@ HttpClient client = HttpClient.new Builder()
 Q: Как установить политику редиректов для HttpClient?
 A: При создании HttpClient указываем followRedirect в HttpClient.Builder:
 ```java
-HttpClient client = HttpClient.new Builder()
+HttpClient client = HttpClient.newBuilder()
 	.followRedirects(HttpClient.Redirect./* ALWAYS, NEVER, NORMAL */)
 	.build();
 ```

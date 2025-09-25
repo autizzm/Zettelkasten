@@ -3,11 +3,12 @@ Theory for the cards:
 
 FILE TAGS: java+
 
-Q: Как происходит получение телав Http ответа? Какой класс за это отвечает?
+Q: Как происходит получение тела Http ответа? Какой класс за это отвечает?
 A: 1. Сначала, при получении HTTP ответа, в HttpClient вызывается `HttpResponse.BodyHandler<T>`
 2. В этом `HttpResponse.BodyHandler<T>` вызывается метод `apply(HttpResponse.ResponseInfo respInfo)`, который возвращает `HttpResponse.BodySubscriber<T>`
 3. Этот `HttpResponse.BodySubscriber<T>` имеет единственный метод getBody(), при вызове которого мы получаем `CompletionStage<T>` (super interface of `CompletableFuture<T>`)
-4. Когда этот `CompletionStage<T>` выполняется (синхронно или асинхронно) -> мы получаем тело запрос. (Выполнение кода приостанавливается до получения результата)
+4. Когда этот `CompletionStage<T>` выполняется (синхронно или асинхронно) -> мы получаем тело запроса. (Выполнение кода приостанавливается до получения результата)
+	1. 
 `HttpResponse.BodyHandler<T>` -> `HttpResponse.BodySubscriber<T>` -> `CompletionStage<T>` -> `T`
 <!--ID: 1758736947110-->
 

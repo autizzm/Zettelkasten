@@ -3,7 +3,7 @@
 
 Status: #child 
 
-Tags: [[Java+]]
+Tags: [[Java+]]  [[Http - Java]]
 
 ---
 # `HttpResponse.BodyHandler<T>` - Java

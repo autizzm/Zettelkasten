@@ -3,7 +3,7 @@
 
 Status: #baby - ещё flashcards по отправке запросов бы
 
-Tags: [[Java+]]
+Tags: [[Java+]]  [[Http - Java]]
 
 ---
 # HttpClient class - Java
@@ -41,6 +41,8 @@ implements [[AutoClosable Interface - Java|AutoClosable]]
 ### Жизненный цикл
 
 1. Создаётся через [[HttpClient.Builder - Java|HttpClientBuilder]]:
+
+!!! методом 
 ```java
 HttpClient client = HttpClient.newBuilder()
         .version(Version.HTTP_1_1)
@@ -63,8 +65,8 @@ try{
 ----
 #### [[HttpClient class - Java - Flashcards|Link to flashcards]]
 
-- [[HttpClient.Builder - Java]]
 
 ---
 ### References:
 
+- [[HttpClient.Builder - Java]]

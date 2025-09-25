@@ -13,3 +13,8 @@ A: HttpResponse.ResponseInfo - wrapper class over the Http response.
 - statusCode()
 - version() - версия полученного Http ответа
 <!--ID: 1758737169512-->
+
+Q: Можно ли из объекта `HttpResponse.ResponseInfo`, который передаётся в метод `apply(HttpResponse.ResponseInfo respInfo)` получить необработанное тело запроса?
+A: Нет нельзя, этот интерфейс нужен, чтобы на основе заголовков. статус кода и версии HTTP определить используемый `HttpResponse.BodySubscriber`.
+<!--ID: 1758800992293-->
+

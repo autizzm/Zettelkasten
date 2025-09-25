@@ -1,15 +1,18 @@
 
 23-09-2025 10:40
 
-Status:
+Status: #child
 
-Tags: [[Java+]] 
+Tags: [[Java+]] [[Http - Java]]
 
 ---
 # HttpClient.Builder - Java
 
+
+Создаётся методом ~={orange}newBuilder()=~ класса [[HttpClient class - Java|HttpClient]]:
+
 ```java
-HttpClient client = HttpClient.new Builder()
+HttpClient client = HttpClient.newBuilder()
 	.version(HttpClient.Version./*HTTP_1_1 или HTTP_2 */)
 	.followRedirects(HttpClient.Redirect./* ALWAYS, NEVER, NORMAL */)
 	.connectionTimeout(Duration.ofSeconds(20))
@@ -53,3 +56,4 @@ HttpClient client = HttpClient.new Builder()
 ---
 ### References:
 
+- [[HttpClient class - Java]]

@@ -8,9 +8,7 @@ A: HttpClient предназначен для отправки HTTP запрос
 Он реализует AutoCLosable -> может использоваться в try-with-resources.
 	
 ЖЦ:
-<!--ID: 1758615118923-->
-
-
+	
 1. Создаётся с помощью HttpClient.Builder, после этого HttpClient - IMMUTABLE:
 ```java
 HttpClient client = HttpClient.newBuilder()
@@ -27,3 +25,4 @@ try{
 	client.close();
 } catch()
 ```
+<!--ID: 1758615118923-->
