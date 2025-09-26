@@ -94,8 +94,8 @@
     "4 - Indexes/Obsidian Features.md": "3d8f60bcca689830fa354f8db8ac5b71",
     "3 - Tags/СТСР.md": "d41d8cd98f00b204e9800998ecf8427e",
     "1 - Rough notes/СТСР-1.md": "5bdafe335ed58bba43d1b2123ec9fd09",
-    "6 - Main Notes/Data Types Flashcards.md": "846808a7d1ed6676488d1d9828524114",
-    "6 - Main Notes/Data Types.md": "f3f663839af21ea420be9367e7785afa",
+    "6 - Main Notes/Data Types Flashcards.md": "cbef9d65cff279187b08af0cbb8c5229",
+    "6 - Main Notes/Data Types.md": "6803b6618ccabfbdba4f1d167dfb9cef",
     "3 - Tags/Java Core.md": "d41d8cd98f00b204e9800998ecf8427e",
     "6 - Main Notes/String Java.md": "f1a286e77f56e709909a93d2ec1acf8d",
     "6 - Main Notes/String Flashcards.md": "f5d8acdb3d198f3b1b0e71a22b18a47a",
@@ -301,7 +301,7 @@
     "6 - Main Notes/AutoClosable Interface - Java.md": "0a07580a6fb06e26a1685269dcaa2bbe",
     "6 - Main Notes/HttpClient class - Java.md": "5192f6d8c5a184a2c4f3dd97dacf27ce",
     "6 - Main Notes/Http - Java.md": "704ff2eff3fb1702125c5f0aa7841337",
-    "4 - Indexes/Java+.md": "5a0e43e7786f8702c7139be9d06bed76",
+    "4 - Indexes/Java+.md": "6e0993ffd3a4d64908e7d9bc11f3dd27",
     "6 - Main Notes/HttpClient.Builder - Java - Flashcards.md": "a68f6ef8c262eb38585e80a8ffdb06d2",
     "6 - Main Notes/HttpClient.Builder - Java.md": "67d6978494677c2ce230409b44d37dfc",
     "6 - Main Notes/HttpClient class - Java - Flashcards.md": "2aa0d1eabf6acec027aa78cbc0f2f2b4",
@@ -341,7 +341,15 @@
     "6 - Main Notes/HttpResponse - Java.md": "56ba080242c30fa396c3a4ea7c4f288c",
     "6 - Main Notes/HttpResponse.BodySubscriber - Java - Flashcards.md": "89423147436d064e52b5bcae60821e54",
     "6 - Main Notes/HttpRequest - Java - Flashcards.md": "1d2b83cfba64d4e5127b160de0ea8ece",
-    "6 - Main Notes/HttpRequest.BodyPublisher - Java - Flashcards.md": "2bcc57049a961b87b637208dda1c9996"
+    "6 - Main Notes/HttpRequest.BodyPublisher - Java - Flashcards.md": "2bcc57049a961b87b637208dda1c9996",
+    "6 - Main Notes/Порядок сериализации - Jackson Annotations.md": "02be6305b9a56aa70a88791b1cf2f84c",
+    "6 - Main Notes/Serialization Annotations - Jackson Annotations.md": "146d80d07020227af44c293e066cf9ce",
+    "6 - Main Notes/Deserialization Annotations - Jackson Annotations.md": "06919cfdb40a09595a0faa0ea1436447",
+    "6 - Main Notes/Class-level annotations - Jackson Annotations.md": "4a466e57baa5cd440001a56061fe4ebe",
+    "6 - Main Notes/Порядок сериализации класса- Jackson Annotations.md": "fa3314f30b0f7f98fdb836ab8493a76a",
+    "6 - Main Notes/Jackson Annotations.md": "fb25d8f526b75bbee974f8ce7050b194",
+    "6 - Main Notes/ObjectMapper - Jackson Databind.md": "eeb0aaf7b175f47c385ee6bf0c91043f",
+    "6 - Main Notes/Jackson Databind.md": "240df2363cc5f871b2a24ee92b65787f"
   },
   "fields_dict": {
     "Basic": [

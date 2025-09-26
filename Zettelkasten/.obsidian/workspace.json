@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2a6d8d6f0130497f",
+        "id": "53e0acb579ad499a",
         "type": "tabs",
         "children": [
           {
-            "id": "4b4b7f801d7a3e4b",
+            "id": "154b9fe713206899",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Deserialization Annotations - Jackson Annotations.md",
+                "file": "6 - Main Notes/Основной капитал.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Deserialization Annotations - Jackson Annotations"
+              "title": "Основной капитал"
             }
           },
           {
-            "id": "4d737457caa991ba",
+            "id": "d0f40a535e2d8101",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Serialization Annotations - Jackson Annotations.md",
+                "file": "6 - Main Notes/Property, plant and equipment  - Основные фонды.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Serialization Annotations - Jackson Annotations"
+              "title": "Property, plant and equipment  - Основные фонды"
             }
           },
           {
-            "id": "0371473c5c5d37f9",
+            "id": "0eb45e5cdc29c3d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Порядок сериализации - Jackson Annotations.md",
+                "file": "6 - Main Notes/Depreciation and amortization - Амортизация.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Порядок сериализации - Jackson Annotations"
+              "title": "Depreciation and amortization - Амортизация"
+            }
+          },
+          {
+            "id": "a8d4e58061e43e60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Balance Sheet - Financial position - Отчет о финансовом положении.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Balance Sheet - Financial position - Отчет о финансовом положении"
             }
           }
         ],
@@ -138,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -229,44 +254,44 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "0371473c5c5d37f9",
+  "active": "0eb45e5cdc29c3d7",
   "lastOpenFiles": [
+    "6 - Main Notes/Property, plant and equipment  - Основные фонды.md",
+    "6 - Main Notes/Depreciation and amortization - Амортизация.md",
+    "4 - Indexes/Obsidian Features.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Balance Sheet - Financial position - Отчет о финансовом положении.md",
+    "4 - Indexes/Бух Учёт.md",
+    "6 - Main Notes/Income and Loss - Отчёт о прибылях и убытках.md",
+    "Pasted image 20250926203205.png",
+    "6 - Main Notes/Основной капитал.md",
+    "Pasted image 20250926202117.png",
+    "6 - Main Notes/Investment Property, Long-term financial assets - Доходные вложения в материальные ценности, долгосрочные финансовые вложения.md",
+    "6 - Main Notes/Intangible assets - Нематериальные активы.md",
+    "4 - Indexes/Экономическая теория.md",
+    "4 - Indexes/Экономика.md",
+    "6 - Main Notes/Deserialization Annotations - Jackson Annotations.md",
+    "6 - Main Notes/Serialization Annotations - Jackson Annotations.md",
+    "6 - Main Notes/curl tool.md",
     "4 - Indexes/Java+.md",
+    "6 - Main Notes/Data Types.md",
+    "6 - Main Notes/Data Types Flashcards.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/HttpRequest.Builder - Java.md",
+    "6 - Main Notes/HttpRequest - Java.md",
     "6 - Main Notes/Порядок сериализации - Jackson Annotations.md",
     "6 - Main Notes/Class-level annotations - Jackson Annotations.md",
-    "6 - Main Notes/Serialization Annotations - Jackson Annotations.md",
-    "6 - Main Notes/Deserialization Annotations - Jackson Annotations.md",
     "6 - Main Notes/ObjectMapper - Jackson Databind.md",
     "6 - Main Notes/Jackson Databind.md",
     "6 - Main Notes/Порядок сериализации класса- Jackson Annotations.md",
-    "6 - Main Notes/HttpRequest - Java - Flashcards.md",
-    "6 - Main Notes/Jackson Annotations.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/HttpRequest.BodyPublishers - Java.md",
-    "6 - Main Notes/curl tool.md",
-    "6 - Main Notes/HttpResponse.ResponseInfo - Java.md",
-    "6 - Main Notes/HttpRequest.BodyPublisher - Java.md",
-    "6 - Main Notes/HttpRequest.BodyPublisher - Java - Flashcards.md",
-    "6 - Main Notes/HttpRequest - Java.md",
-    "6 - Main Notes/HttpClient.Builder - Java.md",
-    "6 - Main Notes/HttpRequest.Builder - Java.md",
-    "6 - Main Notes/HttpRequest.Builder - Java - Flashcards.md",
-    "6 - Main Notes/HttpResponse.ResponseInfo - Java - Flashcards.md",
-    "6 - Main Notes/HttpResponse.BodySubscriber - Java.md",
-    "6 - Main Notes/HttpResponse.BodySubscriber - Java - Flashcards.md",
-    "6 - Main Notes/HttpClient class - Java.md",
-    "6 - Main Notes/Работа с HTTP в Java - java.net.http.md",
-    "6 - Main Notes/HttpResponse.BodyHandler - Java.md",
-    "Pasted image 20250924131743.png",
-    "Pasted image 20250924125805.png",
-    "Pasted image 20250924122151.png",
-    "Pasted image 20250924110021.png",
-    "Pasted image 20250923210606.png",
+    "2 - Source Materials/Pasted image 20250924131743.png",
+    "2 - Source Materials/Pasted image 20250924125805.png",
+    "2 - Source Materials/Pasted image 20250924122151.png",
+    "2 - Source Materials/Pasted image 20250924110021.png",
+    "2 - Source Materials/Pasted image 20250923210606.png",
     "2 - Source Materials/Pasted image 20250922180436.png",
     "2 - Source Materials/Pasted image 20250922153845.png",
     "2 - Source Materials/Pasted image 20250920210609.png",
-    "2 - Source Materials/Pasted image 20250920205825.png",
-    "2 - Source Materials/Pasted image 20250920204825.png",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",

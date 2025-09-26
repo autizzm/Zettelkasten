@@ -22,6 +22,7 @@
 		- BodySubscribers 
 		
 3. [[HttpRequest - Java]]
+	- [[HttpRequest.Builder - Java]]
 	- [[HttpRequest.BodyPublisher - Java]]
 		- [[HttpRequest.BodyPublishers - Java]]
 
