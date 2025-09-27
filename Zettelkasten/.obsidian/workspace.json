@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/UPDATE - SQL - Flashcards.md",
+                "file": "6 - Main Notes/Асимметрия выборки (skewness).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,127 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UPDATE - SQL - Flashcards"
+              "title": "Асимметрия выборки (skewness)"
+            }
+          },
+          {
+            "id": "550495ebdbe31679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Эксцесс выборки (Kurtosis)"
+            }
+          },
+          {
+            "id": "00bed1bf91622202",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Статистика Жарка–Бера (Jarque–Bera Test)"
+            }
+          },
+          {
+            "id": "9e3745e9c17fae7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Мат Стат.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Мат Стат"
+            }
+          },
+          {
+            "id": "382844132afd0a8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Выборочное среднее (Mean)"
+            }
+          },
+          {
+            "id": "47f4844e073ab58d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Нормальное распределение выборки.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Нормальное распределение выборки"
             }
           },
           {
@@ -103,7 +223,8 @@
               "title": "Aggregate Functions - SQL"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +243,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#adult",
+                "query": "#baby",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,8 +282,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -253,10 +373,19 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "11bbb3955a60a84f",
+  "active": "00bed1bf91622202",
   "lastOpenFiles": [
-    "6 - Main Notes/UPDATE - SQL.md",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md",
+    "6 - Main Notes/Асимметрия выборки (skewness).md",
+    "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
+    "6 - Main Notes/Мат Стат.md",
+    "6 - Main Notes/Выборочное среднее (Mean).md",
+    "6 - Main Notes/Нормальное распределение выборки.md",
+    "6 - Main Notes/Медиана выборки (Median).md",
+    "6 - Main Notes/Мода выборки (Mode).md",
     "6 - Main Notes/UPDATE - SQL - Flashcards.md",
+    "6 - Main Notes/UPDATE - SQL.md",
     "Pasted image 20250927135038.png",
     "6 - Main Notes/INSERT - SQL.md",
     "4 - Indexes/SQL.md",
@@ -273,14 +402,6 @@
     "6 - Main Notes/Untitled 12.md",
     "6 - Main Notes/Untitled 11.md",
     "6 - Main Notes/Untitled 10.md",
-    "6 - Main Notes/Untitled 9.md",
-    "6 - Main Notes/Untitled 8.md",
-    "6 - Main Notes/Untitled 7.md",
-    "6 - Main Notes/Untitled 5.md",
-    "6 - Main Notes/Untitled 6.md",
-    "6 - Main Notes/nnn.md",
-    "6 - Main Notes/Untitled 4.md",
-    "6 - Main Notes/Untitled 3.md",
     "2 - Source Materials/Pasted image 20250926203205.png",
     "2 - Source Materials/Pasted image 20250926202117.png",
     "2 - Source Materials/Pasted image 20250924131743.png",
