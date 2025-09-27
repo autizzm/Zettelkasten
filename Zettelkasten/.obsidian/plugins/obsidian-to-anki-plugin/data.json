@@ -76,12 +76,13 @@
     "Pasted image 20250918140451.png",
     "Pasted image 20250922153845.png",
     "Pasted image 20250920124410.png",
-    "Pasted image 20250924110021.png"
+    "Pasted image 20250924110021.png",
+    "Pasted image 20250927135038.png"
   ],
   "File Hashes": {
     "6 - Main Notes/References Suggestions.md": "3a96958ec76322f56f3c88890074fd67",
     "6 - Main Notes/Status Tags.md": "eb0ded3864be378032fd744d98d92fb7",
-    "6 - Main Notes/Obsidian Markdown example.md": "39744b48f86c7cc5ab0449c040f005a4",
+    "6 - Main Notes/Obsidian Markdown example.md": "e4de45b3902576a9f9f8c6c181db7e13",
     "6 - Main Notes/Main Notes Suggestion.md": "b638b4cccc811f8057114f2e8cf1eb2b",
     "6 - Main Notes/Effective Tagging.md": "d2736e96bc24a2b8a8868fcbfaf72a77",
     "6 - Main Notes/Hotkeys.md": "bca46dda0f839ab83614c778ee17c526",
@@ -157,7 +158,7 @@
     "6 - Main Notes/Ресурсы (факторы) производства Flashcards.md": "84bc68a048b90a4fc4c68befd8a5f557",
     "6 - Main Notes/Потребности как предпосылка производства.md": "b233cfc3625ad5ea3ef98f92126bce26",
     "6 - Main Notes/Пирамида Маслоу.md": "ece556327a74e9cd0c2c36ba9090b636",
-    "6 - Main Notes/Основной капитал.md": "75a172396363d78d1be65395ebd4dee8",
+    "6 - Main Notes/Основной капитал.md": "ff9f6d2a3738b4f165a640bc3530c561",
     "6 - Main Notes/Оборотный капитал.md": "7454b459df9548dce1c58f1f6ba26ed7",
     "6 - Main Notes/Access Modifiers.md": "3987ef6325f1cd9e90ad589f46f0e934",
     "4 - Indexes/Экономическая теория.md": "f36c375318f6b997d10722cde740fea1",
@@ -215,7 +216,7 @@
     "6 - Main Notes/Literals - SQL - Flashcards.md": "69d4829f1dd72f77a8720b37a77e46d8",
     "6 - Main Notes/Literals - SQL.md": "ba77eef34ea074fe5cf9f6e402ff17ed",
     "6 - Main Notes/SELECT - SQL.md": "e7a1b602953c465fd08b77a68936980c",
-    "4 - Indexes/SQL.md": "6c4a4a9cc88911e626c8f885b848d4c9",
+    "4 - Indexes/SQL.md": "bfc7754ca2c575c57d182fc97e3ee044",
     "6 - Main Notes/Built-in functions - SQL - Flashcards.md": "6535902b7a33b5f06d2882dc867f4072",
     "6 - Main Notes/Built-in functions - SQL.md": "ba2ae3de87e43cf433fafc0b72041538",
     "6 - Main Notes/DISTINCT - SQL - Flashcards.md": "212acc07747db1014d714b1fcb63ad90",
@@ -349,7 +350,18 @@
     "6 - Main Notes/Порядок сериализации класса- Jackson Annotations.md": "fa3314f30b0f7f98fdb836ab8493a76a",
     "6 - Main Notes/Jackson Annotations.md": "fb25d8f526b75bbee974f8ce7050b194",
     "6 - Main Notes/ObjectMapper - Jackson Databind.md": "eeb0aaf7b175f47c385ee6bf0c91043f",
-    "6 - Main Notes/Jackson Databind.md": "240df2363cc5f871b2a24ee92b65787f"
+    "6 - Main Notes/Jackson Databind.md": "240df2363cc5f871b2a24ee92b65787f",
+    "6 - Main Notes/INSERT - SQL - Flashcards.md": "ce385165aecaa2049b7b43c9f3734452",
+    "6 - Main Notes/INSERT - SQL.md": "c4e4883df3ec1c5ee0d78d409d48a264",
+    "6 - Main Notes/Depreciation and amortization - Амортизация.md": "5901eaabb200d72b46438da7a230ea85",
+    "6 - Main Notes/Income and Loss - Отчёт о прибылях и убытках.md": "d7b150718b8e05e804351c14a3e599c9",
+    "6 - Main Notes/Balance Sheet - Financial position - Отчет о финансовом положении.md": "bfb113a572d8d9f9908bb50e2555d0d8",
+    "6 - Main Notes/Investment Property, Long-term financial assets - Доходные вложения в материальные ценности, долгосрочные финансовые вложения.md": "ce17fd6c87aefc9fa219e665048e123e",
+    "6 - Main Notes/Intangible assets - Нематериальные активы.md": "076f95b3fc9eb4a1b52a49d2ed0e8398",
+    "6 - Main Notes/Property, plant and equipment  - Основные фонды.md": "19c5ec39e70e8706958fc935a8974861",
+    "4 - Indexes/Бух Учёт.md": "fc9bf76b9c7f2c5dbc8e2fb09443c65c",
+    "6 - Main Notes/UPDATE - SQL - Flashcards.md": "a80eed7a64f3d43f4104dd690ab96850",
+    "6 - Main Notes/UPDATE - SQL.md": "8a5fef67ebe6b9ae5952788b48865027"
   },
   "fields_dict": {
     "Basic": [

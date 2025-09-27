@@ -1,4 +1,6 @@
 
+#### Data representation (выборки и т.п.)
+
 1. [[SELECT - SQL]]
 2. [[Literals - SQL]]
 3. [[Built-in functions - SQL]]
@@ -23,6 +25,10 @@
 4. [[Column definition options (Constraints) - SQL]]
 	- [[PRIMARY KEY - SQL]]
 	- [[FOREIGN KEY - SQL]]
+
+[[INSERT - SQL]]
+[[UPDATE - SQL]]
+
 
 
 ### Relationships
