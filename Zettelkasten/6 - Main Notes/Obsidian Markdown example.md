@@ -124,3 +124,5 @@ $a \neq b$
 $\varepsilon$
 
 $100\%$
+
+$\sqrt{n}$

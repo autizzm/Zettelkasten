@@ -77,12 +77,14 @@
     "Pasted image 20250922153845.png",
     "Pasted image 20250920124410.png",
     "Pasted image 20250924110021.png",
-    "Pasted image 20250927135038.png"
+    "Pasted image 20250927135038.png",
+    "Pasted image 20250928113622.png",
+    "Pasted image 20250928104741.png"
   ],
   "File Hashes": {
     "6 - Main Notes/References Suggestions.md": "3a96958ec76322f56f3c88890074fd67",
     "6 - Main Notes/Status Tags.md": "eb0ded3864be378032fd744d98d92fb7",
-    "6 - Main Notes/Obsidian Markdown example.md": "e4de45b3902576a9f9f8c6c181db7e13",
+    "6 - Main Notes/Obsidian Markdown example.md": "d69efa7ad26ca69b216ebba782610844",
     "6 - Main Notes/Main Notes Suggestion.md": "b638b4cccc811f8057114f2e8cf1eb2b",
     "6 - Main Notes/Effective Tagging.md": "d2736e96bc24a2b8a8868fcbfaf72a77",
     "6 - Main Notes/Hotkeys.md": "bca46dda0f839ab83614c778ee17c526",
@@ -186,7 +188,7 @@
     "6 - Main Notes/Inner Classes Java - Flashcards.md": "1393a3b2470a45a017f617f15fa97481",
     "6 - Main Notes/Access Modifier Flashcards.md": "014790b2ffc32187097df893ba67a262",
     "6 - Main Notes/Anonymous classes Java.md": "99871e26d47b0509c4fcc35806390017",
-    "4 - Indexes/ТВиМС.md": "66a99f763cc407324d0998bb5598630b",
+    "4 - Indexes/ТВиМС.md": "b6a56e138793ec7c8fbce21ff1d91f2b",
     "4 - Indexes/PHP.md": "41f4d03e7d249df3be70c3310ecda1ea",
     "3 - Tags/Основы комбинаторики.md": "91d5e3c1c74f92fe60a559b64700bf34",
     "6 - Main Notes/Effectively final - Java - Flashcards.md": "7d68683a10e9995ef17633c8ef711376",
@@ -286,7 +288,7 @@
     "6 - Main Notes/Среднее линейное отклонение - Flashcards.md": "911b6c9515bcabc0fe20970f046d3eb9",
     "6 - Main Notes/Размах вариации.md": "e83ee487dd52784ab2028661fb4f0da2",
     "6 - Main Notes/Размах вариации - Flashcards.md": "c89d1c2339620e30841aeecc05205028",
-    "6 - Main Notes/Нормальное распределение выборки.md": "3e0dcb7e685bba033303dc1c91f30888",
+    "6 - Main Notes/Нормальное распределение выборки.md": "3c0044c52f5811b650acdd3fdcc557a0",
     "6 - Main Notes/Медиана выборки (Median).md": "a3e28ceea0a75038b4f1d17eb493c5a3",
     "6 - Main Notes/Мода выборки (Mode).md": "204ec68278f8763422ab2cfaa434b9fc",
     "6 - Main Notes/Мат Стат.md": "d7d45ca7d0802baf87d2c3f1d2cb7096",
@@ -361,7 +363,12 @@
     "6 - Main Notes/Property, plant and equipment  - Основные фонды.md": "19c5ec39e70e8706958fc935a8974861",
     "4 - Indexes/Бух Учёт.md": "fc9bf76b9c7f2c5dbc8e2fb09443c65c",
     "6 - Main Notes/UPDATE - SQL - Flashcards.md": "a80eed7a64f3d43f4104dd690ab96850",
-    "6 - Main Notes/UPDATE - SQL.md": "8a5fef67ebe6b9ae5952788b48865027"
+    "6 - Main Notes/UPDATE - SQL.md": "8a5fef67ebe6b9ae5952788b48865027",
+    "6 - Main Notes/BoxPlot diagram - Flashcards.md": "04529748a19d51413a14401aac73cab0",
+    "6 - Main Notes/BoxPlot diagram.md": "cbd9b49f5495abad5214ed606e328b36",
+    "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md": "04ef7a0c406527a6c2ca4c3af0aab6eb",
+    "6 - Main Notes/Эксцесс выборки (Kurtosis).md": "25a376270f757c47bddacf427fe6b89c",
+    "6 - Main Notes/Асимметрия выборки (skewness).md": "6e4e8b02aa07f4ea92ab6f43edb573f5"
   },
   "fields_dict": {
     "Basic": [

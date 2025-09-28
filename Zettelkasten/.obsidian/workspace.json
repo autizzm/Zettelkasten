@@ -80,6 +80,54 @@
             }
           },
           {
+            "id": "e0a89ca218e63507",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/BoxPlot diagram.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "BoxPlot diagram"
+            }
+          },
+          {
+            "id": "2447dac2014eddfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Obsidian Markdown example.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Markdown example"
+            }
+          },
+          {
             "id": "9e3745e9c17fae7b",
             "type": "leaf",
             "state": {
@@ -375,8 +423,16 @@
   },
   "active": "00bed1bf91622202",
   "lastOpenFiles": [
-    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/BoxPlot diagram - Flashcards.md",
+    "6 - Main Notes/BoxPlot diagram.md",
     "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md",
+    "Pasted image 20250928113622.png",
+    "Pasted image 20250928113608.png",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "4 - Indexes/Obsidian Features.md",
+    "Pasted image 20250928104741.png",
+    "Pasted image 20250928104708.png",
+    "4 - Indexes/ТВиМС.md",
     "6 - Main Notes/Асимметрия выборки (skewness).md",
     "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
     "6 - Main Notes/Мат Стат.md",
@@ -397,20 +453,11 @@
     "6 - Main Notes/Untitled 17.md",
     "6 - Main Notes/Untitled 18.md",
     "6 - Main Notes/Untitled 19.md",
-    "6 - Main Notes/Untitled 20.md",
-    "6 - Main Notes/Untitled 13.md",
-    "6 - Main Notes/Untitled 12.md",
-    "6 - Main Notes/Untitled 11.md",
-    "6 - Main Notes/Untitled 10.md",
     "2 - Source Materials/Pasted image 20250926203205.png",
     "2 - Source Materials/Pasted image 20250926202117.png",
     "2 - Source Materials/Pasted image 20250924131743.png",
     "2 - Source Materials/Pasted image 20250924125805.png",
     "2 - Source Materials/Pasted image 20250924122151.png",
-    "2 - Source Materials/Pasted image 20250924110021.png",
-    "2 - Source Materials/Pasted image 20250923210606.png",
-    "2 - Source Materials/Pasted image 20250922180436.png",
-    "2 - Source Materials/Pasted image 20250922153845.png",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
