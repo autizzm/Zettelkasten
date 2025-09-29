@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Асимметрия выборки (skewness).md",
+                "file": "6 - Main Notes/Степени свободы в выборке.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Асимметрия выборки (skewness)"
+              "title": "Степени свободы в выборке"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
+                "file": "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Эксцесс выборки (Kurtosis)"
+              "title": "Дисперсия выборки, среднее квадратичное отклонение"
             }
           },
           {
-            "id": "00bed1bf91622202",
+            "id": "2d5270636258b5b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md",
+                "file": "6 - Main Notes/События.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Статистика Жарка–Бера (Jarque–Bera Test)"
+              "title": "События"
             }
           },
           {
-            "id": "e0a89ca218e63507",
+            "id": "c06d661540277a74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/BoxPlot diagram.md",
+                "file": "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,179 +100,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BoxPlot diagram"
-            }
-          },
-          {
-            "id": "2447dac2014eddfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Obsidian Markdown example.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Markdown example"
-            }
-          },
-          {
-            "id": "9e3745e9c17fae7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Мат Стат.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Мат Стат"
-            }
-          },
-          {
-            "id": "382844132afd0a8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Выборочное среднее (Mean).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Выборочное среднее (Mean)"
-            }
-          },
-          {
-            "id": "47f4844e073ab58d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Нормальное распределение выборки.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Нормальное распределение выборки"
-            }
-          },
-          {
-            "id": "5b8c57d620efb2ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/UPDATE - SQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UPDATE - SQL"
-            }
-          },
-          {
-            "id": "007fe1ad7314ec3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/INSERT - SQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "INSERT - SQL"
-            }
-          },
-          {
-            "id": "201f0e23902364c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Aggregate Functions - SQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Aggregate Functions - SQL"
+              "title": "Дисперсия выборки, среднее квадратичное отклонение - Flashcards"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -421,43 +253,44 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "00bed1bf91622202",
+  "active": "11bbb3955a60a84f",
   "lastOpenFiles": [
-    "6 - Main Notes/BoxPlot diagram - Flashcards.md",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Степени свободы в выборке.md",
+    "6 - Main Notes/Асимметрия выборки (skewness).md",
+    "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение - Flashcards.md",
+    "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md",
+    "6 - Main Notes/События.md",
+    "3 - Tags/Основы комбинаторики.md",
+    "6 - Main Notes/Нормальное распределение выборки.md",
+    "Pasted image 20250928154640.png",
+    "Pasted image 20250928154129.png",
+    "6 - Main Notes/Дисперсия ДСВ.md",
+    "Pasted image 20250928153711.png",
+    "6 - Main Notes/Мат Ожидание ДСВ.md",
+    "Pasted image 20250928153645.png",
+    "6 - Main Notes/Размах вариации.md",
+    "6 - Main Notes/Мат Стат.md",
+    "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
+    "6 - Main Notes/Aggregate Functions - SQL.md",
+    "6 - Main Notes/INSERT - SQL.md",
+    "6 - Main Notes/UPDATE - SQL.md",
+    "6 - Main Notes/Выборочное среднее (Mean).md",
+    "6 - Main Notes/Obsidian Markdown example.md",
     "6 - Main Notes/BoxPlot diagram.md",
+    "6 - Main Notes/Literals - SQL.md",
+    "4 - Indexes/SQL.md",
     "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md",
+    "6 - Main Notes/BoxPlot diagram - Flashcards.md",
     "Pasted image 20250928113622.png",
     "Pasted image 20250928113608.png",
-    "6 - Main Notes/Obsidian Markdown example.md",
     "4 - Indexes/Obsidian Features.md",
     "Pasted image 20250928104741.png",
     "Pasted image 20250928104708.png",
-    "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Асимметрия выборки (skewness).md",
-    "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
-    "6 - Main Notes/Мат Стат.md",
-    "6 - Main Notes/Выборочное среднее (Mean).md",
-    "6 - Main Notes/Нормальное распределение выборки.md",
     "6 - Main Notes/Медиана выборки (Median).md",
     "6 - Main Notes/Мода выборки (Mode).md",
-    "6 - Main Notes/UPDATE - SQL - Flashcards.md",
-    "6 - Main Notes/UPDATE - SQL.md",
     "Pasted image 20250927135038.png",
-    "6 - Main Notes/INSERT - SQL.md",
-    "4 - Indexes/SQL.md",
-    "6 - Main Notes/INSERT - SQL - Flashcards.md",
-    "6 - Main Notes/Aggregate Functions - SQL.md",
-    "6 - Main Notes/Untitled 14.md",
-    "6 - Main Notes/Untitled 15.md",
-    "6 - Main Notes/Untitled 16.md",
-    "6 - Main Notes/Untitled 17.md",
-    "6 - Main Notes/Untitled 18.md",
-    "6 - Main Notes/Untitled 19.md",
     "2 - Source Materials/Pasted image 20250926203205.png",
-    "2 - Source Materials/Pasted image 20250926202117.png",
-    "2 - Source Materials/Pasted image 20250924131743.png",
-    "2 - Source Materials/Pasted image 20250924125805.png",
-    "2 - Source Materials/Pasted image 20250924122151.png",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
