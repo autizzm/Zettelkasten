@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Проверка гипотез. Критерий Пирсона.md",
+                "file": "6 - Main Notes/Гипотезы корреляции.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Проверка гипотез. Критерий Пирсона"
+              "title": "Гипотезы корреляции"
             }
           },
           {
@@ -56,7 +56,79 @@
             }
           },
           {
-            "id": "8af5074e93c2dc86",
+            "id": "a2efba4c6cf8c602",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test) - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Статистика Жарка–Бера (Jarque–Bera Test) - Flashcards"
+            }
+          },
+          {
+            "id": "922e6fe6d4f238f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Проверка гипотез о нормальном распределении с помощью стаистики JB.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Проверка гипотез о нормальном распределении с помощью стаистики JB"
+            }
+          },
+          {
+            "id": "160d97c464118f97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Probability (p-value).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Probability (p-value)"
+            }
+          },
+          {
+            "id": "517d467c0f7dbe48",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,6 +149,102 @@
               },
               "icon": "lucide-file",
               "title": "Корреляция (Коэффициент Пирсона)"
+            }
+          },
+          {
+            "id": "6c0d3df79c6d3b6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Ковариация.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ковариация"
+            }
+          },
+          {
+            "id": "183f17edcfc4b8e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Эксцесс выборки (Kurtosis)"
+            }
+          },
+          {
+            "id": "6e5016aa26b0e881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Среднее выборочное - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Среднее выборочное - Flashcards"
+            }
+          },
+          {
+            "id": "b0241bde6fe445a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Интервальный вариационный ряд (ИВР).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Интервальный вариационный ряд (ИВР)"
             }
           },
           {
@@ -398,44 +566,44 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "8af5074e93c2dc86",
+  "active": "a2efba4c6cf8c602",
   "lastOpenFiles": [
-    "6 - Main Notes/Гипотезы корреляции.md",
+    "6 - Main Notes/Проверка гипотез о нормальном распределении с помощью стаистики JB.md",
+    "6 - Main Notes/Статистика Хи квадрат.md",
+    "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test) - Flashcards.md",
     "6 - Main Notes/Probability (p-value).md",
-    "6 - Main Notes/Ковариация.md",
     "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Корреляция (Коэффициент Пирсона).md",
+    "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md",
+    "6 - Main Notes/Статистика Жака Бера (Jarque-Bera).md",
+    "6 - Main Notes/Probability (p-value) - Flashcards.md",
     "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
-    "6 - Main Notes/z-статистика.md",
+    "6 - Main Notes/t-статистика (t-критерий Стьюдента) - Flashcards.md",
+    "6 - Main Notes/Гипотезы корреляции.md",
+    "6 - Main Notes/Проверка гипотез. Критерий Пирсона.md",
     "6 - Main Notes/t-распределение (Распределение Стьюдента).md",
+    "6 - Main Notes/Корреляция (Коэффициент Пирсона).md",
+    "6 - Main Notes/Корреляция (Коэффициент Пирсона) - Flashcards.md",
+    "6 - Main Notes/Ковариация.md",
+    "6 - Main Notes/Ковариация - Flashcards.md",
+    "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
+    "6 - Main Notes/BoxPlot diagram.md",
     "6 - Main Notes/Распределение Хи квадрат.md",
+    "6 - Main Notes/Эксцесс выборки (Kurtosis)- Flashcards.md",
+    "6 - Main Notes/Асимметрия выборки (skewness).md",
+    "6 - Main Notes/Интервальный вариационный ряд (ИВР).md",
+    "6 - Main Notes/Мода выборки (Mode).md",
+    "6 - Main Notes/Среднее выборочное (Mean).md",
+    "6 - Main Notes/Среднее выборочное - Flashcards.md",
+    "Pasted image 20251002175407.png",
     "Pasted image 20251002140007.png",
     "Pasted image 20251002135945.png",
     "Pasted image 20251002135849.png",
     "Pasted image 20251002135816.png",
-    "6 - Main Notes/Статистика Хи квадрат.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "4 - Indexes/Obsidian Features.md",
-    "6 - Main Notes/Проверка гипотез. Критерий Пирсона.md",
-    "6 - Main Notes/Функция распределения.md",
-    "6 - Main Notes/Проверка гипотез о зависимости СВ при помощи t-статистики.md",
     "Pasted image 20251002112723.png",
     "Pasted image 20251002112416.png",
     "Pasted image 20251002111742.png",
     "Pasted image 20251002111720.png",
     "Pasted image 20251002111616.png",
-    "Pasted image 20251002111608.png",
-    "6 - Main Notes/Нормальное распределение выборки.md",
-    "6 - Main Notes/Функция плотности распределения.md",
-    "6 - Main Notes/Проверка гипотез о нормальном распределении с помощью стаистики JB.md",
-    "4 - Indexes/SQL.md",
-    "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md",
-    "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
-    "6 - Main Notes/UML диаграмма классов.md",
-    "6 - Main Notes/Merge Conflicts - Git.md",
-    "6 - Main Notes/Асимметрия выборки (skewness).md",
-    "6 - Main Notes/BoxPlot diagram.md",
-    "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",

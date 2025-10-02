@@ -52,7 +52,7 @@ Tags: [[ТВиМС]]
 
 
 ----
-#### [[t-статистика - Flashcards|Link to flashcards]]
+#### [[t-статистика (t-критерий Стьюдента) - Flashcards|Link to flashcards]]
 
 
 
