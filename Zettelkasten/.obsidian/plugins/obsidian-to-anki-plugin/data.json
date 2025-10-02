@@ -188,7 +188,7 @@
     "6 - Main Notes/Inner Classes Java - Flashcards.md": "1393a3b2470a45a017f617f15fa97481",
     "6 - Main Notes/Access Modifier Flashcards.md": "014790b2ffc32187097df893ba67a262",
     "6 - Main Notes/Anonymous classes Java.md": "99871e26d47b0509c4fcc35806390017",
-    "4 - Indexes/ТВиМС.md": "b6a56e138793ec7c8fbce21ff1d91f2b",
+    "4 - Indexes/ТВиМС.md": "3637dc9870a9a2ae59cb3c2cd0e393c6",
     "4 - Indexes/PHP.md": "41f4d03e7d249df3be70c3310ecda1ea",
     "3 - Tags/Основы комбинаторики.md": "91d5e3c1c74f92fe60a559b64700bf34",
     "6 - Main Notes/Effectively final - Java - Flashcards.md": "7d68683a10e9995ef17633c8ef711376",
@@ -296,7 +296,7 @@
     "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md": "53066403dde9b770e551db00c45060b7",
     "6 - Main Notes/Асимметрия выборки.md": "4c45749a6bc6d6c0049dd5e2684a1a1e",
     "6 - Main Notes/Выборочное среднее (Mean).md": "117868b6003e831d600dfc247ff8c1a3",
-    "6 - Main Notes/UML диаграмма классов.md": "37febc1ec9ee0261f1da8776714a62c4",
+    "6 - Main Notes/UML диаграмма классов.md": "0be7a655d9e3778b6c7dbf58ad9da21c",
     "6 - Main Notes/Системный анализ в целом.md": "4c11b745e3b6f97eb9dc50064baaa586",
     "4 - Indexes/Системный анализ.md": "e325c61e80b40c91d826cef383d954ba",
     "6 - Main Notes/Java Important Classes.md": "6985e18280900d47aac9426bcb0d03be",
@@ -320,7 +320,7 @@
     "6 - Main Notes/Регрессия.md": "d2ebdba4cc4707a30c327e90c002444a",
     "6 - Main Notes/Выбор формулы уравнения парной регрессии.md": "545f89c44468e95aa2277ff12daa2a28",
     "6 - Main Notes/Зависимость величин.md": "81f3184546fa3335a8ce80ab0b2731d8",
-    "6 - Main Notes/Git.md": "443da4afc042fb329f14d44f3cd1ad9d",
+    "6 - Main Notes/Git.md": "dcbc3b05ffe87f60d3470fab92706fbd",
     "6 - Main Notes/HttpResponse.BodyHandler - Java - Flashcards.md": "864aaac3f2ccabe27886f4e4076f370e",
     "6 - Main Notes/HttpResponse.BodySubscriber - Java.md": "e578472baa2c0765cee02100bbc3e369",
     "6 - Main Notes/HttpResponse.ResponseInfo - Java.md": "82e94e9674a8d61c2bda05c1e3ba85f2",
@@ -369,7 +369,10 @@
     "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md": "04ef7a0c406527a6c2ca4c3af0aab6eb",
     "6 - Main Notes/Эксцесс выборки (Kurtosis).md": "25a376270f757c47bddacf427fe6b89c",
     "6 - Main Notes/Асимметрия выборки (skewness).md": "6e4e8b02aa07f4ea92ab6f43edb573f5",
-    "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение - Flashcards.md": "964271454b987ee1886b589d1392a686"
+    "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение - Flashcards.md": "964271454b987ee1886b589d1392a686",
+    "6 - Main Notes/Настройка Git credentials - Flashcards.md": "88fc1cbe2cd81f95add780c6228e2766",
+    "6 - Main Notes/Настройка Git credentials.md": "1bc6d139d08e22b19adedf47f0e89094",
+    "6 - Main Notes/Степени свободы в выборке.md": "69765018e207568a23168448659887b9"
   },
   "fields_dict": {
     "Basic": [
