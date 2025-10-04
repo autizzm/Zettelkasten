@@ -28,7 +28,7 @@
 
 [[INSERT - SQL]]
 [[UPDATE - SQL]]
-
+[[DELETE - SQL]]
 
 
 ### Relationships

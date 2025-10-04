@@ -19,7 +19,7 @@ Tags: [[SQL]]
 
 ![[Pasted image 20250915203533.png]]
 
-~={orange}Заметь=~, на диаграмме отношение показано как прямая линия, так как обе стороны явля.тся "One Sides"
+~={orange}Заметь=~, на диаграмме отношение показано как прямая линия, так как обе стороны являются "One Sides"
 
 Пример:
 ```sql
@@ -30,7 +30,7 @@ CREATE TABLE Student (
 );
 
 CREATE TABLE Student_id_cards (
-    registration_number INT PRIMARY KEY, --it's also one, but it;s not pbligatory
+    registration_number INT PRIMARY KEY, --it's also one, but it's not obligatory
     start_date DATE NOT NULL, -- it's just cause we want One To One
     end_date DATE NOT NULL,
     student_id REFERENCES Students(id) --child

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a92a105ae996264f",
+        "id": "6fbcd5c0c7c84a5d",
         "type": "tabs",
         "children": [
           {
-            "id": "31ceac1785d176c2",
+            "id": "56308ba960deed00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/ТВиМС.md",
+                "file": "6 - Main Notes/UPDATE - SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ТВиМС"
+              "title": "UPDATE - SQL"
             }
           },
           {
-            "id": "543ef032fe1a638c",
+            "id": "8ee9b939e27b7974",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Уровни экономики.md",
+                "file": "6 - Main Notes/Indexes - SQL - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,10 +52,107 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Уровни экономики"
+              "title": "Indexes - SQL - Flashcards"
+            }
+          },
+          {
+            "id": "cff0467b1f41fb1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/DB Relationships.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DB Relationships"
+            }
+          },
+          {
+            "id": "a83a281b95ac1636",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/DB Relationships - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DB Relationships - Flashcards"
+            }
+          },
+          {
+            "id": "37119f00be722b73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Queries to system DBs - PostgreSQL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Queries to system DBs - PostgreSQL"
+            }
+          },
+          {
+            "id": "4421f63fca6c61cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/DELETE - SQL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DELETE - SQL"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,7 +171,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#baby",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,8 +205,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,44 +300,44 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "cc9ec44d0f6db600",
+  "active": "cff0467b1f41fb1f",
   "lastOpenFiles": [
+    "6 - Main Notes/DB Relationships - Flashcards.md",
+    "6 - Main Notes/DB Relationships.md",
+    "4 - Indexes/SQL.md",
+    "6 - Main Notes/Indexes - SQL.md",
+    "6 - Main Notes/Creating and deleting databases - SQL.md",
+    "6 - Main Notes/Creating and deleting databases - SQL - Flashcards.md",
+    "6 - Main Notes/Indexes - SQL - Flashcards.md",
+    "6 - Main Notes/Queries to system DBs - PostgreSQL.md",
+    "6 - Main Notes/DELETE - SQL.md",
+    "6 - Main Notes/UPDATE - SQL.md",
+    "6 - Main Notes/INSERT - SQL.md",
+    "6 - Main Notes/INSERT - SQL - Flashcards.md",
+    "6 - Main Notes/UPDATE - SQL - Flashcards.md",
+    "6 - Main Notes/DELETE - SQL - Flashcards.md",
+    "6 - Main Notes/Inversion of control.md",
+    "4 - Indexes/Spring.md",
+    "Pasted image 20251004160147.png",
+    "6 - Main Notes/Spring Bean.md",
+    "6 - Main Notes/Application Context - Spring.md",
+    "Pasted image 20251004103150.png",
+    "Pasted image 20251004103033.png",
+    "6 - Main Notes/SIngleton - pattern.md",
+    "4 - Indexes/Patterns.md",
+    "6 - Main Notes/Prototype - pattern.md",
+    "Pasted image 20251004095452.png",
+    "Pasted image 20251004095439.png",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Уровни экономики.md",
     "4 - Indexes/Экономика.md",
     "6 - Main Notes/Прикладная экономика.md",
     "6 - Main Notes/Микроэкономика.md",
-    "6 - Main Notes/Макроэкономика.md",
-    "6 - Main Notes/Уровни экономики.md",
-    "6 - Main Notes/Макро- и микро-экономика.md",
-    "6 - Main Notes/Ресурсы (факторы) производства.md",
-    "6 - Main Notes/Проверка гипотез о нормальном распределении с помощью стаистики JB.md",
-    "6 - Main Notes/Проверка гипотез о значимости параметров регрессионной модели.md",
-    "6 - Main Notes/Probability (p-value).md",
-    "6 - Main Notes/Распределение Хи квадрат.md",
-    "6 - Main Notes/Статистика Жарка–Бера (Jarque–Bera Test).md",
-    "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Корреляция (Коэффициент Пирсона).md",
-    "6 - Main Notes/Ковариация.md",
-    "6 - Main Notes/BoxPlot diagram.md",
-    "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
-    "6 - Main Notes/Эксцесс выборки (Kurtosis).md",
-    "6 - Main Notes/Асимметрия выборки (skewness).md",
-    "6 - Main Notes/Проверка гипотез. Критерий Пирсона.md",
-    "6 - Main Notes/Гипотезы нормального распределения.md",
-    "6 - Main Notes/Нормальное распределение выборки.md",
-    "6 - Main Notes/Мат Стат.md",
-    "6 - Main Notes/Статистика Хи квадрат.md",
-    "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
-    "6 - Main Notes/Стандартная ошибка модели регрессии.md",
-    "Pasted image 20251002175407.png",
-    "Pasted image 20251002140007.png",
-    "Pasted image 20251002135945.png",
-    "Pasted image 20251002135849.png",
-    "Pasted image 20251002135816.png",
-    "Pasted image 20251002112723.png",
-    "Pasted image 20251002112416.png",
-    "Pasted image 20251002111742.png",
-    "Pasted image 20251002111720.png",
-    "Pasted image 20251002111616.png",
+    "2 - Source Materials/Pasted image 20251002175407.png",
+    "2 - Source Materials/Pasted image 20251002140007.png",
+    "2 - Source Materials/Pasted image 20251002135945.png",
+    "2 - Source Materials/Pasted image 20251002135849.png",
+    "2 - Source Materials/Pasted image 20251002135816.png",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",

@@ -35,3 +35,25 @@ INSERT INTO Goods (good_id, good_name, type)
 VALUES (20, 'Table', 2);
 ```
 <!--ID: 1758969106274-->
+
+Q: Надо ли самому заполнять поле `SERIAL` при вставке данных через `INSERT`?
+A: Нет, это не обязательно, оно само заполнится следующим значением:
+```sql
+CREATE TABLE Goods (
+	good_id SERIAL,
+	good_name VARCHAR(255),
+	type INT
+);
+```
+	
+```sql
+INSERT INTO Goods (good_name, type) VALUES ('Table', 2);
+```
+	
+Но, если укажем явно -> ошибки не будет:
+ ```sql
+ INSERT INTO Goods (good_id, good_name, type) VALUES (101,'Table', 2);
+--ошибки не будет, если нет конфликта (например, PRIMARY KEY/UNIQUE).
+ ```
+<!--ID: 1759599237757-->
+
