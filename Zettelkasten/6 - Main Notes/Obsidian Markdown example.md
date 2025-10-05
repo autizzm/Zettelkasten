@@ -130,3 +130,9 @@ $\sqrt{n}$
 $A\quad B$   - отступ между формулами 
 
 $\tilde{y}$
+
+$A \xrightarrow{P} B$
+
+$A \to B$
+
+$r_\text{xy} \cdot \frac{S_y}{S_x}$
