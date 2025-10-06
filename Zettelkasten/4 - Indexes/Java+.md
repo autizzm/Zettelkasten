@@ -39,8 +39,17 @@
 - [[Deserialization Annotations - Jackson Annotations]]
 
 
+### JDBC
+[[JDBC setup]]
 
-
-[[Git]]
+### [[Git]]
+- [[Настройка Git credentials]]
+- [[Merge Conflicts - Git]]
+- [[Взаимодействия с remote repo - Git]]
+- [[Conventional commits - Git]]
 
 [[SSH]]
+
+
+Eclipse
+- [[Hotkeys - Eclipse]]

@@ -51,36 +51,9 @@ Tags: [[Java+]]
 > `HEAD~2` - текущий коммит - 2 (вернёт на 2 коммита назад)
 	
 	
-- `git revert <commit_id>` - создаёт новый коммит с состоянием коммита к которому " откатываемся" 
+- `git revert <commit_id>` - создаёт новый коммит с состоянием коммита к которому "откатываемся" 
 
 
-## Branching
-
-#### Branch creation & switching
-
-- `git branch <new_branch_name>` - добавление новой ветки
-	
-- `git checkout <branch_name>` - переход к новой ветке -> при создании коммита он будет прикреплен к новой ветке
-(`git checkout -b <new_branch_name>` - создание + перемещение к новой ветке)
-
-### Интеграция изменений
-
-- `git merge`-  слияние двух веток и создание коммита
-	
-	![[Pasted image 20250930133759.png]]
-	
-- `git rebase <branch_to_be_rebased>` - слияние веток, все коммиты ветки `<branch_to_be_rebased>` присоединяются в конец текущей ветки, при возникновении merge конфликтов - они решаются вручную. 
-	+ветка `<branch_to_be_rebased> - удаляется
-	
-	![[Pasted image 20250930133900.png]]
-	
-	
--`git cherry pick <commit_index>` - позволяет извлекать и применять изменения из одного или нескольких коммитов к текущей ветке.
-	![[Pasted image 20250930133949.png]]
-	
-	
-	
-### [[Merge Conflicts - Git|Merge Conflicts]]
 
 
 > [!note]
@@ -102,3 +75,6 @@ Tags: [[Java+]]
 ### References:
 
 - [[Настройка Git credentials]]
+- [[Branching - Git]]
+- [[Merge Conflicts - Git]]
+- [[Взаимодействия с remote repo - Git]]

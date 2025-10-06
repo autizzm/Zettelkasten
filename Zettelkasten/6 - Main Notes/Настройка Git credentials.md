@@ -33,6 +33,10 @@ git config --global user.email "email@example.com"
 git config user.name "Имя для этого проекта"
 git config user.email "другой.email@example.com"
 
+#получение текущих значений
+git config get user.name
+git config get user.email
+
 # просмотр локальных настроек
 git config --list
 # просмотр системных настроек

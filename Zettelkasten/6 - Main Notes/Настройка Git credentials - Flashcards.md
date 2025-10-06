@@ -1,7 +1,7 @@
 
 Theory for the cards: [[Настройка Git credentials]]
 
-FILE TAGS: java+
+FILE TAGS: java+ git
 
 Q: Как настроить credentials в git? Какие типы настроек credentials есть в git и чем они отличаются?
 A: В **Git** настройки делятся на уровни:
@@ -27,6 +27,10 @@ git config --global user.email "email@example.com"
 # локальная настройка (только для конкретного репозитория)
 git config user.name "Имя для этого проекта"
 git config user.email "другой.email@example.com"
+	
+#получение текущих значений
+git config get user.name
+git config get user.email
 	
 # просмотр локальных настроек
 git config --list
