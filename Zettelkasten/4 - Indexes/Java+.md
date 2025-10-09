@@ -32,6 +32,7 @@
 [[Jackson Databind]]
 
 1. [[ObjectMapper - Jackson Databind]]
+2. [[Jackson Tree Model - Jackson Databind]]
 
 [[Jackson Annotations]]
 [[Порядок сериализации - Jackson Annotations]]
@@ -44,6 +45,7 @@
 
 ### [[Git]]
 - [[Настройка Git credentials]]
+- [[Branching - Git]]
 - [[Merge Conflicts - Git]]
 - [[Взаимодействия с remote repo - Git]]
 - [[Conventional commits - Git]]
@@ -51,5 +53,12 @@
 [[SSH]]
 
 
+### [[Tablesaw]]
+
+
+### [[Redis + Jedis]]
+
+
 Eclipse
 - [[Hotkeys - Eclipse]]
+

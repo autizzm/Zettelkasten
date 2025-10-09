@@ -19,14 +19,8 @@ Tags: [[Java+]] [[Jackson Databind]]
 		- InputStream
 		- ....
 
-##### Json -> JsonNode
 
-- `JsonNode` ~={purple}readTree(`... jsonSource`)=~
-
-##### JsonNode -> Java object
-
-- `T` ~={green}treeToValue(`JsonNode node, Class<T> resultClassLiteral`)=~
-
+---
 
 ### Java object -> Json
 
@@ -36,10 +30,22 @@ Tags: [[Java+]] [[Jackson Databind]]
 - `String` ~={cyan}writeValueAs~={orange}String=~(`Object myClassInstance`)
 - `byte[]` ~={cyan}writeValueAs~={orange}Bytes=~(`Object myClassInstance`)=~=~ - то же самое, но возвращает результат, а не записывает в переданный аргумент.
 
-##### Java object -> JsonNode
 
-- `JsonNode` ~={pink}valueToTree(`Object myClassInstance`)=~
+---
+## Сериализация & десериализация JsonNode
 
+##### Json -> [[JsonNode - Jackson Databind|JsonNode]]
+
+- `JsonNode` ~={green}readTree(`String jsonStr`)=~
+- `JsonNode` ~={green}readValue(`String jsonStr,` ~={orange}JsonNode.class=~)=~
+
+##### Java object -> [[JsonNode - Jackson Databind|JsonNode]]
+
+- `JsonNode` ~={green}valueToTree(`Object myClassInstance`)=~
+
+##### JsonNode -> Java object
+
+- `T` ~={green}treeToValue(`JsonNode node, Class<T> resultClassLiteral`)=~
 
 
 
@@ -52,3 +58,5 @@ Tags: [[Java+]] [[Jackson Databind]]
 ---
 ### References:
 
+- [[Порядок сериализации - Jackson Annotations]]
+- [[JsonNode - Jackson Databind]]

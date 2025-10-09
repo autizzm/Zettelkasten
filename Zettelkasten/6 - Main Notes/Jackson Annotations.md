@@ -8,7 +8,9 @@ Tags: [[Java+]]
 ---
 # Jackson Annotations
 
-[[Порядок сериализации класса- Jackson Annotations]]
+[[Порядок сериализации - Jackson Annotations]]
+- [[Serialization Annotations - Jackson Annotations]]
+- [[Deserialization Annotations - Jackson Annotations]]
 
 ----
 #### [[Jackson Annotations - Flashcards|Link to flashcards]]

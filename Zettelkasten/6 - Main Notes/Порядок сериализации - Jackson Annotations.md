@@ -1,9 +1,9 @@
 
 25-09-2025 21:43
 
-Status:
+Status: #baby 
 
-Tags:
+Tags: [[Java+]]
 
 ---
 # Порядок сериализации - Jackson Annotations
@@ -36,3 +36,4 @@ Tags:
 ---
 ### References:
 
+-  [[Serialization Annotations - Jackson Annotations]]

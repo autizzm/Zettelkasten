@@ -25,7 +25,7 @@ public class UserService {
 
 ### Как это работает в Spring
 
-В Spring используется **IoC Container** (контейнер инверсии управления, чаще его называют просто **ApplicationContext**).
+В Spring используется **[[IoC Container|IoC Container]]** (контейнер инверсии управления, чаще его называют просто **ApplicationContext**).
 
 - Ты описываешь **что за объекты (beans)** нужны (через `@Component`, `@Bean`, XML и т.д.).
     

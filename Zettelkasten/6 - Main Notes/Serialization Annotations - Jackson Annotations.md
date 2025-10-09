@@ -72,6 +72,7 @@ System.out.println(new ObjectMapper().writeValueAsString(u));
   "age": 30,
   "city": "Paris"
 }
+//развернули Map: {"age": 30, "city": "Paris"}
 ```
 	
 	
@@ -118,3 +119,5 @@ public String getMessage(){...}
 ---
 ### References:
 
+- [[Порядок сериализации - Jackson Annotations]]
+- [[Deserialization Annotations - Jackson Annotations]]

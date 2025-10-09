@@ -121,7 +121,7 @@ Result:
 
 ---
 
-`git cherry pick <commit_index>` - позволяет брать коммит из child branch и добавлять его в начало текущей ветки. 
+`git cherry-pick <commit_index>` - позволяет брать коммит из child branch и добавлять его в начало текущей ветки. 
 
 (Все конфликты решаются как [[Merge Conflicts - Git|merge conflicts]])
 
@@ -142,3 +142,5 @@ Result:
 ---
 ### References:
 
+- [[Git]]
+- 

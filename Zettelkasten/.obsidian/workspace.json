@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73a47e2ea843e4f7",
+            "id": "313bafe5fbfaf4b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Настройка Git credentials - Flashcards.md",
+                "file": "6 - Main Notes/property file - Spring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Настройка Git credentials - Flashcards"
+              "title": "property file - Spring"
             }
           },
           {
-            "id": "889246ebd61d33a3",
+            "id": "cbe05360a757ccba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/UPDATE - SQL.md",
+                "file": "6 - Main Notes/Application Context.xml file - Spring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UPDATE - SQL"
+              "title": "Application Context.xml file - Spring"
             }
           },
           {
-            "id": "b7e6123366768863",
+            "id": "fb5cc7b673dd5ceb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Запросы к БД - JDBC.md",
+                "file": "6 - Main Notes/Dependency Injection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Запросы к БД - JDBC"
+              "title": "Dependency Injection"
             }
           },
           {
-            "id": "266689976f8c2246",
+            "id": "8acb902d7d759a6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Настройка Git credentials - Flashcards.md",
+                "file": "4 - Indexes/Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,10 +100,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Настройка Git credentials - Flashcards"
+              "title": "Patterns"
+            }
+          },
+          {
+            "id": "eb86c23e4f9bd341",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/property file - Spring.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "property file - Spring"
+            }
+          },
+          {
+            "id": "92e52318fa9b53b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Application Context.xml file - Spring.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Application Context.xml file - Spring"
+            }
+          },
+          {
+            "id": "10bc33c465798d15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 - Indexes/Java Core.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Java Core"
+            }
+          },
+          {
+            "id": "c82e3457d960eaa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/UnifiedJedis class - Jedis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UnifiedJedis class - Jedis"
+            }
+          },
+          {
+            "id": "81793baa3269bbf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 - Indexes/Java+.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Java+"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -161,7 +282,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922
+    "width": 242.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -252,44 +374,45 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "73a47e2ea843e4f7",
+  "active": "92e52318fa9b53b0",
   "lastOpenFiles": [
-    "6 - Main Notes/Настройка Git credentials.md",
-    "6 - Main Notes/Настройка Git credentials - Flashcards.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Classpath - Java.md",
     "4 - Indexes/Java+.md",
-    "4 - Indexes/SQL.md",
-    "3 - Tags/PostgreSQL specifics.md",
-    "6 - Main Notes/Hotkeys - Eclipse.md",
-    "6 - Main Notes/JDBC setup.md",
-    "6 - Main Notes/ResultSet - JDBC.md",
-    "6 - Main Notes/Запросы к БД - JDBC.md",
-    "6 - Main Notes/UPDATE - SQL.md",
-    "6 - Main Notes/Conventional commits - Git.md",
-    "6 - Main Notes/Branching - Git.md",
-    "6 - Main Notes/Branching - Git - Flashcards.md",
-    "6 - Main Notes/Git.md",
-    "6 - Main Notes/Merge Conflicts - Git.md",
-    "Pasted image 20251006110153.png",
-    "6 - Main Notes/Взаимодействия с remote repo - Git.md",
-    "6 - Main Notes/DELETE - SQL.md",
-    "6 - Main Notes/Queries to system DBs - PostgreSQL.md",
-    "6 - Main Notes/DB Relationships - Flashcards.md",
-    "6 - Main Notes/Проверка гипотез о значимости параметров регрессионной модели.md",
-    "6 - Main Notes/Выбор формулы уравнения регрессии - Flashcards.md",
-    "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Линейная регрессия.md",
-    "6 - Main Notes/Работа с HTTP в Java - java.net.http.md",
-    "6 - Main Notes/Способы минимизации отклонений функции регрессии.md",
-    "6 - Main Notes/Способы минимизации отклонений функции регрессии - Flashcards.md",
+    "6 - Main Notes/Application Context.xml file - Spring.md",
+    "6 - Main Notes/property file - Spring.md",
+    "4 - Indexes/Spring.md",
+    "6 - Main Notes/Application Context - Spring.md",
+    "6 - Main Notes/IoC Container.md",
+    "6 - Main Notes/DI Container.md",
+    "6 - Main Notes/Dependency Injection.md",
+    "4 - Indexes/Patterns.md",
+    "6 - Main Notes/Inversion of control.md",
+    "6 - Main Notes/Column - Tablesaw.md",
+    "6 - Main Notes/Prototype - pattern.md",
+    "4 - Indexes/Obsidian Features.md",
+    "6 - Main Notes/HttpClient class - Java.md",
+    "6 - Main Notes/Запуск Redis docker container.md",
+    "6 - Main Notes/Redis + Jedis.md",
+    "6 - Main Notes/Sets - Redis.md",
+    "6 - Main Notes/UnifiedJedis class - Jedis.md",
+    "6 - Main Notes/Jedis class - Jedis.md",
+    "6 - Main Notes/Настройка JedisPooled через GenericObjectPoolConfig.md",
+    "6 - Main Notes/AutoClosable Interface - Java.md",
+    "6 - Main Notes/AutoClosable.md",
+    "6 - Main Notes/Strings - Redis.md",
+    "Redis/Jedis.md",
+    "Redis",
+    "2 - Source Materials/Pasted image 20251006110153.png",
     "Pasted image 20251005115126.png",
-    "Pasted image 20251005114956.png",
-    "Pasted image 20251005075533.png",
+    "2 - Source Materials/Pasted image 20251005114956.png",
+    "2 - Source Materials/Pasted image 20251005075533.png",
     "Бородич_Эконометрика.pdf",
     "Pasted image 20251004160147.png",
-    "Pasted image 20251004103150.png",
-    "Pasted image 20251004103033.png",
-    "Pasted image 20251004095452.png",
-    "Pasted image 20251004095439.png",
+    "2 - Source Materials/Pasted image 20251004103150.png",
+    "2 - Source Materials/Pasted image 20251004103033.png",
+    "2 - Source Materials/Pasted image 20251004095452.png",
+    "2 - Source Materials/Pasted image 20251004095439.png",
     "2 - Source Materials/Pasted image 20251002175407.png",
     "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
@@ -298,7 +421,6 @@
     "Notes",
     "2 - Source Materials/Unconfirmed 402933.crdownload",
     "desktop.ini",
-    "7 -CSS Snippets",
-    "6 - Main Notes"
+    "7 -CSS Snippets"
   ]
 }

@@ -6,5 +6,7 @@
 
 
 
-[[Application Context - Spring]]
+- [[Application Context - Spring]]
+	- [[Application Context.xml file - Spring]]
+	- [[property file - Spring]]
 [[Spring Bean]]

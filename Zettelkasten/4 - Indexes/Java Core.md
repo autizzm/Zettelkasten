@@ -65,7 +65,7 @@
 5. [[Fully qualified vs Simple name - Java]]
 6. [[Initializer; constants & just static finals - Java]]
 7. [[assert Java]]
-8. 
+8. [[Classpath - Java]]
 
 
 

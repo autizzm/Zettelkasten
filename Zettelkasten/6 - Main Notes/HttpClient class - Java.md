@@ -8,6 +8,8 @@ Tags: [[Java+]]  [[Http - Java]]
 ---
 # HttpClient class - Java
 
+==thread safe==
+
 Используетс ядля отправки Http запросов и получения ответов.
 
 
