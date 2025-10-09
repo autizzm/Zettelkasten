@@ -8,84 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "313bafe5fbfaf4b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/property file - Spring.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "property file - Spring"
-            }
-          },
-          {
-            "id": "cbe05360a757ccba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Application Context.xml file - Spring.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Application Context.xml file - Spring"
-            }
-          },
-          {
-            "id": "fb5cc7b673dd5ceb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Dependency Injection.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dependency Injection"
-            }
-          },
-          {
             "id": "8acb902d7d759a6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/Patterns.md",
+                "file": "6 - Main Notes/Factory method - pattern.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Patterns"
+              "title": "Factory method - pattern"
             }
           },
           {
@@ -128,7 +56,79 @@
             }
           },
           {
-            "id": "92e52318fa9b53b0",
+            "id": "a5167c79811a5662",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Bean Lifecycle - Spring - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bean Lifecycle - Spring - Flashcards"
+            }
+          },
+          {
+            "id": "755c6e012a527c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Bean factory method - Spring - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bean factory method - Spring - Flashcards"
+            }
+          },
+          {
+            "id": "206cded157acef46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Application Context.xml file - Spring.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Application Context.xml file - Spring"
+            }
+          },
+          {
+            "id": "ae6637e0974e7502",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -224,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -282,8 +282,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922,
-    "collapsed": true
+    "width": 242.5110321044922
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -374,19 +373,35 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "92e52318fa9b53b0",
+  "active": "755c6e012a527c2f",
   "lastOpenFiles": [
+    "6 - Main Notes/Application Context.xml file - Spring.md",
+    "6 - Main Notes/Bean factory method - Spring - Flashcards.md",
+    "6 - Main Notes/Bean Lifecycle - Spring - Flashcards.md",
+    "6 - Main Notes/Bean Lifecycle - Spring.md",
+    "6 - Main Notes/Untitled 3.base",
+    "6 - Main Notes/Untitled 2.base",
+    "6 - Main Notes/Untitled 1.base",
+    "6 - Main Notes/Untitled.base",
+    "6 - Main Notes/Bean factory method - Spring.md",
+    "4 - Indexes/Spring.md",
+    "6 - Main Notes/property file - Spring.md",
+    "6 - Main Notes/Factory method - pattern.md",
+    "Pasted image 20251009210037.png",
+    "4 - Indexes/Patterns.md",
+    "6 - Main Notes/Dependency Injection.md",
+    "Pasted image 20251009204626.png",
+    "Pasted image 20251009203409.png",
+    "6 - Main Notes/Bean scope - Spring.md",
+    "Pasted image 20251009202330.png",
+    "Pasted image 20251009201910.png",
+    "6 - Main Notes/Spring Bean.md",
     "4 - Indexes/Java Core.md",
     "6 - Main Notes/Classpath - Java.md",
     "4 - Indexes/Java+.md",
-    "6 - Main Notes/Application Context.xml file - Spring.md",
-    "6 - Main Notes/property file - Spring.md",
-    "4 - Indexes/Spring.md",
     "6 - Main Notes/Application Context - Spring.md",
     "6 - Main Notes/IoC Container.md",
     "6 - Main Notes/DI Container.md",
-    "6 - Main Notes/Dependency Injection.md",
-    "4 - Indexes/Patterns.md",
     "6 - Main Notes/Inversion of control.md",
     "6 - Main Notes/Column - Tablesaw.md",
     "6 - Main Notes/Prototype - pattern.md",
@@ -394,14 +409,6 @@
     "6 - Main Notes/HttpClient class - Java.md",
     "6 - Main Notes/Запуск Redis docker container.md",
     "6 - Main Notes/Redis + Jedis.md",
-    "6 - Main Notes/Sets - Redis.md",
-    "6 - Main Notes/UnifiedJedis class - Jedis.md",
-    "6 - Main Notes/Jedis class - Jedis.md",
-    "6 - Main Notes/Настройка JedisPooled через GenericObjectPoolConfig.md",
-    "6 - Main Notes/AutoClosable Interface - Java.md",
-    "6 - Main Notes/AutoClosable.md",
-    "6 - Main Notes/Strings - Redis.md",
-    "Redis/Jedis.md",
     "Redis",
     "2 - Source Materials/Pasted image 20251006110153.png",
     "Pasted image 20251005115126.png",
@@ -409,18 +416,9 @@
     "2 - Source Materials/Pasted image 20251005075533.png",
     "Бородич_Эконометрика.pdf",
     "Pasted image 20251004160147.png",
-    "2 - Source Materials/Pasted image 20251004103150.png",
-    "2 - Source Materials/Pasted image 20251004103033.png",
-    "2 - Source Materials/Pasted image 20251004095452.png",
-    "2 - Source Materials/Pasted image 20251004095439.png",
-    "2 - Source Materials/Pasted image 20251002175407.png",
-    "6 - Main Notes/Untitled.base",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
     "2 - Source Materials/formuly_kombinatoriki.pdf",
-    "Notes",
-    "2 - Source Materials/Unconfirmed 402933.crdownload",
-    "desktop.ini",
-    "7 -CSS Snippets"
+    "Notes"
   ]
 }

@@ -29,8 +29,20 @@ Tags: [[Spring]]
 	<!-- Автоматическое сканирование компонентов в пакете -->
 	<context:component-scan base-package="com.example.demo"/>
 	
-	<bean id="classicalMusic" class="secret.boy.spring.demo.ClassicalMusic"/>
+	<bean id="classicalMusic" class="secret.boy.spring.demo.ClassicalMusic" scope="singleton" />
 	<bean id="rockMusic" class="secret.boy.spring.demo.RockMusic"/>
+	
+	<bean id="musicPlayer" scope="prototype" class="secret.boy.spring.demo.MusicPlayer">  
+	    <property name="music">  
+	        <list>            
+		        <ref bean="classicalMusic"/>  
+	            <ref bean="rockMusic"/>  
+	            <ref bean="grungeMusic"/>  
+	        </list>    
+		</property>    
+		<property name="name" value="${musicPlayer.name}"/>  
+	    <property name="volume" value="${musicPlayer.volume}"/>  
+	</bean>
 	
 </beans>
 ```

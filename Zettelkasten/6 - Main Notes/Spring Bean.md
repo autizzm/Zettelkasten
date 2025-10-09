@@ -8,6 +8,7 @@ Tags: [[Spring]]
 ---
 # Spring Bean
 
+Обычно POJO класс
 
 ----
 #### [[Spring Bean - Flashcards|Link to flashcards]]
@@ -17,3 +18,4 @@ Tags: [[Spring]]
 ---
 ### References:
 
+- [[Bean scope - Spring]]

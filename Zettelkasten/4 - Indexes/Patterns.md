@@ -4,6 +4,7 @@
 
 1. [[Prototype - pattern]]
 2. [[SIngleton - pattern]]
+3. [[Factory method - pattern]]
 
 
 
