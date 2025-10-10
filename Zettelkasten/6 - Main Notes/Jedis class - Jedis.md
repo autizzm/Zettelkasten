@@ -33,7 +33,7 @@ try(Jedis jedis = jedisPool.getResource()){ //создаём в try-with-resourc
 }
 ```
 
-#### **через JedisPooled:**
+#### **через [[JedisPooled class - Jedis|JedisPooled]]:**
 
 ```java
 JedisPooled jedis = new JedisPooled("localhost", 6379);

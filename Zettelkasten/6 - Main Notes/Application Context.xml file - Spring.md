@@ -209,3 +209,4 @@ public void setServers(List<String> servers) {
 ### References:
 
 - [[property file - Spring]]
+- [[yaml file - Spring]]

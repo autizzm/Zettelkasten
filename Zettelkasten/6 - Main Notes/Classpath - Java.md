@@ -74,6 +74,39 @@ Classpath участвует **на двух этапах**:
 `javac -cp lib/some-lib.jar;. MyApp.java`
 
 
+---
+
+### Папка `resources` — это **не часть пути** внутри classpath.  
+
+При сборке проекта Maven/Gradle всё содержимое `src/main/resources` попадает **на корень classpath**.
+
+📁 Пример структуры проекта:
+
+```css
+project/
+ ├─ src/
+ │   └─ main/
+ │       └─ resources/
+ │           ├─ processors.csv
+ │           └─ someFolder/
+ │               └─ data.csv
+ └─ target/
+     └─ classes/
+         ├─ processors.csv
+         └─ someFolder/
+             └─ data.csv
+
+```
+
+После сборки в classpath будет:
+
+```bash 
+processors.csv 
+someFolder/data.csv
+```
+
+
+
 ----
 #### [[Что такое classpath - Flashcards|Link to flashcards]]
 

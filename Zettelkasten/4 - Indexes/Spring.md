@@ -9,6 +9,7 @@
 - [[Application Context - Spring]]
 	- [[Application Context.xml file - Spring]]
 	- [[property file - Spring]]
+	- [[yaml file - Spring]]
 - [[Spring Bean]]
 	- [[Bean scope - Spring]]
 	- [[Bean Lifecycle - Spring]]
