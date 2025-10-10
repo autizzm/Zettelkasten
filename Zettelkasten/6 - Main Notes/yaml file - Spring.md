@@ -9,6 +9,22 @@ Tags: [[Spring]]
 # yaml file - Spring
 
 
+> [!note] **Может иметь несколько ключей верхнего уровня**
+> Пример:
+> ```yaml
+> request:
+  timeout-seconds: 15
+  prompt: "<some_prompt>"
+  gemini-api-key: "<my_api>"
+>
+redis:
+  url: "localhost"
+  port: 6379
+>
+processors:
+  amt-to-be-created: 30000
+> ```
+
 ## 🧭 1. Подготовим YAML-файл
 
 Пусть в `src/main/resources/config.yml` у нас есть:

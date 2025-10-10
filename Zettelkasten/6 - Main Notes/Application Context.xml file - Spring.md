@@ -52,10 +52,18 @@ Tags: [[Spring]]
 >
 > В ApplicationContext он указывается так:
 >```xml
->
+><context:property-placeholder location="classpath:musicPlayer.properties"/>
 >```
 >
 
+> [!warning] **Можно явно определить тип аргумента, который мы инжектим:**
+> ```xml
+> <bean name="jedis" class="redis.clients.jedis.JedisPooled"  
+ > destroy-method="close">  
+>	<constructor-arg index="0" type="java.lang.String" value="${redis.host}"/> 
+>	<constructor-arg index="1" type="int" value="${redis.port}"/>  
+></bean>
+> ```
 
 ---
 
@@ -72,9 +80,26 @@ public MusicPlayer(Music music) {
 ```xml
 <bean id="musicBean" class="secret.boy.spring.demo.ClassicalMusic"/>
 <bean id="MusicPlayer" class="secret.boy.spring.demo.MusicPlayer">
-	<constructor-arg ref="musicBean">
+	<constructor-arg ref="musicBean"/>
+	<constructor-arg value="some value"/>
 </bean>
 ```
+
+> [!note] 
+> Spring XML как раз позволяет явно указать, **какому параметру конструктора** соответствует каждое значение.
+>1. указывать аргументы по порядку (как записаны параметры в конструкторе)
+>2.  указывать аргументы с индексом
+>3.  указывать имя праметра:
+>```java
+>public UserService(String name, int age) { ... }
+>```
+>```xml
+><bean id="userService" class="com.example.UserService">
+>    <constructor-arg name="name" value="John"/>
+ >   <constructor-arg name="age" value="42"/>
+></bean>
+>```
+
 
 
 #### Через setter

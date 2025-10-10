@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Queue Interface.md",
+                "file": "6 - Main Notes/Application Context.xml file - Spring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Queue Interface"
+              "title": "Application Context.xml file - Spring"
             }
           },
           {
@@ -125,30 +125,6 @@
               },
               "icon": "lucide-file",
               "title": "UnifiedJedis class - Jedis"
-            }
-          },
-          {
-            "id": "81793baa3269bbf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Indexes/Java+.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Java+"
             }
           }
         ],
@@ -303,27 +279,28 @@
   },
   "active": "10bc33c465798d15",
   "lastOpenFiles": [
+    "6 - Main Notes/Dependency Injection.md",
+    "4 - Indexes/Spring.md",
+    "6 - Main Notes/property file - Spring.md",
+    "6 - Main Notes/yaml file - Spring.md",
+    "6 - Main Notes/Queue Interface.md",
     "4 - Indexes/Java Core.md",
+    "6 - Main Notes/Запуск Redis docker container.md",
+    "6 - Main Notes/Redis + Jedis.md",
+    "4 - Indexes/Java+.md",
     "6 - Main Notes/Table - Tablesaw.md",
     "6 - Main Notes/Factory method - pattern.md",
-    "6 - Main Notes/property file - Spring.md",
     "6 - Main Notes/Bean Lifecycle - Spring - Flashcards.md",
     "6 - Main Notes/Classpath - Java.md",
     "3 - Tags/Tablesaw.md",
-    "4 - Indexes/Java+.md",
     "6 - Main Notes/Jedis class - Jedis.md",
-    "6 - Main Notes/Redis + Jedis.md",
     "6 - Main Notes/Sets - Redis.md",
     "6 - Main Notes/Functional Interfaces - Java.md",
-    "6 - Main Notes/Queue Interface.md",
     "6 - Main Notes/JedisPooled class - Jedis.md",
     "6 - Main Notes/Git - Flashcards.md",
     "6 - Main Notes/Git.md",
-    "4 - Indexes/Spring.md",
     "6 - Main Notes/Application Context - Spring.md",
     "6 - Main Notes/Application Context.xml file - Spring.md",
-    "6 - Main Notes/Dependency Injection.md",
-    "6 - Main Notes/yaml file - Spring.md",
     "6 - Main Notes/Bean factory method - Spring.md",
     "6 - Main Notes/Bean factory method - Spring - Flashcards.md",
     "6 - Main Notes/Bean Lifecycle - Spring.md",
@@ -335,7 +312,6 @@
     "4 - Indexes/Patterns.md",
     "Pasted image 20251009204626.png",
     "Pasted image 20251009203409.png",
-    "6 - Main Notes/Bean scope - Spring.md",
     "Pasted image 20251009202330.png",
     "Pasted image 20251009201910.png",
     "Redis",
