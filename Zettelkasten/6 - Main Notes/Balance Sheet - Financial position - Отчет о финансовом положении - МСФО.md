@@ -10,9 +10,9 @@ Tags: [[Бух Учёт]]
 
 
 Assets (Активы)
-- [[Intangible assets - Нематериальные активы]]
-- [[Property, plant and equipment  - Основные фонды]]
-- **прочие долгосрочные активы**:  [[Investment Property, Long-term financial assets - Доходные вложения в материальные ценности, долгосрочные финансовые вложения]]
+- [[Intangible assets - Нематериальные активы - МСФО]]
+- [[Property, plant and equipment  - Основные фонды  - МСФО]]
+- **прочие долгосрочные активы**:  [[Investment Property, Long-term financial assets - Доходные вложения в материальные ценности, долгосрочные финансовые вложения  - МСФО]]
 - Right-of-use assets - Активы в форме права пользования
 
 

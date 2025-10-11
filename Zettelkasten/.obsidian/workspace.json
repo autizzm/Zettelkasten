@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "755c6e012a527c2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Table - Tablesaw.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Table - Tablesaw"
-            }
-          },
-          {
-            "id": "13197578dda0fd83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Classpath - Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Classpath - Java"
-            }
-          },
-          {
             "id": "5124acee7006d93f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Git.md",
+                "file": "3 - Tags/Linear algebra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Linear algebra"
             }
           },
           {
-            "id": "10bc33c465798d15",
+            "id": "1f43a7ee7d032e9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Application Context.xml file - Spring.md",
+                "file": "6 - Main Notes/Вычисление определителя - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Application Context.xml file - Spring"
+              "title": "Вычисление определителя - Flashcards"
             }
           },
           {
-            "id": "c82e3457d960eaa8",
+            "id": "72d359a6345a340e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/UnifiedJedis class - Jedis.md",
+                "file": "6 - Main Notes/Вычисление определителя.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +76,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UnifiedJedis class - Jedis"
+              "title": "Вычисление определителя"
+            }
+          },
+          {
+            "id": "7ea5d121a27ea640",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Транспонирование матриц.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Транспонирование матриц"
+            }
+          },
+          {
+            "id": "36a43565bf5381c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Tags/Linear algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Linear algebra"
+            }
+          },
+          {
+            "id": "84c672d26b6d6dd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Матрица - Flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Матрица - Flashcards"
+            }
+          },
+          {
+            "id": "ac5e618296272a04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Сумма (разность) матриц.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Сумма (разность) матриц"
+            }
+          },
+          {
+            "id": "aa0a59788bfae6e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Obsidian Markdown example.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Markdown example"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -277,50 +349,50 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "10bc33c465798d15",
+  "active": "84c672d26b6d6dd6",
   "lastOpenFiles": [
-    "6 - Main Notes/Dependency Injection.md",
-    "4 - Indexes/Spring.md",
-    "6 - Main Notes/property file - Spring.md",
-    "6 - Main Notes/yaml file - Spring.md",
-    "6 - Main Notes/Queue Interface.md",
-    "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Запуск Redis docker container.md",
-    "6 - Main Notes/Redis + Jedis.md",
-    "4 - Indexes/Java+.md",
-    "6 - Main Notes/Table - Tablesaw.md",
-    "6 - Main Notes/Factory method - pattern.md",
-    "6 - Main Notes/Bean Lifecycle - Spring - Flashcards.md",
-    "6 - Main Notes/Classpath - Java.md",
-    "3 - Tags/Tablesaw.md",
-    "6 - Main Notes/Jedis class - Jedis.md",
-    "6 - Main Notes/Sets - Redis.md",
-    "6 - Main Notes/Functional Interfaces - Java.md",
-    "6 - Main Notes/JedisPooled class - Jedis.md",
-    "6 - Main Notes/Git - Flashcards.md",
-    "6 - Main Notes/Git.md",
-    "6 - Main Notes/Application Context - Spring.md",
-    "6 - Main Notes/Application Context.xml file - Spring.md",
-    "6 - Main Notes/Bean factory method - Spring.md",
-    "6 - Main Notes/Bean factory method - Spring - Flashcards.md",
-    "6 - Main Notes/Bean Lifecycle - Spring.md",
+    "6 - Main Notes/Произведение матрицы на константу.md",
+    "6 - Main Notes/Произведение матрицы на константу - Flashcards.md",
+    "3 - Tags/Linear algebra.md",
+    "6 - Main Notes/Матрица.md",
+    "6 - Main Notes/Матрица - Flashcards.md",
+    "6 - Main Notes/Производственная программа - Flashcards.md",
+    "6 - Main Notes/Транспонирование матриц.md",
+    "6 - Main Notes/Сумма (разность) матриц.md",
+    "6 - Main Notes/Операции над матрицами.md",
+    "6 - Main Notes/Вычисление определителя.md",
+    "6 - Main Notes/Элементарные преобразования матриц.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Свойства матриц.md",
+    "6 - Main Notes/Сумма (разность)  матриц - Flashcards.md",
+    "6 - Main Notes/Вычисление определителя - Flashcards.md",
+    "Pasted image 20251011194617.png",
+    "6 - Main Notes/Определитель.md",
+    "4 - Indexes/Obsidian Features.md",
+    "6 - Main Notes/Производственная программа.md",
+    "6 - Main Notes/Property, plant and equipment  - Основные фонды  - МСФО.md",
+    "4 - Indexes/Math.md",
+    "6 - Main Notes/Net Working Capital (NWC).md",
+    "4 - Indexes/Бух Учёт.md",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/UnifiedJedis class - Jedis.md",
+    "3 - Tags/Экономика Организации.md",
+    "6 - Main Notes/Основной капитал.md",
+    "2 - Source Materials/Pasted image 20251011121127.png",
+    "2 - Source Materials/Pasted image 20251011121112.png",
+    "2 - Source Materials/Pasted image 20251011115854.png",
+    "2 - Source Materials/Pasted image 20251011104050.png",
+    "2 - Source Materials/Pasted image 20251011103620.png",
+    "2 - Source Materials/Pasted image 20251011103609.png",
+    "2 - Source Materials/Pasted image 20251011103459.png",
+    "2 - Source Materials/Pasted image 20251011084108.png",
+    "2 - Source Materials/Pasted image 20251011083855.png",
     "6 - Main Notes/Untitled 3.base",
     "6 - Main Notes/Untitled 2.base",
     "6 - Main Notes/Untitled 1.base",
     "6 - Main Notes/Untitled.base",
-    "Pasted image 20251009210037.png",
-    "4 - Indexes/Patterns.md",
-    "Pasted image 20251009204626.png",
-    "Pasted image 20251009203409.png",
-    "Pasted image 20251009202330.png",
-    "Pasted image 20251009201910.png",
     "Redis",
-    "2 - Source Materials/Pasted image 20251006110153.png",
-    "Pasted image 20251005115126.png",
-    "2 - Source Materials/Pasted image 20251005114956.png",
-    "2 - Source Materials/Pasted image 20251005075533.png",
     "Бородич_Эконометрика.pdf",
-    "Pasted image 20251004160147.png",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
     "2 - Source Materials/formuly_kombinatoriki.pdf",

@@ -92,3 +92,5 @@ Tags: [[Бух Учёт]]
 ---
 ### References:
 
+- [[Depreciation and amortization - Амортизация  - МСФО]]
+- 

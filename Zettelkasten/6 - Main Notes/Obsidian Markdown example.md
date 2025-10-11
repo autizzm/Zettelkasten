@@ -136,3 +136,15 @@ $A \xrightarrow{P} B$
 $A \to B$
 
 $r_\text{xy} \cdot \frac{S_y}{S_x}$
+
+
+$\Delta = \begin{vmatrix}a & b \\c & d\end{vmatrix}$ - определитель
+
+### $A = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0& 0 \end{bmatrix}$ - нулевая матрица
+
+$m \times n$
+
+$\sim$
+
+$\equiv$ - эквивалентно, тождественно равно
+ 
