@@ -8,132 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5124acee7006d93f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Tags/Linear algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Linear algebra"
-            }
-          },
-          {
-            "id": "1f43a7ee7d032e9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Вычисление определителя - Flashcards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Вычисление определителя - Flashcards"
-            }
-          },
-          {
-            "id": "72d359a6345a340e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Вычисление определителя.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Вычисление определителя"
-            }
-          },
-          {
-            "id": "7ea5d121a27ea640",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Транспонирование матриц.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Транспонирование матриц"
-            }
-          },
-          {
-            "id": "36a43565bf5381c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Tags/Linear algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Linear algebra"
-            }
-          },
-          {
             "id": "84c672d26b6d6dd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Матрица - Flashcards.md",
+                "file": "6 - Main Notes/Классические предпосылки МНК - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +28,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Матрица - Flashcards"
+              "title": "Классические предпосылки МНК - Flashcards"
+            }
+          },
+          {
+            "id": "eb0777cd86fd689c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Классические предпосылки МНК.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Классические предпосылки МНК"
+            }
+          },
+          {
+            "id": "9e8746e6febd282f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "t-статистика (t-критерий Стьюдента)"
+            }
+          },
+          {
+            "id": "22add7fffd2edb8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/t-распределение (Распределение Стьюдента).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "t-распределение (Распределение Стьюдента)"
+            }
+          },
+          {
+            "id": "dd61b556b3385b2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Классические предпосылки МНК.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Классические предпосылки МНК"
+            }
+          },
+          {
+            "id": "926b571ef277f5b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Коэффициент детерминации.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Коэффициент детерминации"
+            }
+          },
+          {
+            "id": "72ca5281bc6833bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Метод наименьших квадратов для ПЛР (МНК)"
+            }
+          },
+          {
+            "id": "10fa2375d0fd4df9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Классические предпосылки МНК.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Классические предпосылки МНК"
             }
           },
           {
@@ -157,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Сумма (разность) матриц.md",
+                "file": "6 - Main Notes/Проверка гипотез о значимости коэффициентов регрессионной модели.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +220,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Сумма (разность) матриц"
+              "title": "Проверка гипотез о значимости коэффициентов регрессионной модели"
+            }
+          },
+          {
+            "id": "0e10a3807535d94f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Гипотезы значимости параметров линейной регрессии"
+            }
+          },
+          {
+            "id": "39022f25b2771e08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Оценка качества точечной оценки параметра СВ.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Оценка качества точечной оценки параметра СВ"
             }
           },
           {
@@ -258,7 +354,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922
+    "width": 242.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -349,35 +446,35 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "84c672d26b6d6dd6",
+  "active": "926b571ef277f5b8",
   "lastOpenFiles": [
+    "6 - Main Notes/Проверка гипотез о значимости коэффициентов регрессионной модели.md",
+    "6 - Main Notes/Коэффициент детерминации.md",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Классические предпосылки МНК.md",
+    "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК).md",
+    "6 - Main Notes/Ковариация.md",
+    "6 - Main Notes/Корреляция (Коэффициент Пирсона).md",
+    "6 - Main Notes/Проверка гипотез о значимости параметров регрессионной модели.md",
+    "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
+    "6 - Main Notes/Оценка качества точечной оценки параметра СВ.md",
+    "6 - Main Notes/Регрессия.md",
+    "6 - Main Notes/Классические предпосылки МНК - Flashcards.md",
+    "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
+    "6 - Main Notes/t-распределение (Распределение Стьюдента).md",
+    "6 - Main Notes/Стандартная ошибка модели регрессии.md",
+    "6 - Main Notes/Нормальное распределение выборки.md",
+    "6 - Main Notes/Белый шум.md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Оценка параметров генеральной совокупности.md",
+    "6 - Main Notes/Сумма (разность) матриц.md",
+    "6 - Main Notes/Регрессия - Flashcards.md",
+    "6 - Main Notes/Матрица - Flashcards.md",
     "6 - Main Notes/Произведение матрицы на константу.md",
     "6 - Main Notes/Произведение матрицы на константу - Flashcards.md",
     "3 - Tags/Linear algebra.md",
     "6 - Main Notes/Матрица.md",
-    "6 - Main Notes/Матрица - Flashcards.md",
-    "6 - Main Notes/Производственная программа - Flashcards.md",
-    "6 - Main Notes/Транспонирование матриц.md",
-    "6 - Main Notes/Сумма (разность) матриц.md",
-    "6 - Main Notes/Операции над матрицами.md",
-    "6 - Main Notes/Вычисление определителя.md",
-    "6 - Main Notes/Элементарные преобразования матриц.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Свойства матриц.md",
-    "6 - Main Notes/Сумма (разность)  матриц - Flashcards.md",
-    "6 - Main Notes/Вычисление определителя - Flashcards.md",
     "Pasted image 20251011194617.png",
-    "6 - Main Notes/Определитель.md",
-    "4 - Indexes/Obsidian Features.md",
-    "6 - Main Notes/Производственная программа.md",
-    "6 - Main Notes/Property, plant and equipment  - Основные фонды  - МСФО.md",
-    "4 - Indexes/Math.md",
-    "6 - Main Notes/Net Working Capital (NWC).md",
-    "4 - Indexes/Бух Учёт.md",
-    "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/UnifiedJedis class - Jedis.md",
-    "3 - Tags/Экономика Организации.md",
-    "6 - Main Notes/Основной капитал.md",
     "2 - Source Materials/Pasted image 20251011121127.png",
     "2 - Source Materials/Pasted image 20251011121112.png",
     "2 - Source Materials/Pasted image 20251011115854.png",

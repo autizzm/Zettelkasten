@@ -1,5 +1,5 @@
 
-Theory for the cards: [[Оценка качественной точечной оценки параметра СВ]]
+Theory for the cards: [[Оценка качества точечной оценки параметра СВ]]
 
 FILE TAGS: math_stat
 

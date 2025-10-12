@@ -147,4 +147,7 @@ $m \times n$
 $\sim$
 
 $\equiv$ - эквивалентно, тождественно равно
- 
+
+### $r_{\substack{\varepsilon_t \\ \varepsilon_\tau}}$
+
+### $r_{\varepsilon_t, \varepsilon_\tau}$
