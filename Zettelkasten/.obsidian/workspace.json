@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Гипотезы о среднем.md",
+                "file": "6 - Main Notes/Нахождение обратных матриц.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Гипотезы о среднем"
+              "title": "Нахождение обратных матриц"
             }
           },
           {
-            "id": "0900b9ab8962bd6f",
+            "id": "b84eff7309503b1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/ТВиМС.md",
+                "file": "6 - Main Notes/Нахождение обратных матриц.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,175 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ТВиМС"
-            }
-          },
-          {
-            "id": "8e2d550086314c56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "t-статистика (t-критерий Стьюдента)"
-            }
-          },
-          {
-            "id": "b9e4aef514ce5798",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/t-распределение (Распределение Стьюдента).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "t-распределение (Распределение Стьюдента)"
-            }
-          },
-          {
-            "id": "72ca5281bc6833bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Метод наименьших квадратов для ПЛР (МНК)"
-            }
-          },
-          {
-            "id": "10fa2375d0fd4df9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Классические предпосылки МНК.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Классические предпосылки МНК"
-            }
-          },
-          {
-            "id": "ac5e618296272a04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Проверка гипотез о значимости коэффициентов регрессионной модели.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Проверка гипотез о значимости коэффициентов регрессионной модели"
-            }
-          },
-          {
-            "id": "0e10a3807535d94f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Гипотезы значимости параметров линейной регрессии"
-            }
-          },
-          {
-            "id": "39022f25b2771e08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Оценка качества точечной оценки параметра СВ.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Оценка качества точечной оценки параметра СВ"
+              "title": "Нахождение обратных матриц"
             }
           },
           {
@@ -368,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -426,8 +258,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922,
-    "collapsed": true
+    "width": 242.5110321044922
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -518,44 +349,45 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "926b571ef277f5b8",
+  "active": "b84eff7309503b1b",
   "lastOpenFiles": [
-    "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
-    "6 - Main Notes/z-статистика.md",
-    "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Гипотезы о среднем.md",
-    "6 - Main Notes/Статистика Хи квадрат.md",
-    "6 - Main Notes/t-распределение (Распределение Стьюдента).md",
-    "6 - Main Notes/Гипотезы нормального распределения.md",
+    "6 - Main Notes/Матрица.md",
+    "6 - Main Notes/Нахождение обратных матриц.md",
+    "3 - Tags/Linear algebra.md",
+    "6 - Main Notes/Произведение матриц.md",
+    "6 - Main Notes/Операции над матрицами.md",
+    "6 - Main Notes/Сумма (разность) матриц.md",
+    "desktop.ini",
+    "4 - Indexes/Math.md",
+    "6 - Main Notes/Git.md",
+    "4 - Indexes/Java+.md",
+    "6 - Main Notes/Conventional commits - Git.md",
+    "6 - Main Notes/Запуск Redis docker container.md",
+    "6 - Main Notes/Redis + Jedis.md",
+    "6 - Main Notes/Вычисление определителя.md",
+    "Pasted image 20251013114027.png",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Оценка качества точечной оценки параметра СВ.md",
+    "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
     "6 - Main Notes/Проверка гипотез о значимости коэффициентов регрессионной модели.md",
-    "6 - Main Notes/Коэффициент детерминации.md",
     "6 - Main Notes/Классические предпосылки МНК.md",
     "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК).md",
-    "6 - Main Notes/Ковариация.md",
-    "6 - Main Notes/Корреляция (Коэффициент Пирсона).md",
-    "6 - Main Notes/Проверка гипотез о значимости параметров регрессионной модели.md",
-    "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
-    "6 - Main Notes/Оценка качества точечной оценки параметра СВ.md",
-    "6 - Main Notes/Регрессия.md",
-    "6 - Main Notes/Классические предпосылки МНК - Flashcards.md",
-    "6 - Main Notes/Стандартная ошибка модели регрессии.md",
-    "6 - Main Notes/Нормальное распределение выборки.md",
-    "6 - Main Notes/Белый шум.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Оценка параметров генеральной совокупности.md",
-    "6 - Main Notes/Сумма (разность) матриц.md",
-    "6 - Main Notes/Регрессия - Flashcards.md",
-    "6 - Main Notes/Матрица - Flashcards.md",
+    "6 - Main Notes/t-распределение (Распределение Стьюдента).md",
+    "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
+    "4 - Indexes/ТВиМС.md",
+    "Pasted image 20251013113234.png",
+    "Pasted image 20251013110720.png",
+    "Pasted image 20251013110718.png",
+    "6 - Main Notes/Гипотезы о среднем.md",
+    "6 - Main Notes/z-статистика.md",
+    "6 - Main Notes/Статистика Хи квадрат.md",
+    "6 - Main Notes/Гипотезы нормального распределения.md",
     "Pasted image 20251011194617.png",
     "2 - Source Materials/Pasted image 20251011121127.png",
     "2 - Source Materials/Pasted image 20251011121112.png",
     "2 - Source Materials/Pasted image 20251011115854.png",
     "2 - Source Materials/Pasted image 20251011104050.png",
     "2 - Source Materials/Pasted image 20251011103620.png",
-    "2 - Source Materials/Pasted image 20251011103609.png",
-    "2 - Source Materials/Pasted image 20251011103459.png",
-    "2 - Source Materials/Pasted image 20251011084108.png",
-    "2 - Source Materials/Pasted image 20251011083855.png",
     "6 - Main Notes/Untitled 3.base",
     "6 - Main Notes/Untitled 2.base",
     "6 - Main Notes/Untitled 1.base",
@@ -564,7 +396,6 @@
     "Бородич_Эконометрика.pdf",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
     "2 - Source Materials/Unconfirmed 145553.crdownload",
-    "2 - Source Materials/formuly_kombinatoriki.pdf",
-    "Notes"
+    "2 - Source Materials/formuly_kombinatoriki.pdf"
   ]
 }
