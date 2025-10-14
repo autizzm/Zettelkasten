@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Формальное стратегическое планирование.md",
+                "file": "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК) - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,103 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Формальное стратегическое планирование"
+              "title": "Метод наименьших квадратов для ПЛР (МНК) - Flashcards"
+            }
+          },
+          {
+            "id": "cbf595f158644dcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Классические предпосылки МНК.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Классические предпосылки МНК"
+            }
+          },
+          {
+            "id": "fe8141f8c3661745",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Теорема Гаусса-Маркова.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Теорема Гаусса-Маркова"
+            }
+          },
+          {
+            "id": "2f4af8d4acb494c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Проверка гипотез о значимости параметров регрессионной модели.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Проверка гипотез о значимости параметров регрессионной модели"
+            }
+          },
+          {
+            "id": "58821de850aeced2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Гипотезы значимости параметров линейной регрессии"
             }
           },
           {
@@ -128,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -186,7 +282,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922
+    "width": 242.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -277,24 +374,31 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "8b37cc5090f3604b",
+  "active": "fe8141f8c3661745",
   "lastOpenFiles": [
-    "2 - Source Materials/Formal_strategic_planning.pdf",
+    "6 - Main Notes/Классические предпосылки МНК.md",
+    "6 - Main Notes/Теорема Гаусса-Маркова.md",
+    "4 - Indexes/ТВиМС.md",
+    "6 - Main Notes/Линейная регрессия.md",
     "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК).md",
+    "6 - Main Notes/Obsidian Markdown example.md",
+    "6 - Main Notes/Почему коэффициенты ЛР - случайные величины.md",
+    "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК) - Flashcards.md",
+    "6 - Main Notes/Регрессия.md",
+    "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
+    "6 - Main Notes/Проверка гипотез о значимости параметров регрессионной модели.md",
+    "Pasted image 20251014091550.png",
+    "4 - Indexes/Финансовый анализ.md",
+    "4 - Indexes/Niche analysis.md",
+    "6 - Main Notes/Формальное стратегическое планирование.md",
+    "2 - Source Materials/Formal_strategic_planning.pdf",
     "6 - Main Notes/Произведение матриц.md",
     "3 - Tags/Linear algebra.md",
     "6 - Main Notes/Элементарные преобразования матриц.md",
     "6 - Main Notes/Свойства матриц.md",
     "4 - Indexes/Math.md",
-    "6 - Main Notes/Формальное стратегическое планирование.md",
-    "4 - Indexes/Niche analysis.md",
-    "4 - Indexes/Финансовый анализ.md",
-    "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК) - Flashcards.md",
-    "4 - Indexes/ТВиМС.md",
     "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md",
     "Pasted image 20251013200205.png",
-    "6 - Main Notes/Проверка гипотез о значимости коэффициентов регрессионной модели.md",
-    "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
     "6 - Main Notes/Оценка качества точечной оценки параметра СВ.md",
     "6 - Main Notes/Оценка качества точечной оценки параметра СВ - Flashcards.md",
     "6 - Main Notes/Ранг матрицы.md",
@@ -304,18 +408,12 @@
     "Pasted image 20251013170541.png",
     "6 - Main Notes/Матрица.md",
     "6 - Main Notes/Транспонирование матриц.md",
-    "6 - Main Notes/Алгебраическое дополнение, Минор матрицы.md",
-    "6 - Main Notes/Вычисление определителя.md",
-    "6 - Main Notes/t-распределение (Распределение Стьюдента).md",
-    "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
-    "6 - Main Notes/Классические предпосылки МНК.md",
     "Pasted image 20251013114027.png",
     "Pasted image 20251013161747.png",
     "Pasted image 20251013161958.png",
     "Pasted image 20251013162014.png",
     "-2147483648_-210105.jpg",
     "desktop.ini",
-    "Pasted image 20251013113234.png",
     "6 - Main Notes/Untitled 3.base",
     "6 - Main Notes/Untitled 2.base",
     "6 - Main Notes/Untitled 1.base",
@@ -323,7 +421,6 @@
     "Redis",
     "Бородич_Эконометрика.pdf",
     "2 - Source Materials/О мед освидетельствовании 30.06.2022.pdf",
-    "2 - Source Materials/Unconfirmed 145553.crdownload",
-    "2 - Source Materials/formuly_kombinatoriki.pdf"
+    "2 - Source Materials/Unconfirmed 145553.crdownload"
   ]
 }

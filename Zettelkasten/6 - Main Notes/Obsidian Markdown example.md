@@ -135,6 +135,9 @@ $A \xrightarrow{P} B$
 
 $A \to B$
 
+$A \xrightarrow[x \to 0]{} B$
+
+
 $r_\text{xy} \cdot \frac{S_y}{S_x}$
 
 
@@ -151,3 +154,5 @@ $\equiv$ - эквивалентно, тождественно равно
 ### $r_{\substack{\varepsilon_t \\ \varepsilon_\tau}}$
 
 ### $r_{\varepsilon_t, \varepsilon_\tau}$
+
+$\tilde{\beta}_1 = \frac{\mathrm{Cov}(X, Y)}{\mathrm{Var}(X)}$
