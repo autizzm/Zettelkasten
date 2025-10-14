@@ -35,6 +35,7 @@
 2. [[Jackson Tree Model - Jackson Databind]]
 
 [[Jackson Annotations]]
+[[Class-level annotations - Jackson Annotations]]
 [[Порядок сериализации - Jackson Annotations]]
 - [[Serialization Annotations - Jackson Annotations]]
 - [[Deserialization Annotations - Jackson Annotations]]
