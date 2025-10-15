@@ -156,3 +156,12 @@ $\equiv$ - эквивалентно, тождественно равно
 ### $r_{\varepsilon_t, \varepsilon_\tau}$
 
 $\tilde{\beta}_1 = \frac{\mathrm{Cov}(X, Y)}{\mathrm{Var}(X)}$
+
+
+### Перенос:
+### $$\begin{aligned}(Y - XB)^T \cdot & (Y - XB) = Y^TY -B^TX^TY - Y^TXB + B^TX^TXB = \\ & = Y^TY - 2B^TX^TY + B^TX^TXB\end{aligned}$$
+`&` - в первой строке в месте по которому выравниваем, а во второй строке - место которое выравниваем
+`\\` - символ переноса
+
+
+### $\frac{\partial y}{\partial x}$
