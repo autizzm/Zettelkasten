@@ -1,5 +1,5 @@
 
-Theory for the cards: [[Корреляция (Коэффициент Пирсона)]] 
+Theory for the cards: [[Парная корреляция (Коэффициент Пирсона)]] 
 
 FILE TAGS: math_stat
 

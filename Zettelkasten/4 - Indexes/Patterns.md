@@ -7,6 +7,9 @@
 3. [[Factory method - pattern]]
 
 
+### Architecture patterns
+
+1. [[MVC]]
 
 ### Spring patterns
 

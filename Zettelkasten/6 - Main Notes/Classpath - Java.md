@@ -57,6 +57,12 @@ out/production/classes;lib/*
 
 (на Windows `;`, на Linux/macOS — `:`)
 
+> [!note]
+> Можно указывать путь таким образом:
+> ```java
+> "classpath:musicPlayer.properties"
+> ```
+
 
 ---
 

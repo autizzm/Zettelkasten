@@ -22,8 +22,8 @@ Tags: [[Spring]]
 
 > [!note] 
 > init-method - не то же самое, что и метод создания - factory-method:
-> 1. сначала создаём **factory-method**
-> 2. потом инициализируем **init-method**
+> 1. сначала создаём bean вызывая **factory-method**
+> 2. потом инициализируем вызовом **init-method**
 
 ----
 #### [[Bean factory method - Spring - Flashcards|Link to flashcards]]

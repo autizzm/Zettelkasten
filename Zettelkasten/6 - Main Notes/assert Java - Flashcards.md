@@ -33,7 +33,7 @@ A: Будет выкинуто `AssertionError`("x must be non-negative")
 <!--ID: 1757679607518-->
 
 
-Q: Что  здесь произойдет, если assertions включены в ClassLoader? Dsdtltncz kb xnj-nj d rjycjkm
+Q: Что  здесь произойдет, если assertions включены в ClassLoader? Выведется ли что-то на экран?
 ```java
 int x = -1;
 assert x <= 0 : System.out.println("Hi");
@@ -45,4 +45,8 @@ A: Нет, т.к. `(x <= 0) == true`, выражение  `System.out.println("H
 Q: Как включить assertions для класса в Java?
 A: Через параметры JVM или методами ClassLoader. Наизусть их знать не обязательно.
 <!--ID: 1757679607529-->
+
+Q: Когда выполняются assertions?
+A: Они выполняются в том месте кода, где написаны — во время выполнения (runtime).
+<!--ID: 1760771717425-->
 

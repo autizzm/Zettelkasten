@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Tags/Linear algebra.md",
+                "file": "6 - Main Notes/HttpServlet - Tomcat.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": false,
+                  "collapseAll": true,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Linear algebra"
+              "title": "HttpServlet - Tomcat"
             }
           },
           {
-            "id": "8b37cc5090f3604b",
+            "id": "c3b15984ee2b6f2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК) - Flashcards.md",
+                "file": "3 - Tags/PostgreSQL specifics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,21 +52,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Метод наименьших квадратов для ПЛР (МНК) - Flashcards"
+              "title": "PostgreSQL specifics"
             }
           },
           {
-            "id": "cbf595f158644dcc",
+            "id": "8491e8132be31f1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/МНК для МЛР.md",
+                "file": "6 - Main Notes/Протокол коммуникации с БД (Under the hood) - Postgres.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": false,
+                  "collapseAll": true,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "МНК для МЛР"
+              "title": "Протокол коммуникации с БД (Under the hood) - Postgres"
             }
           },
           {
-            "id": "fe8141f8c3661745",
+            "id": "93e525f5aa91a5e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Коэффициент детерминации.md",
+                "file": "6 - Main Notes/assert Java - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Коэффициент детерминации"
+              "title": "assert Java - Flashcards"
             }
           },
           {
-            "id": "08228bf1a00e2e17",
+            "id": "b9f37ad6d62385b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md",
+                "file": "6 - Main Notes/DispatcherServlet - Spring MVC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,127 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Дисперсия выборки, среднее квадратичное отклонение"
-            }
-          },
-          {
-            "id": "df199758d603cacc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Транспонирование матриц.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Транспонирование матриц"
-            }
-          },
-          {
-            "id": "39f749b3e40dbf7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Произведение матриц.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Произведение матриц"
-            }
-          },
-          {
-            "id": "2f4af8d4acb494c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Классические предпосылки МНК.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Классические предпосылки МНК"
-            }
-          },
-          {
-            "id": "58821de850aeced2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Оценка параметров МЛР.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Оценка параметров МЛР"
-            }
-          },
-          {
-            "id": "47da5001665292bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Tags/Linear algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Linear algebra"
+              "title": "DispatcherServlet - Spring MVC"
             }
           },
           {
@@ -271,8 +151,7 @@
               "title": "Obsidian Markdown example"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922,
-    "collapsed": true
+    "width": 242.5110321044922
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -422,44 +300,44 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "fe8141f8c3661745",
+  "active": "22add7fffd2edb8b",
   "lastOpenFiles": [
-    "4 - Indexes/ТВиМС.md",
-    "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК).md",
-    "6 - Main Notes/Метод наименьших квадратов для ПЛР (МНК) - Flashcards.md",
-    "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение.md",
-    "6 - Main Notes/Дисперсия выборки, среднее квадратичное отклонение - Flashcards.md",
-    "6 - Main Notes/Дисперсия ДСВ.md",
-    "6 - Main Notes/Классические предпосылки МНК.md",
-    "6 - Main Notes/Стандартная ошибка модели регрессии.md",
-    "6 - Main Notes/МНК для МЛР.md",
-    "6 - Main Notes/Нахождение коэффициентов МЛР по МНК на примере ПЛР.md",
-    "3 - Tags/Linear algebra.md",
-    "6 - Main Notes/Нахождение обратных матриц.md",
-    "2 - Source Materials/Pasted image 20251015110143.png",
-    "2 - Source Materials/Pasted image 20251015110122.png",
-    "Pasted image 20251015110033.png",
-    "2 - Source Materials/Pasted image 20251015110005.png",
-    "2 - Source Materials/Pasted image 20251015105512.png",
-    "2 - Source Materials/Pasted image 20251015105035.png",
-    "2 - Source Materials/Pasted image 20251015105009.png",
-    "2 - Source Materials/Pasted image 20251015101309.png",
-    "Pasted image 20251015101220.png",
-    "2 - Source Materials/Pasted image 20251015101204.png",
-    "6 - Main Notes/Транспонирование матриц.md",
-    "6 - Main Notes/Obsidian Markdown example.md",
-    "6 - Main Notes/Сумма (разность) матриц.md",
-    "6 - Main Notes/Произведение матриц.md",
-    "6 - Main Notes/Probability (p-value).md",
-    "6 - Main Notes/Множественная линейная регрессия.md",
-    "6 - Main Notes/Теорема Гаусса-Маркова.md",
-    "6 - Main Notes/Оценка параметров МЛР.md",
-    "6 - Main Notes/Проверка гипотез о значимости параметров регрессионной модели.md",
-    "6 - Main Notes/Гипотезы значимости параметров линейной регрессии.md",
-    "6 - Main Notes/Niches vs  Mass market.md",
-    "6 - Main Notes/Способы поиска ниш.md",
-    "4 - Indexes/Niche analysis.md",
-    "6 - Main Notes/Market segments.md",
+    "6 - Main Notes/Tomcat web container threads.md",
+    "6 - Main Notes/HttpServlet - Tomcat.md",
+    "Pasted image 20251019072146.png",
+    "Pasted image 20251019072052.png",
+    "6 - Main Notes/Tomcat.md",
+    "6 - Main Notes/Embedded Tomcat.md",
+    "6 - Main Notes/web.xml file - Tomcat.md",
+    "6 - Main Notes/DispatcherServlet - Spring MVC.md",
+    "4 - Indexes/Spring.md",
+    "6 - Main Notes/Протокол коммуникации с БД (Under the hood) - Postgres.md",
+    "2 - Source Materials/Pasted image 20251018195539.png",
+    "4 - Indexes/Java+.md",
+    "6 - Main Notes/Maven.md",
+    "6 - Main Notes/Dependency scopes - Maven.md",
+    "2 - Source Materials/Pasted image 20251018194221.png",
+    "6 - Main Notes/Archetypes - Maven.md",
+    "2 - Source Materials/Pasted image 20251018191435.png",
+    "6 - Main Notes/MVC.md",
+    "2 - Source Materials/Pasted image 20251018191020.png",
+    "4 - Indexes/Patterns.md",
+    "6 - Main Notes/TLS.md",
+    "6 - Main Notes/Configuration via Java code - spring.md",
+    "2 - Source Materials/Pasted image 20251018183756.png",
+    "3 - Tags/PostgreSQL specifics.md",
+    "2 - Source Materials/Pasted image 20251018183028.png",
+    "6 - Main Notes/Что такое аннотации.md",
+    "4 - Indexes/SQL.md",
+    "6 - Main Notes/F-статистика.md",
+    "6 - Main Notes/JDBC Driver.md",
+    "2 - Source Materials/Pasted image 20251018181211.png",
+    "6 - Main Notes/JDBC setup.md",
+    "4 - Indexes/Java Core.md",
+    "6 - Main Notes/t-статистика (t-критерий Стьюдента).md",
+    "2 - Source Materials/Pasted image 20251018172716.png",
+    "6 - Main Notes/Configuration Annotations - Spring.md",
+    "6 - Main Notes/Classpath - Java.md",
     "2 - Source Materials/Formal_strategic_planning.pdf",
     "desktop.ini",
     "6 - Main Notes/Untitled 3.base",

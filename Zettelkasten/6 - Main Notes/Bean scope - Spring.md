@@ -31,6 +31,7 @@ Tags: [[Spring]]
 
 ![[Pasted image 20251009201910.png]]
 
+(Про "стлкнёмся с проблемой" - очевидная хуйня)
 
 
 ## Prototype scope
@@ -40,14 +41,14 @@ Tags: [[Spring]]
 
 ## Request scope
 
-
+~={pink}(no info yet)=~
 ## Session scope
 
-
+~={pink}(no info yet)=~
 
 ## Global-session scope
 
-
+~={pink}(no info yet)=~
 
 ----
 #### [[Bean scope - Flashcards|Link to flashcards]]

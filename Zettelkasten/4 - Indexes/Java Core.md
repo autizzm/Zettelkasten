@@ -49,6 +49,10 @@
 3. [[Functional Interfaces - Java]]
 
 
+### Annotations
+
+1. [[Что такое аннотации]]
+
 ### Under the hood
 [[Under the hood - Java|Link to the tag]]
 

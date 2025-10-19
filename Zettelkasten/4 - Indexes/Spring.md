@@ -10,7 +10,13 @@
 	- [[Application Context.xml file - Spring]]
 	- [[property file - Spring]]
 	- [[yaml file - Spring]]
+- [[Configuration Annotations - Spring]]
+- [[Configuration via Java code - spring]]
+
 - [[Spring Bean]]
 	- [[Bean scope - Spring]]
 	- [[Bean Lifecycle - Spring]]
 	- [[Bean factory method - Spring]]
+
+- [[DispatcherServlet - Spring MVC]]
+- [[Controller - Spring MVC]]

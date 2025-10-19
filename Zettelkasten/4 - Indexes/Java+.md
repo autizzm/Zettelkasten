@@ -1,10 +1,15 @@
 
-### Http в целом:
+
+### Protocols:
 
 - [[HTTP]]
-- [[Виды HTTP запросов]]
+	- [[Виды HTTP запросов]]
+	
+- [[TLS]]
 
 - [[curl tool]]
+
+
 
 ### Http в Java:
 [[Http - Java|Link to the tag]]
@@ -42,7 +47,9 @@
 
 
 ### JDBC
+[[Протокол коммуникации с БД (Under the hood) - Postgres]]
 [[JDBC setup]]
+[[JDBC Driver]]
 
 ### [[Git]]
 - [[Настройка Git credentials]]
@@ -52,6 +59,12 @@
 - [[Conventional commits - Git]]
 
 [[SSH]]
+
+
+### [[Tomcat]]
+
+
+### [[Maven]]
 
 
 ### [[Tablesaw]]
