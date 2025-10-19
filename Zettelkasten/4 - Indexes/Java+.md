@@ -46,6 +46,8 @@
 - [[Deserialization Annotations - Jackson Annotations]]
 
 
+### [[Базы данных]]
+
 ### JDBC
 [[Протокол коммуникации с БД (Under the hood) - Postgres]]
 [[JDBC setup]]
@@ -59,6 +61,8 @@
 - [[Conventional commits - Git]]
 
 [[SSH]]
+
+### [[Jakarta.servlet]]
 
 
 ### [[Tomcat]]

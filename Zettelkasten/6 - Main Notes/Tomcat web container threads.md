@@ -18,7 +18,7 @@ Tags: [[Tomcat]]
 
 1. парсит HTTP запрос
 2. создаёт `key:value` пары из содержимого HTTP запроса
-3. передаёт эти пары в виде **HttpServletRequest** в request-handling code
+3. передаёт эти пары в виде **[[HttpServletRequest - jakarta.servlet|HttpServletRequest]]** в request-handling code
 4. создаёт **HttpServletResponse** и передаёт в request-handling code для заполнения
 `***********************`Если на Spring`*****************************`
 5. вызывается **RequestDispatcher** -> распределяет по контроллерам
@@ -38,7 +38,7 @@ Tags: [[Tomcat]]
 2. Контейнер загружает класс сервлета через свой `ClassLoader`.
 3. Создаёт **один экземпляр** сервлета с помощью `Class.newInstance()` (или через Reflection API).
 4. Вызывает `init()` один раз для инициализации.
-5. При каждом запросе к этому сервлету Tomcat **не создаёт новый объект**, а вызывает метод `service()` (или  `doGet(), doPost(), ...` для [[HttpServlet - Tomcat]]) уже существующего экземпляра (в многопоточном режиме).
+5. При каждом запросе к этому сервлету Tomcat **не создаёт новый объект**, а вызывает метод `service()` (или  `doGet(), doPost(), ...` для [[HttpServlet - jakarta.servlet]]) уже существующего экземпляра (в многопоточном режиме).
 
 
 ----

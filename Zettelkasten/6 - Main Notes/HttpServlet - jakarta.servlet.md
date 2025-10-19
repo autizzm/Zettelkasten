@@ -3,10 +3,10 @@
 
 Status: #baby 
 
-Tags: [[Tomcat]] [[Java+]]
+Tags: [[[Jakarta.servlet]] [[Java+]]
 
 ---
-# HttpServlet - Tomcat
+# HttpServlet - jakarta.servlet
 
 (abstract class)
 
@@ -15,8 +15,10 @@ Tags: [[Tomcat]] [[Java+]]
 > [!warning] **Все создаваемые переменные в самом HttpServlet должны быть ==thread-safe==**
 
 
+
+
 ----
-#### [[HttpServlet - Tomcat - Flashcards|Link to flashcards]]
+#### [[HttpServlet - jakarta.servlet - Flashcards|Link to flashcards]]
 
 
 

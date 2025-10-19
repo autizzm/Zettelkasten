@@ -6,7 +6,7 @@ Status: #baby
 Tags: [[Spring]]
 
 ---
-# Configuration Annotations - Spring
+# Configuration via Annotations - Spring
 
 
 Для использовании аннотаций в ApplicationContext.xml Добавляем единственную строчку:

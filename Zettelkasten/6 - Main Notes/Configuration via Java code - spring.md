@@ -6,7 +6,7 @@ Status: #baby
 Tags: [[Spring]]
 
 ---
-# Configuration via Java code - spring
+# Configuration via Java code
 
 Заменяет [[Application Context.xml file - Spring|ApplicationContext.xml]] при конфигурации.
 
@@ -18,9 +18,19 @@ Tags: [[Spring]]
 ### Аннотация @Configuration
 
 ![[Pasted image 20251018171433.png]]
+
+### @ComponentScan("path/to/classes")
+
+Сканирует все классы и пакеты в "path/to/classes". 
+
+
 ![[Pasted image 20251018171522.png]]
 
-Для указания источника коныигурации (теперь это Java class) - используем другой Конфигуратор:
+
+
+---
+
+Для указания источника конфигурации (теперь это Java class) - используем другой Конфигуратор:
 ![[Pasted image 20251018171806.png]]
 
 
