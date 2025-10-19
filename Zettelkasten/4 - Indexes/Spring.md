@@ -32,10 +32,9 @@ config:
 - [[DispatcherServlet - Spring MVC]]
 - [[Controller - Spring MVC]]
 	- [[Параметры GET запроса - Spring MVC]]
+- [[Model - Spring MVC]]
 
 
 
-#### Thymeleaf - шаблонизатор
+### [[Thymeleaf - шаблонизатор]]
 
-- [[Настройка в applicationContextMVC.xml file - Thymeleaf]]
-- [[Настройка via Java code - Thymeleaf]]

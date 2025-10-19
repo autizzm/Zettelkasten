@@ -42,6 +42,27 @@ public String toString(){
 }
 ```
 
+Возврат значения из enhanced switch:
+```java
+case "sum" -> {  
+    System.out.println("performing sum");  
+    int result = a + b;  
+    model.addAttribute("result", result);  
+    yield "first/calculation_result";  
+}  
+case "distraction" -> {  
+    System.out.println("performing sum");  
+    int result = a + b;  
+    model.addAttribute("result", result);  
+    yield "first/calculation_result";  
+}  
+default -> {  
+    System.out.println("unknown action");  
+    yield "error";  
+}
+```
+
+
 ----
 #### [[Switch Flashcards|Link to flashcards]]
 

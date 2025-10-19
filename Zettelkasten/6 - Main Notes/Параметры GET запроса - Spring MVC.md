@@ -47,6 +47,29 @@ public String helloPage(@RequestParam("name") String name){
 > Если не передать параметры в запросе к методу, где стоит @RequestParam("name") -> получим ошибку:
 >  HTTP Status 400 - Bad Request
 >  
+>  Решение (используем параметр required):
+>  ```java
+>  @GetMapping("/goodbye")  
+>public String goodBye(
+>@RequestParam(value = "name", required = false) String name, @RequestParam("surname", required = false) String surname){
+>   
+>    System.out.println("New user: name=" + name + " surname=" + surname);  
+>    return "first/goodbye";  
+>}
+>  ```
+>  
+
+
+### Указание параметров GET  запроса в ссылке на html странице:
+
+```html
+<a href="/myapp/first/hello?name=Tom&surname=Cat">Alternative Hello</a>
+```
+
+Обращение к localhost:8080/myapp/hello с параметрами name=Tom и surname=Cat.
+
+> [!note]
+> адрес сервера можно не указывать, т.к. сервер и так отправил нам эту страницу
 
 
 ----

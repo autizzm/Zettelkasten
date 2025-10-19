@@ -4,7 +4,7 @@
 
 - [[HTTP]]
 	- [[Виды HTTP запросов]]
-	
+	- [[REST standard]]
 - [[TLS]]
 
 - [[curl tool]]

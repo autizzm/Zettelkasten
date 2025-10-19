@@ -30,4 +30,15 @@ public String helloPage(@RequestParam("name") String name){
 ```
 A: Если не передать параметры в запросе к методу, где стоит @RequestParam("name") -> получим ошибку:
 	HTTP Status 400 - Bad Request
+	
+>  Решение (используем параметр required):
+>  ```java
+>  @GetMapping("/goodbye")  
+>public String goodBye(
+>@RequestParam(value = "name", required = false) String name, @RequestParam("surname", required = false) String surname){
+>   
+>    System.out.println("New user: name=" + name + " surname=" + surname);  
+>    return "first/goodbye";  
+>}
+>  ```
 <!--ID: 1760898502210-->
