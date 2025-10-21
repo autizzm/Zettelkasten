@@ -34,7 +34,7 @@ TreeSet<Character> myNewSet = new TreeSet(mySourceSet);
 
 - *E* ~={green}first() =~- возвращает первый элемент
 - *E*~={green} last()=~ - возвращает последний элемент
-- *`Comparator<E>`* ~={green}comparator()=~ - возвращает компаратор этого SortedSet ~={red}или `null,` если используется=~ [[Comparable Interface|natural ordering]]
+- *`Comparator<E>`* ~={green}comparator()=~ - возвращает компаратор этого SortedSet ~={red}или `null,` если используется=~ [[Comparable Interface - Java|natural ordering]]
 ~={cyan} `+` наследует методы Set=~
 
 #### Range-Veiw methods:
@@ -52,4 +52,4 @@ TreeSet<Character> myNewSet = new TreeSet(mySourceSet);
 ### References:
 
 - [[SortedMap Interface]]
-- [[Comparable Interface]]
+- [[Comparable Interface - Java]]

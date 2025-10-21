@@ -110,6 +110,21 @@ public String newPerson(Model model){ ... }
 
 
 
+> [!note]
+> Если в @GetMapping ничего не укащыывать - то новый пть не добавится, доступ к методу будет по существующему parent пути:
+> ```java
+>@Controller
+>@RequestMapping("/people")
+>public class PersonController{
+>...
+>//доступ к этому методу - по пути: ..../people
+>@GetMapping("")
+>public String newPerson(Model model){ ... }
+>}
+>```
+
+
+
 
 ----
 #### [[Controller - Spring MVC - Flashcards|Link to flashcards]]

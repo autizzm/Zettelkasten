@@ -26,7 +26,7 @@ Natural order: хранит по возрастанию (числовые зна
 
 - *K* ~={green}firstKey() =~- возвращает первый ключ
 - *K*~={green} lastKey()=~ - возвращает последний ключ
-- *`Comparator<E>`* ~={green}comparator()=~ - возвращает компаратор этого SortedMap ~={red}или `null,` если используется=~ [[Comparable Interface|natural ordering]]
+- *`Comparator<E>`* ~={green}comparator()=~ - возвращает компаратор этого SortedMap ~={red}или `null,` если используется=~ [[Comparable Interface - Java|natural ordering]]
 ~={cyan} `+` наследует методы Map=~
 
 
@@ -46,4 +46,4 @@ Natural order: хранит по возрастанию (числовые зна
 ### References:
 
 - [[Map Interface]]
-- [[Comparable Interface]]
+- [[Comparable Interface - Java]]

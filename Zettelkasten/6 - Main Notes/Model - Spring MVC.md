@@ -31,17 +31,7 @@ public String goodBye(
 }
 ```
 
-Получение данных из Model в html (С помощью [[Thymeleaf - шаблонизатор|Thymeleaf]])
-```html
-<!DOCTYPE html>  
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
-	<body>
-		<p th:text="${message}"/>
-	</body>
-</html>
-```
-
-NOTE: импортировали схему `xmlns:th="http://www.w3.org/1999/xhtml"`
+[[Получение данных из Model - Thymeleaf]]
 
 ----
 #### [[Model - Spring MVC - Flashcards|Link to flashcards]]

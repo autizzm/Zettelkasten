@@ -3,7 +3,7 @@
 
 Status: #baby 
 
-Tags: [[[Jakarta.servlet]] [[Java+]]
+Tags: [[Jakarta.servlet]] [[Java+]]
 
 ---
 # HttpServlet - jakarta.servlet

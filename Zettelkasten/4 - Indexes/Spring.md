@@ -31,8 +31,9 @@ config:
 
 - [[DispatcherServlet - Spring MVC]]
 - [[Controller - Spring MVC]]
-	- [[Параметры GET запроса - Spring MVC]]
+	- [[Получение параметров запроса - Spring MVC]]
 - [[Model - Spring MVC]]
+- [[Filter - Spring]]
 
 
 

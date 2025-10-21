@@ -64,7 +64,7 @@ Context context = tomcat.addWebapp(host, "/identity", webAppLocation);
 
 ```java
 File classesDir = new File("target/classes");  
-WebResourceRoot resources = new StandardRoot(ctx);  
+WebResourceRoot resources = new StandardRoot(context);  
 resources.addPreResources(new DirResourceSet(  
         resources,  
         "/WEB-INF/classes",  
@@ -80,6 +80,9 @@ context.setResources(resources);
 tomcat.addServlet(String contextPaath, String servletName, Servlet servlet);
 tomcat.addServletMappingDecoded(String urlPattern, String servletName);
 ```
+
+> [!note] 
+> При работе со Spring MVC добавлять DispatcherServlet вручную - НЕ НАДО. Он его сам найдёт.
 
 
 ### start/stop/destroy

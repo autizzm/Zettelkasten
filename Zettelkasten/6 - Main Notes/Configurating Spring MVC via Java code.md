@@ -11,7 +11,7 @@ Tags: [[Spring]]
 Всё то же самое, как и при [[Configuration via Java code - Spring|конфигурации обычного Spring app via Java code]]
 
 Но, т.к. нам надо добавить сканирование кода для поиска контроллерови маппингов
-(классов с аннотациями @Controller, @GetMapping) -> **используем новую аннотацию @EnableMvc**
+(классов с аннотациями @Controller, @GetMapping) -> **используем новую аннотацию @EnableWebMvc**
 
 ```xml
 	<!-- заменяет эту строчку из applicationContextMVC.xml -->

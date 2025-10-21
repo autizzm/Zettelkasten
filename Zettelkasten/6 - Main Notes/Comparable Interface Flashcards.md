@@ -1,5 +1,5 @@
 
-Theory for the cards: [[Comparable Interface]]
+Theory for the cards: [[Comparable Interface - Java]]
 
 FILE TAGS: java_core
 

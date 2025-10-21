@@ -1,5 +1,5 @@
 
-Theory for the cards: [[Параметры GET запроса - Spring MVC]]
+Theory for the cards: [[Получение параметров запроса - Spring MVC]]
 
 FILE TAGS: spring spring_mvc
 
@@ -42,3 +42,20 @@ A: Если не передать параметры в запросе к мет
 >}
 >  ```
 <!--ID: 1760898502210-->
+
+Q: Что тут происходит (с url)? Как он будет выглядеть?
+```java
+@Controller  
+@RequestMapping("/people")  
+public class PeopleController {  
+	
+    @GetMapping("/{id}")  
+    public String show(@PathVariable("/id")double id, Model model){  
+	  
+        return null;  
+    }  
+}
+```
+A:  @PathVariable - извлекает параметр из url. Здесь будет такой url: `.../people/67`, где 67 - предаваемый параметр (id)
+<!--ID: 1760937373808-->
+

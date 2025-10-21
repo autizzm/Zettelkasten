@@ -14,7 +14,7 @@
 3. [[Cycles]]
 4. [[Array]]
 5. [[Arrays class]]
-6. [[Comparable Interface]]
+6. [[Enum - Java]]
 
 #### Collections:
 1. [[Collection Interface]]
@@ -47,6 +47,7 @@
 	- [[Наследование интерфейсов Java]]
 2. [[Lambda Expressions - Java]]
 3. [[Functional Interfaces - Java]]
+	- [[Standard Functional Interfaces - Java]]
 
 
 ### Annotations
@@ -77,3 +78,4 @@
 [[Java Important Classes|Link to the tag]]
 
 1. [[AutoClosable Interface - Java]]
+2. [[Comparable Interface - Java]]
