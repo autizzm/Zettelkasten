@@ -53,11 +53,35 @@ Tags: [[Spring]]
 
 ![[Pasted image 20251018161137.png]]
 
-
+---
 ### @Value - внедрение констант
 
 ![[Pasted image 20251018165835.png]]
 
+##### **Инъекция прямо в конструктор:**
+
+```java
+@Component
+public class PersonDao {
+
+    private final String url;
+    private final String user;
+    private final String password;
+
+    public PersonDao(
+            @Value("${db.url}") String url,
+            @Value("${db.user}") String user,
+            @Value("${db.password}") String password
+    ) {
+        this.url = url;
+        this.user = user;
+        this.password = password;
+
+        System.out.println("DB params: " + url + " / " + user);
+    }
+}
+
+```
 
 ### @Scope
 

@@ -3,7 +3,7 @@
 
 Status: #not_even_born 
 
-Tags: [[Java+]]
+Tags: [[Java+]] [[JDBC]]
 
 ---
 # ResultSet - JDBC

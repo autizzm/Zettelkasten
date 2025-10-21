@@ -36,6 +36,9 @@ CREATE DATABASE IF NOT EXISTS database_name; --создаем БД, только
 DROP DATABASE IF EXISTS database_name; --удаляем БД, только если есть БД с таким именем
 ```
 
+> [!warning] **В PostgreSQL **нет конструкции `CREATE DATABASE IF NOT EXISTS`**.
+> Проверка, что БД существует - через [[Queries to system DBs - PostgreSQL]]
+
 ----
 #### [[Creating and deleting databases - SQL - Flashcards|Link to flashcards]]
 

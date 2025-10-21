@@ -6,4 +6,5 @@ Index: [[Spring]]
 
 - [[Переход по страницам (возвращ. значение методов Controller) - Thymeleaf]]
 - [[Циклы - Thymeleaf]]
+- [[Динамическое отображение HTML элементов - Thymeleaf]]
 - [[HTML формы в Thymeleaf]]

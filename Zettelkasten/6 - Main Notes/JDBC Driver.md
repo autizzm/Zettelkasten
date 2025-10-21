@@ -3,7 +3,7 @@
 
 Status: #baby 
 
-Tags: [[Java+]]
+Tags: [[Java+]] [[JDBC]]
 
 ---
 # JDBC Driver

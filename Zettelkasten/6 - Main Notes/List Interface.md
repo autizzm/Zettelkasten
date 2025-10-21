@@ -37,6 +37,7 @@ Tags: [[Java Core]] [[Java Collections]]
 - *T* ~={green}remove()=~  - возвращает предыдущее значение (которое перезаписывается)
 - *ListIterator* ~={green}listIterator()=~ - возвращает [[ListIterator]] (extends [[Iterator]]) 
 
+- `boolean` ~={green}**removeIf(`Predicate<? super T> predicate`)**=~  - true - if any elements were removed
 ### [[List Range-View Operations]]
 
 

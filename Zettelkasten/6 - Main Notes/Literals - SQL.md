@@ -34,9 +34,9 @@ String literal - всё, что между кавычками.
 SELECT 'Line \n Another line' as String
 ```
 
-|String|
-|---|
-|Line Another line|
+| String            |
+| ----------------- |
+| Line Another line |
 
 
 ### Numeric literals

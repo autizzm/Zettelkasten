@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Java+]]
+Tags: [[Java+]] [[JDBC]]
 
 ---
 # Запросы к БД - JDBC
@@ -47,12 +47,15 @@ try{
 	
 	int amtLinesAffected =preparedStatement.executeUpdate();
 	//или
-	ResultSet resultSet = statement.execuTeQuery();
+	ResultSet resultSet = statement.executeQuery(); //если должны возвращаться какие-то строки
 	
 } catch(SQLException e){
 	...
 }
 ```
+
+> [!warning]
+> Для `INSERT`, `UPDATE`, `DELETE` нужно использовать **`executeUpdate()`**, потому что они не возвращают `ResultSet`, а только число изменённых строк.
 
 ### CallableStatement
 

@@ -33,11 +33,56 @@ Tags: [[Spring]]
 Для указания источника конфигурации (теперь это Java class) - используем другой Конфигуратор:
 ![[Pasted image 20251018171806.png]]
 
+---
 
 ### Внедрение значений из файла  .properties
 
 С помощью **@PropertySource("path")**:
 ![[Pasted image 20251018172716.png]]
+
+Непосредственно внедрение:
+- с помощью аннотаций  [[Configuration via Annotations - Spring#@Value - внедрение констант|@Value]]
+- через Environment:
+```java
+@Configuration
+@PropertySource("classpath:application.properties")
+public class AppConfig {
+
+    @Autowired
+    private Environment env;
+
+    @Bean
+    public DataSource dataSource() {
+        DriverManagerDataSource ds = new DriverManagerDataSource();
+        ds.setUrl(env.getProperty("db.url"));
+        ds.setUsername(env.getProperty("db.user"));
+        ds.setPassword(env.getProperty("db.password"));
+        return ds;
+    }
+}
+
+```
+
+
+> [!note] **В любом из этих способов необходимо создавать**`PropertySourcesPlaceholderConfigurer`:
+> ```java
+> @Configuration  
+@ComponentScan("secret.boy.crud.app")  
+@EnableWebMvc  
+@PropertySource("classpath:crud_app.properties")  
+public class SpringConfig implements WebMvcConfigurer {  
+>  private final ApplicationContext applicationContext;  
+  >
+>    @Bean  
+>    public static PropertySourcesPlaceholderConfigurer propertyConfig() {  
+>        return new PropertySourcesPlaceholderConfigurer();  
+>    }
+>
+>	...
+> ```
+> 
+
+----
 
 ## Внедрение зависимостей вручную (без @Autowired)
 

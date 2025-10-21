@@ -49,10 +49,8 @@
 ### [[Базы данных]]
 
  
-### JDBC
-[[Протокол коммуникации с БД (Under the hood) - Postgres]]
-[[JDBC setup]]
-[[JDBC Driver]]
+### [[JDBC]]
+
 
 ### [[Git]]
 - [[Настройка Git credentials]]
@@ -77,6 +75,8 @@
 
 ### [[Redis + Jedis]]
 
+
+### [[Hibernate]]
 
 Eclipse
 - [[Hotkeys - Eclipse]]

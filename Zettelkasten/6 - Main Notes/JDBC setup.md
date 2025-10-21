@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Java+]]
+Tags: [[Java+]] [[JDBC]]
 
 ---
 # JDBC setup
@@ -30,7 +30,7 @@ Class.forName("org.postgresql.postgresql.Driver")
 Connection connection = DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/identity"); //your DB url
 
 //Если нужно указывать пароль и username:
-Connection connection = DriverManagergetConnection(url, user, password)
+Connection connection = DriverManager.getConnection(url, user, password)
 ```
 
 > [!warning] **Connection - НЕ singleton**

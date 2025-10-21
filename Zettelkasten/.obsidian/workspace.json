@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Диспетчер журналов - БД.md",
+                "file": "6 - Main Notes/JDBC Template - Spring.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "JDBC Template - Spring"
+            }
+          },
+          {
+            "id": "c45fb9289d44358f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Configuration via Java code - Spring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Диспетчер журналов - БД"
+              "title": "Configuration via Java code - Spring"
             }
           },
           {
@@ -37,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Enum - Java.md",
+                "file": "6 - Main Notes/UPDATE - SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Enum - Java"
+              "title": "UPDATE - SQL"
             }
           },
           {
@@ -223,7 +247,8 @@
               "title": "Obsidian Markdown example"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,7 +267,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ENum",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -281,7 +306,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922
+    "width": 242.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -372,17 +398,37 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "22add7fffd2edb8b",
+  "active": "c45fb9289d44358f",
   "lastOpenFiles": [
+    "6 - Main Notes/JDBC Template - Spring.md",
+    "6 - Main Notes/JDBC Template - RowMapper - Spring.md",
+    "3 - Tags/JDBC.md",
+    "6 - Main Notes/Configuration via Java code - Spring.md",
+    "4 - Indexes/Spring.md",
+    "6 - Main Notes/Configuration via Annotations - Spring.md",
+    "6 - Main Notes/Запросы к БД - JDBC.md",
+    "6 - Main Notes/UPDATE - SQL.md",
+    "4 - Indexes/SQL.md",
+    "6 - Main Notes/INSERT - SQL.md",
+    "6 - Main Notes/JDBC setup.md",
+    "6 - Main Notes/JDBC Driver.md",
+    "6 - Main Notes/ResultSet - JDBC.md",
+    "6 - Main Notes/Enum - Java.md",
+    "6 - Main Notes/Application Context.xml file - Spring.md",
+    "6 - Main Notes/Application Context - Spring.md",
+    "6 - Main Notes/property file - Spring.md",
+    "6 - Main Notes/Динамическое отображение HTML элементов - Thymeleaf.md",
+    "4 - Indexes/Java+.md",
+    "6 - Main Notes/Протокол коммуникации с БД (Under the hood) - Postgres.md",
+    "6 - Main Notes/PostgreSQL - commands & notables.md",
+    "3 - Tags/PostgreSQL specifics.md",
+    "6 - Main Notes/Queries to system DBs - PostgreSQL.md",
+    "6 - Main Notes/Creating and deleting databases - SQL.md",
+    "6 - Main Notes/Creating and deleting tables - SQL.md",
+    "6 - Main Notes/Column definition options (Constraints) - SQL.md",
     "Pasted image 20251021084004.png",
-    "6 - Main Notes/Базы данных.md",
-    "6 - Main Notes/Диспетчер журналов - БД.md",
-    "6 - Main Notes/Диспетчер блокировок - БД.md",
-    "6 - Main Notes/ACID principles - БД.md",
     "Pasted image 20251021082824.png",
     "Pasted image 20251021083051.png",
-    "4 - Indexes/Java+.md",
-    "4 - Indexes/Java Core.md",
     "Pasted image 20251021082654.png",
     "Pasted image 20251021082819.png",
     "Pasted image 20251021082246.png",
@@ -390,26 +436,6 @@
     "Pasted image 20251021081950.png",
     "Pasted image 20251021081610.png",
     "Pasted image 20251021081300.png",
-    "Pasted image 20251021081143.png",
-    "3 - Tags/Thymeleaf - шаблонизатор.md",
-    "4 - Indexes/Spring.md",
-    "6 - Main Notes/Filter - Spring.md",
-    "6 - Main Notes/формы - HTML.md",
-    "6 - Main Notes/HTML формы в Thymeleaf.md",
-    "6 - Main Notes/формы - HTML - Flashcards.md",
-    "6 - Main Notes/Enum - Java.md",
-    "6 - Main Notes/Индексы - БД.md",
-    "6 - Main Notes/Индексы - БД - Flashcards.md",
-    "6 - Main Notes/Enum - Java - Flashcards.md",
-    "6 - Main Notes/Comparable Interface - Java.md",
-    "6 - Main Notes/Standard Functional Interfaces - Java.md",
-    "6 - Main Notes/Functional Interfaces - Java.md",
-    "6 - Main Notes/Lambda Expressions - Java.md",
-    "6 - Main Notes/String Java.md",
-    "6 - Main Notes/Способы хранения данных - БД.md",
-    "4 - Indexes/SQL.md",
-    "6 - Main Notes/Переход по страницам (возвращ. значение методов Controller) - Thymeleaf.md",
-    "6 - Main Notes/Получение параметров запроса - Spring MVC.md",
     "2 - Source Materials/Formal_strategic_planning.pdf",
     "desktop.ini",
     "6 - Main Notes/Untitled 3.base",
