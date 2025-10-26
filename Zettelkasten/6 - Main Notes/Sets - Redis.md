@@ -50,6 +50,8 @@ System.out.println(res8);  // >>> 3
 ```
 
 
+- `DEL <set_name>` - удалит Set и все значения в нём
+
 ---
 ### References:
 

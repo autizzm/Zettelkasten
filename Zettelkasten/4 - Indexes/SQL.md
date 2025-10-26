@@ -21,18 +21,18 @@
 
 1. [[Creating and deleting databases - SQL]]
 2. [[Creating and deleting tables - SQL]]
-3.  [[Indexes - SQL]]
+3. [[Indexes - SQL]]
 4. [[Column definition options (Constraints) - SQL]]
+	- [[Sequences & SERIALs - SQL]]
 	- [[PRIMARY KEY - SQL]]
 	- [[FOREIGN KEY - SQL]]
+	
+- [[INSERT - SQL]]
+- [[UPDATE - SQL]]
+- [[DELETE - SQL]]
+	
+1. [[JOINs - SQL]]
 
-[[INSERT - SQL]]
-[[UPDATE - SQL]]
-[[DELETE - SQL]]
-
-
-### Relationships
-1. [[DB Relationships]]
 
 ### Postgres specifics
 [[PostgreSQL specifics]]

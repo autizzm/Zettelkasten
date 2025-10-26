@@ -23,7 +23,7 @@ GROUP BY home_type
 <!--ID: 1757945728952-->
 
 
-Q: Зачем нужен оператор HAVING, если есть ORDER BY? почему мы не можем использовать просто:
+Q: Зачем нужен оператор HAVING, если есть GROUP BY? почему мы не можем использовать просто:
 ```sql
 SELECT home_type, AVG(price) as avg_price FROM Rooms
 WHERE AVG(price) > 50

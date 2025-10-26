@@ -3,7 +3,7 @@
 
 Status: #baby
 
-Tags: [[Java+]]
+Tags: [[Java+]] [[Git]]
 
 ---
 # Взаимодействия с remote repo - Git
@@ -24,7 +24,7 @@ Tags: [[Java+]]
 >   ```
 
 
-	
+
 - `git push -u origin main`
 	
 	### Что делает `-u`

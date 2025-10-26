@@ -85,11 +85,15 @@ public Person findPerson(int id){
 ```
 
 
-#### UPDATE & DELETE:
+#### INSERT, UPDATE & DELETE:
 
 ```java
+public void save(Person person){  
+    jdbcTemplate.update("INSERT INTO people (name, age, email) VALUES (?, ?, ?)", person.getName(), person.getAge(), person.getEmail());  
+}
+
 public void update(int id, Person person){  
-    jdbcTemplate.update("UPDATE person SET name=?, age=?, email=? WHERE id=?", person.getId(), person.getAge(), person.getEmail(), person.getId());  
+    jdbcTemplate.update("UPDATE people SET name=?, age=?, email=? WHERE id=?", person.getId(), person.getAge(), person.getEmail(), person.getId());  
 }  
   
 public void delete(int id){  
@@ -97,11 +101,37 @@ public void delete(int id){
 }
 ```
 
+> [!note] Только два метода:
+> - для SELECT - `query()`
+> - для остальных - `update()`
 
-
-> [!note] **Другой синтаксис вставки аргументов в statement**
+> [!warning] **Другой синтаксис вставки аргументов в statement**
 > - в query - через `Object[]`
-> - в update & delete - через varargs
+> - в update - через varargs
+
+
+### Batch update
+
+Такой же update, как и обычный, но вместо аргументов передаём свою реализацию `BatchPreparedStatementSetter`:
+
+(Внутри взаимодействуем с интерфейсом [[Запросы к БД - JDBC#PreparedStatement|PreparedStatement]] обычного JDBC)
+
+```java
+jdbcTemplate.batchUpdate("INSERT INT people (name, age, email) VALUES (?, ?, ?);", new BatchPreparedStatementSetter() {  
+    @Override  
+    public void setValues(PreparedStatement ps, int i) throws SQLException {  
+        // i - итерируется по всему размеру batch, т.е. тут от 0 до 1000  
+        ps.setString(1, people.get(i).getName());  
+        ps.setInt(2, people.get(i).getAge());  
+        ps.setString(3, people.get(i).getEmail());  
+    }  
+  
+    @Override  
+    public int getBatchSize() {  
+        return 1000;  
+    }  
+});
+```
 
 ----
 #### [[JDBC Template - Spring - Flashcards|Link to flashcards]]

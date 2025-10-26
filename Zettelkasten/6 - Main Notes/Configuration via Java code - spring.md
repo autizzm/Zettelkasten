@@ -94,6 +94,33 @@ public class SpringConfig implements WebMvcConfigurer {
 	Это значит, что тело **@Bean** вызывается один раз и все последующие вызовы Spring прерывает и возвращает уже имеющийся bean.
 
 
+#### Указание init и destroy метода для bean
+
+```java
+@Configuration
+public class AppConfig {
+
+    @Bean(initMethod = "init", destroyMethod = "cleanup")
+    public MyBean myBean() {
+        return new MyBean();
+    }
+}
+```
+
+#### Указание scope для bean
+
+```java
+@Configuration
+public class AppConfig {
+
+    @Bean(initMethod = "init", destroyMethod = "cleanup")
+    @Scope("prototype") // или "singleton", "request", "session"
+    public MyBean myBean() {
+        return new MyBean();
+    }
+}
+```
+
 ----
 #### [[Configuration via Java code - spring - Flashcards|Link to flashcards]]
 

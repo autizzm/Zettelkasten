@@ -35,6 +35,8 @@ config:
 - [[Model - Spring MVC]]
 - [[Filter - Spring]]
 
+- [[JDBC Template - Spring]]
+
 
 
 ### [[Thymeleaf - шаблонизатор]]

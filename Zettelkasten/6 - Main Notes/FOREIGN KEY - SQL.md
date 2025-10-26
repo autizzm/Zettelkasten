@@ -9,6 +9,9 @@ Tags: [[SQL]]
 # FOREIGN KEY - SQL
 
 
+![[Pasted image 20251026134830.png]]
+
+
 Синтаксис:
 ```sql
 FOREIGN KEY (<column_1>, <column_n>)

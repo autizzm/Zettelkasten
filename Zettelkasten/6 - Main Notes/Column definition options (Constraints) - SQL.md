@@ -28,32 +28,9 @@ Tags: [[SQL]]
 	
 	Одна или несколько колонок таблицы, которые ссылаются на PRIMARY KEY другой таблицы
 	
-- ~={cyan}SERIAL =~or ~={cyan}GENERATED ALWAYS AS IDENTITY=~ 
-    
-    ~={cyan}SERIAL=~ - синтаксический сахар (это макрос):
-    - Создаёт колонку `id integer NOT NULL`.
-    
-	- Создаёт последовательность (sequence) с именем вроде `users_id_seq`.
-    
-	- Назначает для `id` значение по умолчанию `nextval('users_id_seq'::regclass)`.
+- [[Sequences & SERIALs - SQL#SERIAL|SERIAL]] or [[Sequences & SERIALs - SQL#GENERATED ... AS IDENTITY|GENERATED ALWAYS AS IDENTITY]] 
 	
-	Пример использования:
-	```sql
-	CREATE TABLE users (
-	id SERIAL PRIMARY KEY,
-	name text
-	);
-	```
-	
-	~={cyan}GENERATED ... AS IDENTITY=~ - более **современный SQL-стандартный** способ.  Под капотом это тоже использует sequence, но поведение более «чистое» и управляемое.
-	
-	Пример использования:
-	```sql
-	CREATE TABLE users (
-    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    name text
-	);
-	```
+	делает поле автоинкрементным
 	
 - ~={cyan}UNIQUE=~
     

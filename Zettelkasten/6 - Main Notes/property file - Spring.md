@@ -10,7 +10,17 @@ Tags: [[Spring]]
 
 храним в resources
 
-
+> [!note]
+> `<some_name>.properties` - закидываем в `.gitignore` и не пушим на GitHub.
+> 
+> Вместо этого создаём:
+> `<some_name>.properties.origin`, где указываем струтктуру property файл, но без самих данных, например:
+> ```properties
+> driver=
+> url=
+> user=
+> password=
+> ```
 
 ### Пример property файла
 

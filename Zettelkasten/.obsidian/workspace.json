@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/JDBC Template - Spring.md",
+                "file": "6 - Main Notes/Диспетчер блокировок - БД.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JDBC Template - Spring"
+              "title": "Диспетчер блокировок - БД"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Configuration via Java code - Spring.md",
+                "file": "6 - Main Notes/Sequences & SERIALs - SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Configuration via Java code - Spring"
+              "title": "Sequences & SERIALs - SQL"
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/UPDATE - SQL.md",
+                "file": "6 - Main Notes/ACID principles - БД.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UPDATE - SQL"
+              "title": "ACID principles - БД"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/HttpServletRequest - jakarta.servlet.md",
+                "file": "6 - Main Notes/Conventional commits - Git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HttpServletRequest - jakarta.servlet"
+              "title": "Conventional commits - Git"
             }
           },
           {
@@ -247,8 +247,7 @@
               "title": "Obsidian Markdown example"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -306,8 +305,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -398,44 +396,44 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "c45fb9289d44358f",
+  "active": "22add7fffd2edb8b",
   "lastOpenFiles": [
-    "6 - Main Notes/JDBC Template - Spring.md",
-    "6 - Main Notes/JDBC Template - RowMapper - Spring.md",
-    "3 - Tags/JDBC.md",
-    "6 - Main Notes/Configuration via Java code - Spring.md",
-    "4 - Indexes/Spring.md",
-    "6 - Main Notes/Configuration via Annotations - Spring.md",
-    "6 - Main Notes/Запросы к БД - JDBC.md",
-    "6 - Main Notes/UPDATE - SQL.md",
-    "4 - Indexes/SQL.md",
-    "6 - Main Notes/INSERT - SQL.md",
-    "6 - Main Notes/JDBC setup.md",
-    "6 - Main Notes/JDBC Driver.md",
-    "6 - Main Notes/ResultSet - JDBC.md",
-    "6 - Main Notes/Enum - Java.md",
-    "6 - Main Notes/Application Context.xml file - Spring.md",
-    "6 - Main Notes/Application Context - Spring.md",
-    "6 - Main Notes/property file - Spring.md",
-    "6 - Main Notes/Динамическое отображение HTML элементов - Thymeleaf.md",
+    "6 - Main Notes/Базы данных.md",
+    "6 - Main Notes/Many to Many relationship - БД.md",
+    "6 - Main Notes/One to Many relationship - БД.md",
+    "6 - Main Notes/One to One relationship - БД.md",
     "4 - Indexes/Java+.md",
-    "6 - Main Notes/Протокол коммуникации с БД (Under the hood) - Postgres.md",
-    "6 - Main Notes/PostgreSQL - commands & notables.md",
-    "3 - Tags/PostgreSQL specifics.md",
-    "6 - Main Notes/Queries to system DBs - PostgreSQL.md",
-    "6 - Main Notes/Creating and deleting databases - SQL.md",
+    "4 - Indexes/SQL.md",
+    "6 - Main Notes/JOINs - SQL.md",
+    "6 - Main Notes/JOINs - SQL - Flashcards.md",
+    "Pasted image 20251026220250.png",
+    "Pasted image 20251026220004.png",
+    "Pasted image 20251026215657.png",
+    "Pasted image 20251026215553.png",
+    "Pasted image 20251026215451.png",
+    "Pasted image 20251026215254.png",
+    "Pasted image 20251026214643.png",
+    "6 - Main Notes/Many to Many relationship - БД - Flashcards.md",
+    "Pasted image 20251026212838.png",
+    "Pasted image 20251026212603.png",
+    "6 - Main Notes/One to One relationship - БД - Flashcards.md",
+    "Pasted image 20251026210206.png",
+    "3 - Tags/DB Relationships.md",
+    "6 - Main Notes/One to Many relationship - БД - Flashcards.md",
+    "6 - Main Notes/DB Relationships - Flashcards.md",
     "6 - Main Notes/Creating and deleting tables - SQL.md",
+    "6 - Main Notes/Нормализация таблиц - БД.md",
+    "6 - Main Notes/FOREIGN KEY - SQL.md",
     "6 - Main Notes/Column definition options (Constraints) - SQL.md",
-    "Pasted image 20251021084004.png",
-    "Pasted image 20251021082824.png",
-    "Pasted image 20251021083051.png",
-    "Pasted image 20251021082654.png",
-    "Pasted image 20251021082819.png",
-    "Pasted image 20251021082246.png",
-    "Pasted image 20251021082541.png",
-    "Pasted image 20251021081950.png",
-    "Pasted image 20251021081610.png",
-    "Pasted image 20251021081300.png",
+    "6 - Main Notes/Sequences & SERIALs - SQL.md",
+    "6 - Main Notes/Column - Tablesaw.md",
+    "6 - Main Notes/Constraints -SQL - Flashcards.md",
+    "6 - Main Notes/Indexes - SQL.md",
+    "6 - Main Notes/Operator HAVING - SQL.md",
+    "6 - Main Notes/Operator HAVING - SQL - Flashcards.md",
+    "6 - Main Notes/Порядок выполнения SQL запроса.md",
+    "6 - Main Notes/REST standard.md",
+    "6 - Main Notes/JDBC Template - Spring.md",
     "2 - Source Materials/Formal_strategic_planning.pdf",
     "desktop.ini",
     "6 - Main Notes/Untitled 3.base",

@@ -8,7 +8,7 @@ Tags: [[Tablesaw]]
 ---
 # Column - Tablesaw
 
-Tablesaw supports columns for Strings, floats, doubles, ints, shorts, longs, booleans, LocalDates, LocalTimes, Instants, and LocalDateTimes. The date and time columns are comparable with the java.time classes introduced in Java 8.
+Tablesaw supports columns for Strings, floats, doubles, ints, shorts, longs, booleans, LocalDates, LocalTimes, Instants, and LocalDateTimes. The date and time columns are compatible with the java.time classes introduced in Java 8.
 
 ### Создание объекта Column
 
@@ -26,6 +26,11 @@ Column: nc
 
 ```
 
+> [!note] Для колонки int (и всех числовых колонок)
+> ```java
+> IntColumn.create("id", 234); //создаст колонку размером 234
+> IntColumn.create("id", int[] {234}); //создаст колонку и сложит туда 234
+> ```
 
 ### Получение значения из колонки по индексу:
 

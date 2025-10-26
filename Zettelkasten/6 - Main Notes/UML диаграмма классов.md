@@ -149,3 +149,26 @@ class IncludeClass {
 ---
 ### References:
 
+```bash
+johndoe@DESKTOP-8BBJHVO MINGW64 /d/git Projects/Task 1 (master)
+$ git checkout Dev
+Switched to branch 'Dev'
+
+johndoe@DESKTOP-8BBJHVO MINGW64 /d/git Projects/Task 1 (Dev)
+$ git pull --rebase origin Dev
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 1), reused 2 (delta 0), pack-used 0 (from 0)
+Unpacking objects: 100% (4/4), 1.08 KiB | 185.00 KiB/s, done.
+From https://github.com/Cirkov-png/CTCR
+ * branch              Dev        -> FETCH_HEAD
+ * branch              Dev        -> origin/Dev
+Updating d785be6..56e2077
+Fast-forward
+file1.txt | 2 +-
+1 file changed, 1 insertion(+), 1 deletion(-)
+
+johndoe@DESKTOP-8BBJHVO MINGW64 /d/git Projects/Task 1 (Dev)
+$
+```
