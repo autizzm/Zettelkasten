@@ -41,3 +41,9 @@
 2. [[Queries to system DBs - PostgreSQL]]
 3. [[PostgreSQL - String data types]]  - ТИПЫ ДАННЫХ
 4. [[PostgreSQL - Numeric data types]] 
+
+
+---
+#### References:
+
+- [[Базы данных]]

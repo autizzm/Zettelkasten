@@ -7,9 +7,14 @@
 3. [[Factory method - pattern]]
 
 
+### Structural patterns
+
+1. [[Adapter (Wrapper) - pattern]]
+2. [[Repository - pattern]]
 ### Architecture patterns
 
 1. [[MVC]]
+
 
 ### Spring patterns
 

@@ -29,7 +29,7 @@ CREATE TABLE Student_id_cards (
     registration_number INT PRIMARY KEY,
     start_date DATE NOT NULL, 
     end_date DATE NOT NULL,
-    student_id REFERENCES Students(id) --child
+    student_id REFERENCES Students(id) UNIQUE --child
 );
 ```
 

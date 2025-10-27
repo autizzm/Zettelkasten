@@ -20,6 +20,16 @@ CREATE TABLE [IF NOT EXISTS] table_name (
 );
 ```
 
+
+> [!note] 
+> Если имя таблицы clashes with some Postgres keywords -> используем двойные кавычки:
+> ```sql
+> CREATE TABLE "Order" (
+> ...
+> )
+> ```
+> (слово `Order` - является ключевым в Postgres)
+
 ## [[Column definition options (Constraints) - SQL]]
 
 ----

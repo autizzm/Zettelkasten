@@ -76,7 +76,7 @@
 ### [[Redis + Jedis]]
 
 
-### [[Hibernate]]
+### [[Hibernate & JPA]]
 
 Eclipse
 - [[Hotkeys - Eclipse]]

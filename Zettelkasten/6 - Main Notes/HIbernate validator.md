@@ -3,7 +3,7 @@
 
 Status: #baby 
 
-Tags: [[Hibernate]] [[Java+]]
+Tags: [[Hibernate & JPA]] [[Java+]]
 
 ---
 # HIbernate validator

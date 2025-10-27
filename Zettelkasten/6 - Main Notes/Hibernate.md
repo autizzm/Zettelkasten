@@ -1,4 +1,0 @@
-
-Index: [[Java+]]
-
-[[HIbernate validator]]

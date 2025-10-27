@@ -38,6 +38,10 @@ config:
 - [[JDBC Template - Spring]]
 
 
+### Spring Data JPA
+
+- [[setup - Spring Data]]
+- [[Service - Spring Data]]
 
 ### [[Thymeleaf - шаблонизатор]]
 

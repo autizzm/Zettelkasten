@@ -10,6 +10,17 @@ Index: [[Базы данных]]
 ![[Pasted image 20250915203323.png]]
 
 
+### Кто Parent, а кто Child:
+
+
+> [!note] 
+> FOREIGN KEY - содержится в дочерней таблице..
+> 
+> В это таблице записи могут иметь ссылки на одни и те же записи Parent таблицы
+
+
+
+----
 ## [[One to One relationship - БД|One to One relationship]]
 
 ![[Pasted image 20250915203533.png]]
