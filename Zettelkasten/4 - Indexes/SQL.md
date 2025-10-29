@@ -21,6 +21,7 @@
 
 1. [[Creating and deleting databases - SQL]]
 2. [[Creating and deleting tables - SQL]]
+	1. [[Updating tables -SQL]]
 3. [[Indexes - SQL]]
 4. [[Column definition options (Constraints) - SQL]]
 	- [[Sequences & SERIALs - SQL]]

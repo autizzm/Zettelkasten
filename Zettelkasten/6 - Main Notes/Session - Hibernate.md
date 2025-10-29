@@ -42,7 +42,7 @@ session.close();//обязательно только при ручном упр
 - get
 - ...
 
-
+- `Query` ~={green}createQuery(`String HQLQuery`)=~ - создаёт TypedQuery
 
 ----
 #### [[Session - Hibernate - Flashcards|Link to flashcards]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Service - Spring Data.md",
+                "file": "6 - Main Notes/@OneToMany & @ManyToOne - JPA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": true,
+                  "collapseAll": false,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Service - Spring Data"
+              "title": "@OneToMany & @ManyToOne - JPA"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Hibernate set up.md",
+                "file": "6 - Main Notes/Updating tables -SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hibernate set up"
+              "title": "Updating tables -SQL"
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Repository - pattern.md",
+                "file": "6 - Main Notes/EntityManager - JPA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Repository - pattern"
+              "title": "EntityManager - JPA"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/ACID principles - БД.md",
+                "file": "6 - Main Notes/EntityManager - JPA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ACID principles - БД"
+              "title": "EntityManager - JPA"
             }
           },
           {
@@ -329,7 +329,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0b6f3d0fd53cfb18",
@@ -422,44 +423,44 @@
   },
   "active": "22add7fffd2edb8b",
   "lastOpenFiles": [
-    "Pasted image 20251027224840.png",
-    "4 - Indexes/Spring.md",
-    "6 - Main Notes/Service - Spring Data.md",
-    "6 - Main Notes/Repository - pattern.md",
-    "Pasted image 20251027224310.png",
-    "4 - Indexes/Patterns.md",
-    "6 - Main Notes/Queries to system DBs - PostgreSQL.md",
     "6 - Main Notes/Hibernate & JPA.md",
     "6 - Main Notes/Entity- JPA.md",
-    "6 - Main Notes/EntityManager - JPA.md",
-    "6 - Main Notes/Hibernate set up.md",
-    "6 - Main Notes/Transaction - JPA.md",
-    "6 - Main Notes/Session - Hibernate.md",
+    "6 - Main Notes/Updating tables -SQL.md",
     "4 - Indexes/SQL.md",
-    "6 - Main Notes/Git.md",
+    "6 - Main Notes/HQL - Hibernate.md",
+    "6 - Main Notes/Session - Hibernate.md",
+    "6 - Main Notes/@OneToMany & @ManyToOne - JPA.md",
+    "Pasted image 20251029075652.png",
+    "6 - Main Notes/Hibernate set up.md",
+    "desktop.ini",
     "4 - Indexes/Java+.md",
+    "Pasted image 20251028222112.png",
+    "6 - Main Notes/EntityManager - JPA.md",
+    "6 - Main Notes/Enum - Java.md",
+    "6 - Main Notes/LinkedList implementation - Java Core.md",
+    "6 - Main Notes/Состояния сущностей в JPA.md",
+    "6 - Main Notes/StringPool - JMM.md",
+    "6 - Main Notes/REST standard.md",
+    "6 - Main Notes/Conventional commits - Git.md",
+    "6 - Main Notes/Class-level annotations - Jackson Annotations.md",
+    "3 - Tags/Jakarta.servlet.md",
+    "6 - Main Notes/HTTP.md",
+    "6 - Main Notes/ACID principles - БД.md",
+    "6 - Main Notes/Inner Classes Java.md",
+    "6 - Main Notes/Local classes Java.md",
     "4 - Indexes/Java Core.md",
-    "6 - Main Notes/Sequences & SERIALs - SQL.md",
-    "6 - Main Notes/Adapter (Wrapper) - pattern.md",
-    "6 - Main Notes/FOREIGN KEY - SQL.md",
-    "6 - Main Notes/Creating and deleting tables - SQL.md",
-    "6 - Main Notes/FOREIGN KEY - SQL - Flashcards.md",
-    "6 - Main Notes/Базы данных.md",
-    "3 - Tags/DB Relationships.md",
-    "6 - Main Notes/One to Many relationship - БД.md",
-    "6 - Main Notes/One to One relationship - БД.md",
-    "6 - Main Notes/Индексы - БД.md",
+    "6 - Main Notes/Deque Interface.md",
+    "6 - Main Notes/List Range-View Operations.md",
+    "6 - Main Notes/List Interface.md",
+    "Pasted image 20251027224840.png",
+    "Pasted image 20251027224310.png",
     "Pasted image 20251026220250.png",
     "Pasted image 20251026220004.png",
     "Pasted image 20251026215657.png",
     "Pasted image 20251026215553.png",
     "Pasted image 20251026215451.png",
     "Pasted image 20251026215254.png",
-    "Pasted image 20251026214643.png",
-    "Pasted image 20251026212838.png",
-    "Pasted image 20251026212603.png",
     "2 - Source Materials/Formal_strategic_planning.pdf",
-    "desktop.ini",
     "6 - Main Notes/Untitled 3.base",
     "6 - Main Notes/Untitled 2.base",
     "6 - Main Notes/Untitled 1.base",

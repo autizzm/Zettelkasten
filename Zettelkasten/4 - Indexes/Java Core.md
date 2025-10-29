@@ -22,12 +22,17 @@
 3. [[Set Interface]]
 4. [[SortedSet Interface]]
 5. [[List Interface]]
-6. [[Collections class]]
-7. [[ListIterator]]
-8. [[Queue Interface]]
-9. [[Deque Interface]]
-10. [[Map Interface]]
-11. [[SortedMap Interface]]
+	- [[List Range-View Operations]]
+	- [[Collections class]]
+	- [[ListIterator]]
+6. [[Queue Interface]]
+7. [[Deque Interface]]
+8. [[Map Interface]]
+9. [[SortedMap Interface]]
+
+### Collection implementations
+1. [[LinkedList implementation - Java Core]]
+
 
 ### Java Classes:
 [[Java Classes|Link to the tag]]
@@ -71,6 +76,8 @@
 6. [[Initializer; constants & just static finals - Java]]
 7. [[assert Java]]
 8. [[Classpath - Java]]
+9. [[Сравнение в Java]]
+10. [[Method parameters & arguments - Java]]
 
 
 
@@ -79,3 +86,7 @@
 
 1. [[AutoClosable Interface - Java]]
 2. [[Comparable Interface - Java]]
+
+
+
+### [[JMM]]

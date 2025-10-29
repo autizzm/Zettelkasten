@@ -10,7 +10,8 @@
 ### Structural patterns
 
 1. [[Adapter (Wrapper) - pattern]]
-2. [[Repository - pattern]]
+2. [[Flyweight - pattern]]
+3. [[Repository - pattern]]
 ### Architecture patterns
 
 1. [[MVC]]

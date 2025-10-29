@@ -34,16 +34,19 @@ EntityManager entityManager = EntityManagerFactory.createEntityManager();
 
 ##### Управление [[Transaction - JPA|транзакциями]]:
 
-- beginTransaction()
-- getTransaction()
+- ~={green}beginTransaction()=~
+- ~={green}getTransaction()=~
 
-- persist(`Object obj`) - добавит в Context, сделает Entity managed
 
-- merge(`T entity`) - when you have a class instance reppresenting an object which is already in the DB, but we need to add it to the Context
+- `void` ~={green}persist(`Object obj`) =~- добавит в Context, сделает Entity managed
+
+- `T` ~={green}merge(`T entity`) =~- when you have a class instance reppresenting an object which is already in the DB, but we need to add it to the Context. ~={green}Возвращает [[Состояния сущностей в JPA#Managed (Persistent) state|Managed]] object=~
 
 > [!warning] Про merge()
 > Если в БД нет объекта, соответствующего тому, который мы мерджим - он сохраняется в БД.
 > Если объект в БД имеет тот же id но другие поля -> объект ~={cyan}в БД обновляется=~
+
+
 
 - refresh(`Object entity`) - refreshes the state of the given object from the DB. ~={green}Unflushed changes will be lost.=~
 
@@ -52,11 +55,12 @@ EntityManager entityManager = EntityManagerFactory.createEntityManager();
 > обновляет instance of the class данными из БД.
 
 
-- `T` find(`Class<T> entityClass, Object primaryKey`)
 
-- remove(`Object entity`) - marking entity for removal
+- `T` ~={green}find(`Class<T> entityClass, Object primaryKey`)=~
 
-- detach(`Object entity`) - удаляет объект из Contxt. ~={green}Unflushed changes will be lost.=~
+-~={green} remove(`Object entity`)=~ - marking entity for removal
+
+- ~={green}detach(`Object entity`)=~ - удаляет объект из Contxt. ~={green}Unflushed changes will be lost.=~
 
 > [!note] 
 > Объект `obj1` НЕ БУДЕТ УДАЛЁН, т.к. мы его пометили для удаления, но после этого отключили помеченный объект от контекста:
@@ -66,10 +70,10 @@ EntityManager entityManager = EntityManagerFactory.createEntityManager();
 > entityMAnager.getTransaction().commit();
 > ```
 
-- `T`getReference(`Class<T> entityClass, Object primaaryKey`) - ==lazily== версия find -> делает запрос на получение объекта только тогда, когда он используется в коде. Но в пределах транзакции.
+- `T`~={green}getReference(`Class<T> entityClass, Object primaaryKey`) =~- ==lazily== версия find -> делает запрос на получение объекта только тогда, когда он используется в коде. Но в пределах транзакции.
 
 
-
+- `Query` ~={green}createQuery(`String HQLQuery`)=~ - создаёт TypedQuery
 
 - close()
 
