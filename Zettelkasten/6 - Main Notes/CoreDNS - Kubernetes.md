@@ -21,7 +21,9 @@ name: example-service # резолвит имя сервиса в internal servi
 
 
 
-Когда сервис создаётся, он загружается в IPTable, где его имя и ip мапятся with IPs of Pods which it manages. И при использовании LoadBalancer service используется специальный алгоритм для определения, когда IP какого Pod-а выдавать.
+Когда сервис создаётся, он загружается в IPTable, где его имя и ip мапятся with IPs of Pods which it manages. 
+
+???? И при использовании LoadBalancer service используется специальный алгоритм для определения, когда IP какого Pod-а выдавать. ????
 
 
 

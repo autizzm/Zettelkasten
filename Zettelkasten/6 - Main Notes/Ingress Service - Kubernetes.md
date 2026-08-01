@@ -13,6 +13,10 @@ Ingress - smart entry-point to your cluster.
 ![[Pasted image 20260209082324.png]]
 
 
+
+![[Pasted image 20260707085101.png]]
+
+
 Существует множество реализаций Ingress, каждая предоставляет свои возможности:
 
 - nginx

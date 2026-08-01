@@ -86,7 +86,6 @@ public class OutboxListener {
     private final ObjectMapper objectMapper;
 
     @TransactionalEventListener(phase = TransactionPhase.BEFORE_COMMIT)
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public void on(OrderCreatedEvent event) throws JsonProcessingException {
         OutboxMessage msg = new OutboxMessage(
                 UUID.randomUUID(),

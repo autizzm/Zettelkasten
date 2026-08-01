@@ -89,35 +89,105 @@ interface OperationsCallback<K, V, T> {
 
 
 ```java
-@Configuration
-public class KafkaProducerConfig {
-
-	@Value("${spring.kafka.bootstrap-servers}")
-	private String bootstrapServers;
-	
-	
-	public Map<String, Object> producerConfig() {
-		Map<String, Object> props = new HashMap<>();
-		props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
-		props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-		props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-		// See https://kafka.apache.org/41/documentation/#producerconfigs for more properties
-		return props;
-	}
-	
-	@Bean
-	public ProducerFactory<String, String> producerFactory() {
-		return DefaultKafkaProducerFactory<>(producerConfig());
-	}
-	
-	@Bean
-	public KafkaTemplate<String, String> kafkaTemplate(
-		ProducerFactory<String, String> producerFacory
-	) {
-		return new KafkaTemplate<>(producerFactory);
-	}
+@Configuration  
+public class KafkaProducerConfig {  
+  
+    @Value("${application.kafka.bootstrap-servers}")  
+    private String bootstrapServers;  
+  
+  
+    public Map<String, Object> producerConfig() {  
+        Map<String, Object> props = new HashMap<>();  
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);  
+        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);  
+        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);  
+        // See https://kafka.apache.org/41/documentation/#producerconfigs for more properties
+        return props;  
+    }  
+  
+    @Bean  
+    public ProducerFactory<String, String> producerFactory() {  
+        return new DefaultKafkaProducerFactory<>(producerConfig());  
+    }  
+  
+    @Bean  
+    public KafkaTemplate<String, String> kafkaTemplate(  
+            ProducerFactory<String, String> producerFactory  
+    ) {  
+        return new KafkaTemplate<>(producerFactory);  
+    }  
 }
 ```
+
+
+### Отправка объектов и их сериализация
+
+Типы `KafkaTemplate<K, V>` должны соответствовать тому, что умеют сериализовывать указанные `Serializer`'ы. -> Если используем StringSerializers, то перед тем, как передать сообщение в метод send, его придетсся вручную сериализовать с помощью `ObjectMapper`.
+
+##### Вариант 2. Использовать JsonSerializer
+
+Spring Kafka предоставляет
+
+```java
+org.springframework.kafka.support.serializer.JsonSerializer
+```
+
+Тогда
+
+```java
+spring.kafka.producer.value-serializer=
+org.springframework.kafka.support.serializer.JsonSerializer
+```
+
+и можно писать
+
+```java
+KafkaTemplate<String, PaymentCreatedEvent>
+```
+
+без ручной сериализации.
+
+```java
+kafkaTemplate.send(
+    "payments",
+    event
+);
+```
+
+Spring сам сделает:
+```
+PaymentCreatedEvent
+↓
+
+Jackson
+
+↓
+
+JSON
+
+↓
+
+byte[]
+```
+
+
+#### Какие Serializer существуют
+
+Apache Kafka поставляется с набором стандартных сериализаторов.
+
+|Serializer|Java тип|
+|---|---|
+|`StringSerializer`|`String`|
+|`IntegerSerializer`|`Integer`|
+|`LongSerializer`|`Long`|
+|`ShortSerializer`|`Short`|
+|`DoubleSerializer`|`Double`|
+|`FloatSerializer`|`Float`|
+|`ByteArraySerializer`|`byte[]`|
+|`BytesSerializer`|`org.apache.kafka.common.utils.Bytes`|
+|`UUIDSerializer`|`UUID`|
+|`VoidSerializer`|`Void`|
+
 
 
 ### Отправка сообщения

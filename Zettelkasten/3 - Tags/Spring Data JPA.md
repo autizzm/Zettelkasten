@@ -1,8 +1,8 @@
 
-Index: [[Spring]]
+Index [[Spring Data Access]]: [[Spring]]
 
 
-~={pink}CrudRepository - ????=~
+[[Common Repository interfaces - Spring Data Access]]
 	 JpaRepository - расширяет CrudRepository 
 	
 - [[setup - Spring Data]]

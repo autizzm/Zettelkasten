@@ -71,8 +71,7 @@ clean-app/
 │   │   │   ├── entity/          # Account.java, User.java
 │   │   │   ├── service/         # UserTransferService.java, UserConstraints.java
 │   │   │   ├── port/
-│   │   │   │   ├── out/         # AccountRepository.java (интерфейсы)
-│   │   │   │   └── in/          # TransferMoneyPort.java
+│   │   │   │   └── out/         # AccountRepository.java (интерфейсы)
 │   │   │   └── valueobject/     # Money.java
 │   │   └── src/test/java/       # Unit тесты домена
 │
@@ -81,7 +80,10 @@ clean-app/
 │   ├── src/main/java/
 │   │   └── com.example.application/
 │   │       ├── usecase/         # TransferMoneyUseCase.java
-│   │       └── dto/             # TransferRequest.java (input/output)
+│   │       ├── dto/             # TransferRequest.java (input/output)
+│   │       └── port/
+│   │           └── in/          # MoneyController.java
+│   │   
 │   └── src/test/java/
 │
 ├── infrastructure/             # Адаптеры, фреймворки (зависит от domain+application)
@@ -99,6 +101,11 @@ clean-app/
         └── com.example.web/
             └── controller/       # @RestController, вызывает UseCase
 ```
+
+> [!warning]
+> `port.in` (интерфейсы контроллеров) - принадлежит к application layer, поскольку использует DTO, которые принадлежат Application layer.
+
+
 
 
 ![[Pasted image 20260208172904.png]]

@@ -1,6 +1,6 @@
 
 - [[Giant flashcards on all topics]]
-
+- [[Final check questions]]
 - [[Interview fuck up questions]]
 
 ### Principles:
@@ -116,6 +116,10 @@ Eclipse
 
 
 ### [[Resilience4j]]
+
+
+
+### [[RabbitMQ]]
 
 
 ### [[Stream API]]

@@ -5,10 +5,24 @@ Index: [[Java+]]
 	- [[Zookeeper architecture - Kafka]]
 	- [[KRaft architecture - Kafka]]
 
+
+Internals:
+
 - [[Глоссарий - Kafka]]
 - [[Структура сообщения - Kafka]]
 - [[Как хранятся сообщения - Kafka]]
 - [[Ребалансировка - Kafka]]
+- [[События самой Kafka]]
+
+- [[Отправка сообщения + Batching and Compression - Kafka]]
+
+[[Partitioning & Consumer Groups - Kafka]]
+- [[Partition replication - Kafka]]
+[[Transactions - Kafka]]
+
+
+
+Behavioural principles:
 
 - [[Модели обмена сообщениями - Kafka]] - 1 Producer & 3 Consumers и т.д.
 
@@ -18,11 +32,10 @@ Index: [[Java+]]
 	- [[ACKs - Kafka]]
 
 
-[[Partitioning & Consumer Groups - Kafka]]
-- [[Partition replication - Kafka]]
-[[Transactions - Kafka]]
+
 
 [[Конфигурация - Kafka]]
+	- [[Ретраи Producer - Конфигурация - Kafka]]
 
 #### Schema Registry
 
@@ -30,6 +43,7 @@ Index: [[Java+]]
 - [[Деплой Schema registry вручную - Kafka]]
 
 [[Деплой Kafka Bitnami на K8s - Kafka + Helm]]
+[[Деплой Kafka в Docker compose - Kafka]]
 
 
 

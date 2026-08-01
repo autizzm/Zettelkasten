@@ -10,6 +10,8 @@ Index: [[Spring]]
 
 - [[Using Repositories with Multiple Spring Data Modules - Spring Data Access]]
 
+- [[PageExecutionUtils - пагинация для Query - Spring Data Access]]
+
 ### [[Spring ORM]]
 
 

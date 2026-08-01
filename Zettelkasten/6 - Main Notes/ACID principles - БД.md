@@ -27,6 +27,7 @@ Tags: [[Базы данных]]
 
 ### Consistency
 
+
 Ограничения, которые БД проверяет при произведении действий:
 ([[Column definition options (Constraints) - SQL|CONSTRAINT]] - CHECK и т.д., FOREIGN KEYs) - проверка корректности добавляемых данных.
 

@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4cd69420224bc6c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Indexes/System Design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "System Design"
-            }
-          },
-          {
             "id": "a7e966fc93180fc1",
             "type": "leaf",
             "state": {
@@ -61,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Schema validation - Mongo DB.md",
+                "file": "6 - Main Notes/Final check questions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +52,91 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Schema validation - Mongo DB"
+              "title": "Final check questions"
+            }
+          },
+          {
+            "id": "bc7e914eef8c3e49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Deployment strategies - Kubernetes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Deployment strategies - Kubernetes"
+            }
+          },
+          {
+            "id": "341a3a19fa8f9721",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "РСХБ + Сбер - Resume"
+            }
+          },
+          {
+            "id": "72deafce4b6766a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Формальное стратегическое планирование.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Формальное стратегическое планирование"
+            }
+          },
+          {
+            "id": "c9bcbcca6b85ffe2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
             }
           },
           {
@@ -85,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Создание скрипта миграции - Mongock.md",
+                "file": "3 - Tags/Kafka.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +160,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Создание скрипта миграции - Mongock"
+              "title": "Kafka"
             }
           },
           {
@@ -133,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/TLS - Networks.md",
+                "file": "6 - Main Notes/QUIC - Networks - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +208,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TLS - Networks"
+              "title": "QUIC - Networks - Flashcards"
             }
           },
           {
@@ -157,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Cryptography.md",
+                "file": "6 - Main Notes/UDP - Networks - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +232,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cryptography"
+              "title": "UDP - Networks - Flashcards"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,7 +256,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -325,45 +387,47 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "e71d2ce5ea979843",
+  "active": "341a3a19fa8f9721",
   "lastOpenFiles": [
-    "2 - Source Materials/Pasted image 20260626114319.png",
-    "2 - Source Materials/Pasted image 20260626113911.png",
-    "2 - Source Materials/Pasted image 20260621183255.png",
-    "2 - Source Materials/Pasted image 20260621175540.png",
-    "2 - Source Materials/Pasted image 20260619172109.png",
-    "2 - Source Materials/Pasted image 20260619164041.png",
-    "2 - Source Materials/Pasted image 20260619163852.png",
-    "6 - Main Notes/Digital signatures & Assymetric encryption - Cryptography.md",
-    "6 - Main Notes/Cryptography.md",
-    "6 - Main Notes/Overview - Cryptography.md",
-    "6 - Main Notes/Overview - Cryptography - Flashcards.md",
-    "6 - Main Notes/Encoding vs Encryption vs Hashing - Cryptography.md",
-    "6 - Main Notes/Assymetric encryption - Cryptography - Flashcards.md",
-    "6 - Main Notes/ECH - Networks - Flashcards.md",
-    "6 - Main Notes/ECH - Networks.md",
-    "6 - Main Notes/Создание скрипта миграции - Mongock.md",
-    "6 - Main Notes/TLS - Networks.md",
-    "6 - Main Notes/TLS - Networks - Flashcards.md",
-    "3 - Tags/Networks.md",
-    "Pasted image 20260628182223.png",
-    "Pasted image 20260628181902.png",
-    "Pasted image 20260628181356.png",
-    "4 - Indexes/Java+.md",
-    "6 - Main Notes/NAT - Networks.md",
-    "6 - Main Notes/NAT - Networks - Flashcards.md",
-    "6 - Main Notes/HTTP 1.1 & HTTP 2 - Networks.md",
-    "6 - Main Notes/HTTP - Flashcards.md",
-    "6 - Main Notes/OSI модель - Networks.md",
-    "6 - Main Notes/OSI модель - Flashcards.md",
-    "6 - Main Notes/UDP - Networks.md",
-    "6 - Main Notes/UDP - Networks - Flashcards.md",
-    "6 - Main Notes/Message path through the TCP over IP layers - Network.md",
-    "6 - Main Notes/TCP - Networks.md",
-    "6 - Main Notes/TCP - Networks - Flashcards.md",
-    "Pasted image 20260628134444.png",
-    "6 - Main Notes/Message path through the TCP over IP layers - Network - Flashcards.md",
-    "Message path through the TCP",
-    "desktop.ini"
+    "2 - Source Materials/Pasted image 20260731115150.png",
+    "2 - Source Materials/Pasted image 20260731114900.png",
+    "2 - Source Materials/Pasted image 20260731124859.png",
+    "2 - Source Materials/Pasted image 20260731115301.png",
+    "6 - Main Notes/Формальное стратегическое планирование.md",
+    "4 - Indexes/Niche analysis.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+    "2 - Source Materials/RSHB_Sber_resume.pdf",
+    "RSHB_Sber_resume.pdf",
+    "Pasted image 20260731124859.png",
+    "Pasted image 20260731115301.png",
+    "Pasted image 20260731115150.png",
+    "Pasted image 20260731114900.png",
+    "desktop.ini",
+    "6 - Main Notes/BrandNew - Legend.md",
+    "6 - Main Notes/Россельхозбанк - Свой бизнес.md",
+    "2 - Source Materials/Pasted image 20260707085548.png",
+    "2 - Source Materials/Pasted image 20260707085517.png",
+    "2 - Source Materials/Pasted image 20260707085101.png",
+    "6 - Main Notes/Сервис счетов на оплату платформы РСХБ SDD - BrandNew Legend.md",
+    "6 - Main Notes/SDD_invoice_payment_service.md",
+    "6 - Main Notes/Сервис глобальных настроек платформы РСХБ SDD - BrandNew Legend.md",
+    "6 - Main Notes/Сервис универсальных справочников РСХБ SDD - HR BrandNew Legend.md",
+    "6 - Main Notes/Сервис глобальных настроек платформы - .md",
+    "6 - Main Notes/SDD_global_settings_service_v2.md",
+    "6 - Main Notes/SDD_reference_data_service.md",
+    "6 - Main Notes/Сервис универсальных справочников РСХБ - HR Brand New Legend.md",
+    "4 - Indexes/HR параша.md",
+    "6 - Main Notes/3 years - Arvand - HR questions.md",
+    "6 - Main Notes/Common HR screening questions.md",
+    "6 - Main Notes/3 years - Arvand - Legend.md",
+    "6 - Main Notes/Сбер - хз че за проект пока.md",
+    "6 - Main Notes/Финплатформа Т1.md",
+    "6 - Main Notes/Планета. Платформа.md",
+    "6 - Main Notes/Soft skills notes - HR параша.md",
+    "6 - Main Notes/Final check questions.md",
+    "4 - Indexes/System Design.md",
+    "6 - Main Notes/CAP теорема - System Design.md",
+    "Message path through the TCP"
   ]
 }

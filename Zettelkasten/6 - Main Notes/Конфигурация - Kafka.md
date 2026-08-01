@@ -49,6 +49,55 @@ transaction.state.log.replication.factor=3
 Если контроллеры вынесены на отдельные узлы (dedicated controllers), тогда на **контроллерских узлах** `process.roles=controller`, а `listeners` обычно содержит только контроллерный интерфейс (например, `CONTROLLER://0.0.0.0:9093`). На **брокерских узлах** – `process.roles=broker` и им тоже нужен знать список контроллеров (`controller.quorum.voters`) и настроить, как они будут подключаться к контроллерам. В этом случае брокеры не слушают порт CONTROLLER, а только используют его для исходящих подключений к контроллерам. В комбинированном режиме, как в примере выше, каждый узел и брокер, и контроллер одновременно.
 
 
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kafka-broker-config
+data:
+  # KRaft
+  KAFKA_PROCESS_ROLES: "broker"
+  KAFKA_CONTROLLER_LISTENER_NAMES: "CONTROLLER"
+  KAFKA_CONTROLLER_QUORUM_VOTERS: "0@kafka-controller-0.kafka-controller-headless:9093,1@kafka-controller-1.kafka-controller-headless:9093,2@kafka-controller-2.kafka-controller-headless:9093"
+
+  # Networking
+  KAFKA_LISTENERS: "PLAINTEXT://:9092"
+  KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://$(POD_NAME).kafka-broker-headless:9092"
+  KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "PLAINTEXT:PLAINTEXT"
+  KAFKA_INTER_BROKER_LISTENER_NAME: "PLAINTEXT"
+
+  # Replication
+  KAFKA_DEFAULT_REPLICATION_FACTOR: "3"
+  KAFKA_MIN_INSYNC_REPLICAS: "2"
+  KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: "3"
+
+  # Transactions
+  KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: "1"
+  KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: "1"
+
+  # Topic defaults
+  KAFKA_NUM_PARTITIONS: "3"
+  KAFKA_AUTO_CREATE_TOPICS_ENABLE: "false"
+  KAFKA_DELETE_TOPIC_ENABLE: "true"
+
+  # Storage
+  KAFKA_LOG_DIRS: "/var/lib/kafka/data"
+
+  # Reliability
+  KAFKA_UNCLEAN_LEADER_ELECTION_ENABLE: "false"
+
+  # Compression
+  KAFKA_COMPRESSION_TYPE: "producer"
+
+  # Performance
+  KAFKA_NUM_NETWORK_THREADS: "3"
+  KAFKA_NUM_IO_THREADS: "8"
+  KAFKA_SOCKET_SEND_BUFFER_BYTES: "102400"
+  KAFKA_SOCKET_RECEIVE_BUFFER_BYTES: "102400"
+  KAFKA_SOCKET_REQUEST_MAX_BYTES: "104857600"
+```
+
+
 ---
 ### Дрочь с кластером
 
