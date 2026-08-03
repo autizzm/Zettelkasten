@@ -1,6 +1,9 @@
 
 Index: [[Java+]]
 
+[[Kafka common - Flashcards]]
+
+
 [[Zookeepeer vs KRaft - Kafka]]
 	- [[Zookeeper architecture - Kafka]]
 	- [[KRaft architecture - Kafka]]
@@ -49,6 +52,8 @@ Behavioural principles:
 
 [[InBox, OutBox patterns - Patterns]]
 
+
+### [[Kafka Streams]]
 
 ### [[Spring Kafka]]
 

@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Deployment strategies - Kubernetes.md",
+                "file": "6 - Main Notes/Metrics - Prometheus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Deployment strategies - Kubernetes"
+              "title": "Metrics - Prometheus"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/РСХБ + Сбер - Resume.md",
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "РСХБ + Сбер - Resume"
+              "title": "РСХБ + Сбер - Resume - Flascards"
             }
           },
           {
-            "id": "72deafce4b6766a2",
+            "id": "40a9dcb6a1228ced",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Формальное стратегическое планирование.md",
+                "file": "6 - Main Notes/Kafka common - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,19 +124,79 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Формальное стратегическое планирование"
+              "title": "Kafka common - Flashcards"
+            }
+          },
+          {
+            "id": "32cd65726937110b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Partition replication - Kafka.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Partition replication - Kafka"
             }
           },
           {
             "id": "c9bcbcca6b85ffe2",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.4"
+                "file": "6 - Main Notes/Common HR screening questions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
+              "icon": "lucide-file",
+              "title": "Common HR screening questions"
+            }
+          },
+          {
+            "id": "e8ccce044f37f122",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Структура сообщения - Kafka.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Структура сообщения - Kafka"
             }
           },
           {
@@ -145,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Tags/Kafka.md",
+                "file": "6 - Main Notes/Почему отдельное приложение (отдельный кластер stream processor-ов) - антипаттерн - Kafka Streams.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -160,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Kafka"
+              "title": "Почему отдельное приложение (отдельный кластер stream processor-ов) - антипаттерн - Kafka Streams"
             }
           },
           {
@@ -236,7 +296,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -387,47 +447,47 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "341a3a19fa8f9721",
+  "active": "40a9dcb6a1228ced",
   "lastOpenFiles": [
+    "6 - Main Notes/Partition replication - Kafka.md",
+    "3 - Tags/Kafka.md",
+    "6 - Main Notes/Kafka common - Flashcards.md",
+    "6 - Main Notes/Идемпотентные Producer & Consumer - Kafka.md",
+    "6 - Main Notes/Partitioning & Consumer Groups - Kafka.md",
+    "6 - Main Notes/Transactions - Kafka.md",
+    "6 - Main Notes/Отправка сообщения + Batching and Compression - Kafka.md",
+    "4 - Indexes/Java+.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+    "6 - Main Notes/Common HR screening questions.md",
+    "4 - Indexes/HR параша.md",
+    "3 - Tags/PostgreSQL DB.md",
+    "6 - Main Notes/Организация доступа к данным - PostgreSQL.md",
+    "6 - Main Notes/Пайплайн запроса, EXPLAIN, EXPLAIN ANALYZE - PostgreSQL.md",
+    "6 - Main Notes/Базы данных.md",
+    "4 - Indexes/System Design.md",
+    "6 - Main Notes/CDN - System Design.md",
+    "6 - Main Notes/Типы индексов - PostgreSQL.md",
+    "6 - Main Notes/Способы хранения данных - БД.md",
+    "6 - Main Notes/Гарантии доставки сообщений - Kafka.md",
+    "6 - Main Notes/Структура сообщения - Kafka.md",
+    "6 - Main Notes/Ребалансировка - Kafka.md",
+    "6 - Main Notes/События самой Kafka.md",
+    "6 - Main Notes/Zookeepeer vs KRaft - Kafka.md",
+    "6 - Main Notes/KRaft architecture - Kafka.md",
+    "2 - Source Materials/Pasted image 20260203101829.png",
+    "Pasted image 20260802113825.png",
+    "Pasted image 20260802105506.png",
+    "Pasted image 20260802104448.png",
+    "Pasted image 20260802101657.png",
+    "Pasted image 20260801200429.png",
+    "Pasted image 20260801200416.png",
     "2 - Source Materials/Pasted image 20260731115150.png",
     "2 - Source Materials/Pasted image 20260731114900.png",
     "2 - Source Materials/Pasted image 20260731124859.png",
-    "2 - Source Materials/Pasted image 20260731115301.png",
-    "6 - Main Notes/Формальное стратегическое планирование.md",
-    "4 - Indexes/Niche analysis.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
     "2 - Source Materials/RSHB_Sber_resume.pdf",
     "RSHB_Sber_resume.pdf",
-    "Pasted image 20260731124859.png",
-    "Pasted image 20260731115301.png",
-    "Pasted image 20260731115150.png",
-    "Pasted image 20260731114900.png",
     "desktop.ini",
-    "6 - Main Notes/BrandNew - Legend.md",
-    "6 - Main Notes/Россельхозбанк - Свой бизнес.md",
-    "2 - Source Materials/Pasted image 20260707085548.png",
-    "2 - Source Materials/Pasted image 20260707085517.png",
-    "2 - Source Materials/Pasted image 20260707085101.png",
-    "6 - Main Notes/Сервис счетов на оплату платформы РСХБ SDD - BrandNew Legend.md",
-    "6 - Main Notes/SDD_invoice_payment_service.md",
-    "6 - Main Notes/Сервис глобальных настроек платформы РСХБ SDD - BrandNew Legend.md",
-    "6 - Main Notes/Сервис универсальных справочников РСХБ SDD - HR BrandNew Legend.md",
-    "6 - Main Notes/Сервис глобальных настроек платформы - .md",
-    "6 - Main Notes/SDD_global_settings_service_v2.md",
-    "6 - Main Notes/SDD_reference_data_service.md",
-    "6 - Main Notes/Сервис универсальных справочников РСХБ - HR Brand New Legend.md",
-    "4 - Indexes/HR параша.md",
-    "6 - Main Notes/3 years - Arvand - HR questions.md",
-    "6 - Main Notes/Common HR screening questions.md",
-    "6 - Main Notes/3 years - Arvand - Legend.md",
-    "6 - Main Notes/Сбер - хз че за проект пока.md",
-    "6 - Main Notes/Финплатформа Т1.md",
-    "6 - Main Notes/Планета. Платформа.md",
-    "6 - Main Notes/Soft skills notes - HR параша.md",
-    "6 - Main Notes/Final check questions.md",
-    "4 - Indexes/System Design.md",
-    "6 - Main Notes/CAP теорема - System Design.md",
     "Message path through the TCP"
   ]
 }
