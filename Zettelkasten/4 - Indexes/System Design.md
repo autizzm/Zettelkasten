@@ -1,6 +1,8 @@
 
 [[General Flashcards - System Design]]
 
+### [[Troubleshooting - Flashcards]]
+
 
 [[Полный алгоритм разработки дизайна приложения - SYstem Design]]
 - [[Сбор требований - System Design]]

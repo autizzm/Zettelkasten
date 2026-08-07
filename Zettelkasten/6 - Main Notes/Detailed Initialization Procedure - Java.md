@@ -55,7 +55,7 @@ Tags: [[Java Core]] [[Under the hood - Java]]
         
     - **Resolution** – связывание ссылок на другие классы. Преобразование символических ссылок из типа в прямые ссылки.
         
-3. **Initialization** – выполнение [[clinit method - Java|<clinit>]] (Не только, подробнее [[Detailed Initialization Procedure - Java#Процесс инициализации|здесь]]).
+3. **Initialization** – выполнение [[clinit method - Java|<clinit>]] (Не только, подробнее [[Detailed Initialization Procedure - Java#Процесс инициализации класса (Initialization step) ~={red}(не объекта)=~|здесь]]).
 
 
 > [!tip]

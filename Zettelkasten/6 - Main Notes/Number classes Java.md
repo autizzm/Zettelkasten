@@ -40,7 +40,6 @@ int1.compareTo(7); // = -2
 ### [[Неизменяемость наследников Number]]
 
 
-
 ----
 #### [[Number classes Java Flashcards|Link to flashcards]]
 

@@ -4,6 +4,9 @@ Index: [[Java+]]
 [[Kafka common - Flashcards]]
 
 
+### [[Kafka production tools - Kafka]] - infrastructure
+
+
 [[Zookeepeer vs KRaft - Kafka]]
 	- [[Zookeeper architecture - Kafka]]
 	- [[KRaft architecture - Kafka]]

@@ -18,7 +18,7 @@ A: методом .xxxValue. `int a = myInteger.intValue();`
 
 
 Q: Как получить оберточное значение (наследник Number) из примитивного?
-A: static методом .valueOf( String/ int ): `Integer a = Intteger.valueOf(5);`
+A: static методом .valueOf( String/ int ): `Integer a = Integer.valueOf(5);`
 <!--ID: 1756891680628-->
 
 
