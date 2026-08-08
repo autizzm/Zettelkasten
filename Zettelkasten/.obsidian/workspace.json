@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Kafka production tools - Kafka.md",
+                "file": "6 - Main Notes/Persistence - Docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Kafka production tools - Kafka"
+              "title": "Persistence - Docker"
             }
           },
           {
@@ -330,17 +330,23 @@
   "active": "341a3a19fa8f9721",
   "lastOpenFiles": [
     "6 - Main Notes/РСХБ + Сбер - Resume.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+    "6 - Main Notes/Persistence - Docker.md",
+    "6 - Main Notes/Docker.md",
+    "4 - Indexes/CI & CD.md",
+    "6 - Main Notes/Kubernetes.md",
+    "6 - Main Notes/NodePort Service & its manifest- Kubernetes.md",
+    "6 - Main Notes/Ingress Service - Kubernetes.md",
+    "6 - Main Notes/Kafka production tools - Kafka.md",
+    "6 - Main Notes/Troubleshooting - Flashcards.md",
     "6 - Main Notes/BrandNew - Legend.md",
     "4 - Indexes/HR параша.md",
     "6 - Main Notes/Soft skills notes - HR параша.md",
     "6 - Main Notes/3.5 yearls - Arvand + Sber - Legend.md",
     "6 - Main Notes/Metrics - Prometheus.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
     "6 - Main Notes/РСХБ + Сбер - Resume - STAR + ABT stories.md",
     "6 - Main Notes/Common HR screening questions.md",
-    "6 - Main Notes/Troubleshooting - Flashcards.md",
     "4 - Indexes/System Design.md",
-    "6 - Main Notes/Kafka production tools - Kafka.md",
     "3 - Tags/Kafka.md",
     "6 - Main Notes/ACL (Access Control List) - Kafka.md",
     "6 - Main Notes/ACL (Access Control List) - Kafka - Flashcards.md",
@@ -349,12 +355,6 @@
     "6 - Main Notes/Partition replication - Kafka.md",
     "3 - Tags/Multithreading.md",
     "6 - Main Notes/optimistic & pessimistic locks - Multithreading Java.md",
-    "6 - Main Notes/ForkJoingPool - Multithreading Java.md",
-    "6 - Main Notes/Executor & ExecutorService - Multithreading Java.md",
-    "6 - Main Notes/StampedLock - Multithreading Java.md",
-    "6 - Main Notes/ReadWriteLock - Multithreading Java.md",
-    "6 - Main Notes/ReentrantLock - Multithreading Java.md",
-    "6 - Main Notes/Atomics - Multithreading Java.md",
     "desktop.ini",
     "2 - Source Materials/Pasted image 20260203101829.png",
     "Pasted image 20260802113825.png",
