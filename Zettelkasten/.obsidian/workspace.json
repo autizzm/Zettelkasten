@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Persistence - Docker.md",
+                "file": "6 - Main Notes/InBox, OutBox implementation - Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Persistence - Docker"
+              "title": "InBox, OutBox implementation - Patterns"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/РСХБ + Сбер - Resume.md",
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Самопрезентация.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "РСХБ + Сбер - Resume"
+              "title": "РСХБ + Сбер - Resume - Самопрезентация"
             }
           },
           {
@@ -149,6 +149,30 @@
               },
               "icon": "lucide-file",
               "title": "РСХБ + Сбер - Resume"
+            }
+          },
+          {
+            "id": "b7522e5683fd0d39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - STAR + ABT stories.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "РСХБ + Сбер - Resume - STAR + ABT stories"
             }
           },
           {
@@ -210,7 +234,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Инициати",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,7 +255,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -331,7 +356,13 @@
   "lastOpenFiles": [
     "6 - Main Notes/РСХБ + Сбер - Resume.md",
     "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+    "Pasted image 20260809190453.png",
+    "6 - Main Notes/InBox, OutBox implementation - Patterns.md",
+    "4 - Indexes/System Design.md",
+    "6 - Main Notes/InBox, OutBox patterns - Patterns.md",
     "6 - Main Notes/Persistence - Docker.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - STAR + ABT stories.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Самопрезентация.md",
     "6 - Main Notes/Docker.md",
     "4 - Indexes/CI & CD.md",
     "6 - Main Notes/Kubernetes.md",
@@ -344,17 +375,11 @@
     "6 - Main Notes/Soft skills notes - HR параша.md",
     "6 - Main Notes/3.5 yearls - Arvand + Sber - Legend.md",
     "6 - Main Notes/Metrics - Prometheus.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume - STAR + ABT stories.md",
     "6 - Main Notes/Common HR screening questions.md",
-    "4 - Indexes/System Design.md",
     "3 - Tags/Kafka.md",
     "6 - Main Notes/ACL (Access Control List) - Kafka.md",
     "6 - Main Notes/ACL (Access Control List) - Kafka - Flashcards.md",
     "4 - Indexes/Java+.md",
-    "6 - Main Notes/Deserialization Annotations - Jackson Annotations.md",
-    "6 - Main Notes/Partition replication - Kafka.md",
-    "3 - Tags/Multithreading.md",
-    "6 - Main Notes/optimistic & pessimistic locks - Multithreading Java.md",
     "desktop.ini",
     "2 - Source Materials/Pasted image 20260203101829.png",
     "Pasted image 20260802113825.png",
@@ -365,7 +390,6 @@
     "Pasted image 20260801200416.png",
     "2 - Source Materials/Pasted image 20260731115150.png",
     "2 - Source Materials/Pasted image 20260731114900.png",
-    "2 - Source Materials/Pasted image 20260731124859.png",
     "2 - Source Materials/RSHB_Sber_resume.pdf",
     "RSHB_Sber_resume.pdf",
     "Message path through the TCP"

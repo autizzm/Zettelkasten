@@ -6,6 +6,8 @@ Tag: [[HR параша]] [[BrandNew - Legend]]
 
 ### [[РСХБ + Сбер - Resume - STAR + ABT stories]]
 
+### [[РСХБ + Сбер - Resume - Самопрезентация]]
+
 
 ![[RSHB_Sber_resume.pdf]]
 
