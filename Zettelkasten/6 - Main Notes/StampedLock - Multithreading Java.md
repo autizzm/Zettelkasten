@@ -70,6 +70,42 @@ if (!lock.validate(stampA)) {            // 1000 != текущее состоя�
 ```
 
 
+
+### Очень важный недостаток StampedLock
+
+**Он не реентерабельный**
+
+Это самая частая ловушка.
+
+Такой код может зависнуть:
+
+```java
+void foo() {
+    long s = lock.writeLock();
+    try {
+        bar();
+    } finally {
+        lock.unlockWrite(s);
+    }
+}
+
+void bar() {
+    long s = lock.writeLock(); // deadlock
+    ...
+}
+```
+
+`ReentrantReadWriteLock` такое позволяет.
+
+Поэтому `StampedLock` требует гораздо более аккуратного проектирования.
+
+### Чем `readLock()` у `StampedLock` отличается от аналога в `ReentrantLock`?
+
+Ничем: `readLock()` у `StampedLock` захватывает полноценную разделяемую блокировку на чтение, почти аналогично `ReentrantReadWriteLock.readLock().lock()`.
+
+`readLock()` часто служит fallback-механизмом, если оптимистичное чтение оказалось недействительным.
+
+
 ----
 #### [[StampedLock - Multithreading Java - Flashcards|Link to flashcards]]
 

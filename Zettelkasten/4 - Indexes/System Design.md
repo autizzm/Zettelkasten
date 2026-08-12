@@ -41,6 +41,7 @@
 
 - [[InBox, OutBox patterns - Patterns]]
 	- [[InBox, OutBox implementation - Patterns]]
+	- [[Инструменты поллинга Inbox, Outbox - Patterns]]
 	- [[кейс @TransactionalEventListener for OutBox - Patterns]]
 - [[SAGA - System Design Patterns]]
 - [[CQRS - System Design Patterns]]

@@ -19,6 +19,15 @@ Kstream - абстракция над stream.
 
 Stream - unbounded sequence of structured data (events).
 
+> [!tip] **Important**
+> KStream — это не изменяемый поток, из которого «вынимают» сообщения. Это декларативное описание топологии: каждый вызов filter / selectKey / map и т.д. создаёт новый поток (новую ветку), а исходный `KStream` остаётся неизменным и может использоваться многократно.
+>
+>Исходный объект никогда не мутируется. Можно безопасно писать:
+>```java
+>KStream<...> base = ...;
+>KStream<...> a = base.filter(...);
+>KStream<...> b = base.map(...);   // base не изменился
+>```
 
 
 ```java

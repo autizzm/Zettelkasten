@@ -16,6 +16,17 @@ Tags: [[Kafka Streams Java Lib]] [[Kafka Streams]] [[Kafka]]
 
 
 
+| Операция                                                     | Что возвращает                                   | Создаёт новый объект? | Примечание                         |
+| ------------------------------------------------------------ | ------------------------------------------------ | --------------------- | ---------------------------------- |
+| `filter`, `map`, `mapValues`, `flatMap`, `selectKey`, `peek` | `KStream`                                        | Да                    | Stateless                          |
+| `groupByKey` / `groupBy`                                     | `KGroupedStream`                                 | Да                    | Точка группировки                  |
+| `windowedBy`                                                 | `TimeWindowedKStream` / `SessionWindowedKStream` | Да                    | Работает только с `KGroupedStream` |
+| `aggregate` / `reduce` / `count`                             | `KTable`                                         | Да                    | Stateful                           |
+| `join`, `leftJoin`, `outerJoin`                              | `KStream` / `KTable`                             | Да                    |                                    |
+| `toStream`, `toTable`                                        | `KStream` / `KTable`                             | Да                    |                                    |
+| `foreach`, `print`, `to`                                     | `void`                                           | —                     | Терминальные                       |
+
+
 #### `map` & `filter`
 
 
@@ -58,6 +69,63 @@ groupedBySongId.count("song-play-count"); //name of the state in the internal st
 - `groupBy` - re-partitions the data based on a new key
 
 - `count` - counts the number of occurences of a song, **~={yellow}requires the application to keep state=~**
+
+
+---
+### `windowedBy`
+
+`windowedBy()` просто «навешивает» оконную семантику на уже сгруппированный поток и возвращает `TimeWindowedKStream` (или `SessionWindowedKStream`).
+
+```java
+repartitioned
+    .groupByKey(...)          // ← здесь появляется новый KGroupedStream
+    .windowedBy(...)          // ← работает уже с ним
+    .aggregate(...)           // ← создаёт KTable
+```
+
+
+
+
+#### Пример `selectKey + groupByKey`
+
+
+```java
+KStream<String, InternalEvent> repartitioned = source
+        .filter(...)
+        .selectKey((key, event) -> selector.apply(event));   // меняем ключ
+
+// дальше:
+repartitioned
+    .groupByKey(Grouped.with(Serdes.String(), eventSerde))
+    .windowedBy(...)
+    .aggregate(...)
+```
+
+1. **selectKey сам по себе** только меняет ключ **внутри** записи в текущем процессоре. Никакой записи в Kafka он не делает. Это  просто новый KStream (новая ветка топологии).
+
+2. **groupByKey** требует, чтобы все записи с **одинаковым ключом** попадали в одну и ту же партицию (иначе агрегация будет некорректной). Kafka Streams **проверяет**, совпадает ли текущий ключ партиционирования с новым ключом.
+
+3. Если после selectKey ключ изменился (а он почти всегда изменился — теперь это dimension: client / product / …), то Streams **автоматически вставляет репартиционный шаг:**
+    - создаёт внутренний (changelog / repartition) топик;
+    - пишет туда записи **с новым ключом** (партиционирование уже по dimension);
+    - потом читает этот топик обратно.
+
+Именно на этом шаге сообщения **публикуются обратно в Kafka**.
+
+
+**Как это выглядит при горизонтальном масштабировании**
+
+- Каждый инстанс приложения (каждый KafkaStreams) получает свою долю **исходных** партиций топика `lending.events`.
+
+- После `selectKey + groupByKey` данные уходят во внутренний repartition-топик, партиционированный уже **по новому ключу** (dimension).
+
+- **Эти внутренние топики тоже партиционируются**. Streams назначает партиции этих топиков инстансам так же, как обычные input-топики (через consumer group).
+- В результате:
+    - все события с одним и тем же значением dimension (например, `"client=123"`) попадают в одну и ту же партицию repartition-топика;
+    - эту партицию обрабатывает **ровно один** инстанс;
+    - агрегация по window + state store происходит корректно, даже если исходные события пришли с разных инстансов.
+
+То есть да — без записи обратно в Kafka горизонтальное масштабирование aggregation’ов по новому ключу было бы невозможно. Streams делает эту запись **прозрачно**.
 
 
 ---

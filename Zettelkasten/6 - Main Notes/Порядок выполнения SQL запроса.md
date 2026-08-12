@@ -35,6 +35,42 @@ Tags: [[SQL]]
 
 Обратите внимание, что этот порядок начинается с FROM и заканчивается SELECT, что противоположно порядку написания запроса.
 
+```sql
+WITH batch AS (
+    SELECT id
+    FROM outbox
+    WHERE processed = false
+    ORDER BY id
+    LIMIT 100
+    FOR UPDATE SKIP LOCKED
+)
+UPDATE outbox o
+SET lease_token = :workerId,
+    locked_until = now() + interval '30 seconds'
+FROM batch
+WHERE o.id = batch.id
+RETURNING o.*;
+```
+
+```
+1. WITH batch
+      ↓
+2. SELECT из outbox + FROM
+      ↓
+3. WHERE
+      ↓
+4. ORDER BY
+      ↓
+5. LIMIT
+      ↓
+6. FOR UPDATE SKIP LOCKED
+      ↓
+7. batch содержит выбранные + заблокированные строки
+      ↓
+8. UPDATE outbox по id из batch
+      ↓
+9. RETURNING
+```
 
 ---
 ### **Пример: Сводка по зарплатам сотрудников**

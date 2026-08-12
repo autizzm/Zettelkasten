@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7e966fc93180fc1",
+            "id": "175864c371825ebb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/InBox, OutBox implementation - Patterns.md",
+                "file": "4 - Indexes/SQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "InBox, OutBox implementation - Patterns"
+              "title": "SQL"
             }
           },
           {
-            "id": "e1d746445c280d77",
+            "id": "775554b947ac6726",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Troubleshooting - Flashcards.md",
+                "file": "4 - Indexes/Spring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Troubleshooting - Flashcards"
+              "title": "Spring"
             }
           },
           {
-            "id": "d27e09c1340a819a",
+            "id": "1ae84d11ac045ac8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Final check questions.md",
+                "file": "6 - Main Notes/Transforming data - Kafka Streams Java Lib.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Final check questions"
+              "title": "Transforming data - Kafka Streams Java Lib"
             }
           },
           {
-            "id": "bc7e914eef8c3e49",
+            "id": "b5c7b04e28ee5393",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Самопрезентация.md",
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "РСХБ + Сбер - Resume - Самопрезентация"
+              "title": "РСХБ + Сбер - Resume"
+            }
+          },
+          {
+            "id": "8ce3468326fcf760",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Описание аналитики ПКК.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "РСХБ + Сбер - Resume - Описание аналитики ПКК"
+            }
+          },
+          {
+            "id": "4b8c29484ef05724",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "РСХБ + Сбер - Resume - Flascards"
             }
           },
           {
@@ -128,7 +176,7 @@
             }
           },
           {
-            "id": "8ce3468326fcf760",
+            "id": "41edd8e972718e3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -152,12 +200,36 @@
             }
           },
           {
+            "id": "c58bb31ba2a57279",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "РСХБ + Сбер - Resume - Flascards"
+            }
+          },
+          {
             "id": "b7522e5683fd0d39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/РСХБ + Сбер - Resume - STAR + ABT stories.md",
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Timeframes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,16 +244,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "РСХБ + Сбер - Resume - STAR + ABT stories"
+              "title": "РСХБ + Сбер - Resume - Timeframes"
             }
           },
           {
-            "id": "c9bcbcca6b85ffe2",
+            "id": "e6aa5829313f79b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Common HR screening questions.md",
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Описание аналитики ПКК.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,11 +268,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Common HR screening questions"
+              "title": "РСХБ + Сбер - Resume - Описание аналитики ПКК"
+            }
+          },
+          {
+            "id": "bc7e914eef8c3e49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Самопрезентация.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "РСХБ + Сбер - Resume - Самопрезентация"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -255,8 +351,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -352,44 +447,45 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "341a3a19fa8f9721",
+  "active": "41edd8e972718e3f",
   "lastOpenFiles": [
+    "2 - Source Materials/Pasted image 20260802105506.png",
+    "2 - Source Materials/Pasted image 20260802104448.png",
+    "2 - Source Materials/Pasted image 20260802101657.png",
+    "2 - Source Materials/Pasted image 20260801200429.png",
+    "2 - Source Materials/Pasted image 20260801200416.png",
+    "2 - Source Materials/Pasted image 20260809190453.png",
+    "2 - Source Materials/Pasted image 20260802113825.png",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Timeframes.md",
     "6 - Main Notes/РСХБ + Сбер - Resume.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
-    "Pasted image 20260809190453.png",
-    "6 - Main Notes/InBox, OutBox implementation - Patterns.md",
-    "4 - Indexes/System Design.md",
-    "6 - Main Notes/InBox, OutBox patterns - Patterns.md",
-    "6 - Main Notes/Persistence - Docker.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume - STAR + ABT stories.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume - Самопрезентация.md",
-    "6 - Main Notes/Docker.md",
-    "4 - Indexes/CI & CD.md",
-    "6 - Main Notes/Kubernetes.md",
-    "6 - Main Notes/NodePort Service & its manifest- Kubernetes.md",
-    "6 - Main Notes/Ingress Service - Kubernetes.md",
-    "6 - Main Notes/Kafka production tools - Kafka.md",
-    "6 - Main Notes/Troubleshooting - Flashcards.md",
     "6 - Main Notes/BrandNew - Legend.md",
     "4 - Indexes/HR параша.md",
-    "6 - Main Notes/Soft skills notes - HR параша.md",
-    "6 - Main Notes/3.5 yearls - Arvand + Sber - Legend.md",
-    "6 - Main Notes/Metrics - Prometheus.md",
-    "6 - Main Notes/Common HR screening questions.md",
-    "3 - Tags/Kafka.md",
-    "6 - Main Notes/ACL (Access Control List) - Kafka.md",
-    "6 - Main Notes/ACL (Access Control List) - Kafka - Flashcards.md",
+    "6 - Main Notes/Базы данных.md",
+    "6 - Main Notes/Типы индексов - PostgreSQL.md",
     "4 - Indexes/Java+.md",
+    "6 - Main Notes/реализация ConnectionPool.md",
+    "4 - Indexes/Spring.md",
+    "6 - Main Notes/OpenID Connect - System Design.md",
+    "4 - Indexes/System Design.md",
+    "6 - Main Notes/OIDC для межсервисного взаимодействия - System Design.md",
+    "3 - Tags/Observability.md",
+    "4 - Indexes/CI & CD.md",
+    "6 - Main Notes/C4 diagram.md",
+    "4 - Indexes/Системный анализ.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Самопрезентация.md",
+    "6 - Main Notes/Transforming data - Kafka Streams Java Lib.md",
+    "6 - Main Notes/Giant flashcards on all topics.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Описание аналитики ПКК.md",
+    "4 - Indexes/SQL.md",
+    "6 - Main Notes/Порядок выполнения SQL запроса.md",
+    "6 - Main Notes/WITH - SQL.md",
+    "6 - Main Notes/Инструменты поллинга Inbox, Outbox - Patterns.md",
+    "Pasted image 20260809190453.png",
     "desktop.ini",
     "2 - Source Materials/Pasted image 20260203101829.png",
     "Pasted image 20260802113825.png",
     "Pasted image 20260802105506.png",
-    "Pasted image 20260802104448.png",
-    "Pasted image 20260802101657.png",
-    "Pasted image 20260801200429.png",
-    "Pasted image 20260801200416.png",
-    "2 - Source Materials/Pasted image 20260731115150.png",
-    "2 - Source Materials/Pasted image 20260731114900.png",
     "2 - Source Materials/RSHB_Sber_resume.pdf",
     "RSHB_Sber_resume.pdf",
     "Message path through the TCP"

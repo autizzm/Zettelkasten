@@ -2,6 +2,7 @@
 #### Data representation (выборки и т.п.)
 
 1. [[SELECT - SQL]]
+	- [[WITH - SQL]]
 2. [[Literals - SQL]]
 3. [[Built-in functions - SQL]]
 4. [[DISTINCT - SQL]]
@@ -36,6 +37,7 @@
 	- [[FOREIGN KEY - SQL]]
 	
 - [[INSERT - SQL]]
+	- [[UPSERT - SQL]]
 - [[UPDATE - SQL]]
 - [[DELETE - SQL]]
 	
