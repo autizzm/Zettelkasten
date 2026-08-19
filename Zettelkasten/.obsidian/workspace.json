@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Indexes/SQL.md",
+                "file": "6 - Main Notes/Common Flashcards - PostgreSQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Common Flashcards - PostgreSQL"
             }
           },
           {
@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+                "file": "6 - Main Notes/РСХБ + Сбер - Resume - Описание аналитики ПКК.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "РСХБ + Сбер - Resume - Flascards"
+              "title": "РСХБ + Сбер - Resume - Описание аналитики ПКК"
             }
           },
           {
@@ -295,8 +295,7 @@
               "title": "РСХБ + Сбер - Resume - Самопрезентация"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -447,8 +446,17 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "41edd8e972718e3f",
+  "active": "175864c371825ebb",
   "lastOpenFiles": [
+    "3 - Tags/PostgreSQL DB.md",
+    "6 - Main Notes/Очистка { AUTOVACUUM } + очистка индексов - PostgreSQL.md",
+    "6 - Main Notes/Реализация репликации - PostgreSQL.md",
+    "6 - Main Notes/Базы данных.md",
+    "4 - Indexes/SQL.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Описание аналитики ПКК.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume.md",
+    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
+    "desktop.ini",
     "2 - Source Materials/Pasted image 20260802105506.png",
     "2 - Source Materials/Pasted image 20260802104448.png",
     "2 - Source Materials/Pasted image 20260802101657.png",
@@ -457,10 +465,8 @@
     "2 - Source Materials/Pasted image 20260809190453.png",
     "2 - Source Materials/Pasted image 20260802113825.png",
     "6 - Main Notes/РСХБ + Сбер - Resume - Timeframes.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume.md",
     "6 - Main Notes/BrandNew - Legend.md",
     "4 - Indexes/HR параша.md",
-    "6 - Main Notes/Базы данных.md",
     "6 - Main Notes/Типы индексов - PostgreSQL.md",
     "4 - Indexes/Java+.md",
     "6 - Main Notes/реализация ConnectionPool.md",
@@ -472,20 +478,13 @@
     "4 - Indexes/CI & CD.md",
     "6 - Main Notes/C4 diagram.md",
     "4 - Indexes/Системный анализ.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume - Flascards.md",
     "6 - Main Notes/РСХБ + Сбер - Resume - Самопрезентация.md",
     "6 - Main Notes/Transforming data - Kafka Streams Java Lib.md",
     "6 - Main Notes/Giant flashcards on all topics.md",
-    "6 - Main Notes/РСХБ + Сбер - Resume - Описание аналитики ПКК.md",
-    "4 - Indexes/SQL.md",
     "6 - Main Notes/Порядок выполнения SQL запроса.md",
-    "6 - Main Notes/WITH - SQL.md",
-    "6 - Main Notes/Инструменты поллинга Inbox, Outbox - Patterns.md",
     "Pasted image 20260809190453.png",
-    "desktop.ini",
     "2 - Source Materials/Pasted image 20260203101829.png",
     "Pasted image 20260802113825.png",
-    "Pasted image 20260802105506.png",
     "2 - Source Materials/RSHB_Sber_resume.pdf",
     "RSHB_Sber_resume.pdf",
     "Message path through the TCP"
