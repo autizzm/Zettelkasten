@@ -2,7 +2,7 @@
 Index: [[Java+]]
 
 
-
+[[Redis common - Flashcards]]
 
 [[Запуск Redis docker container]]
 

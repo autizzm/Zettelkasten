@@ -7,6 +7,9 @@ Index: [[Java+]]
 ### [[Kafka production tools - Kafka]] - infrastructure
 
 
+
+[[Kafka vs RabbitMQ]]
+
 [[Zookeepeer vs KRaft - Kafka]]
 	- [[Zookeeper architecture - Kafka]]
 	- [[KRaft architecture - Kafka]]
