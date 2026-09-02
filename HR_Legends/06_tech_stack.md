@@ -1,202 +1,86 @@
-# ROP --- Technology Stack
+# 06. Технологический стек
 
-## 1. Backend
+См. также [[02_architecture]], [[03_services]], [[04_data_flows]].
 
-  Technology           Usage
-  -------------------- -----------------------------
-  Java 17/21           Backend development/runtime
-  Spring Boot          Microservices
-  Spring Web           REST APIs
-  Spring Kafka         Kafka producers/consumers
-  Spring Data / JDBC   Persistence
-  Flyway               DB schema migrations
-  Resilience4j         Circuit breaker / bulkhead
-  Camunda              Workflow orchestration
+## Языки и рантайм
 
-## 2. Data
+| Компонент | Технология | Комментарий |
+|---|---|---|
+| Backend-сервисы | Java / Kotlin | Основной язык backend-разработки в команде |
+| Оркестрация процессов | Camunda (BPMN) | Java-based движок, естественно ложится на существующий стек |
+| Документ-шаблоны | Thymeleaf | HTML/CSS-шаблонизация, см. [[#Документогенерация]] |
+| Frontend (операторский UI) | — | Внутренние панели для оператора контакт-центра |
 
-  Technology      Usage
-  --------------- --------------------------------
-  PostgreSQL      Service-owned relational state
-  Oracle          Legacy system
-  Kafka           Commands/events
-  Outbox tables   Reliable event publication
-  Inbox tables    Command deduplication
+## Данные и хранилища
 
-## 3. Messaging
+| Назначение | Технология | Комментарий |
+|---|---|---|
+| Основное хранилище сервисов | PostgreSQL | Inbox/outbox используют `SELECT ... FOR UPDATE SKIP LOCKED` |
+| Legacy-хранилище | Oracle (PL/SQL) | Источник миграции, см. [[04_data_flows#Reconciliation при миграции]] |
+| Объектное хранилище | S3-совместимое | Готовые PDF и опциональные чекпоинты `StatementNode` (префикс `checkpoints/`) |
+| Миграции схемы БД | Flyway | Применяется при каждом изменении полей |
+| Сериализация чекпоинтов | Protobuf / MessagePack | Компактнее JSON при большой глубине дерева документа |
+| Сериализация Kafka-событий | JSON + JSON Schema контракты | `contracts/kafka/*.schema.json`, обязательный `schemaVersion` в конверте |
+| JSON-десериализация (пример) | Jackson | Строгий маппинг без толерантности к смене типа поля — источник инцидента, см. [[08_developer_experience#Инцидент несовместимая схема события]] |
 
-### Kafka
+## Messaging & Orchestration
 
-Used for:
+| Компонент | Технология | Комментарий |
+|---|---|---|
+| Брокер событий | Apache Kafka | Партиционирование по `caseId`/`requestId`, реестр топиков — [[03_services#Реестр топиков]] |
+| Schema Registry | **Не развёрнут** | Сознательно отложенное решение, см. [[02_architecture#Ключевые архитектурные решения]] |
+| Оркестрация саги | Camunda BPMN, command/event pattern | [[04_data_flows#Saga command event pattern]] |
 
--   Saga commands;
--   domain events;
--   integration events;
--   asynchronous service communication.
+## Устойчивость (resilience)
 
-Delivery model:
+| Паттерн | Технология | Где применяется |
+|---|---|---|
+| Circuit breaker + bulkhead | Resilience4j | `legal-holds-integration-service` — изоляция нестабильного внешнего источника (ФССП) |
+| Идемпотентность команд | Inbox-паттерн (Postgres, `commandId` PK) | `debt-case-service` |
+| Атомарная публикация событий | Outbox-паттерн (Postgres, `SELECT ... FOR UPDATE SKIP LOCKED`) | `debt-case-service` |
+| Компенсация без тупиков | At-least-once retry без SLA-таймаута | Compensation Service Task'и саги |
 
-``` text
-at-least-once
-+
-idempotent consumers
-```
+## Документогенерация
 
-### Contract format
+**Технология зафиксирована:** HTML/CSS-шаблонизация (Thymeleaf) с рендерингом в PDF через headless-браузер — вместо JasperReports и вместо ручного layout-движка на PDFBox.
 
-JSON Schema:
+Обоснование:
+- Рекурсивная вложенность (`Период → Под-период → Группа → Транзакция`) нативна для HTML — вложенные `<table>`/`<div>` произвольной глубины без специального движка.
+- Page-break на границах узла декларативен (`break-inside: avoid`), не требует ручного расчёта на этапе рендера.
+- HTML/CSS-шаблон — текстовый файл, нормально ревьюится в PR построчно (в отличие от бинарных `.jrxml` в Jasper Studio).
+- Низкий порог входа и bus factor: HTML/CSS/Thymeleaf знаком любому разработчику команды.
+- Тестируемость: результат Assembly-фазы можно отрендерить как обычный HTML и открыть в браузере без полного пайплайна до PDF.
 
-``` text
-contracts/kafka/rop.debt.case.*.schema.json
-```
+**Открытые вопросы (требуют PoC до реализации):**
+- Конкретный headless-рендерер: `wkhtmltopdf` исключён (unmaintained). Кандидаты — headless Chromium (Playwright/Puppeteer, хорошая поддержка CSS `@page`) либо специализированные paged-media движки (WeasyPrint, Prince XML).
+- Валидность PDF/A на выходе — требуется для архивного хранения банковских документов, не все headless-рендереры генерируют его из коробки.
 
-Contract checks execute in CI.
+## Тестирование
 
-## 4. Workflow
+| Уровень | Технология |
+|---|---|
+| Unit | JUnit |
+| Компонентные | Embedded Kafka + Testcontainers (Postgres) |
+| Интеграционные | Полный цикл через тестовый Camunda-движок |
+| Contract-тесты | JSON Schema валидация в CI (producer и consumer) |
+| Локальные внешние зависимости | WireMock (мок ФССП/внешнего источника арестов) |
 
-Camunda provides:
+## Безопасность и комплаенс
 
--   BPMN process execution;
--   message correlation;
--   service tasks;
--   boundary events;
--   timers;
--   compensation;
--   process instance state.
+| Мера | Технология / подход |
+|---|---|
+| Транспорт | mTLS между сервисами, включая внутренний Kafka-трафик |
+| Хранение ПДн | Field-level encryption в БД (сверх disk encryption) |
+| Файлы | Server-side encryption в S3, проверка владения на `/download` |
+| Право на удаление vs аудит-лог | Псевдонимизация / crypto-shredding per-subject ключом |
+| Доступ | RBAC/ABAC «need to know», row-level доступ |
+| Идентификация | OAuth2/OIDC (`auth-gateway`) |
 
-Camunda does not replace domain persistence. `DebtCase` remains owned by
-`debt-case-service`.
+Подробности — [[04_data_flows#Комплаенс и защита персональных данных]].
 
-## 5. Testing
+## Наблюдаемость
 
-### Unit
-
-Domain logic and application services.
-
-### Component
-
-``` text
-Spring application
-+ Testcontainers PostgreSQL
-+ embedded/test Kafka
-```
-
-### Integration
-
-Full workflow through a test Camunda engine.
-
-### Contract
-
-Kafka producer/consumer compatibility checks.
-
-### Failure-path
-
-Examples:
-
--   duplicate Kafka command;
--   consumer restart;
--   external source timeout;
--   broken network;
--   malformed event;
--   Camunda restart;
--   orphan workflow lock.
-
-## 6. Local environment
-
-``` text
-docker-compose
-├── debt-case-service
-├── postgres
-├── kafka
-├── mock-camunda
-└── wiremock
-```
-
-Local Kafka uses a single broker because the goal is development, not
-production topology simulation.
-
-## 7. Environments
-
-  Environment   Purpose
-  ------------- ----------------------------------
-  local         Developer feedback loop
-  dev           Shared integration
-  test/QA       Regression and failure scenarios
-  stage         Pre-production validation
-  prod          Production traffic
-
-Production data is not copied to non-production without masking.
-
-## 8. CI/CD
-
-``` text
-PR
- |
- +-- unit tests
- +-- component tests
- +-- contract tests
- +-- static analysis
- |
-merge
- |
-develop
- |
-dev deployment
- |
-release branch
- |
-QA
- |
-stage
- |
-canary
- |
-100% production
-```
-
-Git workflow:
-
-``` text
-feature/ROP-XXXX-...
-       |
-       v
-develop
-       |
-       +--> release/x.y
-       |
-       +--> hotfix/x.y.z
-```
-
-Conventional Commits + squash merge.
-
-## 9. Observability
-
-Key metrics:
-
--   HTTP error rate;
--   latency;
--   Kafka consumer lag;
--   age of `FAILED` inbox records;
--   `evt.newTermsApplied(success=false)` ratio;
--   DLQ depth;
--   circuit breaker state;
--   reconciliation mismatch count;
--   canary error rate.
-
-Logs should include:
-
-``` text
-traceId
-correlationId
-caseId
-commandId
-processInstanceId
-aggregateVersion
-```
-
-Audit records additionally distinguish:
-
-``` text
-initiatorType = USER | SAGA
-initiatorId   = userId | commandId/processInstanceId
-```
+- Consumer lag по ключевым consumer-группам (в первую очередь `collection-notification-service`, `restructuring-workflow-service`).
+- Доля `evt.newTermsApplied(success=false)`.
+- Глубина инфраструктурного DLQ-топика (только структурно повреждённые сообщения).
+- Возраст `FAILED`-записей в inbox — алертинг в ops/комплаенс.

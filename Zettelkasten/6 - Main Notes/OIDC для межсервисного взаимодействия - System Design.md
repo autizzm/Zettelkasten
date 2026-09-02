@@ -37,6 +37,8 @@ Tags: [[System Design]]
     
     - Токены **не содержат информации о пользователе** (только о сервисе).
 
+
+
 ----
 #### [[OIDC для межсервисного взаимодействия - System Design - Flashcards|Link to flashcards]]
 

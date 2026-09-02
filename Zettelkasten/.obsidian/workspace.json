@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/4 years - Raiffeisen + RSHB - Resume Draft (Most recent).md",
+                "file": "6 - Main Notes/4 years - Raiffeisen + RSHB - Flashcards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4 years - Raiffeisen + RSHB - Resume Draft (Most recent)"
+              "title": "4 years - Raiffeisen + RSHB - Flashcards"
             }
           },
           {
@@ -498,14 +498,20 @@
   "active": "dc3ae198ce2f1969",
   "lastOpenFiles": [
     "6 - Main Notes/4 years - Raiffeisen + RSHB - Legend.md",
-    "6 - Main Notes/4 years - Raiffeisen + RSHB - Resume.md",
+    "6 - Main Notes/4 years - Raiffeisen + RSHB - Flashcards.md",
+    "4 - Indexes/HR параша.md",
+    "4 - Indexes/Frontend.md",
+    "6 - Main Notes/OIDC для межсервисного взаимодействия - System Design.md",
+    "6 - Main Notes/OpenID Connect - System Design.md",
+    "4 - Indexes/System Design.md",
+    "4 - Indexes/CI & CD.md",
     "6 - Main Notes/4 years - Raiffeisen + RSHB - Resume Draft (Most recent).md",
+    "6 - Main Notes/4 years - Raiffeisen + RSHB - Resume.md",
     "6 - Main Notes/РСХБ + Сбер - Resume - Описание аналитики ПКК.md",
     "C4_layer_1SystemContext-001-dark.png",
     "Pasted image 20260831194639.png",
     "Pasted image 20260831194614.png",
     "6 - Main Notes/РСХБ + Сбер - Resume.md",
-    "4 - Indexes/HR параша.md",
     "4 - Indexes/Java Core.md",
     "6 - Main Notes/Arrays class.md",
     "6 - Main Notes/Set Interface.md",
@@ -520,12 +526,6 @@
     "6 - Main Notes/РСХБ + Сбер - Resume - Timeframes.md",
     "6 - Main Notes/РСХБ + Сбер - Resume - Самопрезентация.md",
     "6 - Main Notes/Common Flashcards - PostgreSQL.md",
-    "6 - Main Notes/for  & while- Python.md",
-    "6 - Main Notes/Branching operators - Python.md",
-    "6 - Main Notes/Conditional operators - Python.md",
-    "6 - Main Notes/Хранение объектов в памяти - Python.md",
-    "6 - Main Notes/Type casting - Python.md",
-    "6 - Main Notes/Math operators - Python.md",
     "desktop.ini",
     "Pasted image 20260819191127.png",
     "Pasted image 20260819191054.png",

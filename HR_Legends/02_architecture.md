@@ -1,269 +1,138 @@
-# ROP --- Architecture
+# 02. Архитектура
 
-## 1. High-level architecture
+См. также [[01_overview]], [[03_services]], [[04_data_flows]].
 
-``` plantuml
-@startuml
+## Архитектурный стиль
+
+Event-driven, два доменных модуля («Документы», «Проблемные активы»), интеграция через Apache Kafka. Синхронные REST-вызовы между сервисами платформы допускаются только для:
+
+- запросов текущего состояния (idempotent GET);
+- атомарной проверки/установки распределённой блокировки, где по природе операции нужен синхронный ответ до старта длительного процесса (единственный документированный пример — захват `RestructuringWorkflowLock`, см. [[04_data_flows#Блокировка процесса реструктуризации]] и [[03_services#debt-case-service]]).
+
+Всё остальное, что меняет состояние другого агрегата, передаётся Kafka-событием.
+
+## C4: System Context
+
+![[Pasted image 20260902161947.png]]
+
+```plantuml
+@startuml C4_Context
+left to right direction
+skinparam actorStyle awesome
+
+actor "Оператор\nконтакт-центра" as operator
+actor "Клиент банка" as customer
+
+rectangle "Retail Operations\nPlatform (ROP)" as rop #LightBlue
+
+rectangle "CRM /\nмастер-справочник клиентов" as crm
+rectangle "Risk Monitoring\nSystem" as risk
+rectangle "ФССП" as fssp
+rectangle "Платёжный шлюз\nбанка" as payment
+rectangle "Notification\nPlatform" as notification
+rectangle "Legacy Collection\nSystem" as legacy
+
+operator --> rop : работает с делами,\nреструктуризациями,\nдокументами (HTTPS)
+customer --> rop : запрашивает документы,\nвзаимодействует по\nреструктуризации (HTTPS / Mobile / Web)
+
+rop --> crm : получает данные клиентов /\nсобытия об изменениях (REST / Events)
+risk --> rop : сигналы о просрочке (Kafka)
+rop --> fssp : сведения об арестах\nи взысканиях (REST / Polling)
+payment --> rop : подтверждения платежей\nпо арестам (Events)
+rop --> notification : уведомления клиентам (Kafka / API)
+rop --> legacy : миграция дел,\nсверка данных (Kafka / API)
+@enduml
+```
+
+
+## Общая схема (event-driven core)
+
+
+![[Pasted image 20260902161824.png]]
+
+```plantuml
+@startuml C4_Components
 skinparam componentStyle rectangle
-
-actor Operator
-actor Client
-
-rectangle "ROP Platform" {
-  [debt-case-service] as DCS
-  [restructuring-workflow-service] as RWS
-  [legal-holds-integration-service] as LHIS
-  [legacy-collection-migration-service] as LCM
-  [collection-notification-service] as CNS
-  database "PostgreSQL" as PG
-  queue "Kafka" as KAFKA
-  [Camunda] as CAMUNDA
-  [Audit Store] as AUDIT
+skinparam rectangle {
+  BackgroundColor<<docs>> #E8F0FE
+  BackgroundColor<<debt>> #FDEEE0
+  BackgroundColor<<infra>> #ECECEC
+  BorderColor #4A76A8
 }
 
-rectangle "External Systems" {
-  [Legacy Oracle Monolith] as LEGACY
-  [Legal Holds Source] as LEGAL
+rectangle "API Gateway" as gw
+
+package "Домен «Документы»" <<docs>> {
+  rectangle "document-request-service" as drs
+  rectangle "document-generation-engine" as dge
+  rectangle "document-template-registry" as dtr
+  rectangle "document-delivery-service" as dds
+  rectangle "document-archive-service" as das
 }
 
-Operator --> DCS : REST
-Client --> DCS : REST
+package "Домен «Проблемные активы»" <<debt>> {
+  rectangle "debt-case-service" as debt
+  rectangle "restructuring-workflow-service\n(Camunda BPMN)" as wf
+  rectangle "legal-holds-integration-service" as legal
+  rectangle "legacy-collection-migration-service" as migration
+  rectangle "collection-notification-service" as notif
+}
 
-DCS --> PG : transaction
-DCS --> KAFKA : outbox relay
-DCS --> AUDIT : audit events
+package "Инфраструктурные сервисы" <<infra>> {
+  rectangle "audit-logging-service" as audit
+  rectangle "customer-profile-adapter" as profile
+  rectangle "auth-gateway" as auth
+}
 
-RWS --> KAFKA : commands/events
-RWS --> CAMUNDA : workflow execution
-CAMUNDA --> KAFKA : saga commands
-KAFKA --> DCS : commands
-KAFKA --> CNS : domain events
-KAFKA --> LHIS : legal-hold events
+queue "Kafka cluster\n(топики rop.*)" as kafka
 
-LHIS --> LEGAL : resilient API
-LCM --> LEGACY : migration/reconciliation
-LCM --> KAFKA : migration events
+gw --> drs
+gw --> debt
+gw --> wf
+gw --> legal
+gw --> das
+
+drs <--> kafka
+dge <--> kafka
+dtr --> kafka
+dds <--> kafka
+das <--> kafka
+
+debt <--> kafka
+wf <--> kafka
+legal <--> kafka
+migration <--> kafka
+notif <--> kafka
+
+kafka --> audit
+kafka --> profile
+
+auth ..> gw : OAuth2/OIDC\n(вне событийной модели)
+
+note bottom of kafka
+  Партиционирование — по caseId/requestId.
+  Порядок гарантирован только внутри
+  одного топика, не между топиками.
+end note
 @enduml
 ```
 
-## 2. Architectural principles
 
-### 2.1 Ownership
+---
+## Ключевые архитектурные решения
 
-`debt-case-service` является владельцем состояния `DebtCase`.
+| Решение | Обоснование | Подробности |
+|---|---|---|
+| Command/event через Kafka вместо синхронных вызовов между сервисами | Процесс реструктуризации длится дни/недели — блокирующий синхронный вызов архитектурно неверен | [[04_data_flows#Saga command event pattern]] |
+| Orchestration-based saga (Camunda) вместо хореографии | Единый source of truth по состоянию юридически чувствительного процесса, проще отладка и аудит | [[04_data_flows#Saga command event pattern]] |
+| Inbox/outbox вместо распределённых транзакций | Kafka даёт at-least-once — exactly-once бизнес-эффект обеспечивается идемпотентностью на стороне потребителя/издателя | [[04_data_flows#Идемпотентность]] |
+| Партиционирование Kafka-топиков по `caseId`/`requestId` + `aggregateVersion` в конверте события | Гарантия порядка есть только внутри одного топика; `aggregateVersion` даёт причинный порядок между топиками одного агрегата | [[04_data_flows#Порядок событий]] |
+| HTML/CSS (Thymeleaf) → headless PDF вместо JasperReports | Рекурсивная вложенность документа нативно ложится на HTML/CSS, шаблон diff-able в PR | [[06_tech_stack]] |
+| Schema Registry не разворачивается на текущем этапе | Дешёвая альтернатива (`schemaVersion` в конверте + контрактные тесты в CI) закрывает риск при текущем числе топиков; пересмотр — при росте числа consumer-групп | [[03_services#Формат сообщений и совместимость схем]] |
+| Захват `RestructuringWorkflowLock` — единственный синхронный REST-вызов, меняющий состояние другого сервиса | Инвариант «не более одного активного процесса на caseId» физически не может проверяться асинхронно перед стартом длительного BPMN-процесса; лок физически хранится в `debt-case-service`, рядом с данными, которые защищает | [[04_data_flows#Блокировка процесса реструктуризации]] |
 
-Другие сервисы не изменяют его таблицы напрямую. Изменение выполняется:
+## Слои изоляции отказов
 
--   через REST operator/client path;
--   через Kafka command path.
-
-### 2.2 Command vs event
-
-Kafka topics разделены по семантике:
-
--   `cmd.*` --- запрос на выполнение операции;
--   `evt.*` --- факт произошедшего доменного изменения.
-
-Пример:
-
-``` text
-Camunda
-  |
-  | cmd.applyNewTerms
-  v
-debt-case-service
-  |
-  | evt.newTermsApplied
-  v
-Camunda
-```
-
-### 2.3 At-least-once delivery
-
-Kafka и workflow engine рассматриваются как источники повторной
-доставки.
-
-Гарантия строится на уровне бизнес-операции:
-
-``` text
-message
-   |
-   v
-commandId uniqueness
-   |
-   +---- duplicate ----> no business effect
-   |
-   +---- new ----------> business transaction
-```
-
-Важно: это не означает exactly-once delivery Kafka. Гарантируется
-отсутствие повторного бизнес-эффекта для одного `commandId`.
-
-### 2.4 Transactional Outbox
-
-``` text
-BEGIN
-  UPDATE debt_case
-  INSERT INTO outbox
-COMMIT
-
-outbox relay
-  |
-  +--> Kafka
-```
-
-Outbox гарантирует атомарность **DB mutation + event intent**.
-
-Relay может опубликовать одно событие повторно, если Kafka ack получен
-до фиксации `sent=true`. Поэтому downstream consumers также должны быть
-идемпотентными.
-
-## 3. Saga orchestration
-
-Camunda является оркестратором длительного процесса.
-
-``` plantuml
-@startuml
-start
-
-:Start restructuring;
-:Validate DebtCase;
-:Create proposal;
-:Apply new terms;
-
-if (Apply successful?) then (yes)
-  :Send notification;
-  :Wait for response;
-else (no)
-  :Compensate;
-  stop
-endif
-
-if (Client accepted?) then (yes)
-  :Complete restructuring;
-else (no)
-  :Proposal expires;
-  :Escalate DebtCase;
-endif
-
-stop
-@enduml
-```
-
-Saga не использует одну распределённую транзакцию. Каждый шаг имеет
-собственную транзакцию и явный failure/compensation path.
-
-## 4. Workflow concurrency invariant
-
-Camunda correlation использует `caseId`. Поэтому одновременно
-существующие workflow для одного `caseId` недопустимы.
-
-Инвариант обеспечивается PostgreSQL:
-
-``` sql
-INSERT INTO restructuring_workflow_lock
-    (case_id, active_process_instance_id, locked_at)
-VALUES
-    (:caseId, :processInstanceId, now())
-ON CONFLICT (case_id) DO NOTHING;
-```
-
-Если вставка не произошла --- workflow уже активен.
-
-Redis/ZooKeeper для этого инварианта не используются.
-
-### Orphan lock recovery
-
-Фоновый job проверяет locks, превышающие безопасный TTL:
-
-1.  lock старше threshold;
-2.  Camunda не содержит активного process instance;
-3.  lock помечается orphaned;
-4.  lock снимается;
-5.  создаётся audit event.
-
-## 5. Kafka contract governance
-
-Kafka-события имеют envelope:
-
-``` json
-{
-  "eventType": "rop.debt.case.status-changed",
-  "schemaVersion": 2,
-  "eventId": "uuid",
-  "aggregateId": "case-id",
-  "aggregateVersion": 42,
-  "occurredAt": "2026-01-01T12:00:00Z",
-  "payload": {}
-}
-```
-
-Правила:
-
--   добавление optional field --- backward-compatible;
--   изменение типа существующего поля --- breaking change;
--   переименование существующего поля --- breaking change;
--   breaking change требует нового event version/type;
--   PR должен иметь `contract-change`;
--   владельцы consumer'ов обязаны review;
--   contract tests запускаются в CI.
-
-## 6. Aggregate ordering
-
-`DebtCase.aggregateVersion` увеличивается в одной транзакции с
-изменением агрегата.
-
-Пример:
-
-``` text
-case.status-changed v41
-case.payment-received v42
-case.status-changed v43
-```
-
-`legacy-collection-migration-service` буферизует события и применяет их
-в порядке `aggregateVersion`.
-
-Если пришло `43`, пока отсутствует `42`:
-
-``` text
-43 -> buffer
-42 -> apply
-43 -> apply
-```
-
-Это решает проблему ordering между несколькими Kafka
-deliveries/partitions, но не заменяет корректное проектирование
-partition key.
-
-## 7. Dead-letter policy
-
-DLQ используется для сообщений, которые невозможно корректно
-десериализовать или структурно обработать:
-
--   invalid JSON;
--   неизвестная schema version;
--   нарушение обязательной структуры.
-
-Бизнес-ошибка (`DebtCase` не находится, конфликт статуса и т.п.) не
-должна автоматически превращаться в DLQ: она обрабатывается как бизнес
-failure с retry/compensation/reconciliation в зависимости от use case.
-
-## 8. Deployment strategy
-
-Для `debt-case-service` и `restructuring-workflow-service`:
-
-``` text
-5% canary
-   |
-metrics OK
-   v
-25%
-   |
-metrics OK
-   v
-100%
-```
-
-Автооткат выполняется при превышении согласованных error/latency
-thresholds.
+- `legal-holds-integration-service` изолирует нестабильный внешний источник (ФССП) через circuit breaker + bulkhead — см. [[06_tech_stack]].
+- Компенсирующие обработчики саги — локальные идемпотентные операции без синхронных вызовов наружу — см. [[04_data_flows#Компенсации]].
+- Структурно повреждённые Kafka-сообщения уходят в инфраструктурный DLQ-топик до попадания в бизнес-логику; бизнес-ошибки обрабатываются через inbox-статус `FAILED`, отдельного DLQ для них нет — см. [[03_services#Реестр топиков]].

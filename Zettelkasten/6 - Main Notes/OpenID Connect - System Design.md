@@ -33,3 +33,4 @@ OpenID Connect расширяет OAuth, чтобы приложение мог�
 ---
 ### References:
 
+- [[OIDC для межсервисного взаимодействия - System Design]]
