@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "57c3b16cbd117b42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FEAT_soft_collecttion_feature_01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FEAT_soft_collecttion_feature_01"
+            }
+          },
+          {
             "id": "754206ae8c02aa26",
             "type": "leaf",
             "state": {
@@ -41,12 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions.md",
+                "file": "FEAT_soft_collecttion_feature_01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Questions"
+              "title": "FEAT_soft_collecttion_feature_01"
+            }
+          },
+          {
+            "id": "5fa042915c6ae5a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09_collection_migration_service.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "09_collection_migration_service"
             }
           },
           {
@@ -55,16 +83,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions.md",
+                "file": "04_data_flows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Questions"
+              "title": "04_data_flows"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
+      },
+      {
+        "id": "bb8b2f8cb9f5e10c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0215e76a0d0bdd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Draft.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Draft"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,25 +279,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "678f0b889458f958",
+  "active": "d0215e76a0d0bdd4",
   "lastOpenFiles": [
-    "08_developer_experience.md",
-    "09_developer_timeline.md",
+    "desktop.ini",
+    "Pasted image 20260903180436.png",
+    "09_collection_migration_service.md",
+    "Draft.md",
+    "Pasted image 20260903165101.png",
+    "Pasted image 20260903165005.png",
+    "Pasted image 20260903165001.png",
+    "Pasted image 20260903162527.png",
+    "Pasted image 20260903162407.png",
+    "FEAT_soft_collecttion_feature_01.md",
     "Questions.md",
+    "08_developer_experience.md",
     "00_domain_boundaries_and_use_cases.md",
-    "01_overview.md",
+    "Pasted image 20260902194914.png",
+    "source materials/Pasted image 20260902200602.png",
+    "source materials/Pasted image 20260902194602.png",
     "04_data_flows.md",
+    "03_services.md",
+    "02_architecture.md",
+    "01_overview.md",
+    "05_team_structure.md",
+    "06_tech_stack.md",
+    "09_developer_timeline.md",
     "source materials",
     "source materials/Pasted image 20260902170133.png",
-    "source materials/Pasted image 20260902165940.png",
-    "02_architecture.md",
-    "03_services.md",
-    "source materials/Pasted image 20260902161947.png",
-    "source materials/Pasted image 20260902161824.png",
-    "05_team_structure.md",
-    "desktop.ini",
     "07_timeline.md",
-    "06_tech_stack.md",
     "Welcome.md"
   ]
 }
